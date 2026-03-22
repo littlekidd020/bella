@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+  --font-playfair: var(--font-playfair);
+  --font-inter: var(--font-inter);
+  --font-noto-sans: var(--font-noto-sans-cn);
+  --font-noto-serif: var(--font-noto-serif-cn);
+  
+  /* High-Contrast Sultry Palette */
+  --color-gold: #C5A059;
+  --color-rose: #F84A88;
+  --color-blush: #FFD1DC;
+  --color-noir: #260613;
+}
+
+/* Language Specific Font Overrides */
+[lang="cn"] {
+  --font-sans: var(--font-noto-sans-cn), var(--font-inter), "Microsoft YaHei", sans-serif;
+  --font-serif: var(--font-noto-serif-cn), var(--font-playfair), "SimSun", "STSong", serif;
+}
+
+@layer base {
+  body {
+    background-color: #260613;
+    color: #f5f5f5;
+  }
+}
+
+/* More readable, vibrant Rose Glow Pulse */
+@keyframes rose-pulse {
+  0% { transform: scale(0.95); opacity: 0.6; box-shadow: 0 0 0 0 rgba(248, 74, 136, 0.4); }
+  50% { transform: scale(1.05); opacity: 1; box-shadow: 0 0 15px 5px rgba(248, 74, 136, 0.6); }
+  100% { transform: scale(0.95); opacity: 0.6; box-shadow: 0 0 0 0 rgba(248, 74, 136, 0.4); }
+}
+
+.animate-rose-pulse {
+  animation: rose-pulse 3s infinite ease-in-out;
+}

@@ -1,0 +1,31 @@
+"use client";
+
+import React from "react";
+import { useLanguage } from "@/context/LanguageContext";
+
+const Footer = () => {
+  const { t } = useLanguage();
+
+  return (
+    <footer className="px-8 py-24 flex flex-col items-center gap-6 text-center text-white/30 uppercase tracking-[0.5em] font-sans border-t border-white/5 bg-[#3D0A1E]">
+      <div className="flex flex-col items-center gap-4">
+        <div className="h-px w-12 bg-[#F84A88]/30" />
+        <p className="tracking-[0.3em] font-bold text-[#F84A88]/60 text-xs md:text-sm">
+          {t.nav.hours}
+        </p>
+        <div className="h-px w-12 bg-[#F84A88]/30" />
+      </div>
+      
+      <div className="space-y-4">
+        <p className="text-[10px] md:text-xs font-medium tracking-[0.4em]">
+          &copy; 2026 {t.hero.title}. All Rights Reserved.
+        </p>
+        <p className="text-[9px] text-white/10 tracking-[0.2em] font-bold">
+          High-End Bespoke Service &middot; Secure & Discreet
+        </p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
