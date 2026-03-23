@@ -1,7 +1,7 @@
 export const translations = {
   cn: {
     nav: {
-      collection: "佳丽列表",
+      collection: "女孩列表",
       concierge: "在线客服",
       account: "会员中心",
       brand: "精品之选",
@@ -25,10 +25,10 @@ export const translations = {
       wechat: "微信:"
     },
     grid: {
-      newCollection: "最新佳丽",
+      newCollection: "最新女孩",
       intro: "我们精选了一系列优雅精致的高端模特，致力于为您提供艺术级的放松体验。",
       standard: "精品标准",
-      desc: "我们的佳丽均经过严格筛选，确保服务质量、性格与专业度。所有档案均经过真人实拍审核，并提供高端服务保障。",
+      desc: "我们的女孩均经过严格筛选，确保服务质量、性格与专业度。所有档案均经过真人实拍审核，并提供高端服务保障。",
       verification: "真人实拍审核",
       discreet: "安全与隐私保障",
       vip: "VIP 客服经理"
@@ -64,7 +64,7 @@ export const translations = {
       feat1Title: "24/7 全天候在线",
       feat1Desc: "我们的团队随时在线，为您处理预约并以绝对的保密态度回答您的咨询。",
       feat2Title: "严选品质",
-      feat2Desc: "我们的每一位佳丽都经过严格的入职流程，包括身体核验和服务测试。",
+      feat2Desc: "我们的每一位女孩都经过严格的入职流程，包括身体核验和服务测试。",
       feat3Title: "高端配送",
       feat3Desc: "我们为您指定的地点提供精英移动服务，确保便捷与完全的个人隐私。",
       ctaTitle: "开启您的专属体验",
@@ -81,7 +81,7 @@ export const translations = {
       private: "内部私人访问",
       placeholderEmail: "电子邮箱",
       placeholderPass: "登录密码",
-      enter: "进入佳丽库",
+      enter: "进入女孩库",
       assistant: "如需安全协助，请联系您的专属客服。"
     },
     ageGate: {
