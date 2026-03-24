@@ -4,6 +4,7 @@ export const models = [
     name: { en: "Aria", cn: "艾莉亚" },
     status: "available",
     verified: true,
+    location: "CBD",
     stats: {
       age: 22,
       height: "168cm",
@@ -29,6 +30,7 @@ export const models = [
     name: { en: "Luna", cn: "露娜" },
     status: "available",
     verified: true,
+    location: "Central",
     stats: {
       age: 24,
       height: "165cm",
@@ -54,6 +56,7 @@ export const models = [
     name: { en: "Mei", cn: "美" },
     status: "busy",
     verified: true,
+    location: "North",
     stats: {
       age: 21,
       height: "170cm",
@@ -79,6 +82,7 @@ export const models = [
     name: { en: "Yuki", cn: "雪" },
     status: "available",
     verified: true,
+    location: "West",
     stats: {
       age: 23,
       height: "162cm",
@@ -104,6 +108,7 @@ export const models = [
     name: { en: "Chloe", cn: "克洛伊" },
     status: "available",
     verified: true,
+    location: "East",
     stats: {
       age: 25,
       height: "172cm",
@@ -129,6 +134,7 @@ export const models = [
     name: { en: "Sienna", cn: "茜耶娜" },
     status: "available",
     verified: true,
+    location: "CBD",
     stats: {
       age: 22,
       height: "166cm",
@@ -147,6 +153,78 @@ export const models = [
       "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  {
+    id: 7,
+    name: { en: "Jade", cn: "小玉" },
+    status: "available",
+    verified: true,
+    location: "North",
+    stats: {
+      age: 23,
+      height: "167cm",
+      weight: "48kg",
+      cup: "B+",
+      nationality: "Chinese"
+    },
+    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
+    description: {
+      en: "Serene and graceful, Jade offers a tranquil escape from the everyday.",
+      cn: "宁静而优雅，Jade 为您提供远离日常琐碎的宁静避风港。"
+    },
+    price: "$330",
+    services: ["Relaxation Massage", "Deep Tissue", "Companionship"],
+    gallery: [
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  {
+    id: 8,
+    name: { en: "Ruby", cn: "露比" },
+    status: "available",
+    verified: true,
+    location: "CBD",
+    stats: {
+      age: 24,
+      height: "170cm",
+      weight: "51kg",
+      cup: "C",
+      nationality: "Chinese"
+    },
+    image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80",
+    description: {
+      en: "Radiant and captivating, Ruby brings a spark of excitement to every encounter.",
+      cn: "光芒四射且迷人，Ruby 为每一次邂逅带来激情的火花。"
+    },
+    price: "$360",
+    services: ["Relaxation Massage", "Sensual Touches", "Dinner Date"],
+    gallery: [
+      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=1200&q=80"
+    ]
+  },
+  {
+    id: 9,
+    name: { en: "Amber", cn: "琥珀" },
+    status: "busy",
+    verified: true,
+    location: "Central",
+    stats: {
+      age: 22,
+      height: "164cm",
+      weight: "46kg",
+      cup: "B",
+      nationality: "Korean-Chinese"
+    },
+    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
+    description: {
+      en: "Sweet and charming, Amber's presence is like a warm glow on a chilly night.",
+      cn: "甜美动人，Amber 的陪伴如同寒夜里的一抹暖阳。"
+    },
+    price: "$310",
+    services: ["Relaxation Massage", "Aromatherapy", "Companionship"],
+    gallery: [
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=80"
     ]
   }
 ];

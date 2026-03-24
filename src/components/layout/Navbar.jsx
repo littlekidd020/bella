@@ -30,7 +30,7 @@ const Navbar = () => {
         scrolled ? "bg-[#3D0A1E]/90 backdrop-blur-xl border-b border-white/5 shadow-2xl" : "bg-transparent md:py-6"
       }`}>
       <Link href="/" className="text-2xl font-serif text-[#F84A88] tracking-widest uppercase italic font-playfair group">
-        {lang === "cn" ? "精品" : "The"} <span className="group-hover:text-white transition-colors duration-500">{lang === "cn" ? "之选" : "Boutique"}</span>
+        {lang === "cn" ? "天使" : "Angel"} <span className="group-hover:text-white transition-colors duration-500">{lang === "cn" ? "小可爱" : "Cuties"}</span>
       </Link>
       
       {/* Desktop Links & Lang Toggle */}

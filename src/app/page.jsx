@@ -27,7 +27,7 @@ export default function Home() {
       </header>
       
       {/* Model Grid Section */}
-      <ModelGrid />
+      <ModelGrid limit={6} showCTA={true} />
 
       {/* Trust & Quality Footer Callout */}
       <section className="relative px-8 py-32 mt-32 border-y border-[#F84A88]/20 overflow-hidden">
@@ -49,7 +49,7 @@ export default function Home() {
           <p className="text-white/80 leading-relaxed font-sans max-w-2xl mx-auto text-sm drop-shadow-md">
             {t.grid.desc}
           </p>
-          <div className="flex flex-wrap justify-center gap-12 text-[#F84A88] uppercase tracking-widest text-[8px] font-bold drop-shadow-md">
+          <div className="flex flex-wrap justify-center gap-12 text-[#F84A88] uppercase tracking-widest text-[11px] font-bold drop-shadow-md">
             <span className="border-b border-[#F84A88]/50 pb-2">{t.grid.verification}</span>
             <span className="border-b border-[#F84A88]/50 pb-2">{t.grid.discreet}</span>
             <span className="border-b border-[#F84A88]/50 pb-2">{t.grid.vip}</span>

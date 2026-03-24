@@ -2,28 +2,22 @@
 
 import React from "react";
 import Link from "next/link";
-import { models } from "@/lib/data";
+import { models as defaultModels } from "@/lib/data";
 import ModelCard from "./ModelCard";
 import { useLanguage } from "@/context/LanguageContext";
 
-const ModelGrid = () => {
+const ModelGrid = ({ limit, showCTA = false, models = defaultModels }) => {
   const { t } = useLanguage();
+
+  const displayedModels = limit ? models.slice(0, limit) : models;
 
   return (
     <section className="px-8 pb-24 max-w-7xl mx-auto mt-24">
-      {/* Intro Text */}
-      <div className="mb-16 text-center max-w-2xl mx-auto">
-        <h2 className="text-[10px] uppercase tracking-[0.4em] text-[#F84A88] mb-4 font-sans font-bold">
-          {t.grid.newCollection}
-        </h2>
-        <p className="text-3xl font-serif italic text-white/90 leading-relaxed font-playfair transition-all duration-700">
-          {t.grid.intro}
-        </p>
-      </div>
+
 
       {/* Masonry-Style Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 transition-all duration-700">
-        {models.map((model, index) => (
+        {displayedModels.map((model, index) => (
           <div 
             key={model.id}
             className={`${
@@ -38,6 +32,21 @@ const ModelGrid = () => {
           </div>
         ))}
       </div>
+
+      {/* CTA Button */}
+      {showCTA && (
+        <div className="mt-32 flex justify-center">
+          <Link 
+            href="/collection"
+            className="group relative px-12 py-4 bg-transparent border border-[#F84A88]/30 hover:border-[#F84A88] transition-all duration-500 overflow-hidden"
+          >
+            <span className="relative z-10 text-xs uppercase tracking-[0.4em] text-[#F84A88] group-hover:text-white transition-colors duration-500 font-bold">
+              {t.grid.viewAll}
+            </span>
+            <div className="absolute inset-0 bg-[#F84A88] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out" />
+          </Link>
+        </div>
+      )}
     </section>
   );
 };

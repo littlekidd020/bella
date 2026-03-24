@@ -40,8 +40,8 @@ export default function ContactBanner() {
           <div className="absolute inset-0 bg-[#D41E5D] shadow-inner md:hidden rounded-lg opacity-80" />
           
           <div className="relative z-10 flex flex-col items-center gap-1.5 w-full">
-             <a href="tel:0210000000" className="flex items-center gap-2 hover:text-white/80 transition-colors text-sm md:text-base font-black tracking-widest drop-shadow-md">
-               <span className="opacity-70 text-[10px] md:text-xs font-bold font-sans">{t.banner?.phone}</span> <span>021 000 0000</span>
+             <a href="tel:+64225391339" className="flex items-center gap-2 hover:text-white/80 transition-colors text-sm md:text-base font-black tracking-widest drop-shadow-md">
+               <span className="opacity-70 text-[10px] md:text-xs font-bold font-sans">{t.banner?.phone}</span> <span>022-5391339</span>
              </a>
              <div className="flex items-center gap-2 text-sm md:text-base font-black tracking-widest drop-shadow-md">
                <span className="opacity-70 text-[10px] md:text-xs font-bold font-sans">{t.banner?.wechat}</span> <span>Boutique_VIP</span>

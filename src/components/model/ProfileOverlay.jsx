@@ -159,7 +159,7 @@ const ProfileOverlay = ({ model, onClose, onNext, onPrev }) => {
           {/* Quick CTAs */}
           <div className="grid grid-cols-1 gap-4 pt-4 pb-12">
             <a 
-              href={`https://wa.me/6400000000?text=${t.model.contactMsg.replace("[name]", model.name)}`}
+              href={`https://wa.me/64225391339?text=${t.model.contactMsg.replace("[name]", model.name)}`}
               target="_blank"
               className="flex items-center justify-center gap-3 w-full py-4 bg-[#F84A88] text-white rounded-xl hover:bg-[#D41E5D] transition-colors shadow-lg"
             >

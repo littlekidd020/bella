@@ -1,21 +1,21 @@
 export const translations = {
   cn: {
     nav: {
-      collection: "女孩列表",
+      collection: "心动女孩",
       concierge: "在线客服",
       account: "会员中心",
-      brand: "精品之选",
+      brand: "天使小可爱",
       hours: "营业时间：11:00 AM - 1:00 AM"
     },
     hero: {
-      title: "精品之选",
+      title: "天使小可爱",
       subtitle: "高端华裔实体服务",
       est: "始于 2026",
       location: "奥克兰高端休闲体验",
-      support: "24/7 专属客服支持"
+      support: "一周7天 专属客服支持"
     },
     banner: {
-      title: "Boutique 顶级私享",
+      title: "天使小可爱 顶级私享",
       subtitle: "尊贵 • 隐秘 • 奢界",
       tag1: "全城顶流 独家甄选",
       tag2: "为您定制极致夜晚",
@@ -31,7 +31,8 @@ export const translations = {
       desc: "我们的女孩均经过严格筛选，确保服务质量、性格与专业度。所有档案均经过真人实拍审核，并提供高端服务保障。",
       verification: "真人实拍审核",
       discreet: "安全与隐私保障",
-      vip: "VIP 客服经理"
+      vip: "VIP 客服经理",
+      viewAll: "查看所有女孩"
     },
     model: {
       age: "年龄",
@@ -54,6 +55,13 @@ export const translations = {
         "Korean-Chinese": "韩裔华籍",
         "Japanese-Chinese": "日裔华籍"
       },
+      locations: {
+        "CBD": "市区",
+        "Central": "中区",
+        "North": "北岸",
+        "West": "西区",
+        "East": "东区"
+      },
       price: "价格",
       perHour: "/ 小时",
       services: "特色服务"
@@ -61,7 +69,7 @@ export const translations = {
     concierge: {
       title: "高端客服经理",
       subtitle: "从初次咨询到最终的放松时刻，我们的专属客服团队将为您提供丝滑、隐秘且高端的服务体验。",
-      feat1Title: "24/7 全天候在线",
+      feat1Title: "一周7天全天候在线",
       feat1Desc: "我们的团队随时在线，为您处理预约并以绝对的保密态度回答您的咨询。",
       feat2Title: "严选品质",
       feat2Desc: "我们的每一位女孩都经过严格的入职流程，包括身体核验和服务测试。",
@@ -86,7 +94,7 @@ export const translations = {
     },
     ageGate: {
       welcome: "欢迎光临",
-      message: "欢迎来到 Boutique 顶级私享。在这里，尊贵感为您开启！步入专属的极致休闲时刻，品味倾城绝色，纵享顶奢之夜。放松身心，让我们为您缔造非凡。",
+      message: "欢迎来到 天使小可爱。在这里，尊贵感为您开启！步入专属的极致休闲时刻，品味倾城绝色，纵享顶奢之夜。放松身心，让我们为您缔造非凡。",
       buttonEn: "I'M OVER 18",
       buttonCn: "我年满18周岁",
       footer: "© 2026 THE BOUTIQUE COLLECTION. 版权所有。"
@@ -97,15 +105,15 @@ export const translations = {
       collection: "Collection",
       concierge: "Concierge",
       account: "Account",
-      brand: "The Boutique",
+      brand: "Angel Cuties",
       hours: "Hours: 11:00 AM - 1:00 AM"
     },
     hero: {
-      title: "The Boutique Collection",
+      title: "Angel Cuties",
       subtitle: "High-End Collection",
       est: "Established 2026",
       location: "Sophisticated Relaxation in Auckland",
-      support: "24/7 Concierge Support"
+      support: "All-week Concierge Support"
     },
     banner: {
       title: "The VIP Experience",
@@ -120,11 +128,12 @@ export const translations = {
     grid: {
       newCollection: "The New Collection",
       intro: "A curated selection of the most sophisticated and refined talent, dedicated to the art of relaxation.",
-      standard: "The Boutique Standard",
+      standard: "Angel Cuties Standard",
       desc: "Our collection is exclusively handpicked for quality, personality, and professionalism. Every profile features physically verified imagery and a high-end service guarantee.",
       verification: "Physical Verification",
       discreet: "Secure & Discreet",
-      vip: "VIP Concierge"
+      vip: "VIP Concierge",
+      viewAll: "Explore Full Collection"
     },
     model: {
       age: "Age",
@@ -147,6 +156,13 @@ export const translations = {
         "Korean-Chinese": "Korean-Chinese",
         "Japanese-Chinese": "Japanese-Chinese"
       },
+      locations: {
+        "CBD": "CBD",
+        "Central": "Central",
+        "North": "North",
+        "West": "West",
+        "East": "East"
+      },
       price: "Price",
       perHour: "/ hour",
       services: "Services"
@@ -154,7 +170,7 @@ export const translations = {
     concierge: {
       title: "Bespoke Concierge",
       subtitle: "From initial enquiry to your final moment of relaxation, our dedicated concierge team ensures a seamless, discreet, and premium experience.",
-      feat1Title: "24/7 Availability",
+      feat1Title: "All-week Availability",
       feat1Desc: "Our team is available at any hour to facilitate bookings and answer your enquiries with absolute discretion.",
       feat2Title: "Verified Quality",
       feat2Desc: "Every profile in our collection undergoes a rigorous vetting process, including physical verification and service testing.",
@@ -171,7 +187,7 @@ export const translations = {
     },
     account: {
       login: "Member Login",
-      private: "The Boutique Private Access",
+      private: "Angel Cuties Private Access",
       placeholderEmail: "Email Address",
       placeholderPass: "Password",
       enter: "Enter Collection",
@@ -179,10 +195,10 @@ export const translations = {
     },
     ageGate: {
       welcome: "WELCOME",
-      message: "Welcome to The Boutique Collection, where sophistication meets excitement! Step into a moment of exclusive luxury and unforgettable vibes. Relax, unwind, and let us make your day extraordinary!",
+      message: "Welcome to Angel Cuties, where sophistication meets excitement! Step into a moment of exclusive luxury and unforgettable vibes. Relax, unwind, and let us make your day extraordinary!",
       buttonEn: "I'M OVER 18",
       buttonCn: "I AM 18+",
-      footer: "© 2026 THE BOUTIQUE COLLECTION. All rights reserved."
+      footer: "© 2026 ANGEL CUTIES COLLECTION. All rights reserved."
     }
   }
 };

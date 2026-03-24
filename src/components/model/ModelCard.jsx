@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Check, Star } from "lucide-react";
+import { Check, Star, MapPin } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 const ModelCard = ({ model }) => {
@@ -32,10 +32,12 @@ const ModelCard = ({ model }) => {
       
       {/* Top Badges */}
       <div className="absolute top-4 left-4 flex gap-2">
-        {model.verified && (
-          <div className="flex items-center gap-1 bg-white/10 backdrop-blur-md border border-[#F84A88]/40 px-2 py-1 rounded-full">
-            <Check size={12} className="text-[#F84A88]" />
-            <span className="text-[8px] uppercase tracking-widest font-sans text-white/80 font-semibold">{t.model.verified}</span>
+        {model.location && (
+          <div className="flex items-center gap-1 bg-black/50 backdrop-blur-md border border-[#F84A88]/40 px-3 py-1.5 rounded-full">
+            <MapPin size={12} className="text-[#F84A88]" />
+            <span className="text-[10px] uppercase tracking-widest font-sans text-white/90 font-bold">
+              {t.model.locations[model.location] || model.location}
+            </span>
           </div>
         )}
       </div>
