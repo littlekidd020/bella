@@ -6,16 +6,24 @@ import { models as defaultModels } from "@/lib/data";
 import ModelCard from "./ModelCard";
 import { useLanguage } from "@/context/LanguageContext";
 
-const ModelGrid = ({ limit, showCTA = false, models = defaultModels }) => {
+const ModelGrid = ({ limit, showCTA = false, models = defaultModels, showIntro = false }) => {
   const { t } = useLanguage();
 
   const displayedModels = limit ? models.slice(0, limit) : models;
 
   return (
     <section className="px-8 pb-24 max-w-7xl mx-auto mt-24">
-
-
-      {/* Masonry-Style Grid */}
+      {/* Intro Text */}
+      {showIntro && (
+        <div className="mb-16 text-center max-w-2xl mx-auto">
+          <h2 className="text-[11px] uppercase tracking-[0.4em] text-[#F84A88] mb-4 font-sans font-bold">
+            {t.grid.newCollection}
+          </h2>
+          <p className="text-3xl font-serif italic text-white/90 leading-relaxed font-playfair transition-all duration-700">
+            {t.grid.intro}
+          </p>
+        </div>
+      )}  {/* Masonry-Style Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 transition-all duration-700">
         {displayedModels.map((model, index) => (
           <div 
