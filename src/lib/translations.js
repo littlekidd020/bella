@@ -97,7 +97,7 @@ export const translations = {
       message: "欢迎来到 天使小可爱。在这里，尊贵感为您开启！步入专属的极致休闲时刻，品味倾城绝色，纵享顶奢之夜。放松身心，让我们为您缔造非凡。",
       buttonEn: "I'M OVER 18",
       buttonCn: "我年满18周岁",
-      footer: "© 2026 THE BOUTIQUE COLLECTION. 版权所有。"
+      footer: "© 2026 ANGEL CUTIES COLLECTION. 版权所有。"
     }
   },
   en: {
@@ -150,7 +150,7 @@ export const translations = {
       whatsapp: "Contact via WhatsApp",
       telegram: "Telegram Chat",
       wechat: "WeChat Inquiry",
-      contactMsg: "Hello, I saw [name] on the Boutique website and would like to inquire about an appointment.",
+      contactMsg: "Hello, I saw [name] on the Angel Cuties website and would like to inquire about an appointment.",
       nationalities: {
         "Chinese": "Chinese",
         "Korean-Chinese": "Korean-Chinese",

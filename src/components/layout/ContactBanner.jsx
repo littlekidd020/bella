@@ -43,6 +43,9 @@ export default function ContactBanner() {
              <a href="tel:+64225391339" className="flex items-center gap-2 hover:text-white/80 transition-colors text-sm md:text-base font-black tracking-widest drop-shadow-md">
                <span className="opacity-70 text-[10px] md:text-xs font-bold font-sans">{t.banner?.phone}</span> <span>022-5391339</span>
              </a>
+             <a href="https://wa.me/64225391339" target="_blank" className="flex items-center gap-2 hover:text-white/80 transition-colors text-sm md:text-base font-black tracking-widest drop-shadow-md">
+               <span className="opacity-70 text-[10px] md:text-xs font-bold font-sans">WhatsApp:</span> <span>022-5391339</span>
+             </a>
              <div className="flex items-center gap-2 text-sm md:text-base font-black tracking-widest drop-shadow-md">
                <span className="opacity-70 text-[10px] md:text-xs font-bold font-sans">{t.banner?.wechat}</span> <span>Love35707</span>
              </div>
