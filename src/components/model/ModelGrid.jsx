@@ -23,12 +23,12 @@ const ModelGrid = ({ limit, showCTA = false, models = defaultModels, showIntro =
             {lang === "cn" ? (
               <>
                 我们精选了一系列优雅精致的高端模特，致力于为您提供艺术级的放松体验。
-                <Link href="/collection" className="text-[#F84A88] hover:text-white underline decoration-[#F84A88]/30 underline-offset-8 transition-all duration-300 ml-2 block sm:inline mt-4 sm:mt-0 text-2xl not-italic">查看所有女孩</Link>
+                <Link href="/collection" className="text-[#F84A88] hover:text-white transition-all duration-300 ml-1 underline decoration-[#F84A88]/30 underline-offset-4">邂逅心动女孩</Link>
               </>
             ) : (
               <>
                 A curated selection of the most sophisticated and refined talent, dedicated to the art of relaxation.
-                <Link href="/collection" className="text-[#F84A88] hover:text-white underline decoration-[#F84A88]/30 underline-offset-8 transition-all duration-300 ml-2 block sm:inline mt-4 sm:mt-0 text-2xl not-italic font-sans">View all girls</Link>
+                <Link href="/collection" className="text-[#F84A88] hover:text-white transition-all duration-300 ml-1 underline decoration-[#F84A88]/30 underline-offset-4">View all girls</Link>
               </>
             )}
           </p>
