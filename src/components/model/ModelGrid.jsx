@@ -7,7 +7,7 @@ import ModelCard from "./ModelCard";
 import { useLanguage } from "@/context/LanguageContext";
 
 const ModelGrid = ({ limit, showCTA = false, models = defaultModels, showIntro = false }) => {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
 
   const displayedModels = limit ? models.slice(0, limit) : models;
 
@@ -20,7 +20,17 @@ const ModelGrid = ({ limit, showCTA = false, models = defaultModels, showIntro =
             {t.grid.newCollection}
           </h2>
           <p className="text-3xl font-serif italic text-white/90 leading-relaxed font-playfair transition-all duration-700">
-            {t.grid.intro}
+            {lang === "cn" ? (
+              <>
+                我们精选了一系列优雅精致的高端模特，致力于为您提供艺术级的放松体验。
+                <Link href="/collection" className="text-[#F84A88] hover:text-white underline decoration-[#F84A88]/30 underline-offset-8 transition-all duration-300 ml-2 block sm:inline mt-4 sm:mt-0 text-2xl not-italic">查看所有女孩</Link>
+              </>
+            ) : (
+              <>
+                A curated selection of the most sophisticated and refined talent, dedicated to the art of relaxation.
+                <Link href="/collection" className="text-[#F84A88] hover:text-white underline decoration-[#F84A88]/30 underline-offset-8 transition-all duration-300 ml-2 block sm:inline mt-4 sm:mt-0 text-2xl not-italic font-sans">View all girls</Link>
+              </>
+            )}
           </p>
         </div>
       )}  {/* Masonry-Style Grid */}
