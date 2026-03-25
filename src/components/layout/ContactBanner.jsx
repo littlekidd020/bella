@@ -44,7 +44,7 @@ export default function ContactBanner() {
                <span className="opacity-70 text-[10px] md:text-xs font-bold font-sans">{t.banner?.phone}</span> <span>022-5391339</span>
              </a>
              <div className="flex items-center gap-2 text-sm md:text-base font-black tracking-widest drop-shadow-md">
-               <span className="opacity-70 text-[10px] md:text-xs font-bold font-sans">{t.banner?.wechat}</span> <span>Boutique_VIP</span>
+               <span className="opacity-70 text-[10px] md:text-xs font-bold font-sans">{t.banner?.wechat}</span> <span>Love35707</span>
              </div>
           </div>
         </div>

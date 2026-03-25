@@ -168,7 +168,7 @@ const ProfileOverlay = ({ model, onClose, onNext, onPrev }) => {
             </a>
             
             <a 
-              href={`https://t.me/boutiquecollection?text=Inquiry for ${model.name}`}
+              href={`https://t.me/LOVE0225391339?text=Inquiry for ${model.name}`}
               target="_blank"
               className="flex items-center justify-center gap-3 w-full py-4 bg-white/5 border border-white/10 text-white rounded-xl hover:bg-white/10 transition-colors"
             >
