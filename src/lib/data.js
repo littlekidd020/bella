@@ -1,28 +1,28 @@
 export const models = [
   {
     id: 1,
-    name: { en: "Aria", cn: "艾莉亚" },
+    name: { en: "Aria", cn: "小潘婷" },
     status: "available",
     verified: true,
     location: "CBD",
     stats: {
-      age: 22,
-      height: "168cm",
-      weight: "48kg",
-      cup: "C",
+      age: 23,
+      height: "171cm",
+      weight: "44kg",
+      cup: "C (Natural)",
       nationality: "Chinese"
     },
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
+    image: "/images/models/aria/1.jpg",
     description: {
-      en: "A vision of elegance and grace, Aria brings a sophisticated charm to every session.",
-      cn: "优雅与端庄的化身，Aria 为每一次相遇带来成熟诱惑的魅力。"
+      en: "Newly arrived from China, Aria is a stunning beauty with long flowing hair and a sweet, gentle voice. Elegant in temperament and slender in figure, she loves photography and travel. A true girl-next-door charm with irresistible warmth.",
+      cn: "国内空降，02年良家，长发飘飘高颜值美女。邻家妹妹声音温柔，属于高颜值身材苗条，带入感很强、气质文雅，声音嗲嗲酥酥超甜，爱好摄影旅行。"
     },
-    price: "$350",
-    services: ["Relaxation Massage", "Deep Tissue", "Companionship", "Dinner Date"],
+    price: "$500/1h · $400/30min",
+    services: ["无套口", "陪浴", "69", "轻吻", "黑丝", "按摩", "爱1次"],
     gallery: [
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=80"
+      "/images/models/aria/1.jpg",
+      "/images/models/aria/2.jpg",
+      "/images/models/aria/3.jpg"
     ]
   },
   {

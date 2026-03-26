@@ -17,7 +17,7 @@ import {
   MessageCircle,
   MessageSquare,
   Send,
-  Check,
+  MapPin,
   Phone
 } from "lucide-react";
 import { motion } from "framer-motion";
@@ -78,10 +78,12 @@ export default function ModelDetailsPage() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6 }}
           >
-            {model.verified && (
-              <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-[#F84A88]/40 px-3 py-1.5 rounded-full mb-6">
-                <Check size={14} className="text-[#F84A88]" />
-                <span className="text-[10px] uppercase tracking-widest font-sans text-white/90 font-bold">{t.model.verified}</span>
+            {model.location && (
+              <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-[#F84A88]/40 px-4 py-1.5 rounded-full mb-6 shadow-[0_0_20px_rgba(248,74,136,0.2)]">
+                <MapPin size={14} className="text-[#F84A88]" />
+                <span className="text-[10px] uppercase tracking-widest font-sans text-white/90 font-bold">
+                  {t.model.locations[model.location] || model.location}
+                </span>
               </div>
             )}
             <h1 className="text-6xl md:text-8xl font-serif text-white italic font-playfair tracking-wide mb-4 relative inline-block">
