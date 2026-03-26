@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { useLanguage } from "@/context/LanguageContext";
 import { Phone, MessageCircle } from "lucide-react";
+import BrandLogo from "@/components/common/BrandLogo";
 
 export default function ContactBanner() {
   const { t } = useLanguage();
@@ -18,8 +19,8 @@ export default function ContactBanner() {
         
         {/* Logo & Identity */}
         <div className="flex justify-center items-center gap-3 shrink-0">
-           <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center shadow-[0_0_15px_rgba(255,255,255,0.4)] p-1.5 relative overflow-hidden shrink-0">
-             <img src="/images/logo.png" alt="Angel Cuties Logo" className="w-full h-full object-contain relative z-10" />
+           <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center shadow-[0_0_15px_rgba(255,255,255,0.4)] p-1 relative overflow-hidden shrink-0">
+             <BrandLogo className="w-full h-full relative z-10" />
            </div>
            <div className="flex flex-col justify-center text-center md:text-left">
              <h2 className="text-lg md:text-2xl font-black tracking-wider drop-shadow-md leading-none mb-1">
