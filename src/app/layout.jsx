@@ -31,7 +31,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body suppressHydrationWarning className={`${inter.variable} ${playfair.variable} ${notoSansCN.variable} ${notoSerifCN.variable} font-sans antialiased bg-[#3D0A1E] text-[#F5F5F5]`}>
+      <body suppressHydrationWarning className={`${inter.variable} ${playfair.variable} ${notoSansCN.variable} ${notoSerifCN.variable} font-sans antialiased bg-sakura text-charcoal`}>
         <LanguageProvider>
           <AgeGate>
             <Navbar />

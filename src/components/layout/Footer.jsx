@@ -8,9 +8,9 @@ const Footer = () => {
   const { t } = useLanguage();
 
   return (
-    <footer className="px-8 py-24 flex flex-col items-center gap-6 text-center text-white/30 uppercase tracking-[0.5em] font-sans border-t border-white/5 bg-[#3D0A1E]">
+    <footer className="px-8 py-24 flex flex-col items-center gap-6 text-center text-charcoal/40 uppercase tracking-[0.5em] font-sans border-t border-rose/10 bg-sakura">
       <div className="flex flex-col items-center gap-6">
-        <div className="h-px w-12 bg-[#F84A88]/30" />
+        <div className="h-px w-12 bg-rose/40" />
         <BrandLogo className="w-12 h-12 opacity-50 hover:opacity-100 transition-opacity duration-700" />
         <p className="tracking-[0.3em] font-bold text-[#F84A88]/60 text-xs md:text-sm">
           {t.nav.hours}
