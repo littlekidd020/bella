@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { useLanguage } from "@/context/LanguageContext";
 import { Phone, MessageCircle } from "lucide-react";
 import ContactBanner from "@/components/layout/ContactBanner";
-import BrandLogo from "@/components/common/BrandLogo";
 
 export default function Home() {
   const { t } = useLanguage();
@@ -23,27 +22,6 @@ export default function Home() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#260613] via-[#260613]/50 to-transparent" />
         </div>
-        
-        {/* Centered Brand Mark */}
-        <div className="relative z-10 flex-1 flex flex-col items-center justify-center p-4">
-          <motion.div
-            initial={{ scale: 0.8, opacity: 0, rotateY: 90 }}
-            animate={{ scale: 1, opacity: 1, rotateY: 0 }}
-            transition={{ duration: 1.5, ease: "easeOut" }}
-            className="w-24 h-24 md:w-32 md:h-32 mb-4"
-          >
-            <BrandLogo className="w-full h-full" />
-          </motion.div>
-          <motion.h2 
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ delay: 1, duration: 1 }}
-            className="text-3xl md:text-5xl font-serif text-[#F84A88] italic font-playfair tracking-widest drop-shadow-[0_0_20px_rgba(248,74,136,0.3)]"
-          >
-            {t.hero.title}
-          </motion.h2>
-        </div>
-
         <ContactBanner />
       </header>
       
