@@ -3,42 +3,73 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const BrandLogo = ({ className = "w-12 h-12", color = "#F84A88" }) => {
+const BrandLogo = ({ className = "w-12 h-12" }) => {
   return (
     <motion.div 
-      initial={{ opacity: 0, scale: 0.8 }}
-      animate={{ opacity: 1, scale: 1 }}
+      initial={{ opacity: 0, scale: 0.9, rotateY: 90 }}
+      animate={{ opacity: 1, scale: 1, rotateY: 0 }}
+      transition={{ duration: 1.5, ease: "circOut" }}
       className={`relative ${className}`}
     >
       <svg 
         viewBox="0 0 100 100" 
         fill="none" 
         xmlns="http://www.w3.org/2000/svg"
-        className="w-full h-full drop-shadow-[0_0_15px_rgba(240,68,136,0.5)]"
+        className="w-full h-full filter drop-shadow-[0_0_12px_rgba(240,180,157,0.4)]"
       >
-        {/* Heart + Wings Solid Silhouette */}
+        {/* Rose Gold Gradient Definition */}
+        <defs>
+          <linearGradient id="roseGold" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor="#F5D2C2" />
+            <stop offset="25%" stopColor="#E5B49D" />
+            <stop offset="50%" stopColor="#F84A88" />
+            <stop offset="75%" stopColor="#E5B49D" />
+            <stop offset="100%" stopColor="#D41E5D" />
+          </linearGradient>
+          <filter id="aura">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+          </filter>
+        </defs>
+
+        {/* Halo */}
+        <ellipse 
+          cx="50" cy="18" rx="14" ry="4" 
+          stroke="url(#roseGold)" 
+          strokeWidth="1.5" 
+          className="animate-pulse opacity-60"
+        />
+
+        {/* Heart Core - Sophisticated Tall Profile */}
         <path 
-          d="M50 85L45.5 80.5C29.5 66.5 19 57.5 19 46C19 36.5 26.5 29 36 29C41.5 29 46.5 31.5 50 35.5C53.5 31.5 58.5 29 64 29C73.5 29 81 36.5 81 46C81 57.5 70.5 66.5 54.5 80.5L50 85Z" 
-          fill={color}
+          d="M50 85C50 85 18 64 18 42C18 30 28 22 38 22C43 22 47 25 50 28C53 25 57 22 62 22C72 22 82 30 82 42C82 64 50 85 50 85Z" 
+          fill="url(#roseGold)"
+          className="transition-all duration-1000"
+        />
+
+        {/* Outer Celestial Wings - Layer 1 (Ethereal Lines) */}
+        <path 
+          d="M38 35C20 15 2 25 2 55C2 72 15 84 35 84" 
+          stroke="url(#roseGold)" 
+          strokeWidth="2.5" 
+          strokeLinecap="round"
+          className="opacity-40"
         />
         <path 
-          d="M30 40C15 30 5 45 5 60C5 75 25 85 45 82" 
-          stroke={color} 
-          strokeWidth="6" 
-          strokeLinecap="round" 
-          strokeLinejoin="round" 
+          d="M62 35C80 15 98 25 98 55C98 72 85 84 65 84" 
+          stroke="url(#roseGold)" 
+          strokeWidth="2.5" 
+          strokeLinecap="round"
+          className="opacity-40"
         />
-        <path 
-          d="M70 40C85 30 95 45 95 60C95 75 75 85 55 82" 
-          stroke={color} 
-          strokeWidth="6" 
-          strokeLinecap="round" 
-          strokeLinejoin="round" 
-        />
+
+        {/* Inner Feather Details - Layer 2 (Jewelry Filigree Effect) */}
+        <path d="M15 45L25 48" stroke="white" strokeWidth="0.8" strokeLinecap="round" className="opacity-30" />
+        <path d="M85 45L75 48" stroke="white" strokeWidth="0.8" strokeLinecap="round" className="opacity-30" />
+        <path d="M12 55L22 57" stroke="white" strokeWidth="0.8" strokeLinecap="round" className="opacity-30" />
+        <path d="M88 55L78 57" stroke="white" strokeWidth="0.8" strokeLinecap="round" className="opacity-30" />
         
-        {/* Feather Accents */}
-        <path d="M12 55L22 52" stroke="rgba(255,255,255,0.4)" strokeWidth="2" strokeLinecap="round" />
-        <path d="M88 55L78 52" stroke="rgba(255,255,255,0.4)" strokeWidth="2" strokeLinecap="round" />
+        {/* Central Spine/Focus Spark */}
+        <circle cx="50" cy="42" r="1.5" fill="white" className="opacity-80 animate-pulse" />
       </svg>
     </motion.div>
   );

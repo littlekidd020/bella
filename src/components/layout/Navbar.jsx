@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, Globe } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
+import BrandLogo from "@/components/common/BrandLogo";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -30,12 +31,8 @@ const Navbar = () => {
         scrolled ? "bg-[#3D0A1E]/90 backdrop-blur-xl border-b border-white/5 shadow-2xl" : "bg-transparent md:py-6"
       }`}>
       <Link href="/" className="flex items-center gap-3 group">
-        <div className="relative w-10 h-10 md:w-12 md:h-12 overflow-hidden">
-          <img 
-            src="/images/logo.png" 
-            alt="Angel Cuties Logo" 
-            className="w-full h-full object-contain brightness-110 group-hover:scale-110 transition-transform duration-500" 
-          />
+        <div className="relative w-10 h-10 md:w-12 md:h-12">
+          <BrandLogo className="w-full h-full" />
         </div>
         <div className="flex flex-col">
           <span className="text-xl md:text-2xl font-serif text-[#F84A88] tracking-[0.15em] uppercase italic font-playfair leading-none">
