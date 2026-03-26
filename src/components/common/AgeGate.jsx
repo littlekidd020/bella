@@ -55,13 +55,17 @@ const AgeGate = ({ children }) => {
                 transition={{ delay: 0.3, duration: 1.2, ease: "easeOut" }}
                 className="max-w-2xl w-full text-center space-y-12"
               >
-                 {/* Subtle Brand Identity */}
-                 <div className="flex flex-col items-center gap-6">
-                    <div className="w-12 h-12 rounded-full border border-[#F84A88]/20 flex items-center justify-center p-0.5 bg-white/5 backdrop-blur-md">
-                       <div className="w-full h-full rounded-full border border-[#F84A88]/40 flex items-center justify-center">
-                          <span className="font-serif italic font-black text-[#F84A88] text-[8px] tracking-tighter uppercase">Boutique</span>
-                       </div>
-                    </div>
+                 {/* Brand Logo Identity */}
+                 <div className="flex flex-col items-center gap-8">
+                    <motion.div 
+                      initial={{ scale: 0.8, opacity: 0 }}
+                      animate={{ scale: 1, opacity: 1 }}
+                      transition={{ delay: 0.8, duration: 1.5 }}
+                      className="w-24 h-24 md:w-32 md:h-32 rounded-full border border-white/5 flex items-center justify-center p-4 bg-white/5 backdrop-blur-xl relative group"
+                    >
+                       <div className="absolute inset-0 border border-[#F84A88]/20 rounded-full group-hover:border-[#F84A88]/40 transition-colors duration-1000" />
+                       <img src="/images/logo.png" alt="Angel Cuties Official Logo" className="w-full h-full object-contain brightness-110 drop-shadow-[0_0_20px_rgba(248,74,136,0.3)]" />
+                    </motion.div>
                     <div className="h-px w-32 bg-gradient-to-r from-transparent via-[#F84A88]/30 to-transparent" />
                  </div>
 
