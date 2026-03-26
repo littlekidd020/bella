@@ -64,6 +64,11 @@ export const translations = {
       },
       price: "价格",
       perHour: "/ 小时",
+      units: {
+        "1h": "小时",
+        "30min": "30分钟",
+        "45min": "45分钟"
+      },
       services: "特色服务"
     },
     concierge: {
@@ -165,6 +170,11 @@ export const translations = {
       },
       price: "Price",
       perHour: "/ hour",
+      units: {
+        "1h": "1 hour",
+        "30min": "30 mins",
+        "45min": "45 mins"
+      },
       services: "Services"
     },
     concierge: {

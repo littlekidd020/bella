@@ -131,12 +131,14 @@ export default function ModelDetailsPage() {
                   {model.price.includes("·") ? (
                     model.price.split("·").map((rate, i) => {
                       const [amount, unit] = rate.split("/");
+                      const trimmedUnit = unit?.trim();
+                      const translatedUnit = t.model.units[trimmedUnit] || trimmedUnit;
                       return (
                         <p key={i} className="text-4xl font-serif text-white font-playfair leading-tight flex items-baseline gap-2">
                           {amount.trim()}
                           {unit && (
                             <span className="text-base uppercase tracking-widest font-sans text-white/40 italic">
-                              / {unit.trim()}
+                              / {translatedUnit}
                             </span>
                           )}
                         </p>

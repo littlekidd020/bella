@@ -130,9 +130,29 @@ const ProfileOverlay = ({ model, onClose, onNext, onPrev }) => {
             <h4 className="text-[10px] uppercase tracking-widest text-[#F84A88] font-bold font-sans flex items-center gap-2">
               <Banknote size={10} className="text-[#F84A88]" /> {t.model.price || "Price"}
             </h4>
-            <p className="text-xl font-serif text-white font-playfair">
-              {model.price} <span className="text-[10px] uppercase tracking-widest font-sans text-white/40">{t.model.perHour || "/ hour"}</span>
-            </p>
+            <div className="flex flex-col gap-2">
+              {model.price.includes("·") ? (
+                model.price.split("·").map((rate, i) => {
+                  const [amount, unit] = rate.split("/");
+                  const trimmedUnit = unit?.trim();
+                  const translatedUnit = t.model.units[trimmedUnit] || trimmedUnit;
+                  return (
+                    <p key={i} className="text-2xl font-serif text-white font-playfair leading-tight flex items-baseline gap-2">
+                      {amount.trim()}
+                      {unit && (
+                        <span className="text-sm uppercase tracking-widest font-sans text-white/40 italic">
+                          / {translatedUnit}
+                        </span>
+                      )}
+                    </p>
+                  );
+                })
+              ) : (
+                <p className="text-xl font-serif text-white font-playfair">
+                  {model.price} <span className="text-[10px] uppercase tracking-widest font-sans text-white/40">{t.model.perHour || "/ hour"}</span>
+                </p>
+              )}
+            </div>
           </div>
 
           <div className="space-y-4">
