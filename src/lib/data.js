@@ -17,7 +17,7 @@ export const models = [
       en: "Newly arrived from China, Aria is a stunning beauty with long flowing hair and a sweet, gentle voice. Elegant in temperament and slender in figure, she loves photography and travel. A true girl-next-door charm with irresistible warmth.",
       cn: "国内空降，02年良家，长发飘飘高颜值美女。邻家妹妹声音温柔，属于高颜值身材苗条，带入感很强、气质文雅，声音嗲嗲酥酥超甜，爱好摄影旅行。"
     },
-    price: "$500/1h · $400/30min",
+    price: "$500/小时 · $400/半小时",
     services: ["无套口", "陪浴", "69", "轻吻", "黑丝", "按摩", "爱1次"],
     gallery: [
       "/images/models/aria/1.jpg",

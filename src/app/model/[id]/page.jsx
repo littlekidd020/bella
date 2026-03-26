@@ -127,9 +127,19 @@ export default function ModelDetailsPage() {
                 <h4 className="text-[10px] uppercase tracking-widest text-[#F84A88] font-bold font-sans flex items-center gap-2 mb-2">
                   <Banknote size={12} className="text-[#F84A88]" /> {t.model.price || "Price"}
                 </h4>
-                <p className="text-4xl font-serif text-white font-playfair">
-                  {model.price} <span className="text-sm uppercase tracking-widest font-sans text-white/40">{t.model.perHour || "/ hour"}</span>
-                </p>
+                <div className="flex flex-col gap-2">
+                  {model.price.includes("·") ? (
+                    model.price.split("·").map((p, i) => (
+                      <p key={i} className="text-4xl font-serif text-white font-playfair leading-tight">
+                        {p.trim()}
+                      </p>
+                    ))
+                  ) : (
+                    <p className="text-4xl font-serif text-white font-playfair">
+                      {model.price} <span className="text-sm uppercase tracking-widest font-sans text-white/40">{t.model.perHour || "/ hour"}</span>
+                    </p>
+                  )}
+                </div>
               </div>
 
               <div className="w-full h-px bg-white/10" />
