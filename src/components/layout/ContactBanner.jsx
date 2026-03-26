@@ -12,7 +12,7 @@ export default function ContactBanner() {
     <motion.div 
        initial={{ y: 50, opacity: 0 }}
        animate={{ y: 0, opacity: 1 }}
-       className="relative z-20 w-full bg-gradient-to-r from-rose/80 to-blush text-white overflow-hidden shadow-lg border-y border-rose/10 mt-auto"
+       className="relative z-20 w-full bg-[#F84A88] text-white overflow-hidden shadow-[0_-20px_50px_rgba(248,74,136,0.2)] border-y border-[#F84A88]/50 mt-auto"
     >
       {/* Inner Content of Pink Banner */}
       <div className="w-full max-w-7xl mx-auto px-4 py-4 md:py-0 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-3 md:h-[70px]">
@@ -23,10 +23,10 @@ export default function ContactBanner() {
              <BrandLogo className="w-full h-full relative z-10" />
            </div>
            <div className="flex flex-col justify-center text-center md:text-left">
-             <h2 className="text-lg md:text-2xl font-bold tracking-wider drop-shadow-sm leading-none mb-1">
+             <h2 className="text-lg md:text-2xl font-black tracking-wider drop-shadow-md leading-none mb-1">
                {t.banner?.title || "专业接线 纽澳独家精品资源"}
              </h2>
-             <p className="text-[9px] md:text-xs uppercase tracking-[0.2em] md:tracking-[0.4em] font-medium opacity-90 drop-shadow-sm font-sans">
+             <p className="text-[9px] md:text-xs uppercase tracking-[0.2em] md:tracking-[0.4em] font-bold opacity-90 drop-shadow-sm font-sans">
                {t.banner?.subtitle || "尊贵 • 隐秘 • 奢界"}
              </p>
            </div>
@@ -34,25 +34,25 @@ export default function ContactBanner() {
 
         {/* Middle Contact Block */}
         <div className="relative flex flex-col items-center justify-center px-10 w-full md:w-auto h-auto md:h-full md:mx-auto py-3 md:py-0">
-          <div className="absolute inset-y-0 -left-6 -right-6 bg-white/20 backdrop-blur-md -skew-x-[25deg] shadow-sm hidden md:block" />
-          <div className="absolute inset-0 bg-white/20 backdrop-blur-md shadow-sm md:hidden rounded-lg" />
+          <div className="absolute inset-y-0 -left-6 -right-6 bg-[#D41E5D] -skew-x-[25deg] shadow-inner hidden md:block" />
+          <div className="absolute inset-0 bg-[#D41E5D] shadow-inner md:hidden rounded-lg opacity-80" />
           
           <div className="relative z-10 flex flex-col items-center gap-1.5 w-full">
-             <a href="tel:+64225391339" className="flex items-center gap-2 hover:text-white/80 transition-colors text-sm md:text-base font-bold tracking-widest drop-shadow-sm">
-               <span className="opacity-70 text-[10px] md:text-xs font-medium font-sans">{t.banner?.phone}</span> <span>022-5391339</span>
+             <a href="tel:+64225391339" className="flex items-center gap-2 hover:text-white/80 transition-colors text-sm md:text-base font-black tracking-widest drop-shadow-md">
+               <span className="opacity-70 text-[10px] md:text-xs font-bold font-sans">{t.banner?.phone}</span> <span>022-5391339</span>
              </a>
-             <div className="flex items-center gap-2 text-sm md:text-base font-bold tracking-widest drop-shadow-sm">
-               <span className="opacity-70 text-[10px] md:text-xs font-medium font-sans">{t.banner?.wechat}</span> <span>Love35707</span>
+             <div className="flex items-center gap-2 text-sm md:text-base font-black tracking-widest drop-shadow-md">
+               <span className="opacity-70 text-[10px] md:text-xs font-bold font-sans">{t.banner?.wechat}</span> <span>Love35707</span>
              </div>
           </div>
         </div>
 
         {/* Slogan */}
         <div className="hidden lg:flex flex-col text-right justify-center shrink-0 pl-4">
-           <p className="text-sm md:text-xl font-bold tracking-[0.3em] md:tracking-[0.5em] leading-none mb-1.5 drop-shadow-sm text-white/90">
+           <p className="text-sm md:text-xl font-black tracking-[0.3em] md:tracking-[0.5em] leading-none mb-1.5 drop-shadow-md text-white/90">
              {t.banner?.slogan1 || "品 味 顶 奢 之 夜"}
            </p>
-           <p className="text-xs md:text-[13px] font-medium tracking-[0.3em] md:tracking-[0.4em] opacity-90 drop-shadow-sm font-sans">
+           <p className="text-xs md:text-[13px] font-bold tracking-[0.3em] md:tracking-[0.4em] opacity-90 drop-shadow-sm font-sans">
              {t.banner?.slogan2 || "纵 享 倾 城 绝 色"}
            </p>
         </div>

@@ -8,12 +8,11 @@
   --font-noto-sans: var(--font-noto-sans-cn);
   --font-noto-serif: var(--font-noto-serif-cn);
   
-  /* Kawaii Japanese Palette */
-  --color-gold: #D4AF37;
+  /* High-Contrast Sultry Palette */
+  --color-gold: #C5A059;
   --color-rose: #F84A88;
   --color-blush: #FFD1DC;
-  --color-sakura: #FFF5F7;
-  --color-charcoal: #5C2D3A; 
+  --color-noir: #260613;
 }
 
 /* Language Specific Font Overrides */
@@ -24,30 +23,18 @@
 
 @layer base {
   body {
-    background-color: #FFF5F7;
-    color: #5C2D3A;
-    transition: background-color 0.5s ease, color 0.5s ease;
+    background-color: #260613;
+    color: #f5f5f5;
   }
 }
 
-/* Softer, Sparkly Kawaii Pulse */
-@keyframes kawaii-pulse {
-  0% { transform: scale(1); opacity: 0.8; filter: drop-shadow(0 0 5px #FFD1DC); }
-  50% { transform: scale(1.1); opacity: 1; filter: drop-shadow(0 0 15px #F84A88); }
-  100% { transform: scale(1); opacity: 0.8; filter: drop-shadow(0 0 5px #FFD1DC); }
+/* More readable, vibrant Rose Glow Pulse */
+@keyframes rose-pulse {
+  0% { transform: scale(0.95); opacity: 0.6; box-shadow: 0 0 0 0 rgba(248, 74, 136, 0.4); }
+  50% { transform: scale(1.05); opacity: 1; box-shadow: 0 0 15px 5px rgba(248, 74, 136, 0.6); }
+  100% { transform: scale(0.95); opacity: 0.6; box-shadow: 0 0 0 0 rgba(248, 74, 136, 0.4); }
 }
 
 .animate-rose-pulse {
-  animation: kawaii-pulse 2.5s infinite ease-in-out;
-}
-
-/* Cute Floating Animation */
-@keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-8px); }
-  100% { transform: translateY(0px); }
-}
-
-.animate-float {
-  animation: float 4s infinite ease-in-out;
+  animation: rose-pulse 3s infinite ease-in-out;
 }
