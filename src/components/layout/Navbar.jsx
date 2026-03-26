@@ -21,24 +21,24 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 w-full z-[70] flex flex-col transition-all duration-500">
       {/* Opening Hours Top Bar */}
-      <div className={`flex justify-center py-2.5 border-b border-white/5 transition-colors duration-500 ${scrolled ? 'bg-[#260613]/90 backdrop-blur-md' : 'bg-[#15030A]/60 backdrop-blur-sm'}`}>
-        <span className="text-xs md:text-sm uppercase tracking-[0.3em] font-sans font-bold text-[#F84A88]/90">
+      <div className={`flex justify-center py-2.5 border-b border-rose/10 transition-colors duration-500 ${scrolled ? 'bg-blush/40 backdrop-blur-md' : 'bg-blush/20 backdrop-blur-sm'}`}>
+        <span className="text-xs md:text-sm uppercase tracking-[0.3em] font-sans font-bold text-rose/90">
           {t.nav.hours}
         </span>
       </div>
 
       <nav className={`w-full px-8 py-4 flex items-center justify-between transition-all duration-500 ${
-        scrolled ? "bg-[#3D0A1E]/90 backdrop-blur-xl border-b border-white/5 shadow-2xl" : "bg-transparent md:py-6"
+        scrolled ? "bg-white/70 backdrop-blur-xl border-b border-rose/10 shadow-lg" : "bg-transparent md:py-6"
       }`}>
       <Link href="/" className="flex items-center gap-3 group">
         <div className="relative w-10 h-10 md:w-12 md:h-12">
           <BrandLogo className="w-full h-full" />
         </div>
         <div className="flex flex-col">
-          <span className="text-xl md:text-2xl font-serif text-[#F84A88] tracking-[0.15em] uppercase italic font-playfair leading-none">
+          <span className="text-xl md:text-2xl font-serif text-rose tracking-[0.15em] uppercase italic font-playfair leading-none">
             {lang === "cn" ? "天使" : "Angel"} 
           </span>
-          <span className="text-xl md:text-2xl font-serif text-white/90 tracking-[0.15em] uppercase italic font-playfair leading-none mt-1 group-hover:text-[#F84A88] transition-colors duration-500">
+          <span className="text-xl md:text-2xl font-serif text-[#5C2D3A]/80 tracking-[0.15em] uppercase italic font-playfair leading-none mt-1 group-hover:text-rose transition-colors duration-500">
             {lang === "cn" ? "小可爱" : "Cuties"}
           </span>
         </div>
