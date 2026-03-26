@@ -66,11 +66,11 @@ export const models = [
     },
     image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
     description: {
-      en: "Classic beauty meets modern poise. Mei is the embodiment of the Boutique spirit.",
-      cn: "古典美与现代风度的完美结合。Mei 完美诠释了 Boutique 极致私享的精髓。"
+      en: "Classic beauty meets modern poise. Mei is the embodiment of the Angel Cuties spirit.",
+      cn: "古典美与现代风度的完美结合。Mei 完美诠释了 Angel Cuties 极致私享的精髓。"
     },
     price: "$400",
-    services: ["Boutique Signature Massage", "Deep Tissue", "Dinner Date", "Event Companion"],
+    services: ["Angel Cuties Signature Massage", "Deep Tissue", "Dinner Date", "Event Companion"],
     gallery: [
       "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=1200&q=80",
@@ -118,7 +118,7 @@ export const models = [
     },
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80",
     description: {
-      en: "Sophisticated and worldly, Chloe brings a global perspective to your boutique experience.",
+      en: "Sophisticated and worldly, Chloe brings a global perspective to your Angel Cuties experience.",
       cn: "知性且富有阅历，Chloe 能为您带来充满异域风情的高端陪伴体验。"
     },
     price: "$380",

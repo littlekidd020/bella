@@ -22,7 +22,7 @@ const notoSerifCN = Noto_Serif_SC({
 });
 
 export const metadata = {
-  title: "The Boutique Collection | High-End Service",
+  title: "Angel Cuties Collection | High-End Service",
   description: "A premium, editorial collection of sophisticated relaxation services.",
 };
 

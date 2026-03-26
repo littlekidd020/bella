@@ -18,15 +18,12 @@ export default function ContactBanner() {
         
         {/* Logo & Identity */}
         <div className="flex justify-center items-center gap-3 shrink-0">
-           <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center shadow-[0_0_15px_rgba(255,255,255,0.4)] p-0.5 relative overflow-hidden shrink-0">
-             <div className="w-full h-full rounded-full border-2 border-[#F84A88] flex items-center justify-center font-serif text-[#F84A88] text-[8px] md:text-xs">
-                <span className="animate-rose-pulse bg-[#F84A88]/20 w-full h-full absolute top-0 left-0 rounded-full"></span>
-                <span className="relative z-10 font-black italic">Boutique</span>
-             </div>
+           <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center shadow-[0_0_15px_rgba(255,255,255,0.4)] p-1.5 relative overflow-hidden shrink-0">
+             <img src="/images/logo.png" alt="Angel Cuties Logo" className="w-full h-full object-contain relative z-10" />
            </div>
            <div className="flex flex-col justify-center text-center md:text-left">
              <h2 className="text-lg md:text-2xl font-black tracking-wider drop-shadow-md leading-none mb-1">
-               {t.banner?.title || "Boutique 顶级私享"}
+               {t.banner?.title || "Angel Cuties 顶级私享"}
              </h2>
              <p className="text-[9px] md:text-xs uppercase tracking-[0.2em] md:tracking-[0.4em] font-bold opacity-90 drop-shadow-sm font-sans">
                {t.banner?.subtitle || "尊贵 • 隐秘 • 奢界"}
