@@ -35,6 +35,7 @@ const Navbar = () => {
             src="/images/logo.png" 
             alt="Angel Cuties Logo" 
             className="w-full h-full object-contain brightness-110 group-hover:scale-110 transition-transform duration-500" 
+            style={{ mixBlendMode: 'screen' }}
           />
         </div>
         <div className="flex flex-col">
