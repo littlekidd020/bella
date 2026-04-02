@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import ModelGrid from "@/components/model/ModelGrid";
+import GirlGrid from "@/components/girl/GirlGrid";
 import { useLanguage } from "@/context/LanguageContext";
 import ContactBanner from "@/components/layout/ContactBanner";
-import { models } from "@/lib/data";
+import { girls } from "@/lib/data";
 
 const locations = ["All", "CBD", "Central", "North", "West", "East"];
 
@@ -12,9 +12,9 @@ export default function CollectionPage() {
   const { t, lang } = useLanguage();
   const [activeFilter, setActiveFilter] = useState("All");
 
-  const filteredModels = activeFilter === "All" 
-    ? models 
-    : models.filter(m => m.location === activeFilter);
+  const filteredGirls = activeFilter === "All" 
+    ? girls 
+    : girls.filter(m => m.location === activeFilter);
 
   return (
     <main className="min-h-screen bg-[#3D0A1E] pt-32 transition-colors duration-700">
@@ -40,7 +40,7 @@ export default function CollectionPage() {
           <p className="text-white/90 uppercase tracking-[0.3em] md:tracking-[0.5em] text-[11px] md:text-sm mt-6 font-sans drop-shadow-md">
             {activeFilter === "All" 
               ? `${t.grid.intro.slice(0, 30)}...` 
-              : `${activeFilter === "All" ? (lang === "cn" ? "全部" : "All") : (t.model.locations[activeFilter] || activeFilter)} ${t.nav.collection}`}
+              : `${activeFilter === "All" ? (lang === "cn" ? "全部" : "All") : (t.girl.locations[activeFilter] || activeFilter)} ${t.nav.collection}`}
           </p>
         </div>
 
@@ -53,7 +53,7 @@ export default function CollectionPage() {
           {locations.map((loc) => {
             const label = loc === "All" 
               ? (lang === "cn" ? "全部" : "All")
-              : (t.model.locations[loc] || loc);
+              : (t.girl.locations[loc] || loc);
             
             return (
               <button
@@ -72,7 +72,7 @@ export default function CollectionPage() {
         </div>
       </section>
 
-      <ModelGrid models={filteredModels} />
+      <GirlGrid girls={filteredGirls} />
     </main>
   );
 }

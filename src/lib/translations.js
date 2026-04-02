@@ -34,7 +34,7 @@ export const translations = {
       vip: "VIP 客服经理",
       viewAll: "邂逅心动女孩"
     },
-    model: {
+    girl: {
       age: "年龄",
       ageUnit: "岁",
       height: "身高",
@@ -67,9 +67,11 @@ export const translations = {
       units: {
         "1h": "小时",
         "30min": "30分钟",
-        "45min": "45分钟"
+        "45min": "45分钟",
+        "1h (VIP)": "小时 (VIP)"
       },
-      services: "特色服务"
+      natural: "(真胸)",
+      services: "服务内容"
     },
     concierge: {
       title: "高端客服经理",
@@ -140,7 +142,7 @@ export const translations = {
       vip: "VIP Concierge",
       viewAll: "Explore Full Collection"
     },
-    model: {
+    girl: {
       age: "Age",
       ageUnit: " Years",
       height: "Height",
@@ -173,8 +175,10 @@ export const translations = {
       units: {
         "1h": "1 hour",
         "30min": "30 mins",
-        "45min": "45 mins"
+        "45min": "45 mins",
+        "1h (VIP)": "1 hour (VIP)"
       },
+      natural: "(Natural)",
       services: "Services"
     },
     concierge: {

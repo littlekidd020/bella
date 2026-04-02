@@ -1,6 +1,6 @@
 "use client";
 
-import ModelGrid from "@/components/model/ModelGrid";
+import GirlGrid from "@/components/girl/GirlGrid";
 import { motion } from "framer-motion";
 import { useLanguage } from "@/context/LanguageContext";
 import { Phone, MessageCircle } from "lucide-react";
@@ -26,7 +26,7 @@ export default function Home() {
       </header>
       
       {/* Model Grid Section */}
-      <ModelGrid limit={6} showCTA={true} showIntro={true} />
+      <GirlGrid limit={6} showCTA={true} showIntro={true} />
 
       {/* Trust & Quality Footer Callout */}
       <section className="relative px-8 py-32 mt-32 border-y border-[#F84A88]/20 overflow-hidden">

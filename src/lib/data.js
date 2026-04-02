@@ -1,54 +1,60 @@
-export const models = [
+export const girls = [
   {
     id: 1,
-    name: { en: "Aria", cn: "小潘婷" },
+    name: { en: "BP", cn: "BP" },
     status: "available",
     verified: true,
     location: "CBD",
     stats: {
       age: 23,
-      height: "171cm",
+      height: "166cm",
       weight: "44kg",
-      cup: "C (Natural)",
+      cup: "C+ (Natural)",
       nationality: "Chinese"
     },
-    image: "/images/models/aria/1.jpg",
+    image: "/images/girls/bp/6.jpg",
+    video: "/images/girls/bp/video.mp4",
     description: {
-      en: "Newly arrived from China, Aria is a stunning beauty with long flowing hair and a sweet, gentle voice. Elegant in temperament and slender in figure, she loves photography and travel. A true girl-next-door charm with irresistible warmth.",
-      cn: "国内空降，02年良家，长发飘飘高颜值美女。邻家妹妹声音温柔，属于高颜值身材苗条，带入感很强、气质文雅，声音嗲嗲酥酥超甜，爱好摄影旅行。"
+      en: "Newly arrived from China, BP is a talented newcomer born in 2003. A certified dance teacher of Miao ethnicity, she possesses stunning natural beauty and a slender figure. Skilled in piano and the splits, she is exceptionally multi-talented. Available for short and ultra-short term bookings.",
+      cn: "国内空降，刚落地，新人，03年良家。舞蹈老师有证书，苗族人。高颜值身材苗条，纯天然，会一字马，钢琴，多才多艺。短期超短期。"
     },
     price: "$500/1h · $400/30min",
-    services: ["无套口", "陪浴", "69", "轻吻", "黑丝", "按摩", "爱1次"],
+    services: ["无套口", "69", "吻", "黑丝", "添蛋", "做1次", "额外：第二次＋50"],
     gallery: [
-      "/images/models/aria/1.jpg",
-      "/images/models/aria/2.jpg",
-      "/images/models/aria/3.jpg"
+      "/images/girls/bp/2.jpg",
+      "/images/girls/bp/3.jpg",
+      "/images/girls/bp/4.jpg",
+      "/images/girls/bp/5.jpg",
+      "/images/girls/bp/7.jpg",
+      "/images/girls/bp/info.jpg"
     ]
   },
   {
     id: 2,
-    name: { en: "Luna", cn: "露娜" },
+    name: { en: "CC", cn: "CC" },
     status: "available",
     verified: true,
-    location: "Central",
+    location: "CBD",
     stats: {
-      age: 24,
-      height: "165cm",
-      weight: "47kg",
-      cup: "B+",
-      nationality: "Korean-Chinese"
+      age: 23,
+      height: "160cm",
+      weight: "45kg",
+      cup: "C+ (Natural)",
+      nationality: "Chinese"
     },
-    image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80",
+    image: "/images/girls/cc/1.jpg",
+    video: "/images/girls/cc/video.mp4",
     description: {
-      en: "Radiant and spirited, Luna offers a refreshing and energetic experience.",
-      cn: "光芒四射且充满活力，Luna 将为您提供令人耳目一新的元气体验。"
+      en: "CC (born in 2003), is an elegant and refined 23-year-old beauty. With a petite 160cm frame and a natural C+ cup, she offers a wide spectrum of services from intimate companionship to a full VIP experience. Whether you seek a simple relaxation or a premium sensory journey, CC's professionalism and sweet demeanor ensure an unforgettable encounter.",
+      cn: "CC（03年），身高160cm，体重45kg，胸围C+真。提供从基础陪伴到VIP的全方位精湛服务。无论是细腻的鸳鸯浴还是深度的感官探索，CC温雅的性格与专业的服务都能为您带来极致尊贵的私享体验。"
     },
-    price: "$300",
-    services: ["Relaxation Massage", "Aromatherapy", "Companionship"],
+    price: "$450/1h · $400/30min · $550/1h (VIP)",
+    services: ["无套口", "鸳鸯浴", "69", "舌吻", "黑丝足交", "中出一次", "VIP全服"],
     gallery: [
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80"
+      "/images/girls/cc/2.jpg",
+      "/images/girls/cc/3.jpg",
+      "/images/girls/cc/4.jpg",
+      "/images/girls/cc/5.jpg"
     ]
   },
   {
