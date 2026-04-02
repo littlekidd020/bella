@@ -63,7 +63,9 @@ const GirlCard = ({ model }) => {
           </div>
           
           <div className="text-right shrink-0">
-            <p className="text-lg font-serif text-[#F84A88] font-playfair">{model.stats.cup}</p>
+            <p className="text-lg font-serif text-[#F84A88] font-playfair">
+              {typeof model.stats.cup === 'string' ? model.stats.cup.replace("(Natural)", t.girl.natural) : model.stats.cup}
+            </p>
             <p className="text-[8px] uppercase tracking-widest text-[#F84A88]/60 font-sans">{t.girl.breast}</p>
           </div>
         </div>
