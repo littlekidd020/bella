@@ -138,27 +138,21 @@ const GirlProfileOverlay = ({ model, onClose, onNext, onPrev }) => {
               <Banknote size={10} className="text-[#F84A88]" /> {t.girl.price || "Price"}
             </h4>
             <div className="flex flex-col gap-2">
-              {model.price.includes("·") ? (
-                model.price.split("·").map((rate, i) => {
-                  const [amount, unit] = rate.split("/");
-                  const trimmedUnit = unit?.trim();
-                  const translatedUnit = t.girl.units[trimmedUnit] || trimmedUnit;
-                  return (
-                    <p key={i} className="text-2xl font-serif text-white font-playfair leading-tight flex items-baseline gap-2">
-                      {amount.trim()}
-                      {unit && (
-                        <span className="text-sm uppercase tracking-widest font-sans text-white/40 italic">
-                          / {translatedUnit}
-                        </span>
-                      )}
-                    </p>
-                  );
-                })
-              ) : (
-                <p className="text-xl font-serif text-white font-playfair">
-                  {model.price} <span className="text-[10px] uppercase tracking-widest font-sans text-white/40">{t.girl.perHour || "/ hour"}</span>
-                </p>
-              )}
+              {model.price.split("·").map((rate, i) => {
+                const parts = rate.split("/");
+                const amount = parts[0];
+                const unit = parts[1];
+                const trimmedUnit = unit?.trim();
+                const translatedUnit = t.girl.units[trimmedUnit] || trimmedUnit;
+                return (
+                  <p key={i} className="text-2xl font-serif text-white font-playfair leading-tight flex items-baseline">
+                    {amount.trim()}
+                    <span className="text-sm uppercase tracking-widest font-sans text-white/40 italic ml-4">
+                      / {unit ? translatedUnit : t.girl.perHour.replace("/", "").trim()}
+                    </span>
+                  </p>
+                );
+              })}
             </div>
           </div>
 

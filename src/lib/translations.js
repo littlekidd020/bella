@@ -2,14 +2,14 @@ export const translations = {
   cn: {
     nav: {
       collection: "心动女孩",
-      concierge: "在线客服",
+      concierge: "联系我们",
       account: "会员中心",
       brand: "天使小可爱",
       hours: "营业时间：11:00 AM - 1:00 AM"
     },
     hero: {
       title: "天使小可爱",
-      subtitle: "高端华裔实体服务",
+      subtitle: "高端中国实体服务",
       est: "始于 2026",
       location: "奥克兰高端休闲体验",
       support: "一周7天 专属客服支持"
@@ -51,12 +51,15 @@ export const translations = {
       wechat: "微信咨询",
       contactMsg: "您好，我在官网看到了 [name]，想咨询一下预约详情。",
       nationalities: {
-        "Chinese": "华裔",
+        "Chinese": "中国",
         "Korean-Chinese": "韩裔华籍",
-        "Japanese-Chinese": "日裔华籍"
+        "Japanese-Chinese": "日裔华籍",
+        "Vietnamese": "越南",
+        "Thailand": "泰国"
       },
       locations: {
         "CBD": "市区",
+        "Auckland CBD": "市区",
         "Central": "中区",
         "North": "北岸",
         "West": "西区",
@@ -68,7 +71,9 @@ export const translations = {
         "1h": "小时",
         "30min": "30分钟",
         "45min": "45分钟",
-        "1h (VIP)": "小时 (VIP)"
+        "1h (VIP)": "小时 (VIP)",
+        "30min (VIP)": "30分钟 (VIP)",
+        "1h (Half)": "小时 (半套)"
       },
       natural: "(真胸)",
       services: "服务内容"
@@ -110,7 +115,7 @@ export const translations = {
   en: {
     nav: {
       collection: "Collection",
-      concierge: "Concierge",
+      concierge: "Contact us",
       account: "Account",
       brand: "Angel Cuties",
       hours: "Hours: 11:00 AM - 1:00 AM"
@@ -161,10 +166,13 @@ export const translations = {
       nationalities: {
         "Chinese": "Chinese",
         "Korean-Chinese": "Korean-Chinese",
-        "Japanese-Chinese": "Japanese-Chinese"
+        "Japanese-Chinese": "Japanese-Chinese",
+        "Vietnamese": "Vietnamese",
+        "Thailand": "Thailand"
       },
       locations: {
-        "CBD": "CBD",
+        "CBD": "Auckland CBD",
+        "Auckland CBD": "Auckland CBD",
         "Central": "Central",
         "North": "North",
         "West": "West",
@@ -176,7 +184,9 @@ export const translations = {
         "1h": "1 hour",
         "30min": "30 mins",
         "45min": "45 mins",
-        "1h (VIP)": "1 hour (VIP)"
+        "1h (VIP)": "1 hour (VIP)",
+        "30min (VIP)": "30 mins (VIP)",
+        "1h (Half)": "1 hour (Half)"
       },
       natural: "(Natural)",
       services: "Services"

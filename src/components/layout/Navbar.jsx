@@ -47,8 +47,7 @@ const Navbar = () => {
       {/* Desktop Links & Lang Toggle */}
       <div className="hidden md:flex items-center gap-12 text-sm uppercase tracking-[0.2em] font-sans text-white/70">
         <Link href="/collection" className="hover:text-[#F84A88] transition-colors tracking-widest">{t.nav.collection}</Link>
-        <Link href="/concierge" className="hover:text-[#F84A88] transition-colors tracking-widest">{t.nav.concierge}</Link>
-        <Link href="/account" className="hover:text-[#F84A88] transition-colors tracking-widest">{t.nav.account}</Link>
+        <Link href="/contact-us" className="hover:text-[#F84A88] transition-colors tracking-widest">{t.nav.concierge}</Link>
         
         <button 
           onClick={toggleLang}
