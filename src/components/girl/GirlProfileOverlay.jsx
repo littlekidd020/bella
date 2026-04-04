@@ -116,7 +116,7 @@ const GirlProfileOverlay = ({ model, onClose, onNext, onPrev }) => {
         {/* Stats Grid */}
         <div className="flex-1 overflow-y-auto px-8 py-8 space-y-8 no-scrollbar">
           <div className="grid grid-cols-2 gap-4">
-            <StatItem icon={Calendar} label={t.girl.age} value={model.stats.age} />
+            {model.stats.age && <StatItem icon={Calendar} label={t.girl.age} value={model.stats.age} />}
             <StatItem icon={Globe} label={t.girl.nationality} value={t.girl.nationalities[model.stats.nationality] || model.stats.nationality} />
             <StatItem icon={Ruler} label={t.girl.height} value={model.stats.height} />
             <StatItem icon={Weight} label={t.girl.weight} value={model.stats.weight} />

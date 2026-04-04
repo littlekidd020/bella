@@ -45,6 +45,7 @@ export const translations = {
       availableToBook: "当前可预约",
       portfolio: "私密写真",
       verified: "已验证",
+      uneditedPreview: "实拍原片预览",
       about: "个人简介",
       whatsapp: "通过 WhatsApp 预约",
       telegram: "Telegram 咨询",
@@ -62,7 +63,6 @@ export const translations = {
         "Auckland CBD": "市区",
         "Central": "中区",
         "North": "北岸",
-        "West": "西区",
         "East": "东区"
       },
       price: "价格",
@@ -71,6 +71,7 @@ export const translations = {
         "1h": "小时",
         "30min": "30分钟",
         "45min": "45分钟",
+        "90min": "90分钟",
         "1h (VIP)": "小时 (VIP)",
         "30min (VIP)": "30分钟 (VIP)",
         "1h (Half)": "小时 (半套)"
@@ -158,6 +159,7 @@ export const translations = {
       availableToBook: "Available to Book",
       portfolio: "Portfolio",
       verified: "Verified",
+      uneditedPreview: "Unedited Preview",
       about: "About",
       whatsapp: "Contact via WhatsApp",
       telegram: "Telegram Chat",
@@ -175,7 +177,6 @@ export const translations = {
         "Auckland CBD": "Auckland CBD",
         "Central": "Central",
         "North": "North",
-        "West": "West",
         "East": "East"
       },
       price: "Price",
@@ -184,6 +185,7 @@ export const translations = {
         "1h": "1 hour",
         "30min": "30 mins",
         "45min": "45 mins",
+        "90min": "90 mins",
         "1h (VIP)": "1 hour (VIP)",
         "30min (VIP)": "30 mins (VIP)",
         "1h (Half)": "1 hour (Half)"

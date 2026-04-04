@@ -6,7 +6,7 @@ import { useLanguage } from "@/context/LanguageContext";
 import ContactBanner from "@/components/layout/ContactBanner";
 import { girls } from "@/lib/data";
 
-const locations = ["All", "CBD", "Central", "North", "West", "East"];
+const locations = ["All", "CBD", "Central", "North", "East"];
 
 export default function CollectionPage() {
   const { t, lang } = useLanguage();

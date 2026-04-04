@@ -111,7 +111,8 @@ export default function GirlDetailsPage() {
               )}
             </h1>
             <p className="text-sm uppercase tracking-[0.4em] text-[#F84A88] font-bold font-sans mt-2">
-              {t.girl.nationalities[model.stats.nationality] || model.stats.nationality} • {model.stats.age}{t.girl.ageUnit}
+              {t.girl.nationalities[model.stats.nationality] || model.stats.nationality}
+              {model.stats.age && ` • ${model.stats.age}${t.girl.ageUnit}`}
             </p>
 
             {/* About Section */}
@@ -127,7 +128,7 @@ export default function GirlDetailsPage() {
 
           {/* Stats Grid */}
           <div className="grid grid-cols-2 gap-4">
-            <StatItem icon={Calendar} label={t.girl.age} value={model.stats.age} t={t} />
+            {model.stats.age && <StatItem icon={Calendar} label={t.girl.age} value={model.stats.age} t={t} />}
             <StatItem icon={Ruler} label={t.girl.height} value={model.stats.height} t={t} />
             <StatItem icon={Weight} label={t.girl.weight} value={model.stats.weight} t={t} />
             <StatItem icon={Heart} label={t.girl.breast} value={model.stats.cup} t={t} />
@@ -175,17 +176,19 @@ export default function GirlDetailsPage() {
           </div>
 
           {/* Trust Video */}
-          <div className="space-y-4">
-            <h4 className="text-[10px] uppercase tracking-widest text-[#F84A88] font-bold font-sans flex items-center gap-2">
-              <Play size={10} fill="#F84A88" className="text-[#F84A88]"/> {t.grid.verification}
-            </h4>
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
-              <TrustVideo 
-                src={model.video || "https://joy1.videvo.net/videvo_files/video/premium/getty_14/1080p/201211_076_Woman_In_Silk_Robe_1_1080p.mp4"} 
-                poster={model.image} 
-              />
+          {model.video && (
+            <div className="space-y-4">
+              <h4 className="text-[10px] uppercase tracking-widest text-[#F84A88] font-bold font-sans flex items-center gap-2">
+                <Play size={10} fill="#F84A88" className="text-[#F84A88]"/> {t.grid.verification}
+              </h4>
+              <div className="rounded-2xl overflow-hidden shadow-2xl">
+                <TrustVideo 
+                  src={model.video} 
+                  poster={model.image} 
+                />
+              </div>
             </div>
-          </div>
+          )}
 
         </div>
 

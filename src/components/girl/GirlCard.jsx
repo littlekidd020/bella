@@ -58,7 +58,8 @@ const GirlCard = ({ model }) => {
               )}
             </div>
             <p className="text-[10px] uppercase tracking-[0.2em] text-white/60 font-sans">
-              {model.stats.age}{t.girl.ageUnit} • {t.girl.nationalities[model.stats.nationality] || model.stats.nationality}
+              {model.stats.age ? `${model.stats.age}${t.girl.ageUnit} • ` : ''}
+              {t.girl.nationalities[model.stats.nationality] || model.stats.nationality}
             </p>
           </div>
           
