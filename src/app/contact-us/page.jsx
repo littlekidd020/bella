@@ -27,10 +27,10 @@ const ConciergePage = () => {
   );
 
   return (
-    <main className="min-h-screen bg-[#3D0A1E] pt-32 pb-24 overflow-hidden">
+    <main className="min-h-screen bg-[#3D0A1E] pt-44 transition-colors duration-700">
       
       {/* Erotic Header Banner */}
-      <header className="relative w-full h-[350px] md:h-[450px] flex flex-col justify-end -mt-32 mb-16 overflow-hidden border-b border-[#F84A88]/20 bg-[#15030A]">
+      <header className="relative w-full h-[480px] md:h-[450px] flex flex-col justify-end -mt-32 mb-12 overflow-hidden border-b border-[#F84A88]/20 bg-[#15030A]">
         {/* Background Erotic Image */}
         <div className="absolute inset-0 z-0 bg-black">
           <img 
@@ -44,11 +44,18 @@ const ConciergePage = () => {
         </div>
 
         {/* Text Content */}
-        <div className="relative z-10 flex flex-col items-center justify-center flex-1 px-4 mt-32 max-w-4xl mx-auto w-full text-center">
-          <h1 className="text-4xl md:text-6xl font-serif text-white drop-shadow-[0_0_15px_rgba(248,74,136,0.3)] italic font-playfair tracking-wider animate-in fade-in slide-in-from-bottom-4 duration-500">
-            {t.concierge.title.split(' ')[0]} <span className="text-[#F84A88]">{t.concierge.title.split(' ')[1] || ""}</span>
+        <div className="relative z-10 flex flex-col items-center justify-center flex-1 px-4 mt-24 mb-12 max-w-4xl mx-auto w-full text-center">
+          <h1 className="text-4xl md:text-6xl font-serif drop-shadow-[0_0_15px_rgba(248,74,136,0.3)] italic font-playfair tracking-wider">
+            {t.concierge.title.includes(' ') ? (
+              <>
+                <span className="text-white">{t.concierge.title.split(' ')[0]}</span>{' '}
+                <span className="text-[#F84A88]">{t.concierge.title.split(' ')[1]}</span>
+              </>
+            ) : (
+              <span className="text-[#F84A88]">{t.concierge.title}</span>
+            )}
           </h1>
-          <p className="text-white/90 uppercase tracking-[0.2em] md:tracking-[0.4em] text-[9px] md:text-xs mt-6 font-sans drop-shadow-md max-w-2xl mx-auto">
+          <p className="text-white/70 leading-relaxed font-sans text-xs md:text-sm mt-8 max-w-2xl mx-auto px-6">
             {t.concierge.subtitle}
           </p>
         </div>
@@ -82,20 +89,46 @@ const ConciergePage = () => {
           <div className="absolute inset-0 bg-[#F84A88]/10 blur-3xl rounded-full" />
           <div className="relative p-12 bg-white/5 border border-white/10 backdrop-blur-3xl text-center flex flex-col items-center">
             <h2 className="text-3xl font-serif text-white mb-8 font-playfair tracking-wide italic">{t.concierge.ctaTitle}</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-lg">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-2xl">
               <a 
-                href="https://wa.me/6400000000"
-                className="flex items-center justify-center gap-3 py-4 bg-[#F84A88] text-white rounded-xl hover:bg-[#D41E5D] transition-all transform hover:scale-105 shadow-[0_0_30px_rgba(225,29,72,0.3)]"
+                href="https://wa.me/64225391339"
+                className="flex items-center justify-center gap-3 py-4 bg-[#F84A88] text-white rounded-xl hover:bg-[#D41E5D] transition-all transform hover:scale-105 shadow-[0_0_30px_rgba(248,74,136,0.3)]"
               >
                 <MessageCircle size={20} />
-                <span className="text-xs uppercase tracking-[0.2em] font-bold font-sans">WhatsApp</span>
+                <span className="text-[10px] uppercase tracking-[0.2em] font-bold font-sans">WhatsApp</span>
               </a>
               <a 
-                href="https://t.me/boutiquecollection"
+                href="https://t.me/Angel_3312"
                 className="flex items-center justify-center gap-3 py-4 bg-white/5 border border-white/10 text-white rounded-xl hover:bg-white/10 transition-all transform hover:scale-105"
               >
                 <Send size={18} />
-                <span className="text-xs uppercase tracking-[0.2em] font-bold font-sans">Telegram</span>
+                <span className="text-[10px] uppercase tracking-[0.2em] font-bold font-sans">Telegram</span>
+              </a>
+              <div className="flex items-center justify-center gap-3 py-4 bg-white/5 border border-white/10 text-white rounded-xl hover:bg-white/10 transition-all transform hover:scale-105 cursor-pointer">
+                <span className="text-[10px] uppercase tracking-widest text-[#F84A88] font-bold font-sans">微信在线客服</span>
+                <span className="text-[11px] uppercase tracking-[0.2em] font-black font-sans">Angelya3312</span>
+              </div>
+              <div className="flex items-center justify-center gap-3 py-4 bg-white/5 border border-white/10 text-white rounded-xl hover:bg-white/10 transition-all transform hover:scale-105 cursor-pointer">
+                <span className="text-[10px] uppercase tracking-widest text-[#F84A88] font-bold font-sans">微信防走失</span>
+                <span className="text-[11px] uppercase tracking-[0.2em] font-black font-sans">nice325888</span>
+              </div>
+              <div className="flex items-center justify-center gap-3 py-4 bg-white/5 border border-white/10 text-white rounded-xl hover:bg-white/10 transition-all transform hover:scale-105 cursor-pointer">
+                <span className="text-[10px] uppercase tracking-widest text-[#F84A88] font-bold font-sans">微信备用号</span>
+                <span className="text-[11px] uppercase tracking-[0.2em] font-black font-sans">hjmgrdss</span>
+              </div>
+              <a 
+                href="https://line.me/ti/p/angle666akl"
+                className="flex items-center justify-center gap-3 py-4 bg-white/5 border border-white/10 text-white rounded-xl hover:bg-white/10 transition-all transform hover:scale-105"
+              >
+                <span className="text-[10px] uppercase tracking-widest text-[#F84A88] font-bold font-sans">LINE 咨询</span>
+                <span className="text-[11px] uppercase tracking-[0.2em] font-black font-sans">angle666akl</span>
+              </a>
+              <a 
+                href="tel:0225391339"
+                className="flex items-center justify-center gap-3 py-4 bg-white/5 border border-white/10 text-white rounded-xl hover:bg-white/10 transition-all transform hover:scale-105"
+              >
+                <Phone size={18} />
+                <span className="text-[11px] uppercase tracking-[0.2em] font-bold font-sans">022 539 1339</span>
               </a>
             </div>
             <p className="mt-8 text-[10px] text-white/30 uppercase tracking-[0.3em] font-sans italic">

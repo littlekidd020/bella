@@ -10,7 +10,7 @@ export default function Home() {
   const { t } = useLanguage();
 
   return (
-    <main className="min-h-screen bg-[#3D0A1E] overflow-x-hidden pt-32 transition-all duration-700">
+    <main className="min-h-screen bg-[#3D0A1E] overflow-x-hidden pt-44 transition-all duration-700">
       {/* Cinematic Erotic Hero Banner */}
       <header className="relative w-full h-[350px] md:h-[400px] flex flex-col justify-end -mt-32 mb-12 overflow-hidden">
         {/* Background Sensual Image */}
@@ -18,9 +18,9 @@ export default function Home() {
           <img 
             src="/images/home-hero-bg.png" 
             alt="Sensual Boutique Background" 
-            className="w-full h-full object-cover opacity-80"
+            className="w-full h-full object-cover opacity-90"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#260613] via-[#260613]/50 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#15030A] to-transparent opacity-80" />
         </div>
         <ContactBanner />
       </header>

@@ -33,26 +33,28 @@ export default function ContactBanner() {
         </div>
 
         {/* Middle Contact Block */}
-        <div className="relative flex flex-col items-center justify-center px-10 w-full md:w-auto h-auto md:h-full md:mx-auto py-3 md:py-0">
+        <div className="relative flex flex-col items-center justify-center px-6 md:px-10 w-full md:w-auto h-auto md:h-full md:mx-auto py-4 md:py-0">
           <div className="absolute inset-y-0 -left-6 -right-6 bg-[#D41E5D] -skew-x-[25deg] shadow-inner hidden md:block" />
-          <div className="absolute inset-0 bg-[#D41E5D] shadow-inner md:hidden rounded-lg opacity-80" />
+          <div className="absolute inset-0 bg-[#D41E5D]/30 md:hidden rounded-2xl mx-2 my-1 border border-white/20" />
           
-          <div className="relative z-10 flex flex-col items-center gap-1.5 w-full">
-             <a href="tel:+64225391339" className="flex items-center gap-2 hover:text-white/80 transition-colors text-sm md:text-base font-black tracking-widest drop-shadow-md">
-               <span className="opacity-70 text-[10px] md:text-xs font-bold font-sans">{t.banner?.phone}</span> <span>022-5391339</span>
+          <div className="relative z-10 flex flex-col items-center gap-2 w-full">
+             <a href="tel:+64225391339" className="flex items-center gap-3 hover:text-white/80 transition-colors text-base md:text-lg font-black tracking-widest drop-shadow-md">
+               <span className="opacity-70 text-[10px] md:text-xs font-bold font-sans min-w-[3em] text-right">{t.banner?.phone}</span> 
+               <span>022-5391339</span>
              </a>
-             <div className="flex items-center gap-2 text-sm md:text-base font-black tracking-widest drop-shadow-md">
-               <span className="opacity-70 text-[10px] md:text-xs font-bold font-sans">{t.banner?.wechat}</span> <span>Love35707</span>
+             <div className="flex items-center gap-3 text-base md:text-lg font-black tracking-widest drop-shadow-md">
+               <span className="opacity-70 text-[10px] md:text-xs font-bold font-sans uppercase tracking-[0.2em] min-w-[3em] text-right">{t.banner?.wechat}</span> 
+               <span>Angelya3312</span>
              </div>
           </div>
         </div>
 
         {/* Slogan */}
-        <div className="hidden lg:flex flex-col text-right justify-center shrink-0 pl-4">
-           <p className="text-sm md:text-xl font-black tracking-[0.3em] md:tracking-[0.5em] leading-none mb-1.5 drop-shadow-md text-white/90">
+        <div className="flex flex-col text-center md:text-right justify-center shrink-0 md:pl-4 mb-4 md:mb-0">
+           <p className="text-[10px] md:text-xl font-black tracking-[0.3em] md:tracking-[0.5em] leading-none mb-1.5 drop-shadow-md text-white/90">
              {t.banner?.slogan1 || "品 味 顶 奢 之 夜"}
            </p>
-           <p className="text-xs md:text-[13px] font-bold tracking-[0.3em] md:tracking-[0.4em] opacity-90 drop-shadow-sm font-sans">
+           <p className="text-[8px] md:text-[13px] font-bold tracking-[0.3em] md:tracking-[0.4em] opacity-90 drop-shadow-sm font-sans">
              {t.banner?.slogan2 || "纵 享 倾 城 绝 色"}
            </p>
         </div>
