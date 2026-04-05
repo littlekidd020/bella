@@ -1,7 +1,7 @@
 export const translations = {
   cn: {
     nav: {
-      collection: "心动女孩",
+      collection: "心动女生",
       concierge: "联系我们",
       account: "会员中心",
       brand: "天使小可爱",
@@ -32,7 +32,7 @@ export const translations = {
       verification: "真人实拍审核",
       discreet: "安全与隐私保障",
       vip: "VIP 客服经理",
-      viewAll: "邂逅心动女孩"
+      viewAll: "选择心动女生"
     },
     girl: {
       age: "年龄",
@@ -53,6 +53,8 @@ export const translations = {
       contactMsg: "您好，我在官网看到了 [name]，想咨询一下预约详情。",
       nationalities: {
         "Chinese": "中国",
+        "china": "中国",
+        "China": "中国",
         "Korean-Chinese": "韩裔华籍",
         "Japanese-Chinese": "日裔华籍",
         "Vietnamese": "越南",

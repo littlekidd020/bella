@@ -23,7 +23,7 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
             {lang === "cn" ? (
               <>
                 我们精选了一系列优雅精致的高端模特，致力于为您提供艺术级的放松体验。
-                <Link href="/collection" className="text-[#F84A88] hover:text-white transition-all duration-300 ml-1 underline decoration-[#F84A88]/30 underline-offset-4">邂逅心动女孩</Link>
+                <Link href="/collection" className="text-[#F84A88] hover:text-white transition-all duration-300 ml-1 underline decoration-[#F84A88]/30 underline-offset-4">选择心动女生</Link>
               </>
             ) : (
               <>

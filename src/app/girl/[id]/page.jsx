@@ -168,9 +168,48 @@ export default function GirlDetailsPage() {
                 <h4 className="text-[10px] uppercase tracking-widest text-[#F84A88] font-bold font-sans flex items-center gap-2 mb-4">
                   <Sparkles size={12} className="text-[#F84A88]" /> {t.girl.services || "Featured Services"}
                 </h4>
-                <p className="text-white/80 leading-relaxed font-sans text-base">
-                  {model.services?.join(" · ")}
-                </p>
+                <div className="flex flex-wrap gap-x-2 gap-y-1 text-white/80 leading-relaxed font-sans text-base">
+                  {(() => {
+                    if (!model.services) return null;
+                    const main = [];
+                    const extra = [];
+                    const vip = [];
+                    
+                    model.services.forEach(group => {
+                      if (group.startsWith("VIP:")) vip.push(group);
+                      else if (group.includes("额外")) extra.push(group);
+                      else if (group.startsWith("免费赠送:")) extra.push(group);
+                      else main.push(group);
+                    });
+                    
+                    const sortedGroups = [...main, ...extra, ...vip];
+                    
+                    return sortedGroups.map((group, groupIdx, groups) => {
+                      const servicesInGroup = group.split(" ");
+                      const isVipGroup = group.startsWith("VIP:");
+                      const isExtraGroup = group.includes("额外") || group.startsWith("免费赠送:");
+                      
+                      return (
+                        <React.Fragment key={groupIdx}>
+                          {(isVipGroup || isExtraGroup) && <div className="w-full h-0" />}
+                          {servicesInGroup.map((s, sIdx) => {
+                            const isLastInGroup = sIdx === servicesInGroup.length - 1;
+                            const isNextGroupOnSameLine = groupIdx < groups.length - 1 && !groups[groupIdx+1].startsWith("VIP:") && !groups[groupIdx+1].includes("额外") && !groups[groupIdx+1].startsWith("免费赠送:");
+                            
+                            const showDot = (!isLastInGroup && !s.endsWith(":") && !s.endsWith("：")) || (isLastInGroup && isNextGroupOnSameLine);
+                            
+                            return (
+                              <span key={`${groupIdx}-${sIdx}`} className="flex items-center">
+                                {s}
+                                {showDot && <span className="ml-2 text-white/30">·</span>}
+                              </span>
+                            );
+                          })}
+                        </React.Fragment>
+                      );
+                    });
+                  })()}
+                </div>
               </div>
             </div>
           </div>

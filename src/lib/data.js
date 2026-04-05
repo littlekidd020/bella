@@ -19,7 +19,7 @@ export const girls = [
       cn: "国内空降，刚落地，新人，03年良家。舞蹈老师有证书，苗族人。高颜值身材苗条，纯天然，会一字马，钢琴，多才多艺。短期超短期。"
     },
     price: "$500/1h · $400/30min",
-    services: ["无套口", "69", "吻", "黑丝", "添蛋", "做1次", "额外：第二次＋50"],
+    services: ["无套口", "69", "吻", "黑丝", "添蛋", "做1次", "额外：第二次(+$50)"],
     gallery: [
       "/images/girls/bp/2.jpg",
       "/images/girls/bp/3.jpg",
@@ -45,11 +45,15 @@ export const girls = [
     image: "/images/girls/cc/1.jpg",
     video: "/images/girls/cc/video.mp4",
     description: {
-      en: "CC (born in 2003), is an elegant and refined 23-year-old beauty. With a petite 160cm frame and a natural C+ cup, she offers a wide spectrum of services from intimate companionship to a full VIP experience. Whether you seek a simple relaxation or a premium sensory journey, CC's professionalism and sweet demeanor ensure an unforgettable encounter.",
-      cn: "CC（03年），身高160cm，体重45kg，胸围C+真。提供从基础陪伴到VIP的全方位精湛服务。无论是细腻的鸳鸯浴还是深度的感官探索，CC温雅的性格与专业的服务都能为您带来极致尊贵的私享体验。"
+      en: "CC (born in 2003), is an elegant and refined beauty. Standing at 160cm with a natural C+ cup, she offers a wide spectrum of services from intimate companionship to a full VIP experience. Whether you seek a simple relaxation or a premium sensory journey, CC's professionalism and sweet demeanor ensure an unforgettable encounter.",
+      cn: "03年，身高160cm，体重45kg，胸围C+真。"
     },
-    price: "$450/1h · $400/30min · $550/1h (VIP)",
-    services: ["无套口", "鸳鸯浴", "69", "舌吻", "黑丝足交", "中出一次", "VIP全服"],
+    price: "$550/1h (VIP) · $450/1h · $400/30min",
+    services: [
+      "无套口", "舔蛋", "抚摸蛋", "指划蛋", "舔乳头", "情趣制服", "黑丝", "共浴", "69", "舌吻", "做1次",
+      "VIP: 鸳鸯浴 舌吻 Kiss 360度无套口 抚摸 皖式服务 胸推 按摩 弹指 全身漫游 深喉 指滑毒龙 海底捞月 情趣内衣 丝袜 丝袜足交",
+      "额外：口爆吞精(+$100) 颜射(+$50) 情景角色扮演/SM(+$150) 加一次(+$100)"
+    ],
     gallery: [
       "/images/girls/cc/2.jpg",
       "/images/girls/cc/3.jpg",
@@ -73,10 +77,10 @@ export const girls = [
     image: "/images/girls/chestnut/1.jpg",
     description: {
       en: "A fresh arrival from Australia, Chestnut (born 2004) is the ultimate 'girl next door' beauty. With her tall, slender 168cm frame and incredibly sweet, delicate voice, she embodies the 'white, young, and thin' aesthetic. Specialized in a wide range of sensory services, she is available for a limited time only.",
-      cn: "澳洲空降，栗子刚落地。04年邻家妹妹，属于高颜值、白幼瘦、甜美可爱型。声音嗲嗲酥酥超甜，短期限量邂逅。"
+      cn: "澳洲空降，栗子刚落地。04年邻家妹妹，属于高颜值、白幼瘦、甜美可爱型。声音嗲嗲酥酥超甜，短期限量选择。"
     },
     price: "$450/1h · $400/30min",
-    services: ["无套口", "陪浴", "69", "吻", "足交", "身上", "黑丝", "按摩", "爱1次", "额外：第二次＋100"],
+    services: ["无套口", "陪浴", "69", "吻", "足交", "身上", "黑丝", "按摩", "爱1次", "额外：第二次(+$100)"],
     gallery: [
       "/images/girls/chestnut/1.jpg",
       "/images/girls/chestnut/2.jpg",
@@ -102,7 +106,7 @@ export const girls = [
     image: "/images/girls/youyou/1.jpg",
     description: {
       en: "A gentle and elegant beauty with a sophisticated presence. Youyou is known for her sweet, obedient nature and exceptional high level of cooperation. She offers both relaxing massage therapy and deeply intimate full sessions with a focus on providing a warm, caring experience.",
-      cn: "温柔乖巧，懂事听话，气质小姐姐。良家初下，扶务系，配合度高。提供温暖贴心的全方位服务体验。"
+      cn: "良家初下海，温柔乖巧，懂事听话，气质小姐姐，服务系，配合度高，可半套。"
     },
     price: "$340 / 1h · $300 / 45min · $260 / 30min · $160 / 1h (Half)",
     services: ["陪澡", "69", "无套口", "舌吻", "黑丝", "按摩", "爱2次 (半小时1次)", "可半🍑 ($160/1h)"],
@@ -136,7 +140,7 @@ export const girls = [
       cn: "温柔体贴，服务态度好，配合度高。擅长专业按摩与深度感官服务，致力于为您打造尊贵舒适的私享体验。"
     },
     price: "$160 / 1h (Half)",
-    services: ["按摩", "带套口", "飞机", "额外：脱上衣 +20", "额外：全裸 +30", "额外：无套口 +30"],
+    services: ["按摩", "带套口", "飞机", "额外：脱上衣(+$20) 全裸(+$30) 无套口(+$30)"],
     gallery: [
       "/images/girls/kaka/1.jpg",
       "/images/girls/kaka/2.jpg",
@@ -164,7 +168,7 @@ export const girls = [
       cn: "专业细致，配合度高，为您提供高品质、定制化的放松体验。"
     },
     price: "$350 / 1h (VIP) · $240 / 1h · $200 / 30min · $160 / 1h (Half)",
-    services: ["洗澡", "胸推", "按摩", "戴套口", "情趣内衣", "有2次", "额外：无套口 +20", "额外：口爆 +50", "额外：69 +30", "额外：舌吻 +30", "额外：毒龙 +50"],
+    services: ["洗澡", "胸推", "按摩", "戴套口", "情趣内衣", "有2次", "VIP: 莞式一条龙，服务全包", "额外：无套口(+$20) 口爆(+$50) 69(+$30) 舌吻(+$30) 毒龙(+$50)"],
     gallery: [
       "/images/girls/anan/1.jpg",
       "/images/girls/anan/2.jpg",
@@ -194,10 +198,10 @@ export const girls = [
     image: "/images/girls/paofu/1.jpg",
     description: {
       en: "Elegant and sophisticated, Puffy is a warm and dedicated professional who provides a personalized, intoxicated experience.",
-      cn: "气质型模特，温柔贴心，为您打造醉享放松的私密空间。"
+      cn: "气质型，温柔贴心，醉情人。"
     },
     price: "$300 / 1h · $240 / 30min",
-    services: ["鸳鸯浴", "带套口", "爱爱一次", "额外：无套口 +50"],
+    services: ["鸳鸯浴", "带套口", "爱爱一次", "额外：无套口(+$50)"],
     gallery: [
       "/images/girls/paofu/1.jpg",
       "/images/girls/paofu/2.jpg",
@@ -224,7 +228,7 @@ export const girls = [
       cn: "多才多艺且充满热情，琳达提供高品质、全方位的专业服务，致力于让您的每一次体验都无懈可击。"
     },
     price: "$300 / 1h (VIP) · $220 / 1h · $170 / 30min",
-    services: ["水中漫游", "猛虎上山", "鸳鸯戏水", "口爆", "床头广式服务", "俄罗斯大战", "观音坐莲", "侧方程式停车", "毒龙", "全身漫游", "额外：无套口 +20"],
+    services: ["水中漫游", "猛虎上山", "鸳鸯戏水", "VIP: 口爆 床头广式服务 俄罗斯大战 观音坐莲 侧方程式停车 毒龙 全身漫游", "额外：无套口(+$20)"],
     gallery: [
       "/images/girls/linda/1.jpg",
       "/images/girls/linda/2.jpg",
@@ -252,10 +256,10 @@ export const girls = [
     image: "/images/girls/momo/1.jpg",
     description: {
       en: "A professional and trained talent newly arrived from China. Momo offers a unique and high-end sensory experience with expert performance skills and a captivating presence.",
-      cn: "国内空降刚落地。专业训练的官式服务，更有艳舞免费表演。让您体验一场不一样的愉悦与快感。"
+      cn: "国内空降刚落地🪂，AV女优专业训练的莞式服务，可S（专业艳舞表演 可免费观看）按摩养生不在话下，让你体验一场不一样的愉悦的快感，你会是那位男主角吗？请务必来体验哦，快来找我吧……😘😘"
     },
     price: "$400 / 1h · $350 / 30min",
-    services: ["无套口", "69", "舌吻", "黑丝", "艳舞表演", "前L腺高cao", "全身漫游", "额外：第二次 +50", "额外：口爆 +50", "额外：毒龙 +50"],
+    services: ["无套口", "69", "陪浴", "舌吻", "黑丝", "艳舞表演", "前列腺高潮", "全身漫游", "额外：第二次(+$50) 口爆(+$50) 毒龙(+$50)"],
     gallery: [
       "/images/girls/momo/1.jpg",
       "/images/girls/momo/2.jpg",
@@ -292,7 +296,7 @@ export const girls = [
       cn: "充满异域风情且迷人，芭芭拉是一位24岁的越南美女。她拥有苗条的身材和开朗的性格，提供包括专业按摩和亲密陪伴在内的多种服务，致力于为您带来深度放松和愉悦的体验。"
     },
     price: "$320 / 1h (VIP) · $260 / 1h · $200 / 30min",
-    services: ["陪浴", "69", "舌吻", "黑丝", "按摩", "做1次", "额外：第二次 +40", "额外：无套口 +20", "额外：无套口 & 口报 +50"],
+    services: ["陪浴", "69", "舌吻", "黑丝", "按摩", "做1次", "额外：第二次(+$40) 无套口(+$20) 无套口&口报(+$50)"],
     gallery: [
       "/images/girls/barbara/1.jpg",
       "/images/girls/barbara/2.jpg",
@@ -323,7 +327,7 @@ export const girls = [
       cn: "典雅而充满激情，莱拉是一位拥有天然F杯傲人身材的中国美女。她温柔的触碰、典雅的气质以及为您提供完全沉浸且愉悦体验的承诺，使她成为奥克兰高端私密服务的难忘选择。"
     },
     price: "$320 / 1h (VIP) · $240 / 1h",
-    services: ["调情", "舌吻", "戴套吹", "鸳鸯浴", "水中箫", "制服诱惑", "简单按摩", "激情性爱", "做一次", "额外：无套口 +30", "额外：口爆 +30", "额外：玩具 +50"],
+    services: ["调情", "舌吻", "戴套吹", "鸳鸯浴", "水中箫", "制服诱惑", "简单按摩", "激情性爱", "做一次", "额外：无套口(+$30) 口爆(+$30) 玩具(+$50)"],
     gallery: [
       "/images/girls/laila/2.jpg",
       "/images/girls/laila/3.jpg",
@@ -352,10 +356,10 @@ export const girls = [
     image: "/images/girls/faye/1.jpg",
     description: {
       en: "Pure and radiant, Faye (语橙) is a 19-year-old international student from Thailand. With her tall, slender figure and healthy sun-kissed skin, she offers a genuine and refreshing experience. Specializing in Thai massage and intimate companionship, she ensures a deeply relaxing time with a focus on quality and discretion.",
-      cn: "清纯亮丽，语橙（Faye）是一位19岁的泰国留学生。她拥有高挑曼妙的身材和健康的肤色，气质纯净。语橙专注于带给您最真实、放松的泰式风情体验，不仅提供专业的按摩服务，更能为您营造温馨舒适的私人空间。"
+      cn: "泰国🇹🇭 Faye，中文名：语橙。真正的留学生，19岁（真实2006年护照为证），颜值不错，身材高挑，健康肤色，清纯系女生。"
     },
     price: "$340 / 1h · $260 / 30min · $160 / 1h (Half)",
-    services: ["带套口", "全身漫游", "69", "浅吻", "指hua", "丝", "泰式按摩", "第二次 (1h)", "不接无套口 & 蛇吻"],
+    services: ["陪浴", "带套口", "全身漫游", "69", "浅吻", "指划", "丝袜", "泰式按摩", "第二次 (约半小时的只能做一次)"],
     gallery: [
       "/images/girls/faye/1.jpg",
       "/images/girls/faye/2.jpg",
@@ -384,7 +388,7 @@ export const girls = [
       cn: "经验丰富、专业典雅，Candice 专注于为您提供最高品质的服务。凭借成熟的专业手法，她通过精致的按摩和贴心的陪伴为您带来极致放松的体验。店内还为客人免费提供拔火罐等理疗选项。"
     },
     price: "$250 / 1h (VIP) · $220 / 30min (VIP) · $200 / 1h · $150 / 30min",
-    services: ["洗澡", "按摩", "无套口", "接吻", "做2次", "莞式服务", "免费赠送拔火罐"],
+    services: ["洗澡", "按摩", "无套口", "接吻", "做2次", "VIP: 莞式服务", "免费赠送: 拔火罐"],
     gallery: [
       "/images/girls/candice/1.jpg",
       "/images/girls/candice/2.jpg",
@@ -414,7 +418,7 @@ export const girls = [
       cn: "娇小玲珑、魅力十足，Cherry 是中区备受推崇的高端服务者。她拥有 157cm 的玲珑身材和傲人的天然 D 杯，将精湛的按摩手法与温柔的贴心陪伴完美结合。无论您是选择标准套餐还是极致的 VIP 体验，她细腻的触碰都将为您带来一场难忘的舒压之旅。"
     },
     price: "$300 / 1h (VIP) · $250 / 30分钟 (VIP) · $220 / 1h · $160 / 30分钟",
-    services: ["按摩", "调情", "有套口", "吻", "爱一次", "VIP: 无套口", "VIP: 蛇吻", "VIP: 69", "VIP: 陪浴", "VIP: 爱多次"],
+    services: ["按摩", "调情", "有套口", "kiss", "爱一次", "VIP: 无套口 蛇吻 69 陪浴 2-3次"],
     gallery: [
       "/images/girls/cherry/1.jpg",
       "/images/girls/cherry/2.jpg",
@@ -442,7 +446,7 @@ export const girls = [
       cn: "典雅稳重、经验丰富，Emma 为您在中区提供高品质的舒压体验。她身高 162cm，将专业的按摩技巧与细腻的温情看护完美结合。她的 VIP 服务极具诚意，包含多 round 陪伴和多种特色私密技巧，是追求极致放松体验的不二之选。"
     },
     price: "$300 / 1h (VIP) · $200 / 1h · $160 / 30分钟",
-    services: ["洗澡", "带套口", "69", "吻", "按摩", "啪1次", "VIP: 无套口", "VIP: 口爆", "VIP: 毒龙", "VIP: 第2次"],
+    services: ["洗澡", "带套口", "69", "kiss", "按摩", "啪1次", "额外: 第二次(+$30)", "VIP: 无套口 口爆 毒龙 第2次"],
     gallery: [
       "/images/girls/emma/1.jpg",
       "/images/girls/emma/2.jpg",
@@ -497,7 +501,7 @@ export const girls = [
       cn: "青春洋溢、活力四射，Yuki 为中区的高端服务注入了崭新的气息。24岁的她将活泼的性格与专业的态度平衡得恰到好处。她的 VIP 级别服务非常全面，包含从各种制服诱惑到漫游、蛇吻等细腻技巧，致力于为您打造一场极具仪式感的私密盛宴。"
     },
     price: "$400 / 1h (VIP) · $320 / 1h",
-    services: ["陪浴", "带套口", "调情", "角色扮演", "制服", "丝袜", "做1次", "VIP: 水中萧", "VIP: 蛇吻", "VIP: 胸推", "VIP: 69", "VIP: 指滑", "VIP: 臀推", "VIP: 漫游", "VIP: 无套口", "VIP: 做2次"],
+    services: ["陪浴", "带套口", "调情", "角色扮演", "制服", "丝袜", "做1次", "VIP: 陪浴 水中萧 舌吻 胸推 69 指滑 臀推 漫游 制服诱惑 无套口 黑丝 配合各种姿势 做2次"],
     gallery: [
       "/images/girls/yuki/1.jpg",
       "/images/girls/yuki/2.jpg",
@@ -519,18 +523,18 @@ export const girls = [
       cup: "C",
       nationality: "Chinese"
     },
-    image: "/images/girls/lamb/1.jpg",
+    image: "/images/girls/lamb/4.jpg",
     description: {
-      en: "Sweet and gentle, Lamb is a tall and slender beauty in Central Auckland. At only 22, she offers an innocent and warm companionship. Her perfectly curved figure and smooth skin, combined with a sweet voice, create a deeply relaxing and unforgettable experience. She is known for her high level of cooperation and attentive service.",
-      cn: "温柔体贴、甜美可爱，小绵羊是中区一位高挑苗条的高颜值女孩。22岁的她展现出纯纯的小良家气质，声音软糯撩人。她拥有的极致身材与白皙滑嫩的肌肤，配合其极高的服务热情，将为您带来一场身心俱醉的梦幻体验。"
+      en: "Sweet and gentle, Lamb (Xiao Mian Yang) is the ultimate 'girl next door' beauty based in Central Auckland. With her soft, delicate voice and incredibly smooth skin, she offers an intimate experience that feels genuinely warm and professional. Her slender yet curvaceous 162cm frame and sweet personality ensure a high-end encounter that is both relaxed and deeply satisfying.",
+      cn: "小绵羊🐑😘温柔体贴甜甜可爱 纯纯小良家 声音嗲嗲的 刚下海不久 完美身材前凸后翘 皮肤光滑白嫩白嫩"
     },
     price: "$650 / 90min · $450 / 1h",
     services: ["无套口", "陪浴", "69", "蛇吻", "黑丝", "按摩", "做2次"],
     gallery: [
+      "/images/girls/lamb/4.jpg",
       "/images/girls/lamb/1.jpg",
       "/images/girls/lamb/2.jpg",
       "/images/girls/lamb/3.jpg",
-      "/images/girls/lamb/4.jpg",
       "/images/girls/lamb/5.jpg",
       "/images/girls/lamb/6.jpg"
     ]
@@ -551,11 +555,11 @@ export const girls = [
     image: "/images/girls/sweet/3.jpg",
     video: "/images/girls/sweet/video.mp4",
     description: {
-      en: "Sweet (Hao Tian) is a radiant and graceful beauty in Central Auckland. Standing at 166cm, she possesses an enviable figure with long legs and a slim waist. Her VIP service is exceptionally detailed, featuring a full range of intimate techniques like body slides, roleplay, and her signature flexibility (splits). She combines a professional massage with a playful, enchanting personality.",
-      cn: "郝甜是中区一位温婉动人、颜值极高的高端女孩。她身高166cm，长腿细腰，身材玲珑剔透。她的 VIP 服务极其细致入微，不仅包含漫游、蛇吻等细腻玩法，更拥有极佳的柔韧度（一字马）。她将专业的按摩技巧与其迷人的反差感完美融合，为您打造一场极具沉浸感的私密之约。"
+      en: "Sweet (Hao Tian) is an enchanting beauty in Central Auckland, known as a 'slender vixen' with legs for days and a tiny waist. She possesses a rare figure that looks slim but feels lush and incredibly smooth to the touch. Her signature flexibility and playful personality combine for a deeply immersive and unforgettable private experience.",
+      cn: "腿长腰细小妖精，看着显瘦，摸起有肉，绝佳手感。"
     },
     price: "$550 / 1h (VIP) · $450 / 1h",
-    services: ["一字马", "陪浴", "带套口", "调情", "角色扮演", "制服", "丝袜", "做1次", "VIP: 水中萧", "VIP: 蛇吻", "VIP: 胸推", "VIP: 69", "VIP: 指滑", "VIP: 臀推", "VIP: 漫游", "VIP: 无套口", "VIP: 做2次"],
+    services: ["一字马", "陪浴", "带套口", "调情", "角色扮演", "制服", "丝袜", "做1次", "VIP: 陪浴 水中萧 蛇吻 胸推 69 指滑 臀推 漫游 制服诱惑 无套口 黑丝 配合各种姿势 做2次"],
     gallery: [
       "/images/girls/sweet/3.jpg",
       "/images/girls/sweet/4.jpg",
@@ -586,7 +590,7 @@ export const girls = [
       cn: "身材娇小、活力十足，小英为您在中区提供极具特色的“莞式服务”。她身高 160cm，将专业的按摩技巧与细腻的温情看护完美结合，服务态度极佳。她的 VIP 套餐诚意满满，包含全方位的深度放松，并特别赠送拔火罐调理。她以亲切的个性和极高的配合度著称，致力于为您打造一场全身心放松的至臻体验。"
     },
     price: "$250 / 1h (VIP) · $220 / 30min (VIP) · $180 / 1h · $130 / 30分钟",
-    services: ["洗澡", "按摩", "无套口", "接吻", "做2次", "VIP: 莞式服务", "VIP: 拔火罐"],
+    services: ["洗澡", "按摩", "无套口", "接吻", "做2次", "VIP: 莞式服务", "免费赠送: 拔火罐"],
     gallery: [
       "/images/girls/ying/1.jpg",
       "/images/girls/ying/2.jpg",
@@ -619,7 +623,7 @@ export const girls = [
       cn: "明亮动人、极具魅力，思思为您在中区带来一场至臻感官盛宴。她身高 165cm，身材曼妙，擅长通过专业的感官按摩为您带来深度放松。她的 VIP 套餐配置豪华，包含一起洗澡、胸推漫游以及无套口等深度服务，并支持多次陪伴，让您尽享私密尊贵的悠闲时光。"
     },
     price: "$320 / 1h (VIP) · $220 / 1h · $180 / 30分钟",
-    services: ["接吻", "感官按摩", "69", "戴套口", "做1次", "VIP: 蛇吻", "VIP: 一起洗澡", "VIP: 胸推漫游", "VIP: 无套口", "VIP: 口爆", "VIP: 多次"],
+    services: ["接吻", "感官按摩", "69", "戴套吹", "啪一次", "VIP: 蛇吻 陪浴 胸推漫游 感官按摩 无套口 69 口爆 多次"],
     gallery: [
       "/images/girls/sisi/1.jpg",
       "/images/girls/sisi/2.jpg",
@@ -654,7 +658,7 @@ export const girls = [
       cn: "洋洋是中区一位笑容亲切、极具热情的资深女孩。她身高 160cm，主打高端“莞式服务”，以细腻入微的操作和极高的配合度深受好评。她的 VIP 套餐配置齐全，不仅包含全方位的贴心陪伴，还特别赠送拔火罐调理。她致力于为您打造一场全身心放松、极具沉浸感的至臻享受。"
     },
     price: "$250 / 1h (VIP) · $220 / 30min (VIP) · $180 / 1h · $130 / 30分钟",
-    services: ["洗澡", "按摩", "无套口", "接吻", "做2次", "VIP: 莞式服务", "VIP: 拔火罐"],
+    services: ["洗澡", "按摩", "无套口", "接吻", "做2次", "VIP: 莞式服务", "免费赠送: 拔火罐"],
     gallery: [
       "/images/girls/yang/1.jpg",
       "/images/girls/yang/2.jpg",
@@ -678,10 +682,10 @@ export const girls = [
     image: "/images/girls/aimi/2.jpg",
     description: {
       en: "Sweet and youthful, Aimi (Ai Mi) is a charming 2000-born beauty in Central Auckland. Standing at 162cm with a perfect C-cup figure, she offers an intimate experience focused on deep sensory relaxation. Her VIP service is exceptionally thorough, featuring a luxury bath together, romantic 'S-kiss' techniques, and multiple rounds. She is known for her warm energy and dedication to making every moment special.",
-      cn: "温婉可人、青春洋溢，爱米是一位来自 00 后的心动女孩。她身高 162cm，拥有完美的 C 杯身材，擅长通过细腻的感官按摩为您带来全方位的舒缓体验。她的 VIP 服务极其贴心周到，包含共同沐浴、缠绵蛇吻以及多次深度陪伴，让您在温馨惬意的氛围中尽享私密时光。"
+      cn: "温婉可人、青春洋溢，爱米是一位来自 00 后的心动女生。她身高 162cm，拥有完美的 C 杯身材，擅长通过细腻的感官按摩为您带来全方位的舒缓体验。她的 VIP 服务极其贴心周到，包含共同沐浴、缠绵蛇吻以及多次深度陪伴，让您在温馨惬意的氛围中尽享私密时光。"
     },
     price: "$320 / 1h (VIP) · $220 / 1h · $180 / 30分钟",
-    services: ["接吻", "感官按摩", "69", "戴套口", "做1次", "VIP: 蛇吻", "VIP: 一起洗澡", "VIP: 胸推漫游", "VIP: 无套口", "VIP: 口报", "VIP: 多次"],
+    services: ["接吻", "感官按摩", "69", "戴套口", "做1次", "VIP: 蛇吻 一起洗澡 胸推漫游 感光按摩 无套口 口爆 多次"],
     gallery: [
       "/images/girls/aimi/2.jpg",
       "/images/girls/aimi/1.jpg",
@@ -707,7 +711,7 @@ export const girls = [
     image: "/images/girls/blindbox/grid.jpg",
     description: {
       en: "Experience the thrill of the unknown with our 'Blind Box' special. For a flat rate of $360, you'll be paired with one of our high-quality surprise beauties in Central Auckland. This discounted package includes a full sensory session with a bath, romantic techniques, and a guaranteed second round. It's the perfect way to discover a new favorite at an exceptional value.",
-      cn: "开启您的心跳私密盲盒！仅需 $360 特惠价，您将随机邂逅一位我们在中区的高端宝藏女孩。盲盒包不仅包含温馨沐浴、缠绵蛇吻以及深度无套陪伴，更承诺两次云雨体验。在未知的惊喜中，以超值的价格邂逅您的下一位挚爱，尽享私密慢生活。"
+      cn: "开启您的心跳私密盲盒！仅需 $360 特惠价，您将随机选择一位我们在中区的高端宝藏女孩。盲盒包不仅包含温馨沐浴、缠绵蛇吻以及深度无套陪伴，更承诺两次云雨体验。在未知的惊喜中，以超值的价格选择您的下一位挚爱，尽享私密慢生活。"
     },
     price: "$360 / 特惠套餐 (2次)",
     services: ["陪浴", "蛇吻", "无套口", "69", "丝袜", "满2次"],
@@ -740,11 +744,7 @@ export const girls = [
       cn: "优雅大气、高挑迷人，羽西身高 170cm，拥有出众的 D 杯身材。她不仅擅长细腻缠绵的感官互动，如共浴、舌吻和漫游，更有专业的按摩以及专为男士打造的前列腺保养服务。无论是追求浪漫互动还是深度舒缓，她都能为您提供超预期的完美体验。她的 $320 VIP 套餐更包含制服诱惑、多次陪伴及无套深度陪伴，让您尽享丝滑奢宠。"
     },
     price: "$320 / 1h (VIP) · $240 / 1h · $200 / 30min · $160 / 1h (Half)",
-    services: [
-      "舌吻", "共浴", "漫游", "69", "水中萧", "2次", 
-      "半套: 专业按摩", "半套: 跪背", "半套: 唇滑/指滑", "半套: 前列腺保养", "半套: 胸推",
-      "VIP: 制服/黑丝", "VIP: 无套吹", "VIP: 毒龙/口莎/口爆"
-    ],
+    services: ["调情", "戴套口", "水中萧", "舌吻", "共浴", "漫游", "69", "可2次", "额外: 无套口 (+$20)", "VIP: 调情 舌吻 無套吹 共浴 制服 黑丝 专业按摩 爱爱 胸推 臀推 漫游 过水 口痧 水中萧 毒龙 口爆 可2次"],
     gallery: [
       "/images/girls/yuxi/1.jpg",
       "/images/girls/yuxi/2.jpg",
@@ -768,11 +768,11 @@ export const girls = [
     },
     image: "/images/girls/yumo/3.jpg",
     description: {
-      en: "Sweet and naturally stunning, Yumo is a 2002-born university undergraduate in Central Auckland. A 'Girl Next Door' with hidden talents in piano, calligraphy, and dance, she offers a rare blend of elegance and athletic flexibility. Her entire beauty is 100% natural. Known for her exceptional cooperation and warm energy, her sessions include romantic 'S-kiss' techniques, silk stockings, and a guaranteed second round for a truly complete experience.",
-      cn: "恬静温婉、气质非凡，语沫是一位来自 00 后的在读大学本科生。这位‘邻家妹妹’不仅多才多艺，擅长钢琴、书法和舞蹈，更拥有令人惊叹的一字马柔韧度。她全身天然、纯净无瑕，以极高的配合度和温柔的性格著称。她的服务极其丰满，涵盖了无套深度陪伴、缠绵蛇吻、丝袜诱惑以及双倍云雨体验（可2次），为您打造一段难以忘怀的艺术级私密时光。"
+      en: "Radiant and naturally stunning, Yumo is a 2002-born university undergraduate in Central Auckland. A 'Girl Next Door' with hidden talents in piano, calligraphy, and dance, she offers a rare blend of elegance and athletic flexibility. 100% natural and freshly available, she is known for her exceptional cooperation and sweet personality. Don't miss this limited-time opportunity to meet her.",
+      cn: "优点：颜值在线，甜妹，大学本科生在读🎓。钢琴🎹、书法、舞蹈💃、一字马，全身天然无科技。初下💦不久，绝对配合度极高，系邻家妹妹🤤。短期还在等什么🫶"
     },
     price: "$400 / 1h · $300 / 30min",
-    services: ["无套口", "全身漫游", "69", "蛇吻", "指滑", "丝袜", "水中萧", "按摩", "满2次", "额外: 口爆+$50"],
+    services: ["共浴", "无套口", "全身漫游", "69", "蛇吻", "指滑", "丝袜", "水中萧", "按摩", "第2次", "额外: 口爆(+$50)"],
     gallery: [
       "/images/girls/yumo/3.jpg",
       "/images/girls/yumo/2.jpg",
@@ -802,8 +802,8 @@ export const girls = [
     price: "$300 / 1h (VIP) · $220 / 1h · $180 / 30min",
     services: [
       "舌吻", "洗澡", "69", "带套口", "2次", 
-      "额外: 后花园+$150", "额外: 无套吹+$20", "额外: 口报+$40", "额外: 毒龙+$40",
-      "VIP 300: 无套口/口报/毒龙"
+      "额外: 后花园(+$150) 无套吹(+$20) 口报(+$40) 毒龙(+$40)",
+      "VIP: 无套口/口报/毒龙"
     ],
     gallery: [
       "/images/girls/may/1.jpg",
@@ -834,7 +834,7 @@ export const girls = [
     price: "$250 / 1h (VIP) · $170 / 1h · $140 / 30min",
     services: [
       "蛇吻", "抓龙筋 (专业按摩)", "69", "戴套口", "爱1次",
-      "VIP 250: 熊推/漫游/口报/多次", "VIP 250: 洗澡/专业保健"
+      "VIP: 舌吻 洗澡 胸推 漫游 按摩 无套口 69 口爆 多次"
     ],
     gallery: [
       "/images/girls/dajie/1.jpg",
@@ -867,7 +867,7 @@ export const girls = [
     price: "$250 / 1h (VIP) · $170 / 1h",
     services: [
       "接吻", "抓龙筋 (专业按摩)", "69", "戴套吹", "爱1次",
-      "VIP 250: 无套🍑 (圆满)", "VIP 250: 熊推/漫游", "VIP 250: 感官按摩", "VIP 250: 无套口/口报/多次"
+      "VIP: 舌吻 一起洗澡 胸推漫游 感官按摩 无套口 69 口爆 多次 可无套"
     ],
     gallery: [
       "/images/girls/shanshan/1.jpg",
