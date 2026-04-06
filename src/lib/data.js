@@ -19,7 +19,10 @@ export const girls = [
       cn: "国内空降，刚落地，新人，03年良家。舞蹈老师有证书，苗族人。高颜值身材苗条，纯天然，会一字马，钢琴，多才多艺。短期超短期。"
     },
     price: "$500/1h · $400/30min",
-    services: ["无套口", "69", "吻", "黑丝", "添蛋", "做1次", "额外：第二次(+$50)"],
+    services: {
+      en: ["Natural\u00A0BJ", "69", "Deep\u00A0kiss", "Black\u00A0stockings", "Ball\u00A0play", "1\u00A0shot", "Extra: 2nd\u00A0round (+$50)"],
+      cn: ["无套口", "69", "吻", "黑丝", "添蛋", "做1次", "额外：第二次(+$50)"]
+    },
     gallery: [
       "/images/girls/bp/2.jpg",
       "/images/girls/bp/3.jpg",
