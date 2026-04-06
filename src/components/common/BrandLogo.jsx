@@ -20,11 +20,9 @@ const BrandLogo = ({ className = "w-12 h-12" }) => {
         {/* Rose Gold Gradient Definition */}
         <defs>
           <linearGradient id="roseGold" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#F5D2C2" />
-            <stop offset="25%" stopColor="#E5B49D" />
-            <stop offset="50%" stopColor="#F84A88" />
-            <stop offset="75%" stopColor="#E5B49D" />
-            <stop offset="100%" stopColor="#D41E5D" />
+            <stop offset="0%" stopColor="#FF9E80" />
+            <stop offset="40%" stopColor="#F84A88" />
+            <stop offset="100%" stopColor="#B8004D" />
           </linearGradient>
           <filter id="aura">
             <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
@@ -35,8 +33,8 @@ const BrandLogo = ({ className = "w-12 h-12" }) => {
         <ellipse 
           cx="50" cy="18" rx="14" ry="4" 
           stroke="url(#roseGold)" 
-          strokeWidth="1.5" 
-          className="animate-pulse opacity-60"
+          strokeWidth="2" 
+          className="animate-pulse opacity-80"
         />
 
         {/* Heart Core - Sophisticated Tall Profile */}
@@ -50,16 +48,16 @@ const BrandLogo = ({ className = "w-12 h-12" }) => {
         <path 
           d="M38 35C20 15 2 25 2 55C2 72 15 84 35 84" 
           stroke="url(#roseGold)" 
-          strokeWidth="2.5" 
+          strokeWidth="3" 
           strokeLinecap="round"
-          className="opacity-40"
+          className="opacity-80"
         />
         <path 
           d="M62 35C80 15 98 25 98 55C98 72 85 84 65 84" 
           stroke="url(#roseGold)" 
-          strokeWidth="2.5" 
+          strokeWidth="3" 
           strokeLinecap="round"
-          className="opacity-40"
+          className="opacity-80"
         />
 
         {/* Inner Feather Details - Layer 2 (Jewelry Filigree Effect) */}

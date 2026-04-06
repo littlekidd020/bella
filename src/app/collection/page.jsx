@@ -17,27 +17,27 @@ export default function CollectionPage() {
     : girls.filter(m => m.location === activeFilter);
 
   return (
-    <main className="min-h-screen bg-[#3D0A1E] pt-44 transition-colors duration-700">
+    <main className="min-h-screen bg-[#FFE4EC] pt-44 transition-colors duration-700">
       {/* Erotic Header Banner */}
-      <header className="relative w-full h-[480px] md:h-[450px] flex flex-col justify-end -mt-32 mb-16 overflow-hidden border-b border-[#F84A88]/20 bg-[#15030A]">
+      <header className="relative w-full h-[480px] md:h-[450px] flex flex-col justify-end -mt-32 mb-16 overflow-hidden border-b border-[#F84A88]/20 bg-[#FFE4EC]">
         {/* Background Erotic Image */}
-        <div className="absolute inset-0 z-0 bg-black">
+        <div className="absolute inset-0 z-0 bg-[#FFE4EC]">
           <img 
-            src="/images/home-hero-bg.png" 
+            src="/images/header-bg-kawaii.png" 
             alt="Sensual Collection Background" 
-            className="w-full h-full object-cover object-center opacity-80"
+            className="w-full h-full object-cover object-center opacity-90"
           />
           {/* Top and Bottom gradient fade so it blends perfectly into the site */}
-          <div className="absolute inset-0 bg-gradient-to-b from-[#3D0A1E] via-[#3D0A1E]/30 to-[#3D0A1E]" />
-          <div className="absolute inset-0 bg-black/50" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#FFE4EC] via-[#FFE4EC]/30 to-[#FFE4EC]" />
+          <div className="absolute inset-0 bg-white/20" />
         </div>
 
         {/* Text Content */}
         <div className="relative z-10 flex flex-col items-center justify-center flex-1 px-4 mt-24 mb-12 max-w-4xl mx-auto w-full text-center">
-          <h1 className="text-4xl md:text-6xl font-serif text-[#F84A88] drop-shadow-[0_0_15px_rgba(248,74,136,0.5)] italic font-playfair tracking-wider">
+          <h1 className="text-4xl md:text-6xl font-serif text-[#F84A88] drop-shadow-[0_0_15px_rgba(248,74,136,0.3)] italic font-playfair tracking-wider">
             {t.nav.collection}
           </h1>
-          <p className="text-white/70 leading-relaxed font-sans text-xs md:text-sm mt-8 max-w-2xl mx-auto px-6">
+          <p className="text-[#15030A]/70 leading-relaxed font-sans text-xs md:text-sm mt-8 max-w-2xl mx-auto px-6">
             {activeFilter === "All" 
               ? t.grid.intro 
               : `${activeFilter === "All" ? (lang === "cn" ? "全部" : "All") : (t.girl.locations[activeFilter] || activeFilter)} ${t.nav.collection}`}
@@ -62,7 +62,7 @@ export default function CollectionPage() {
                 className={`px-6 py-2 rounded-full text-[10px] md:text-xs uppercase tracking-widest transition-all duration-500 font-bold border ${
                   activeFilter === loc 
                     ? "bg-[#F84A88] text-white border-[#F84A88] shadow-[0_0_15px_rgba(248,74,136,0.4)]" 
-                    : "bg-white/5 text-white/40 border-white/10 hover:border-[#F84A88]/40 hover:text-white/80"
+                    : "bg-white/40 text-[#15030A]/50 border-[#F84A88]/20 hover:border-[#F84A88]/40 hover:text-[#15030A] shadow-sm backdrop-blur-sm"
                 }`}
               >
                 {label}

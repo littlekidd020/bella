@@ -19,16 +19,16 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
           <h2 className="text-[11px] uppercase tracking-[0.4em] text-[#F84A88] mb-4 font-sans font-bold">
             {t.grid.newCollection}
           </h2>
-          <p className="text-3xl font-serif italic text-white/90 leading-relaxed font-playfair transition-all duration-700">
+          <p className="text-3xl font-serif italic text-[#15030A]/80 leading-relaxed font-playfair transition-all duration-700">
             {lang === "cn" ? (
               <>
                 我们精选了一系列优雅精致的高端模特，致力于为您提供艺术级的放松体验。
-                <Link href="/collection" className="text-[#F84A88] hover:text-white transition-all duration-300 ml-1 underline decoration-[#F84A88]/30 underline-offset-4">选择心动女生</Link>
+                <Link href="/collection" className="text-[#F84A88] hover:text-[#15030A] transition-all duration-300 ml-1 underline decoration-[#F84A88]/30 underline-offset-4">选择心动女生</Link>
               </>
             ) : (
               <>
                 A curated selection of the most sophisticated and refined talent, dedicated to the art of relaxation.
-                <Link href="/collection" className="text-[#F84A88] hover:text-white transition-all duration-300 ml-1 underline decoration-[#F84A88]/30 underline-offset-4">View all girls</Link>
+                <Link href="/collection" className="text-[#F84A88] hover:text-[#15030A] transition-all duration-300 ml-1 underline decoration-[#F84A88]/30 underline-offset-4">View all girls</Link>
               </>
             )}
           </p>

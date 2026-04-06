@@ -39,12 +39,12 @@ const GirlProfileOverlay = ({ model, onClose, onNext, onPrev }) => {
   const StatItem = ({ icon: Icon, label, value }) => {
     const displayValue = typeof value === 'string' ? value.replace("(Natural)", t.girl.natural) : value;
     return (
-      <div className="flex flex-col gap-2 p-4 rounded-xl bg-white/5 border border-white/10">
+      <div className="flex flex-col gap-2 p-4 rounded-xl bg-white/40 border border-white/60 shadow-sm backdrop-blur-sm">
         <div className="flex items-center gap-2 text-[#C5A059]">
           <Icon size={16} />
-          <span className="text-[10px] uppercase tracking-widest font-sans text-white/40">{label}</span>
+          <span className="text-[10px] uppercase tracking-widest font-sans text-[#15030A]/50">{label}</span>
         </div>
-        <p className="text-xl font-serif text-white font-playfair">{displayValue}</p>
+        <p className="text-xl font-serif text-[#15030A] font-playfair">{displayValue}</p>
       </div>
     );
   };
@@ -66,12 +66,12 @@ const GirlProfileOverlay = ({ model, onClose, onNext, onPrev }) => {
         animate={{ x: 0 }}
         exit={{ x: "100%" }}
         transition={{ type: "spring", damping: 25, stiffness: 200 }}
-        className="relative w-full sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl h-full bg-[#3D0A1E] border-l border-[#F84A88]/10 shadow-2xl flex flex-col pointer-events-auto"
+        className="relative w-full sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl h-full bg-[#FFE4EC] border-l border-[#F84A88]/10 shadow-2xl flex flex-col pointer-events-auto"
       >
         {/* Close Button */}
         <button 
           onClick={onClose}
-          className="absolute top-8 right-8 z-10 p-2 bg-[#2b0817]/60 hover:bg-black/60 rounded-full text-white/80 transition-all border border-white/10"
+          className="absolute top-8 right-8 z-10 p-2 bg-white/60 hover:bg-white/80 rounded-full text-[#15030A] transition-all border border-white/80 shadow-sm"
         >
           <X size={24} />
         </button>
@@ -84,26 +84,26 @@ const GirlProfileOverlay = ({ model, onClose, onNext, onPrev }) => {
             onClick={() => setSelectedImage(true)}
             className="w-full h-full object-cover object-top transition-transform duration-700 group-hover/profile:scale-110 cursor-zoom-in"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#3D0A1E] via-[#3D0A1E]/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#FFE4EC] via-[#FFE4EC]/40 to-transparent" />
           
           {/* Navigation Buttons */}
           <div className="absolute top-1/2 left-4 right-4 -translate-y-1/2 flex justify-between opacity-0 group-hover/profile:opacity-100 transition-opacity duration-300">
             <button 
               onClick={(e) => { e.stopPropagation(); onPrev(); }}
-              className="p-3 bg-[#2b0817]/60 backdrop-blur-xl border border-white/10 rounded-full text-white hover:bg-[#F84A88] transition-colors"
+              className="p-3 bg-white/60 backdrop-blur-xl border border-white/80 rounded-full text-[#15030A] hover:bg-[#F84A88] hover:text-white transition-colors shadow-sm"
             >
-              <ChevronLeft size={24} />
+               <ChevronLeft size={24} />
             </button>
             <button 
               onClick={(e) => { e.stopPropagation(); onNext(); }}
-              className="p-3 bg-[#2b0817]/60 backdrop-blur-xl border border-white/10 rounded-full text-white hover:bg-[#F84A88] transition-colors"
+              className="p-3 bg-white/60 backdrop-blur-xl border border-white/80 rounded-full text-[#15030A] hover:bg-[#F84A88] hover:text-white transition-colors shadow-sm"
             >
-              <ChevronRight size={24} />
+               <ChevronRight size={24} />
             </button>
           </div>
 
           <div className="absolute bottom-8 left-8">
-            <h2 className="text-5xl font-serif italic text-white mb-2 font-playfair">{model.name}</h2>
+            <h2 className="text-5xl font-serif italic text-[#15030A] mb-2 font-playfair">{model.name}</h2>
             <div className="flex items-center gap-3">
                <span className="h-2 w-2 rounded-full bg-[#F84A88]"></span>
                <span className="text-[10px] uppercase tracking-[0.3em] font-sans text-[#F84A88] font-bold">
@@ -145,9 +145,9 @@ const GirlProfileOverlay = ({ model, onClose, onNext, onPrev }) => {
                 const trimmedUnit = unit?.trim();
                 const translatedUnit = t.girl.units[trimmedUnit] || trimmedUnit;
                 return (
-                  <p key={i} className="text-2xl font-serif text-white font-playfair leading-tight flex items-baseline">
+                  <p key={i} className="text-2xl font-serif text-[#15030A] font-playfair leading-tight flex items-baseline">
                     {amount.trim()}
-                    <span className="text-sm uppercase tracking-widest font-sans text-white/40 italic ml-4">
+                    <span className="text-sm uppercase tracking-widest font-sans text-[#15030A]/50 italic ml-4">
                       / {unit ? translatedUnit : t.girl.perHour.replace("/", "").trim()}
                     </span>
                   </p>
@@ -160,7 +160,7 @@ const GirlProfileOverlay = ({ model, onClose, onNext, onPrev }) => {
             <h4 className="text-[10px] uppercase tracking-widest text-[#F84A88] font-bold font-sans flex items-center gap-2">
               <Sparkles size={10} className="text-[#F84A88]" /> {t.girl.services || "Services"}
             </h4>
-            <div className="flex flex-wrap gap-x-2 gap-y-1 text-white/80 leading-relaxed font-sans text-base">
+            <div className="flex flex-wrap gap-x-2 gap-y-1 text-[#15030A]/80 leading-relaxed font-sans text-base">
               {(() => {
                 if (!model.services) return null;
                 const main = [];
@@ -197,7 +197,7 @@ const GirlProfileOverlay = ({ model, onClose, onNext, onPrev }) => {
                             <span className="whitespace-normal break-words">
                               {s.includes('(') ? s.split(',').join(', ') : s}
                             </span>
-                            {showDot && <span className="mx-2 text-white/30 inline-block">·</span>}
+                            {showDot && <span className="mx-2 text-[#15030A]/30 inline-block">·</span>}
                           </span>
                         );
                       })}
@@ -210,7 +210,7 @@ const GirlProfileOverlay = ({ model, onClose, onNext, onPrev }) => {
 
           <div className="space-y-4">
             <h4 className="text-[10px] uppercase tracking-widest text-[#F84A88] font-bold font-sans">{t.girl.about}</h4>
-            <p className="text-white/70 leading-relaxed font-sans text-sm">
+            <p className="text-[#15030A]/70 leading-relaxed font-sans text-sm">
               {model.description || "A dedicated professional offering a personalized and refined experience. Expertly trained in various techniques to ensure your absolute relaxation and satisfaction."}
             </p>
           </div>
@@ -229,7 +229,7 @@ const GirlProfileOverlay = ({ model, onClose, onNext, onPrev }) => {
             <a 
               href={`https://t.me/LOVE0225391339?text=Inquiry for ${model.name}`}
               target="_blank"
-              className="flex items-center justify-center gap-3 w-full py-4 bg-white/5 border border-white/10 text-white rounded-xl hover:bg-white/10 transition-colors"
+              className="flex items-center justify-center gap-3 w-full py-4 bg-white/60 border border-white/80 text-[#15030A] rounded-xl hover:bg-white/80 transition-colors shadow-sm"
             >
               <Send size={18} />
               <span className="text-xs uppercase tracking-[0.2em] font-bold font-sans">{t.girl.telegram}</span>

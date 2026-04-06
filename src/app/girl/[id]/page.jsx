@@ -28,12 +28,12 @@ import ImageModal from "@/components/common/ImageModal";
 const StatItem = ({ icon: Icon, label, value, t }) => {
   const displayValue = typeof value === 'string' ? value.replace("(Natural)", t.girl.natural) : value;
   return (
-    <div className="flex flex-col gap-2 p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-[#F84A88]/30 transition-colors">
+    <div className="flex flex-col gap-2 p-6 rounded-2xl bg-white/40 border border-white/60 shadow-sm backdrop-blur-sm hover:border-[#F84A88]/50 transition-colors">
       <div className="flex items-center gap-2 text-[#C5A059]">
         <Icon size={18} className="text-[#F84A88]" />
-        <span className="text-xs uppercase tracking-widest font-sans text-white/40">{label}</span>
+        <span className="text-xs uppercase tracking-widest font-sans text-[#15030A]/50">{label}</span>
       </div>
-      <p className="text-2xl font-serif text-white font-playfair">{displayValue}</p>
+      <p className="text-2xl font-serif text-[#15030A] font-playfair">{displayValue}</p>
     </div>
   );
 };
@@ -58,7 +58,7 @@ export default function GirlDetailsPage() {
     }
   }, [id, router]);
 
-  if (!model) return <div className="min-h-screen bg-[#3D0A1E]" />;
+  if (!model) return <div className="min-h-screen bg-[#FFE4EC]" />;
 
   const isAvailable = model.status === "available";
   const allImages = model ? [model.image, ...(model.gallery || [])] : [];
@@ -72,11 +72,11 @@ export default function GirlDetailsPage() {
   const prevImage = () => setImageIdx((prev) => (prev - 1 + allImages.length) % allImages.length);
 
   return (
-    <main className="min-h-screen bg-[#3D0A1E] pb-32">
+    <main className="min-h-screen bg-[#FFE4EC] pb-32">
       {/* Back Button */}
       <button 
         onClick={() => router.back()}
-        className="fixed top-24 left-8 z-50 p-3 bg-[#2b0817]/60 backdrop-blur-xl border border-white/10 rounded-full text-white hover:bg-[#F84A88] transition-colors"
+        className="fixed top-24 left-8 z-50 p-3 bg-white/60 backdrop-blur-xl border border-white/80 shadow-sm rounded-full text-[#15030A] hover:bg-white/80 hover:text-[#15030A] transition-colors"
       >
         <ArrowLeft size={24} />
       </button>
@@ -94,14 +94,14 @@ export default function GirlDetailsPage() {
             transition={{ duration: 0.6 }}
           >
             {model.location && (
-              <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-[#F84A88]/40 px-4 py-1.5 rounded-full mb-6 shadow-[0_0_20px_rgba(248,74,136,0.2)]">
+              <div className="inline-flex items-center gap-2 bg-white/60 backdrop-blur-md border border-[#F84A88]/30 px-4 py-1.5 rounded-full mb-6 shadow-sm">
                 <MapPin size={14} className="text-[#F84A88]" />
-                <span className="text-[10px] uppercase tracking-widest font-sans text-white/90 font-bold">
+                <span className="text-[10px] uppercase tracking-widest font-sans text-[#15030A]/90 font-bold">
                   {t.girl.locations[model.location] || model.location}
                 </span>
               </div>
             )}
-            <h1 className="text-6xl md:text-8xl font-serif text-white italic font-playfair tracking-wide mb-4 relative inline-block">
+            <h1 className="text-6xl md:text-8xl font-serif text-[#15030A] italic font-playfair tracking-wide mb-4 relative inline-block">
               {model.name[lang] || model.name.en}
               {isAvailable && (
                 <span className="absolute -top-2 -right-6 flex h-4 w-4">
@@ -120,7 +120,7 @@ export default function GirlDetailsPage() {
               <h4 className="text-[10px] uppercase tracking-widest text-[#F84A88] font-bold font-sans flex items-center gap-2">
                 <MessageCircle size={10} fill="#F84A88" className="text-[#F84A88]"/> {t.girl.about}
               </h4>
-              <p className="text-white/70 leading-relaxed font-sans text-base tracking-wide border-l-2 border-[#F84A88]/40 pl-4 py-1">
+              <p className="text-[#15030A]/70 leading-relaxed font-sans text-base tracking-wide border-l-2 border-[#F84A88]/40 pl-4 py-1">
                 {model.description && typeof model.description === 'object' ? (model.description[lang] || model.description.en) : (model.description || "A dedicated professional offering a personalized and refined experience. Expertly trained in various techniques to ensure your absolute relaxation and satisfaction.")}
               </p>
             </div>
@@ -135,7 +135,7 @@ export default function GirlDetailsPage() {
           </div>
 
           {/* Price & Services Block */}
-          <div className="p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl relative overflow-hidden group">
+          <div className="p-8 rounded-3xl bg-white/40 border border-white/60 shadow-sm backdrop-blur-xl relative overflow-hidden group">
             <div className="absolute top-0 right-0 w-64 h-64 bg-[#F84A88]/10 blur-3xl rounded-full -translate-y-1/2 translate-x-1/2 transition-transform duration-700 group-hover:scale-150" />
             
             <div className="relative space-y-8">
@@ -151,9 +151,9 @@ export default function GirlDetailsPage() {
                     const trimmedUnit = unit?.trim();
                     const translatedUnit = t.girl.units[trimmedUnit] || trimmedUnit;
                     return (
-                      <p key={i} className="text-4xl font-serif text-white font-playfair leading-tight flex items-baseline">
+                      <p key={i} className="text-4xl font-serif text-[#15030A] font-playfair leading-tight flex items-baseline">
                         {amount.trim()}
-                        <span className="text-base uppercase tracking-widest font-sans text-white/40 italic ml-4">
+                        <span className="text-base uppercase tracking-widest font-sans text-[#15030A]/50 italic ml-4">
                           / {unit ? translatedUnit : t.girl.perHour.replace("/", "").trim()}
                         </span>
                       </p>
@@ -162,13 +162,13 @@ export default function GirlDetailsPage() {
                 </div>
               </div>
 
-              <div className="w-full h-px bg-white/10" />
+              <div className="w-full h-px bg-[#F84A88]/20" />
 
               <div>
                 <h4 className="text-[10px] uppercase tracking-widest text-[#F84A88] font-bold font-sans flex items-center gap-2 mb-4">
                   <Sparkles size={12} className="text-[#F84A88]" /> {t.girl.services || "Featured Services"}
                 </h4>
-                <div className="flex flex-wrap gap-x-2 gap-y-1 text-white/80 leading-relaxed font-sans text-base">
+                <div className="flex flex-wrap gap-x-2 gap-y-1 text-[#15030A]/80 leading-relaxed font-sans text-base">
                   {(() => {
                     if (!model.services) return null;
                     const main = [];
@@ -205,7 +205,7 @@ export default function GirlDetailsPage() {
                                 <span className="whitespace-normal break-words">
                                   {s.includes('(') ? s.split(',').join(', ') : s}
                                 </span>
-                                {showDot && <span className="mx-2 text-white/30 inline-block">·</span>}
+                                {showDot && <span className="mx-2 text-[#15030A]/30 inline-block">·</span>}
                               </span>
                             );
                           })}
@@ -237,7 +237,7 @@ export default function GirlDetailsPage() {
 
         {/* Right Column: Photo Gallery */}
         <div className="lg:col-span-8 space-y-8 mt-16 lg:mt-0">
-          <h3 className="text-2xl font-serif text-white italic font-playfair tracking-wide border-b border-white/10 pb-4">
+          <h3 className="text-2xl font-serif text-[#15030A] italic font-playfair tracking-wide border-b border-[#F84A88]/20 pb-4">
             {t.girl.portfolio}
           </h3>
           
@@ -278,11 +278,11 @@ export default function GirlDetailsPage() {
         initial={{ y: 100 }}
         animate={{ y: 0 }}
         transition={{ delay: 0.5 }}
-        className="fixed bottom-0 left-0 w-full z-50 bg-[#3D0A1E]/90 backdrop-blur-2xl border-t border-white/10 p-4 md:p-6"
+        className="fixed bottom-0 left-0 w-full z-50 bg-[#FFE4EC]/90 backdrop-blur-2xl border-t border-[#F84A88]/20 p-4 md:p-6"
       >
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="hidden md:block">
-            <p className="font-serif italic text-white text-xl">{model.name[lang] || model.name.en}</p>
+            <p className="font-serif italic text-[#15030A] text-xl">{model.name[lang] || model.name.en}</p>
             <p className="text-[10px] text-[#F84A88] uppercase tracking-widest font-bold">{t.girl.availableToBook}</p>
           </div>
           
@@ -307,7 +307,7 @@ export default function GirlDetailsPage() {
             <a 
               href={`https://t.me/boutiquecollection?text=Inquiry for ${model.name.en}`}
               target="_blank"
-              className="flex items-center justify-center p-4 bg-white/5 border border-white/10 text-white rounded-xl hover:bg-white/10 transition-colors"
+              className="flex items-center justify-center p-4 bg-white/60 border border-white/80 text-[#15030A] shadow-sm rounded-xl hover:bg-white/80 transition-colors"
             >
               <Send size={18} />
             </a>

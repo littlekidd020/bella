@@ -22,13 +22,13 @@ const WeChatQRModal = ({ isOpen, onClose }) => {
             initial={{ scale: 0.9, opacity: 0, y: 20 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0.9, opacity: 0, y: 20 }}
-            className="relative max-w-sm w-full bg-[#260613] border border-white/10 rounded-[2rem] overflow-hidden shadow-[0_0_100px_rgba(248,74,136,0.3)]"
+            className="relative max-w-sm w-full bg-white border border-[#F84A88]/20 rounded-[2rem] overflow-hidden shadow-[0_0_50px_rgba(248,74,136,0.15)]"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Header */}
             <div className="p-6 pb-2 flex justify-between items-start">
               <div>
-                <h3 className="font-serif italic text-2xl text-white mb-1">
+                <h3 className="font-serif italic text-2xl text-[#15030A] mb-1">
                   {t.nav.brand}: WeChat
                 </h3>
                 <p className="text-[10px] uppercase tracking-[0.2em] text-[#F84A88] font-bold">
@@ -37,7 +37,7 @@ const WeChatQRModal = ({ isOpen, onClose }) => {
               </div>
               <button 
                 onClick={onClose}
-                className="p-2 hover:bg-white/5 rounded-full transition-colors text-white/40 hover:text-white"
+                className="p-2 hover:bg-[#F84A88]/10 rounded-full transition-colors text-[#15030A]/40 hover:text-[#15030A]"
               >
                 <X size={20} />
               </button>
@@ -45,7 +45,7 @@ const WeChatQRModal = ({ isOpen, onClose }) => {
 
             {/* QR Card */}
             <div className="p-6">
-              <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl relative bg-white/5">
+              <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-sm relative bg-white/50 border border-[#F84A88]/10">
                 <img 
                   src="/images/wechat-qr.png" 
                   alt="WeChat QR Code" 
@@ -56,7 +56,7 @@ const WeChatQRModal = ({ isOpen, onClose }) => {
 
             {/* Footer */}
             <div className="p-6 pt-0 text-center">
-               <p className="text-white/60 text-xs font-sans leading-relaxed">
+               <p className="text-[#15030A]/60 text-xs font-sans leading-relaxed">
                  Scan this QR code with your WeChat app <br/> to connect with our concierge directly.
                </p>
             </div>

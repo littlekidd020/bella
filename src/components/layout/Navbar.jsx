@@ -22,37 +22,37 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 w-full z-[70] flex flex-col transition-all duration-500">
       {/* Opening Hours Top Bar */}
-      <div className={`flex justify-center py-4 border-b border-white/5 transition-colors duration-500 ${scrolled ? 'bg-[#260613]/90 backdrop-blur-md' : 'bg-[#15030A]/60 backdrop-blur-sm'}`}>
-        <span className="text-xs md:text-sm uppercase tracking-[0.3em] font-sans font-bold text-[#F84A88]/90">
+      <div className={`flex justify-center py-4 border-b border-white/5 transition-colors duration-500 ${scrolled ? 'bg-white/70 backdrop-blur-md' : 'bg-[#FFE4EC]/60 backdrop-blur-sm'}`}>
+        <span className="text-xs md:text-sm uppercase tracking-[0.3em] font-sans font-bold text-[#F84A88]">
           {t.nav.hours}
         </span>
       </div>
 
       <nav className={`w-full px-8 py-6 md:py-8 flex items-center justify-between transition-all duration-500 ${
-        scrolled ? "bg-[#3D0A1E]/90 backdrop-blur-xl border-b border-white/5 shadow-2xl" : "bg-transparent md:py-10"
+        scrolled ? "bg-[#FFE4EC]/90 backdrop-blur-xl border-b border-white/5 shadow-2xl" : "bg-transparent md:py-10"
       }`}>
       <Link href="/" className="flex items-center gap-3 group">
         <div className="relative w-10 h-10 md:w-12 md:h-12">
           <BrandLogo className="w-full h-full" />
         </div>
         <div className="flex flex-col">
-          <span className="text-xl md:text-2xl font-serif text-[#F84A88] tracking-[0.15em] uppercase italic font-playfair leading-none">
+          <span className="text-xl md:text-2xl font-serif text-[#15030A] tracking-[0.15em] uppercase italic font-playfair leading-none font-semibold">
             {lang === "cn" ? "天使" : "Angel"} 
           </span>
-          <span className="text-xl md:text-2xl font-serif text-white/90 tracking-[0.15em] uppercase italic font-playfair leading-none mt-1 group-hover:text-[#F84A88] transition-colors duration-500">
+          <span className="text-xl md:text-2xl font-serif text-[#15030A]/80 tracking-[0.15em] uppercase italic font-playfair leading-none mt-1 group-hover:text-[#F84A88] transition-colors duration-500">
             {lang === "cn" ? "小可爱" : "Cuties"}
           </span>
         </div>
       </Link>
       
       {/* Desktop Links & Lang Toggle */}
-      <div className="hidden md:flex items-center gap-12 text-sm uppercase tracking-[0.2em] font-sans text-white/70">
+      <div className="hidden md:flex items-center gap-12 text-sm uppercase tracking-[0.2em] font-sans text-[#15030A]/80 font-semibold">
         <Link href="/collection" className="hover:text-[#F84A88] transition-colors tracking-widest">{t.nav.collection}</Link>
         <Link href="/contact-us" className="hover:text-[#F84A88] transition-colors tracking-widest">{t.nav.concierge}</Link>
         
         <button 
           onClick={toggleLang}
-          className="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-full hover:bg-[#F84A88]/10 hover:border-[#F84A88]/40 transition-all text-white/90 group"
+          className="flex items-center gap-2 px-4 py-2 bg-[#F84A88]/5 border border-[#F84A88]/20 rounded-full hover:bg-[#F84A88]/10 hover:border-[#F84A88]/40 transition-all text-[#15030A] group"
         >
           <Globe size={16} className="text-[#F84A88]" />
           <span className="font-bold">{lang === "cn" ? "EN" : "中文"}</span>
@@ -62,7 +62,7 @@ const Navbar = () => {
       <div className="flex items-center gap-4 md:hidden">
         <button 
           onClick={toggleLang}
-          className="flex items-center gap-2 px-4 py-1.5 bg-white/5 border border-white/10 rounded-full text-xs font-bold text-white/90"
+          className="flex items-center gap-2 px-4 py-1.5 bg-[#F84A88]/5 border border-[#F84A88]/20 rounded-full text-xs font-bold text-[#15030A]"
         >
           {lang === "cn" ? "EN" : "中文"}
         </button>
@@ -76,12 +76,12 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile Menu Overlay */}
-      <div className={`fixed inset-0 bg-[#15030A]/95 backdrop-blur-2xl z-[75] transition-all duration-500 flex flex-col items-center justify-center gap-12 ${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
+      <div className={`fixed inset-0 bg-[#FFE4EC]/95 backdrop-blur-2xl z-[75] transition-all duration-500 flex flex-col items-center justify-center gap-12 ${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
         <div className="flex flex-col items-center gap-8 text-2xl font-serif tracking-widest italic font-playfair">
-          <Link href="/collection" onClick={() => setIsOpen(false)} className="text-white hover:text-[#F84A88] transition-colors">
+          <Link href="/collection" onClick={() => setIsOpen(false)} className="text-[#15030A] hover:text-[#F84A88] transition-colors">
             {t.nav.collection}
           </Link>
-          <Link href="/contact-us" onClick={() => setIsOpen(false)} className="text-white hover:text-[#F84A88] transition-colors">
+          <Link href="/contact-us" onClick={() => setIsOpen(false)} className="text-[#15030A] hover:text-[#F84A88] transition-colors">
             {t.nav.concierge}
           </Link>
         </div>
@@ -96,7 +96,7 @@ const Navbar = () => {
 
         <button 
           onClick={() => setIsOpen(false)}
-          className="mt-12 text-white/30 text-xs uppercase tracking-[0.5em] font-sans font-bold hover:text-white transition-colors"
+          className="mt-12 text-[#15030A]/50 text-xs uppercase tracking-[0.5em] font-sans font-bold hover:text-[#15030A] transition-colors"
         >
           CLOSE [X]
         </button>
