@@ -167,9 +167,11 @@ const GirlProfileOverlay = ({ model, onClose, onNext, onPrev }) => {
                 const extra = [];
                 const vip = [];
                 
-                model.services.forEach(group => {
-                  if (group.startsWith("VIP:")) vip.push(group);
-                  else if (group.includes("额外")) extra.push(group);
+                const services = model.services ? (Array.isArray(model.services) ? model.services : (model.services[lang] || model.services.en || [])) : [];
+
+                services.forEach(group => {
+                  if (group.startsWith("VIP:") || group.startsWith("VIP：")) vip.push(group);
+                  else if (group.includes("额外") || group.startsWith("Extra:") || group.startsWith("Extra：") || group.startsWith("Extra ") || group.startsWith("Note:") || group.startsWith("Note：")) extra.push(group);
                   else if (group.startsWith("免费赠送:")) extra.push(group);
                   else main.push(group);
                 });
@@ -178,22 +180,24 @@ const GirlProfileOverlay = ({ model, onClose, onNext, onPrev }) => {
                 
                 return sortedGroups.map((group, groupIdx, groups) => {
                   const servicesInGroup = group.split(" ");
-                  const isVipGroup = group.startsWith("VIP:");
-                  const isExtraGroup = group.includes("额外") || group.startsWith("免费赠送:");
+                  const isVipGroup = group.startsWith("VIP:") || group.startsWith("VIP：");
+                  const isExtraGroup = group.includes("额外") || group.startsWith("免费赠送:") || group.startsWith("Extra:") || group.startsWith("Extra：") || group.startsWith("Extra ") || group.startsWith("Note:") || group.startsWith("Note：");
                   
                   return (
                     <React.Fragment key={groupIdx}>
                       {(isVipGroup || isExtraGroup) && <div className="w-full h-0" />}
                       {servicesInGroup.map((s, sIdx) => {
                         const isLastInGroup = sIdx === servicesInGroup.length - 1;
-                        const isNextGroupOnSameLine = groupIdx < groups.length - 1 && !groups[groupIdx+1].startsWith("VIP:") && !groups[groupIdx+1].includes("额外") && !groups[groupIdx+1].startsWith("免费赠送:");
+                        const isNextGroupOnSameLine = groupIdx < groups.length - 1 && !groups[groupIdx+1].startsWith("VIP:") && !groups[groupIdx+1].includes("额外") && !groups[groupIdx+1].startsWith("免费赠送:") && !groups[groupIdx+1].startsWith("Note:") && !groups[groupIdx+1].startsWith("Note：");
                         
                         const showDot = (!isLastInGroup && !s.endsWith(":") && !s.endsWith("：")) || (isLastInGroup && isNextGroupOnSameLine);
                         
                         return (
-                          <span key={`${groupIdx}-${sIdx}`} className="flex items-center">
-                            {s}
-                            {showDot && <span className="ml-2 text-white/30">·</span>}
+                          <span key={`${groupIdx}-${sIdx}`} className="inline max-w-full">
+                            <span className="whitespace-normal break-words">
+                              {s.includes('(') ? s.split(',').join(', ') : s}
+                            </span>
+                            {showDot && <span className="mx-2 text-white/30 inline-block">·</span>}
                           </span>
                         );
                       })}
