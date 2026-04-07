@@ -50,7 +50,7 @@ export default function ContactBanner() {
         </div>
 
         {/* Slogan */}
-        <div className="flex flex-col text-center md:text-right justify-center shrink-0 md:pl-4 mb-4 md:mb-0">
+        <div className="hidden md:flex flex-col text-center md:text-right justify-center shrink-0 md:pl-4 mb-4 md:mb-0">
            <p className="text-[10px] md:text-xl font-black tracking-[0.3em] md:tracking-[0.5em] leading-none mb-1.5 drop-shadow-md text-white/90">
              {t.banner?.slogan1 || "品 味 顶 奢 之 夜"}
            </p>

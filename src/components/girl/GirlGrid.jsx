@@ -12,26 +12,26 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
   const displayedGirls = limit ? girls.slice(0, limit) : girls;
 
   return (
-    <section className="px-8 pb-24 max-w-7xl mx-auto mt-12 md:mt-16">
+    <section className="px-8 pb-24 max-w-7xl mx-auto mt-4 md:mt-16">
       {/* Intro Text */}
       {showIntro && (
-        <div className="mb-12 md:mb-16 text-center max-w-2xl mx-auto flex flex-col items-center">
-          <p className="text-2xl font-serif italic text-[#15030A]/80 leading-relaxed font-playfair transition-all duration-700">
+        <div className="mb-6 md:mb-16 text-center max-w-2xl mx-auto flex flex-col items-center">
+          <p className="hidden md:block text-2xl font-serif italic text-[#15030A]/80 leading-relaxed font-playfair transition-all duration-700">
             {lang === "cn" ? (
               "推门而入，喧嚣在外，这里是身份与品味的无声共鸣，不为喧宾夺主，只为让身处其中的每一个人，都能找到属于自己的——。"
             ) : (
               "A curated selection of the most sophisticated and refined talent, dedicated to the art of relaxation."
             )}
           </p>
-          <div className="mt-10 mb-2">
+          <div className="mt-0 md:mt-10 mb-2 w-full flex justify-center px-4">
             <Link 
               href="/collection" 
-              className="inline-block border border-[#F84A88]/80 text-[#F84A88] px-10 py-3 md:px-12 md:py-3.5 text-sm tracking-[0.4em] font-sans font-bold hover:bg-[#F84A88]/5 transition-colors duration-300"
+              className="inline-block text-center border border-[#F84A88]/80 text-[#F84A88] w-full max-w-[300px] md:max-w-[340px] py-3.5 md:py-4 text-base tracking-[0.4em] md:tracking-[0.5em] font-sans font-bold hover:bg-[#F84A88]/5 transition-colors duration-300"
             >
               {lang === "cn" ? "选 择 心 动 女 生" : "VIEW COLLECTION"}
             </Link>
           </div>
-          <h2 className="text-lg md:text-xl uppercase tracking-[0.3em] text-[#F84A88] mt-12 md:mt-16 font-sans font-bold drop-shadow-sm">
+          <h2 className="text-lg md:text-xl uppercase tracking-[0.3em] text-[#F84A88] mt-8 md:mt-16 font-sans font-bold drop-shadow-sm">
             {t.grid.newCollection}
           </h2>
         </div>

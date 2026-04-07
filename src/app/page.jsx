@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#FFE4EC] overflow-x-hidden pt-44 transition-all duration-700">
       {/* Cinematic Erotic Hero Banner */}
-      <header className="relative w-full h-[350px] md:h-[400px] flex flex-col justify-end -mt-32 mb-12 overflow-hidden">
+      <header className="relative w-full h-[270px] md:h-[400px] flex flex-col justify-end -mt-32 mb-12 overflow-hidden">
         {/* Background Sensual Image */}
         <div className="absolute inset-0 z-0 bg-[#FFE4EC]">
           <img 

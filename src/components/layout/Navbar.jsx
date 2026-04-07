@@ -22,14 +22,14 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 w-full z-[70] flex flex-col transition-all duration-500">
       {/* Opening Hours Top Bar */}
-      <div className={`flex justify-center py-4 border-b border-white/5 transition-colors duration-500 ${scrolled ? 'bg-white/70 backdrop-blur-md' : 'bg-[#FFE4EC]/60 backdrop-blur-sm'}`}>
-        <span className="text-xs md:text-sm uppercase tracking-[0.3em] font-sans font-bold text-[#F84A88]">
+      <div className={`flex justify-center py-1.5 md:py-3 border-b border-white/5 transition-colors duration-500 ${scrolled ? 'bg-white/70 backdrop-blur-md' : 'bg-[#FFE4EC]/60 backdrop-blur-sm'}`}>
+        <span className="text-[10px] md:text-sm uppercase tracking-[0.2em] md:tracking-[0.3em] font-sans font-bold text-[#F84A88] text-center px-4">
           {t.nav.hours}
         </span>
       </div>
 
-      <nav className={`w-full px-8 py-6 md:py-8 flex items-center justify-between transition-all duration-500 ${
-        scrolled ? "bg-white/70 backdrop-blur-md border-b border-white/20 shadow-2xl" : "bg-transparent md:py-10"
+      <nav className={`w-full px-6 md:px-8 py-4 md:py-8 flex items-center justify-between transition-all duration-500 ${
+        scrolled ? "bg-white/70 backdrop-blur-md border-b border-white/20 shadow-2xl md:py-4" : "bg-transparent md:py-10"
       }`}>
       <Link href="/" className="flex items-center gap-3 group">
         <div className="relative w-10 h-10 md:w-12 md:h-12">
