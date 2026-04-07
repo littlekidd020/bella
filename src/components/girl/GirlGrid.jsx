@@ -22,7 +22,7 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
           <p className="text-3xl font-serif italic text-[#15030A]/80 leading-relaxed font-playfair transition-all duration-700">
             {lang === "cn" ? (
               <>
-                我们精选了一系列优雅精致的高端模特，致力于为您提供艺术级的放松体验。
+                推门而入，喧嚣在外，这里是身份与品味的无声共鸣，不为喧宾夺主，只为让身处其中的每一个人，都能找到属于自己的——。
                 <Link href="/collection" className="text-[#F84A88] hover:text-[#15030A] transition-all duration-300 ml-1 underline decoration-[#F84A88]/30 underline-offset-4">选择心动女生</Link>
               </>
             ) : (

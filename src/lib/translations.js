@@ -26,7 +26,7 @@ export const translations = {
     },
     grid: {
       newCollection: "最新女孩",
-      intro: "我们精选了一系列优雅精致的高端模特，致力于为您提供艺术级的放松体验。",
+      intro: "推门而入，喧嚣在外，这里是身份与品味的无声共鸣，不为喧宾夺主，只为让身处其中的每一个人，都能找到属于自己的——。",
       standard: "精品标准",
       desc: "我们的女孩均经过严格筛选，确保服务质量、性格与专业度。所有档案均经过真人实拍审核，并提供高端服务保障。",
       verification: "真人实拍审核",
@@ -110,7 +110,7 @@ export const translations = {
     },
     ageGate: {
       welcome: "欢迎光临",
-      message: "欢迎来到 天使小可爱。在这里，尊贵感为您开启！步入专属的极致休闲时刻，品味倾城绝色，纵享顶奢之夜。放松身心，让我们为您缔造非凡。",
+      message: "欢迎来到 天使小可爱。真正的圈层领地，无需喧哗。我们以低调的质感、克制的细节，为懂生活的人留一处私属天地。",
       buttonEn: "I'M OVER 18",
       buttonCn: "我年满18周岁",
       footer: "© 2026 ANGEL CUTIES COLLECTION. 版权所有。"
