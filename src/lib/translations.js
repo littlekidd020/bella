@@ -5,7 +5,7 @@ export const translations = {
       concierge: "联系我们",
       account: "会员中心",
       brand: "天使小可爱",
-      hours: "营业时间：11:00 AM - 1:00 AM"
+      hours: "营业时间：早上10点 - 晚上12点"
     },
     hero: {
       title: "天使小可爱",
@@ -122,7 +122,7 @@ export const translations = {
       concierge: "Contact us",
       account: "Account",
       brand: "Angel Cuties",
-      hours: "Hours: 11:00 AM - 1:00 AM"
+      hours: "Hours: 10:00 AM - 12:00 AM"
     },
     hero: {
       title: "Angel Cuties",

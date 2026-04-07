@@ -40,8 +40,8 @@ const AgeGate = ({ children }) => {
                  initial={{ scale: 1.15 }}
                  animate={{ scale: 1.05 }}
                  transition={{ duration: 20, repeat: Infinity, repeatType: "reverse", ease: "linear" }}
-                 src="/images/landing-bg-custom.png" 
-                 className="w-full h-full object-cover object-top opacity-85 mix-blend-luminosity"
+                 src="/images/landing-bg-erotic-new.jpg" 
+                 className="w-full h-full object-cover object-center opacity-85 mix-blend-luminosity"
                  alt="Luxury Entry"
                />
                <div className="absolute inset-0 bg-[#F84A88]/5 mix-blend-color" />
