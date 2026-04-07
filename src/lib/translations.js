@@ -82,7 +82,7 @@ export const translations = {
       services: "服务内容"
     },
     concierge: {
-      title: "高端客服经理",
+      title: "联系我们",
       subtitle: "从初次咨询到最终的放松时刻，我们的专属客服团队将为您提供丝滑、隐秘且高端的服务体验。",
       feat1Title: "一周7天全天候在线",
       feat1Desc: "我们的团队随时在线，为您处理预约并以绝对的保密态度回答您的咨询。",

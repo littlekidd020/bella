@@ -19,7 +19,7 @@ export default function CollectionPage() {
   return (
     <main className="min-h-screen bg-[#FFE4EC] pt-44 transition-colors duration-700">
       {/* Erotic Header Banner */}
-      <header className="relative w-full h-[480px] md:h-[450px] flex flex-col justify-end -mt-32 mb-16 overflow-hidden border-b border-[#F84A88]/20 bg-[#FFE4EC]">
+      <header className="relative w-full h-[340px] md:h-[450px] flex flex-col justify-end -mt-32 mb-16 overflow-hidden border-b border-[#F84A88]/20 bg-[#FFE4EC]">
         {/* Background Erotic Image */}
         <div className="absolute inset-0 z-0 bg-[#FFE4EC]">
           <img 
@@ -32,11 +32,11 @@ export default function CollectionPage() {
         </div>
 
         {/* Text Content */}
-        <div className="relative z-10 flex flex-col items-center justify-center flex-1 px-4 mt-24 mb-12 max-w-4xl mx-auto w-full text-center">
+        <div className="relative z-10 flex flex-col items-center justify-center flex-1 px-4 mt-12 mb-6 max-w-4xl mx-auto w-full text-center">
           <h1 className="text-4xl md:text-6xl font-serif text-[#F84A88] drop-shadow-[0_0_15px_rgba(248,74,136,0.3)] italic font-playfair tracking-wider">
             {t.nav.collection}
           </h1>
-          <p className="text-[#15030A]/70 leading-relaxed font-sans text-xs md:text-sm mt-8 max-w-2xl mx-auto px-6">
+          <p className="hidden md:block text-[#15030A]/70 leading-relaxed font-sans text-xs md:text-sm mt-8 max-w-2xl mx-auto px-6">
             {activeFilter === "All" 
               ? t.grid.intro 
               : `${activeFilter === "All" ? (lang === "cn" ? "全部" : "All") : (t.girl.locations[activeFilter] || activeFilter)} ${t.nav.collection}`}

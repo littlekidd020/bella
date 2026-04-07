@@ -30,7 +30,7 @@ const ConciergePage = () => {
     <main className="min-h-screen bg-[#FFE4EC] pt-44 transition-colors duration-700">
       
       {/* Erotic Header Banner */}
-      <header className="relative w-full h-[480px] md:h-[450px] flex flex-col justify-end -mt-32 mb-12 overflow-hidden border-b border-[#F84A88]/20 bg-[#FFE4EC]">
+      <header className="relative w-full h-[340px] md:h-[450px] flex flex-col justify-end -mt-32 mb-6 md:mb-12 overflow-hidden border-b border-[#F84A88]/20 bg-[#FFE4EC]">
         {/* Background Erotic Image */}
         <div className="absolute inset-0 z-0 bg-[#FFE4EC]">
           <img 
@@ -43,7 +43,7 @@ const ConciergePage = () => {
         </div>
 
         {/* Text Content */}
-        <div className="relative z-10 flex flex-col items-center justify-center flex-1 px-4 mt-24 mb-12 max-w-4xl mx-auto w-full text-center">
+        <div className="relative z-10 flex flex-col items-center justify-center flex-1 px-4 mt-12 mb-6 max-w-4xl mx-auto w-full text-center">
           <h1 className="text-4xl md:text-6xl font-serif drop-shadow-[0_0_15px_rgba(248,74,136,0.3)] italic font-playfair tracking-wider">
             {t.concierge.title.includes(' ') ? (
               <>
@@ -54,7 +54,7 @@ const ConciergePage = () => {
               <span className="text-[#F84A88]">{t.concierge.title}</span>
             )}
           </h1>
-          <p className="text-[#15030A]/70 leading-relaxed font-sans text-xs md:text-sm mt-8 max-w-2xl mx-auto px-6">
+          <p className="hidden md:block text-[#15030A]/70 leading-relaxed font-sans text-xs md:text-sm mt-8 max-w-2xl mx-auto px-6">
             {t.concierge.subtitle}
           </p>
         </div>
@@ -62,7 +62,7 @@ const ConciergePage = () => {
         <ContactBanner />
       </header>
 
-      <section className="max-w-7xl mx-auto py-16 px-8">
+      <section className="max-w-7xl mx-auto py-8 md:py-16 px-8">
 
         {/* Features Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-32">
