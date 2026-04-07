@@ -28,7 +28,7 @@ const GirlCard = ({ model }) => {
       </div>
 
       {/* Overlays */}
-      <div className="absolute inset-x-0 bottom-0 h-[55%] bg-gradient-to-t from-[#FFE4EC] via-[#FFE4EC]/80 to-transparent opacity-100 transition-opacity duration-500" />
+      <div className="absolute inset-x-0 bottom-0 h-[45%] bg-gradient-to-t from-[#FFE4EC] via-[#FFE4EC]/90 to-transparent opacity-100 transition-opacity duration-500" />
       
       {/* Top Badges */}
       <div className="absolute top-4 left-4 flex gap-2">

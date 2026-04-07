@@ -23,13 +23,12 @@ export default function CollectionPage() {
         {/* Background Erotic Image */}
         <div className="absolute inset-0 z-0 bg-[#FFE4EC]">
           <img 
-            src="/images/header-bg-kawaii.png" 
+            src="/images/header-bg-custom.jpg" 
             alt="Sensual Collection Background" 
-            className="w-full h-full object-cover object-center opacity-90"
+            className="w-full h-full object-cover object-center opacity-85 mix-blend-luminosity"
           />
-          {/* Top and Bottom gradient fade so it blends perfectly into the site */}
-          <div className="absolute inset-0 bg-gradient-to-b from-[#FFE4EC] via-[#FFE4EC]/30 to-[#FFE4EC]" />
-          <div className="absolute inset-0 bg-white/20" />
+          <div className="absolute inset-0 bg-[#F84A88]/5 mix-blend-color" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#FFE4EC] via-[#FFE4EC]/20 to-[#FFE4EC]" />
         </div>
 
         {/* Text Content */}

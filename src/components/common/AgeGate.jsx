@@ -35,17 +35,17 @@ const AgeGate = ({ children }) => {
             className="fixed inset-0 z-[200] bg-[#FFE4EC] flex flex-col font-sans overflow-hidden"
           >
             {/* Background Image Container */}
-            <div className="absolute inset-0">
+            <div className="absolute inset-0 bg-[#FFE4EC]">
                <motion.img 
                  initial={{ scale: 1.15 }}
                  animate={{ scale: 1.05 }}
                  transition={{ duration: 20, repeat: Infinity, repeatType: "reverse", ease: "linear" }}
-                 src="/images/landing-bg-kawaii.png" 
-                 className="w-full h-full object-cover object-center opacity-80"
+                 src="/images/landing-bg-custom.png" 
+                 className="w-full h-full object-cover object-top opacity-85 mix-blend-luminosity"
                  alt="Luxury Entry"
                />
-               <div className="absolute inset-0 bg-gradient-to-b from-[#FFE4EC] via-transparent to-[#FFE4EC]" />
-               <div className="absolute inset-0 bg-white/20" />
+               <div className="absolute inset-0 bg-[#F84A88]/5 mix-blend-color" />
+               <div className="absolute inset-0 bg-gradient-to-b from-[#FFE4EC]/80 via-[#FFE4EC]/20 to-[#FFE4EC]" />
             </div>
 
             {/* Content Overlay */}

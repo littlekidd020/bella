@@ -16,11 +16,12 @@ export default function Home() {
         {/* Background Sensual Image */}
         <div className="absolute inset-0 z-0 bg-[#FFE4EC]">
           <img 
-            src="/images/header-bg-kawaii.png" 
+            src="/images/header-bg-custom.jpg" 
             alt="Sensual Boutique Background" 
-            className="w-full h-full object-cover opacity-90"
+            className="w-full h-full object-cover opacity-85 mix-blend-luminosity"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#FFE4EC] via-[#FFE4EC]/30 to-[#FFE4EC]" />
+          <div className="absolute inset-0 bg-[#F84A88]/5 mix-blend-color" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#FFE4EC] via-[#FFE4EC]/20 to-[#FFE4EC]" />
         </div>
         <ContactBanner />
       </header>
@@ -33,12 +34,12 @@ export default function Home() {
         {/* Background Erotic Image for Text Block */}
         <div className="absolute inset-0 z-0 bg-[#FFE4EC]">
           <img 
-            src="/images/footer-bg-kawaii.png" 
+            src="/images/footer-bg-custom.jpg" 
             alt="Custom Erotic Background" 
-            className="w-full h-full object-cover opacity-90 mix-blend-multiply"
+            className="w-full h-full object-cover object-center opacity-85 mix-blend-luminosity"
           />
-          {/* Top and Bottom gradient fade so it blends perfectly */}
-          <div className="absolute inset-0 bg-gradient-to-b from-[#FFE4EC]/80 via-transparent to-[#FFE4EC]/80" />
+          <div className="absolute inset-0 bg-[#F84A88]/5 mix-blend-color" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#FFE4EC]/80 via-[#FFE4EC]/40 to-[#FFE4EC]/80" />
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-12 bg-white/60 backdrop-blur-lg p-10 md:p-14 rounded-3xl border border-white/50 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">

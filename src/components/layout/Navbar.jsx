@@ -29,7 +29,7 @@ const Navbar = () => {
       </div>
 
       <nav className={`w-full px-8 py-6 md:py-8 flex items-center justify-between transition-all duration-500 ${
-        scrolled ? "bg-[#FFE4EC]/90 backdrop-blur-xl border-b border-white/5 shadow-2xl" : "bg-transparent md:py-10"
+        scrolled ? "bg-white/70 backdrop-blur-md border-b border-white/20 shadow-2xl" : "bg-transparent md:py-10"
       }`}>
       <Link href="/" className="flex items-center gap-3 group">
         <div className="relative w-10 h-10 md:w-12 md:h-12">
@@ -76,7 +76,7 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile Menu Overlay */}
-      <div className={`fixed inset-0 bg-[#FFE4EC]/95 backdrop-blur-2xl z-[75] transition-all duration-500 flex flex-col items-center justify-center gap-12 ${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
+      <div className={`fixed inset-0 bg-white/80 backdrop-blur-xl z-[75] transition-all duration-500 flex flex-col items-center justify-center gap-12 ${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
         <div className="flex flex-col items-center gap-8 text-2xl font-serif tracking-widest italic font-playfair">
           <Link href="/collection" onClick={() => setIsOpen(false)} className="text-[#15030A] hover:text-[#F84A88] transition-colors">
             {t.nav.collection}
