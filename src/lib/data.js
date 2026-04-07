@@ -113,6 +113,38 @@ export const girls = [
   },
   {
     id: 4,
+    name: { en: "Lamb", cn: "小绵羊" },
+    status: "available",
+    verified: true,
+    location: "Central",
+    stats: {
+      age: 22,
+      height: "169cm",
+      weight: "44kg",
+      cup: "C",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/lamb/4.jpg",
+    description: {
+      en: "Sweet and gentle, Lamb (Xiao Mian Yang) is the ultimate 'girl next door' beauty based in Central Auckland. With her soft, delicate voice and incredibly smooth skin, she offers an intimate experience that feels genuinely warm and professional. Her slender yet curvaceous 162cm frame and sweet personality ensure a high-end encounter that is both relaxed and deeply satisfying.",
+      cn: "小绵羊🐑😘温柔体贴甜甜可爱 纯纯小良家 声音嗲嗲的 刚下海不久 完美身材前凸后翘 皮肤光滑白嫩白嫩"
+    },
+    price: "$650 / 90min · $450 / 1h",
+    services: {
+      en: ["Natural\u00A0bj", "shower\u00A0together", "French\u00A0kiss", "stockings", "breast\u00A0massage", "69", "second\u00A0time"],
+      cn: ["无套口", "陪浴", "69", "蛇吻", "黑丝", "按摩", "做2次"]
+    },
+    gallery: [
+      "/images/girls/lamb/4.jpg",
+      "/images/girls/lamb/1.jpg",
+      "/images/girls/lamb/2.jpg",
+      "/images/girls/lamb/3.jpg",
+      "/images/girls/lamb/5.jpg",
+      "/images/girls/lamb/6.jpg"
+    ]
+  },
+  {
+    id: 5,
     name: { en: "CC", cn: "CC" },
     status: "available",
     verified: true,
@@ -150,7 +182,7 @@ export const girls = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     name: { en: "Laila", cn: "莱拉" },
     status: "available",
     verified: true,
@@ -189,7 +221,7 @@ export const girls = [
     ]
   },
   {
-    id: 6,
+    id: 7,
     name: { en: "Barbara", cn: "芭芭拉" },
     status: "available",
     verified: true,
@@ -225,7 +257,7 @@ export const girls = [
     ]
   },
   {
-    id: 7,
+    id: 8,
     name: { en: "Anan", cn: "安安" },
     status: "available",
     verified: true,
@@ -262,41 +294,6 @@ export const girls = [
       "/images/girls/anan/10.jpg",
       "/images/girls/anan/11.jpg",
       "/images/girls/anan/12.jpg"
-    ]
-  },
-  {
-    id: 8,
-    name: { en: "Chestnut", cn: "栗子" },
-    status: "available",
-    verified: true,
-    location: "CBD",
-    stats: {
-      age: 21,
-      height: "168cm",
-      weight: "47kg",
-      cup: "B+",
-      nationality: "china"
-    },
-    image: "/images/girls/chestnut/1.jpg",
-    description: {
-      en: "A fresh arrival from Australia, Chestnut (born 2004) is the ultimate 'girl next door' beauty. With her tall, slender 168cm frame and incredibly sweet, delicate voice, she embodies the 'white, young, and thin' aesthetic. Specialized in a wide range of sensory services, she is available for a limited time only.",
-      cn: "澳洲空降，栗子刚落地。04年邻家妹妹，属于高颜值、白幼瘦、甜美可爱型。声音嗲嗲酥酥超甜，短期限量选择。"
-    },
-    price: "$450/1h · $400/30min",
-    services: {
-      en: [
-        "natural\u00A0bj", "69", "shower\u00A0together", "France\u00A0kiss", "stockings", "Do\u00A0it\u00A0once",
-        "Extra: second\u00A0shot(+$100)"
-      ],
-      cn: ["无套口", "陪浴", "69", "吻", "足交", "身上", "黑丝", "按摩", "爱1次", "额外：第二次(+$100)"]
-    },
-    gallery: [
-      "/images/girls/chestnut/1.jpg",
-      "/images/girls/chestnut/2.jpg",
-      "/images/girls/chestnut/3.jpg",
-      "/images/girls/chestnut/4.jpg",
-      "/images/girls/chestnut/5.jpg",
-      "/images/girls/chestnut/6.jpg"
     ]
   },
   {
@@ -437,38 +434,6 @@ export const girls = [
   },
   {
     id: 13,
-    name: { en: "Lamb", cn: "小绵羊" },
-    status: "available",
-    verified: true,
-    location: "Central",
-    stats: {
-      age: 22,
-      height: "169cm",
-      weight: "44kg",
-      cup: "C",
-      nationality: "Chinese"
-    },
-    image: "/images/girls/lamb/4.jpg",
-    description: {
-      en: "Sweet and gentle, Lamb (Xiao Mian Yang) is the ultimate 'girl next door' beauty based in Central Auckland. With her soft, delicate voice and incredibly smooth skin, she offers an intimate experience that feels genuinely warm and professional. Her slender yet curvaceous 162cm frame and sweet personality ensure a high-end encounter that is both relaxed and deeply satisfying.",
-      cn: "小绵羊🐑😘温柔体贴甜甜可爱 纯纯小良家 声音嗲嗲的 刚下海不久 完美身材前凸后翘 皮肤光滑白嫩白嫩"
-    },
-    price: "$650 / 90min · $450 / 1h",
-    services: {
-      en: ["Natural\u00A0bj", "shower\u00A0together", "French\u00A0kiss", "stockings", "breast\u00A0massage", "69", "second\u00A0time"],
-      cn: ["无套口", "陪浴", "69", "蛇吻", "黑丝", "按摩", "做2次"]
-    },
-    gallery: [
-      "/images/girls/lamb/4.jpg",
-      "/images/girls/lamb/1.jpg",
-      "/images/girls/lamb/2.jpg",
-      "/images/girls/lamb/3.jpg",
-      "/images/girls/lamb/5.jpg",
-      "/images/girls/lamb/6.jpg"
-    ]
-  },
-  {
-    id: 14,
     name: { en: "Yuxi", cn: "羽西" },
     status: "available",
     verified: true,
@@ -499,7 +464,7 @@ export const girls = [
     ]
   },
   {
-    id: 15,
+    id: 14,
     name: { en: "Sisi", cn: "思思" },
     status: "available",
     verified: true,
@@ -541,7 +506,7 @@ export const girls = [
     ]
   },
   {
-    id: 16,
+    id: 15,
     name: { en: "Candice", cn: "Candice" },
     status: "available",
     verified: true,
@@ -578,7 +543,7 @@ export const girls = [
     ]
   },
   {
-    id: 17,
+    id: 16,
     name: { en: "Cherry", cn: "Cherry" },
     status: "available",
     verified: true,
@@ -612,7 +577,7 @@ export const girls = [
     ]
   },
   {
-    id: 18,
+    id: 17,
     name: { en: "Emma", cn: "Emma" },
     status: "available",
     verified: true,
@@ -646,7 +611,7 @@ export const girls = [
     ]
   },
   {
-    id: 19,
+    id: 18,
     name: { en: "Jessica", cn: "Jessica" },
     status: "available",
     verified: true,
@@ -681,7 +646,7 @@ export const girls = [
     ]
   },
   {
-    id: 20,
+    id: 19,
     name: { en: "Yuki", cn: "Yuki" },
     status: "available",
     verified: true,
@@ -715,7 +680,7 @@ export const girls = [
     ]
   },
   {
-    id: 21,
+    id: 20,
     name: { en: "Sweet", cn: "郝甜" },
     status: "available",
     verified: true,
@@ -753,7 +718,7 @@ export const girls = [
     ]
   },
   {
-    id: 22,
+    id: 21,
     name: { en: "Ying", cn: "小英" },
     status: "available",
     verified: true,
@@ -793,7 +758,7 @@ export const girls = [
     ]
   },
   {
-    id: 23,
+    id: 22,
     name: { en: "Yang", cn: "洋洋" },
     status: "available",
     verified: true,
@@ -827,7 +792,7 @@ export const girls = [
     ]
   },
   {
-    id: 24,
+    id: 23,
     name: { en: "Aimi", cn: "爱米" },
     status: "available",
     verified: true,
@@ -864,7 +829,7 @@ export const girls = [
     ]
   },
   {
-    id: 25,
+    id: 24,
     name: { en: "Blind Box", cn: "开盲盒 (特惠)" },
     status: "available",
     verified: true,
@@ -896,7 +861,7 @@ export const girls = [
     ]
   },
   {
-    id: 26,
+    id: 25,
     name: { en: "Yumo", cn: "语沫" },
     status: "available",
     verified: true,
@@ -927,7 +892,7 @@ export const girls = [
     ]
   },
   {
-    id: 27,
+    id: 26,
     name: { en: "May", cn: "May" },
     status: "available",
     verified: true,
@@ -966,7 +931,7 @@ export const girls = [
     ]
   },
   {
-    id: 28,
+    id: 27,
     name: { en: "Dajie", cn: "大姐" },
     status: "available",
     verified: true,
@@ -1005,7 +970,7 @@ export const girls = [
     ]
   },
   {
-    id: 29,
+    id: 28,
     name: { en: "Shanshan", cn: "珊珊" },
     status: "available",
     verified: true,
