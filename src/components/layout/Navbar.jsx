@@ -31,17 +31,9 @@ const Navbar = () => {
       <nav className={`w-full px-6 md:px-8 py-4 md:py-8 flex items-center justify-between transition-all duration-500 ${
         scrolled ? "bg-white/70 backdrop-blur-md border-b border-white/20 shadow-2xl md:py-4" : "bg-transparent md:py-10"
       }`}>
-      <Link href="/" className="flex items-center gap-3 group">
-        <div className="relative w-10 h-10 md:w-12 md:h-12">
+      <Link href="/" className="flex items-center group">
+        <div className="relative w-28 h-12 md:w-48 md:h-20">
           <BrandLogo className="w-full h-full" />
-        </div>
-        <div className="flex flex-col">
-          <span className="text-xl md:text-2xl font-serif text-[#15030A] tracking-[0.15em] uppercase italic font-playfair leading-none font-semibold">
-            {lang === "cn" ? "天使" : "Angel"} 
-          </span>
-          <span className="text-xl md:text-2xl font-serif text-[#15030A]/80 tracking-[0.15em] uppercase italic font-playfair leading-none mt-1 group-hover:text-[#F84A88] transition-colors duration-500">
-            {lang === "cn" ? "小可爱" : "Cuties"}
-          </span>
         </div>
       </Link>
       

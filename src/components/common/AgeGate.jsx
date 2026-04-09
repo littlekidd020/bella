@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLanguage } from '@/context/LanguageContext';
-import BrandLogo from '@/components/common/BrandLogo';
+import BrandIcon from '@/components/common/BrandIcon';
 
 const AgeGate = ({ children }) => {
   const [verified, setVerified] = useState(false);
@@ -65,7 +65,7 @@ const AgeGate = ({ children }) => {
                       className="w-24 h-24 md:w-32 md:h-32 rounded-full border border-white/40 flex items-center justify-center p-4 bg-white/40 backdrop-blur-xl relative group"
                     >
                        <div className="absolute inset-0 border border-[#F84A88]/20 rounded-full group-hover:border-[#F84A88]/40 transition-colors duration-1000" />
-                       <BrandLogo className="w-full h-full" />
+                       <BrandIcon className="w-full h-full" />
                     </motion.div>
                     <div className="h-px w-32 bg-gradient-to-r from-transparent via-[#F84A88]/30 to-transparent" />
                  </div>
