@@ -28,7 +28,7 @@ export default function Home() {
       
       {/* Model Grid Section */}
       <GirlGrid 
-        limit={6} 
+        limit={5} 
         showCTA={true} 
         showIntro={true} 
         girls={require("@/lib/data").girls.filter(m => m.isOnHomepage !== false)} 
