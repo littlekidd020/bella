@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLanguage } from '@/context/LanguageContext';
-import BrandIcon from '@/components/common/BrandIcon';
+import BrandLogo from '@/components/common/BrandLogo';
 
 const AgeGate = ({ children }) => {
   const [verified, setVerified] = useState(false);
@@ -57,16 +57,15 @@ const AgeGate = ({ children }) => {
                 className="max-w-2xl w-full text-center space-y-12"
               >
                  {/* Brand Logo Identity */}
-                 <div className="flex flex-col items-center gap-8">
-                    <motion.div 
-                      initial={{ scale: 0.8, opacity: 0 }}
-                      animate={{ scale: 1, opacity: 1 }}
-                      transition={{ delay: 0.8, duration: 1.5 }}
-                      className="w-24 h-24 md:w-32 md:h-32 rounded-full border border-white/40 flex items-center justify-center p-4 bg-white/40 backdrop-blur-xl relative group"
-                    >
-                       <div className="absolute inset-0 border border-[#F84A88]/20 rounded-full group-hover:border-[#F84A88]/40 transition-colors duration-1000" />
-                       <BrandIcon className="w-full h-full" />
-                    </motion.div>
+                 <div className="flex flex-col items-center gap-8 mt-12 md:mt-24">
+                     <motion.div 
+                       initial={{ scale: 0.8, opacity: 0 }}
+                       animate={{ scale: 1, opacity: 1 }}
+                       transition={{ delay: 0.8, duration: 1.5 }}
+                       className="w-48 h-20 md:w-80 md:h-32 flex items-center justify-center relative group"
+                     >
+                        <BrandLogo className="w-full h-full" />
+                     </motion.div>
                     <div className="h-px w-32 bg-gradient-to-r from-transparent via-[#F84A88]/30 to-transparent" />
                  </div>
 

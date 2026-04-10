@@ -3,16 +3,21 @@
 import { motion } from "framer-motion";
 import { useLanguage } from "@/context/LanguageContext";
 import { Phone, MessageCircle } from "lucide-react";
+import { usePathname } from "next/navigation";
 import BrandIcon from "@/components/common/BrandIcon";
 
 export default function ContactBanner() {
   const { t } = useLanguage();
+  const pathname = usePathname();
+
+  // Hide on mobile for collection and contact pages to avoid overlap with sticky bar
+  const shouldHideOnMobile = pathname?.includes('/collection') || pathname?.includes('/contact-us');
 
   return (
     <motion.div 
        initial={{ y: 50, opacity: 0 }}
        animate={{ y: 0, opacity: 1 }}
-       className="relative z-20 w-full bg-[#F84A88] text-white overflow-hidden shadow-[0_-20px_50px_rgba(248,74,136,0.2)] border-y border-[#F84A88]/50 mt-auto"
+       className={`relative z-20 w-full bg-[#F84A88] text-white overflow-hidden shadow-[0_-20px_50px_rgba(248,74,136,0.2)] border-y border-[#F84A88]/50 mt-auto ${shouldHideOnMobile ? 'hidden md:block' : 'block'}`}
     >
       {/* Inner Content of Pink Banner */}
       <div className="w-full max-w-7xl mx-auto px-4 py-4 md:py-0 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-3 md:h-[70px]">

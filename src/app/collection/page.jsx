@@ -19,7 +19,7 @@ export default function CollectionPage() {
   return (
     <main className="min-h-screen bg-[#FFE4EC] pt-44 transition-colors duration-700">
       {/* Erotic Header Banner */}
-      <header className="relative w-full h-[340px] md:h-[450px] flex flex-col justify-end -mt-32 mb-16 overflow-hidden border-b border-[#F84A88]/20 bg-[#FFE4EC]">
+      <header className="relative w-full h-[180px] md:h-[450px] flex flex-col justify-end -mt-32 mb-16 overflow-hidden border-b border-[#F84A88]/20 bg-[#FFE4EC]">
         {/* Background Erotic Image */}
         <div className="absolute inset-0 z-0 bg-[#FFE4EC]">
           <img 
