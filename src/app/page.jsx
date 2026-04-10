@@ -28,10 +28,10 @@ export default function Home() {
       
       {/* Model Grid Section */}
       <GirlGrid 
-        limit={5} 
+        limit={3} 
         showCTA={true} 
         showIntro={true} 
-        girls={require("@/lib/data").girls.filter(m => m.isOnHomepage !== false)} 
+        girls={require("@/lib/data").girls.filter(m => [1, 3, 4].includes(m.id))} 
       />
 
       {/* Trust & Quality Footer Callout */}
