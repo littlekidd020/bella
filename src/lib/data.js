@@ -186,6 +186,7 @@ export const girls = [
     name: { en: "Laila", cn: "莱拉" },
     status: "available",
     verified: true,
+    isOnHomepage: false,
     location: "CBD",
     stats: {
       age: 25,
@@ -648,7 +649,7 @@ export const girls = [
   {
     id: 19,
     name: { en: "Yuki", cn: "Yuki" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "Central",
     stats: {
@@ -682,7 +683,7 @@ export const girls = [
   {
     id: 20,
     name: { en: "Sweet", cn: "郝甜" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "Central",
     stats: {

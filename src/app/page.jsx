@@ -27,7 +27,12 @@ export default function Home() {
       </header>
       
       {/* Model Grid Section */}
-      <GirlGrid limit={6} showCTA={true} showIntro={true} />
+      <GirlGrid 
+        limit={6} 
+        showCTA={true} 
+        showIntro={true} 
+        girls={require("@/lib/data").girls.filter(m => m.isOnHomepage !== false)} 
+      />
 
       {/* Trust & Quality Footer Callout */}
       <section className="relative px-8 py-32 mt-32 border-y border-[#F84A88]/20 overflow-hidden">
