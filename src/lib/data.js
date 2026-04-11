@@ -116,7 +116,7 @@ export const girls = [
     name: { en: "Lamb", cn: "小绵羊" },
     status: "available",
     verified: true,
-    location: "Central",
+    location: "CBD",
     stats: {
       age: 22,
       height: "169cm",
@@ -126,7 +126,7 @@ export const girls = [
     },
     image: "/images/girls/lamb/4.jpg",
     description: {
-      en: "Sweet and gentle, Lamb (Xiao Mian Yang) is the ultimate 'girl next door' beauty based in Central Auckland. With her soft, delicate voice and incredibly smooth skin, she offers an intimate experience that feels genuinely warm and professional. Her slender yet curvaceous 162cm frame and sweet personality ensure a high-end encounter that is both relaxed and deeply satisfying.",
+      en: "Sweet and gentle, Lamb (Xiao Mian Yang) is the ultimate 'girl next door' beauty now based in Auckland CBD. With her soft, delicate voice and incredibly smooth skin, she offers an intimate experience that feels genuinely warm and professional. Her slender yet curvaceous 162cm frame and sweet personality ensure a high-end encounter that is both relaxed and deeply satisfying.",
       cn: "小绵羊🐑😘温柔体贴甜甜可爱 纯纯小良家 声音嗲嗲的 刚下海不久 完美身材前凸后翘 皮肤光滑白嫩白嫩"
     },
     price: "$650 / 90min · $450 / 1h",

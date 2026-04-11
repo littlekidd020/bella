@@ -9,7 +9,8 @@ import { useLanguage } from "@/context/LanguageContext";
 const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = false }) => {
   const { t, lang } = useLanguage();
 
-  const displayedGirls = limit ? girls.slice(0, limit) : girls;
+  const filteredGirls = girls.filter(model => model.status !== "hidden" && model.status !== "deleted");
+  const displayedGirls = limit ? filteredGirls.slice(0, limit) : filteredGirls;
 
   return (
     <section className="px-8 pb-24 max-w-7xl mx-auto mt-4 md:mt-16">
