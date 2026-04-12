@@ -72,20 +72,12 @@ export default function GirlDetailsPage() {
   const prevImage = () => setImageIdx((prev) => (prev - 1 + allImages.length) % allImages.length);
 
   return (
-    <main className="min-h-screen bg-[#FFE4EC] pb-32">
-      {/* Back Button */}
-      <button 
-        onClick={() => router.back()}
-        className="fixed top-24 left-8 z-50 p-3 bg-white/60 backdrop-blur-xl border border-white/80 shadow-sm rounded-full text-[#15030A] hover:bg-white/80 hover:text-[#15030A] transition-colors"
-      >
-        <ArrowLeft size={24} />
-      </button>
-
+    <main className="min-h-screen bg-[#FFE4EC] pb-12 md:pb-32">
       {/* Main Content Grid */}
-      <section className="px-8 max-w-7xl mx-auto pt-32 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-16">
+      <section className="px-8 max-w-7xl mx-auto pt-28 lg:pt-52 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-16">
         
         {/* Left Column: Info & Stats */}
-        <div className="lg:col-span-4 space-y-12">
+        <div className="lg:col-span-4 space-y-6">
           
           {/* Header Info */}
           <motion.div 
@@ -93,23 +85,36 @@ export default function GirlDetailsPage() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6 }}
           >
-            {model.location && (
-              <div className="inline-flex items-center gap-2 bg-white/60 backdrop-blur-md border border-[#F84A88]/30 px-4 py-1.5 rounded-full mb-6 shadow-sm">
-                <MapPin size={14} className="text-[#F84A88]" />
-                <span className="text-[10px] uppercase tracking-widest font-sans text-[#15030A]/90 font-bold">
-                  {t.girl.locations[model.location] || model.location}
-                </span>
+            {/* Name row with back button + location aligned to bottom */}
+            <div className="flex items-end gap-4 mb-4">
+              {/* Back + Location */}
+              <div className="flex flex-col items-start gap-2 shrink-0">
+                <button 
+                  onClick={() => router.back()}
+                  className="p-2.5 bg-white/60 backdrop-blur-xl border border-white/80 shadow-sm rounded-full text-[#15030A] hover:bg-white/80 hover:text-[#15030A] transition-colors"
+                >
+                  <ArrowLeft size={18} />
+                </button>
+                {model.location && (
+                  <div className="inline-flex items-center gap-2 bg-white/60 backdrop-blur-md border border-[#F84A88]/30 px-4 py-1.5 rounded-full shadow-sm">
+                    <MapPin size={14} className="text-[#F84A88]" />
+                    <span className="text-[10px] uppercase tracking-widest font-sans text-[#15030A]/90 font-bold">
+                      {t.girl.locations[model.location] || model.location}
+                    </span>
+                  </div>
+                )}
               </div>
-            )}
-            <h1 className="text-6xl md:text-8xl font-serif text-[#15030A] italic font-playfair tracking-wide mb-4 relative inline-block">
-              {model.name[lang] || model.name.en}
-              {isAvailable && (
-                <span className="absolute -top-2 -right-6 flex h-4 w-4">
-                  <span className="animate-rose-pulse absolute inline-flex h-full w-full rounded-full bg-[#F84A88] opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-4 w-4 bg-[#F84A88]"></span>
-                </span>
-              )}
-            </h1>
+              {/* Name */}
+              <h1 className="text-4xl md:text-6xl font-serif text-[#15030A] italic font-playfair tracking-wide relative inline-block whitespace-nowrap">
+                {model.name[lang] || model.name.en}
+                {isAvailable && (
+                  <span className="absolute -top-2 -right-6 flex h-4 w-4">
+                    <span className="animate-rose-pulse absolute inline-flex h-full w-full rounded-full bg-[#F84A88] opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-4 w-4 bg-[#F84A88]"></span>
+                  </span>
+                )}
+              </h1>
+            </div>
             <p className="text-sm uppercase tracking-[0.4em] text-[#F84A88] font-bold font-sans mt-2">
               {t.girl.nationalities[model.stats.nationality] || model.stats.nationality}
               {model.stats.age && ` • ${model.stats.age}${t.girl.ageUnit}`}
@@ -236,7 +241,7 @@ export default function GirlDetailsPage() {
         </div>
 
         {/* Right Column: Photo Gallery */}
-        <div className="lg:col-span-8 space-y-8 mt-16 lg:mt-0">
+        <div className="lg:col-span-8 space-y-8 mt-4 lg:mt-0">
           <h3 className="text-2xl font-serif text-[#15030A] italic font-playfair tracking-wide border-b border-[#F84A88]/20 pb-4">
             {t.girl.portfolio}
           </h3>
