@@ -56,9 +56,9 @@ const girls = items.map(block => {
 });
 
 // Priority reordering based on previous requests
-const priorityNames = ["Momo", "BP", "优优", "CC", "莱拉", "芭芭拉", "安安", "小绵羊", "泰妹", "盲盒", "语橙", "羽西", "思思"];
+const priorityNames = ["Momo", "优优", "CC", "莱拉", "芭芭拉", "安安", "小绵羊", "泰妹", "盲盒", "语橙", "羽西", "思思"];
 const idMappings = {
-  "Momo": 1, "BP": 2, "优优": 3, "CC": 4, "莱拉": 5, "芭芭拉": 6, "安安": 7,
+  "Momo": 1, "优优": 3, "CC": 4, "莱拉": 5, "芭芭拉": 6, "安安": 7,
   "小绵羊": 13, "泰妹": 14, "盲盒": 15, "语橙": 16, "羽西": 17, "思思": 18
 };
 

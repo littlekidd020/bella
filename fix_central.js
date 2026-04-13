@@ -57,7 +57,7 @@ central.forEach(g => {
 });
 
 const sortedCbd = [];
-const targetCbdOrder = ["Momo", "BP", "优优", "CC", "莱拉", "芭芭拉", "安安"];
+const targetCbdOrder = ["Momo", "优优", "CC", "莱拉", "芭芭拉", "安安"];
 targetCbdOrder.forEach(name => {
     const found = cbd.find(g => g.name === name);
     if (found) sortedCbd.push(found);

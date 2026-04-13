@@ -35,7 +35,7 @@ for(let i=0; i<content.length; i++){
     }
 }
 
-const cbdOrder = ["Momo", "BP", "优优", "CC", "莱拉", "芭芭拉", "安安"];
+const cbdOrder = ["Momo", "优优", "CC", "莱拉", "芭芭拉", "安安"];
 const centralOrder = ["小绵羊", "泰妹", "盲盒", "语橙", "羽西", "思思"];
 
 const cbd = items.filter(g => g.loc.toUpperCase().includes("CBD"));

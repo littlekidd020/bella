@@ -42,8 +42,8 @@ const girls = items.map(parse);
 // Hide Chestnut (栗子)
 const remainingGirls = girls.filter(g => g.name !== "栗子");
 
-// Home order: Momo, BP, 优优, 小绵羊
-const homePriorityNames = ["Momo", "BP", "优优", "小绵羊"];
+// Home order: Momo, 优优, 小绵羊
+const homePriorityNames = ["Momo", "优优", "小绵羊"];
 
 // Create the final global list. 
 // Note: This global list controls the home page "Latest" (the first few) 

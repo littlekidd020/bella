@@ -2,7 +2,7 @@ const fs = require('fs');
 const data = fs.readFileSync('src/lib/data.js', 'utf8');
 
 const targetMappings = {
-  "Momo": 1, "BP": 2, "优优": 3, "CC": 4, "莱拉": 5, "芭芭拉": 6, "安安": 7,
+  "Momo": 1, "优优": 3, "CC": 4, "莱拉": 5, "芭芭拉": 6, "安安": 7,
   "小绵羊": 13, "泰妹": 14, "盲盒": 15, "语橙": 16, "羽西": 17, "思思": 18
 };
 

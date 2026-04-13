@@ -1,7 +1,7 @@
 const fs = require('fs');
 const data = fs.readFileSync('src/lib/data.js', 'utf8');
 
-const targetNames = ["Momo", "BP", "优优", "CC", "莱拉", "芭芭拉", "安安"];
+const targetNames = ["Momo", "优优", "CC", "莱拉", "芭芭拉", "安安"];
 
 // A really simple way is to match every { ... } in the array
 // Since the file is fairly consistently formatted
