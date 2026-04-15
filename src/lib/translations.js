@@ -32,7 +32,7 @@ export const translations = {
       verification: "真人实拍审核",
       discreet: "安全与隐私保障",
       vip: "VIP 客服经理",
-      viewAll: "选择心动女生"
+      viewAll: "查看所有女生"
     },
     girl: {
       age: "年龄",

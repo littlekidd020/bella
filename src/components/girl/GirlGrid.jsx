@@ -29,7 +29,7 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
               href="/collection" 
               className="inline-block text-center border border-[#F84A88]/80 text-[#F84A88] w-full max-w-[300px] md:max-w-[340px] py-3.5 md:py-4 text-base tracking-[0.4em] md:tracking-[0.5em] font-sans font-bold hover:bg-[#F84A88]/5 transition-colors duration-300"
             >
-              {lang === "cn" ? "选 择 心 动 女 生" : "VIEW COLLECTION"}
+              {lang === "cn" ? "查看所有女生" : "VIEW COLLECTION"}
             </Link>
           </div>
           <h2 className="text-lg md:text-xl uppercase tracking-[0.3em] text-[#F84A88] mt-8 md:mt-16 font-sans font-bold drop-shadow-sm">

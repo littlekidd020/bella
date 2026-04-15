@@ -105,14 +105,11 @@ export default function GirlDetailsPage() {
                 )}
               </div>
               {/* Name */}
-              <h1 className="text-4xl md:text-6xl font-serif text-[#15030A] italic font-playfair tracking-wide relative inline-block whitespace-nowrap">
+              <h1 className={`${lang === 'en' ? 'text-2xl md:text-4xl' : 'text-4xl md:text-6xl'} font-serif text-[#15030A] italic font-playfair tracking-wide relative inline-block whitespace-nowrap`}>
                 {model.name[lang] || model.name.en}
-                {isAvailable && (
-                  <span className="absolute -top-2 -right-6 flex h-4 w-4">
-                    <span className="animate-rose-pulse absolute inline-flex h-full w-full rounded-full bg-[#F84A88] opacity-75"></span>
-                    <span className="relative inline-flex rounded-full h-4 w-4 bg-[#F84A88]"></span>
-                  </span>
-                )}
+                <span className="absolute -top-3 -right-2 translate-x-full inline-flex items-center justify-center w-8 h-8 rounded-full text-sm not-italic">
+                  {isAvailable ? '✅' : '⌛'}
+                </span>
               </h1>
             </div>
             <p className="text-sm uppercase tracking-[0.4em] text-[#F84A88] font-bold font-sans mt-2">

@@ -2,7 +2,7 @@ export const girls = [
   {
     id: 1,
     name: { en: "Momo", cn: "Momo" },
-    status: "available",
+    status: "unavailable",
     verified: true,
     location: "CBD",
     stats: {
@@ -831,8 +831,8 @@ export const girls = [
   },
   {
     id: 24,
-    name: { en: "Blind Box", cn: "开盲盒 (特惠)" },
-    status: "available",
+    name: { en: "Blind Box", cn: "开盲盒" },
+    status: "unavailable",
     verified: true,
     location: "Central",
     stats: {
@@ -864,7 +864,7 @@ export const girls = [
   {
     id: 25,
     name: { en: "Yumo", cn: "语沫" },
-    status: "available",
+    status: "unavailable",
     verified: true,
     location: "Central",
     stats: {

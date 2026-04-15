@@ -50,12 +50,9 @@ const GirlCard = ({ model }) => {
               <h3 className="text-2xl font-serif text-[#15030A] tracking-wide italic font-playfair font-bold">
                 {model.name[lang] || model.name.en}
               </h3>
-              {isAvailable && (
-                <span className="relative flex h-2 w-2">
-                  <span className="animate-rose-pulse absolute inline-flex h-full w-full rounded-full bg-[#F84A88] opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-[#F84A88]"></span>
-                </span>
-              )}
+              <span className="inline-flex items-center justify-center w-6 h-6 rounded-full text-[11px] not-italic">
+                {isAvailable ? '✅' : '⌛'}
+              </span>
             </div>
             <p className="text-[10px] uppercase tracking-[0.2em] text-[#15030A]/60 font-sans font-semibold">
               {model.stats.age ? `${model.stats.age}${t.girl.ageUnit} • ` : ''}
