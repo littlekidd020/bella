@@ -48,7 +48,7 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-12 bg-white/60 backdrop-blur-lg p-10 md:p-14 rounded-3xl border border-white/50 shadow-[0_8px_30px_rgb(0,0,0,0.04)]">
-          <h3 className="text-3xl font-serif text-[#15030A] tracking-wide italic font-playfair drop-shadow-sm">{t.grid.standard}</h3>
+          <h3 className="text-3xl font-serif text-[#15030A] tracking-wide font-bold font-playfair drop-shadow-sm">{t.grid.standard}</h3>
           <p className="text-[#15030A]/70 leading-relaxed font-sans max-w-2xl mx-auto text-sm">
             {t.grid.desc}
           </p>

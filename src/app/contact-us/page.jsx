@@ -44,7 +44,7 @@ const ConciergePage = () => {
 
         {/* Text Content */}
         <div className="relative z-10 flex flex-col items-center justify-center flex-1 px-4 mt-12 mb-6 max-w-4xl mx-auto w-full text-center">
-          <h1 className="text-4xl md:text-6xl font-serif drop-shadow-[0_0_15px_rgba(248,74,136,0.3)] italic font-playfair tracking-wider">
+          <h1 className="text-4xl md:text-6xl font-serif drop-shadow-[0_0_15px_rgba(248,74,136,0.3)] font-bold font-playfair tracking-wider">
             {t.concierge.title.includes(' ') ? (
               <>
                 <span className="text-[#15030A]">{t.concierge.title.split(' ')[0]}</span>{' '}

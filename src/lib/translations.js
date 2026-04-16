@@ -5,7 +5,7 @@ export const translations = {
       concierge: "联系我们",
       account: "会员中心",
       brand: "天使小可爱",
-      hours: "营业时间：早上10点 - 晚上12点"
+      hours: "营业时间：早上10点 - 晚上11点"
     },
     hero: {
       title: "天使小可爱",
@@ -41,7 +41,8 @@ export const translations = {
       weight: "体重",
       breast: "胸围",
       nationality: "来自",
-      available: "当前在线",
+      available: "在线中",
+      unavailable: "休假中",
       availableToBook: "当前可预约",
       portfolio: "私密写真",
       verified: "已验证",
@@ -122,7 +123,7 @@ export const translations = {
       concierge: "Contact us",
       account: "Account",
       brand: "Angel Cuties",
-      hours: "Hours: 10:00 AM - 12:00 AM"
+      hours: "Hours: 10:00 AM - 11:00 PM"
     },
     hero: {
       title: "Angel Cuties",
@@ -158,7 +159,8 @@ export const translations = {
       weight: "Weight",
       breast: "Breast",
       nationality: "From",
-      available: "Available Now",
+      available: "Online",
+      unavailable: "Holiday",
       availableToBook: "Available to Book",
       portfolio: "Portfolio",
       verified: "Verified",

@@ -50,8 +50,8 @@ const GirlCard = ({ model }) => {
               <h3 className="text-2xl font-serif text-[#15030A] tracking-wide italic font-playfair font-bold">
                 {model.name[lang] || model.name.en}
               </h3>
-              <span className="inline-flex items-center justify-center w-6 h-6 rounded-full text-[11px] not-italic">
-                {isAvailable ? '✅' : '⌛'}
+              <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-[9px] font-bold font-sans tracking-wider ${isAvailable ? 'bg-[#F84A88]/15 text-[#F84A88]' : 'bg-[#15030A]/10 text-[#15030A]/50'}`}>
+                {isAvailable ? t.girl.available : t.girl.unavailable}
               </span>
             </div>
             <p className="text-[10px] uppercase tracking-[0.2em] text-[#15030A]/60 font-sans font-semibold">

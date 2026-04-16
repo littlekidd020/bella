@@ -14,7 +14,7 @@ export default function AccountPage() {
         <div className="absolute -top-1/2 -left-1/2 w-full h-full bg-[#F84A88]/10 blur-3xl pointer-events-none" />
         
         <div className="relative text-center mb-10 space-y-4">
-          <h1 className="text-4xl font-serif text-[#15030A] italic font-playfair tracking-wide mt-4">{t.account.login.split(' ')[0]} <span className="text-[#F84A88]">{t.account.login.split(' ')[1] || ""}</span></h1>
+          <h1 className="text-4xl font-serif text-[#15030A] font-bold font-playfair tracking-wide mt-4">{t.account.login.split(' ')[0]} <span className="text-[#F84A88]">{t.account.login.split(' ')[1] || ""}</span></h1>
           <p className="text-[10px] text-[#15030A]/60 uppercase tracking-[0.4em] font-sans font-bold">{t.account.private}</p>
         </div>
 

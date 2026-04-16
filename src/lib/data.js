@@ -131,8 +131,8 @@ export const girls = [
     },
     price: "$650 / 90min · $450 / 1h",
     services: {
-      en: ["Natural\u00A0bj", "shower\u00A0together", "French\u00A0kiss", "stockings", "breast\u00A0massage", "69", "second\u00A0time"],
-      cn: ["无套口", "陪浴", "69", "蛇吻", "黑丝", "按摩", "做2次"]
+      en: ["Natural\u00A0bj", "shower\u00A0together", "French\u00A0kiss", "stockings", "breast\u00A0massage", "69", "second\u00A0time", "One\u00A0shot\u00A0only\u00A0in\u00A060\u00A0minutes"],
+      cn: ["无套口", "陪浴", "69", "蛇吻", "黑丝", "按摩", "做2次", "60分钟只做一次"]
     },
     gallery: [
       "/images/girls/lamb/4.jpg",
@@ -146,7 +146,7 @@ export const girls = [
   {
     id: 5,
     name: { en: "CC", cn: "CC" },
-    status: "available",
+    status: "unavailable",
     verified: true,
     location: "CBD",
     stats: {
