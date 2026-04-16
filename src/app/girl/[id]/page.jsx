@@ -107,7 +107,7 @@ export default function GirlDetailsPage() {
               {/* Name */}
               <h1 className={`${lang === 'en' ? 'text-2xl md:text-4xl' : 'text-4xl md:text-6xl'} font-serif text-[#15030A] font-bold font-playfair tracking-wide relative inline-block whitespace-nowrap`}>
                 {model.name[lang] || model.name.en}
-                <span className={`absolute -top-3 -right-2 translate-x-full inline-flex items-center px-2.5 py-1 rounded-full text-[10px] font-bold font-sans tracking-wider ${isAvailable ? 'bg-[#F84A88]/15 text-[#F84A88]' : 'bg-[#15030A]/10 text-[#15030A]/50'}`}>
+                <span className={`absolute -top-3 -right-2 translate-x-full inline-flex items-center px-2.5 py-1 rounded-full text-[11.5px] font-bold font-sans tracking-wider bg-white border border-[#F84A88]/20 shadow-sm ${isAvailable ? 'text-[#F84A88]' : 'text-[#15030A]/50'}`}>
                   {isAvailable ? t.girl.available : t.girl.unavailable}
                 </span>
               </h1>

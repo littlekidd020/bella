@@ -50,7 +50,7 @@ const GirlCard = ({ model }) => {
               <h3 className="text-2xl font-serif text-[#15030A] tracking-wide italic font-playfair font-bold">
                 {model.name[lang] || model.name.en}
               </h3>
-              <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-[9px] font-bold font-sans tracking-wider ${isAvailable ? 'bg-[#F84A88]/15 text-[#F84A88]' : 'bg-[#15030A]/10 text-[#15030A]/50'}`}>
+              <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold font-sans tracking-wider bg-white border border-[#F84A88]/20 shadow-sm ${isAvailable ? 'text-[#F84A88]' : 'text-[#15030A]/50'}`}>
                 {isAvailable ? t.girl.available : t.girl.unavailable}
               </span>
             </div>
