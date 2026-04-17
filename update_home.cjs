@@ -50,20 +50,26 @@ const parsedGirls = items.map(block => {
 });
 
 // Filter out deleted/hidden or specific girls if needed
-// The user previously hid "栗子" (Chestnut) and "BP"
 const filtered = parsedGirls.filter(g => g.cn !== "栗子" && g.status !== "hidden" && g.status !== "deleted");
 
-// Sort by ID descending (Latest first)
-// This ensures that any new high-ID additions go to the top
-filtered.sort((a, b) => b.id - a.id);
+// Priority names
+const homePriorityNames = ["晴宝", "Momo", "小绵羊"];
 
-// If the user still wants specific girls to be ABSOLUTELY top (even above latest), 
-// they can be defined here. But given "newest to top", we'll stick to ID sequence.
-// Optionally, move available girls to top of unavailable? 
-// No, the user just said newest to top.
+// Create final list
+const priorityList = [];
+homePriorityNames.forEach(name => {
+    const found = filtered.find(g => g.cn === name || g.cn === "小绵羊" && name === "小绵羊");
+    // Handle "小绵羊" mapping if needed (sometimes it's "Lamb" in en, check cn)
+    if (found) priorityList.push(found);
+});
+
+const others = filtered.filter(g => !priorityList.includes(g));
+others.sort((a, b) => b.id - a.id);
+
+const finalOrder = [...priorityList, ...others];
 
 // Re-index IDs so they are sequential 1, 2, 3... based on the new order
-const finalGirls = filtered.map((g, index) => {
+const finalGirls = finalOrder.map((g, index) => {
     return g.block.replace(/id:\s*\d+/, "id: " + (index + 1));
 });
 
