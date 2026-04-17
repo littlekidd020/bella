@@ -1038,7 +1038,9 @@ export const girls = [
       "/images/girls/qingbao/4.jpg",
       "/images/girls/qingbao/5.jpg",
       "/images/girls/qingbao/6.jpg",
-      "/images/girls/qingbao/7.jpg"
+      "/images/girls/qingbao/7.jpg",
+      "/images/girls/qingbao/8.jpg",
+      "/images/girls/qingbao/9.jpg"
     ]
   }
 ];
