@@ -834,7 +834,7 @@ export const girls = [
     name: { en: "Blind Box", cn: "开盲盒" },
     status: "unavailable",
     verified: true,
-    location: "Central",
+    location: "CBD",
     stats: {
       height: "Varies",
       weight: "Varies",
@@ -843,8 +843,8 @@ export const girls = [
     },
     image: "/images/girls/blindbox/grid.jpg",
     description: {
-      en: "Experience the thrill of the unknown with our 'Blind Box' special. For a flat rate of $360, you'll be paired with one of our high-quality surprise beauties in Central Auckland. This discounted package includes a full sensory session with a bath, romantic techniques, and a guaranteed second round. It's the perfect way to discover a new favorite at an exceptional value.",
-      cn: "开启您的心跳私密盲盒！仅需 $360 特惠价，您将随机选择一位我们在中区的高端宝藏女孩。盲盒包不仅包含温馨沐浴、缠绵蛇吻以及深度无套陪伴，更承诺两次云雨体验。在未知的惊喜中，以超值的价格选择您的下一位挚爱，尽享私密慢生活。"
+      en: "Experience the thrill of the unknown with our 'Blind Box' special. For a flat rate of $360, you'll be paired with one of our high-quality surprise beauties in CBD Auckland. This discounted package includes a full sensory session with a bath, romantic techniques, and a guaranteed second round. It's the perfect way to discover a new favorite at an exceptional value.",
+      cn: "开启您的心跳私密盲盒！仅需 $360 特惠价，您将随机选择一位我们在市区的高端宝藏女孩。盲盒包不仅包含温馨沐浴、缠绵蛇吻以及深度无套陪伴，更承诺两次云雨体验。在未知的惊喜中，以超值的价格选择您的下一位挚爱，尽享私密慢生活。"
     },
     price: "$360 / Special Package (2 rounds)",
     services: {
@@ -866,7 +866,7 @@ export const girls = [
     name: { en: "Yumo", cn: "语沫" },
     status: "unavailable",
     verified: true,
-    location: "Central",
+    location: "CBD",
     stats: {
       age: 24,
       height: "165cm",
@@ -876,7 +876,7 @@ export const girls = [
     },
     image: "/images/girls/yumo/3.jpg",
     description: {
-      en: "Radiant and naturally stunning, Yumo is a 2002-born university undergraduate in Central Auckland. A 'Girl Next Door' with hidden talents in piano, calligraphy, and dance, she offers a rare blend of elegance and athletic flexibility. 100% natural and freshly available, she is known for her exceptional cooperation and sweet personality. Don't miss this limited-time opportunity to meet her.",
+      en: "Radiant and naturally stunning, Yumo is a 2002-born university undergraduate in CBD Auckland. A 'Girl Next Door' with hidden talents in piano, calligraphy, and dance, she offers a rare blend of elegance and athletic flexibility. 100% natural and freshly available, she is known for her exceptional cooperation and sweet personality. Don't miss this limited-time opportunity to meet her.",
       cn: "优点：颜值在线，甜妹，大学本科生在读🎓。钢琴🎹、书法、舞蹈💃、一字马，全身天然无科技。初下💦不久，绝对配合度极高，系邻家妹妹🤤。短期还在等什么🫶"
     },
     price: "$400 / 1h · $300 / 30min",
@@ -1164,6 +1164,37 @@ export const girls = [
       "/images/girls/michelle/2.jpg",
       "/images/girls/michelle/3.jpg",
       "/images/girls/michelle/4.jpg"
+    ]
+  },
+  {
+    id: 34,
+    name: { en: "Bingbing", cn: "冰冰" },
+    status: "available",
+    verified: true,
+    location: "Central",
+    stats: {
+      age: 25,
+      height: "163cm",
+      weight: "45kg",
+      cup: "C",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/bingbing/1.jpg",
+    description: {
+      en: "Warm and inviting, Bingbing is a beautiful addition to our collection in Central Auckland. Standing at 163cm with a slender 45kg physique and a full C-cup, she specializes in sensory massage and romantic interaction. Whether you prefer a standard session or her comprehensive VIP package—featuring snake kisses, shared showers, and multiple interactions—Bingbing provides a deeply personal and attentive service designed to melt away your stress.",
+      cn: "温柔似水，娇艳动人。冰冰拥有 163cm 的高挑身材和完美的 C 杯曲线。她擅长通过感官按摩和温柔互动为您排忧解难。VIP 套餐更包含蛇吻、鸳鸯浴、胸推漫游及多次云雨互动。冰冰现已在中区恭候您的光临，为您开启一段难忘的私密之旅。"
+    },
+    price: "$300 / 1h (VIP) · $220 / 1h · $180 / 30min",
+    services: {
+      en: ["French\u00A0kiss", "Sensory\u00A0massage", "69", "BJ\u00A0(condom)", "1\u00A0shot", "VIP: Snake\u00A0kiss, Shower, Breast\u00A0massage, Body\u00A0slide, Natural\u00A0BJ, CIM, Multiple\u00A0rounds"],
+      cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
+    },
+    gallery: [
+      "/images/girls/bingbing/1.jpg",
+      "/images/girls/bingbing/2.jpg",
+      "/images/girls/bingbing/3.jpg",
+      "/images/girls/bingbing/4.jpg",
+      "/images/girls/bingbing/5.jpg"
     ]
   }
 ];
