@@ -1,5 +1,195 @@
 export const girls = [
   {
+    id: 29,
+    name: { en: "Qingbao", cn: "晴宝" },
+    status: "available",
+    verified: true,
+    location: "CBD",
+    stats: {
+      age: 24,
+      height: "170cm",
+      weight: "46kg",
+      cup: "E",
+      nationality: "Taiwanese"
+    },
+    image: "/images/girls/qingbao/1.jpg",
+    video: "/images/girls/qingbao/video.mp4",
+    description: {
+      en: "Pure sweetness from Taiwan, Qingbao makes her first appearance in Auckland, bringing a delightful blend of innocence and allure. Newly arrived, she features an incredible natural E-cup figure on a slender 46kg frame. With her sweet personality, big eyes, and charming Taiwanese accent, she provides an attentive and deeply immersive service quality. Ideal for those seeking a premium encounter with a companion who is both elegant and incredibly sweet, she is only here for a short stay.",
+      cn: "台湾空降🪂 台湾影视学院晴宝初次登场AKL 高颜值童颜巨ru声音高颜值大眼睛超甜 服务主动 带入感很强、纯天E🥛大🐻大pi古 前凸后翘气质文雅 长相御姐 声音台湾腔嗲嗲酥酥超甜的反差纯白水🎉 短期停留"
+    },
+    price: "$500 / 1h · $400 / 30min",
+    services: {
+      en: ["Natural\u00A0bj", "shower\u00A0together", "69", "French\u00A0kiss", "stockings", "Submarine\u00A0bj", "Licking\u00A0eggs", "shower", "1\u00A0shot", "Extra: second\u00A0time\u00A0(+$50)"],
+      cn: ["无套口", "陪浴", "69", "舌吻", "黑丝", "水中箫", "舔蛋", "淋浴", "做1次", "额外：第二次(+$50)"]
+    },
+    gallery: [
+      "/images/girls/qingbao/1.jpg",
+      "/images/girls/qingbao/2.jpg",
+      "/images/girls/qingbao/3.jpg",
+      "/images/girls/qingbao/4.jpg",
+      "/images/girls/qingbao/5.jpg",
+      "/images/girls/qingbao/6.jpg",
+      "/images/girls/qingbao/7.jpg",
+      "/images/girls/qingbao/8.jpg",
+      "/images/girls/qingbao/9.jpg"
+    ]
+  },
+  {
+    id: 30,
+    name: { en: "Qinger", cn: "情儿" },
+    status: "available",
+    verified: true,
+    location: "Central",
+    stats: {
+      age: 24,
+      height: "160cm",
+      weight: "45kg",
+      cup: "B+",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/qinger/1.jpg",
+    description: {
+      en: "Charming and attentive, Qinger brings a soft and sensual energy to her sessions in Central Auckland. Standing at 160cm with a delicate build, she specializes in therapeutic and sensual massage, focusing on relaxation and high-quality interaction. Her gentle nature and careful service make her a favorite for those seeking a more personal and soothing experience. Available for both standard sessions and extended premium interactions with additional oral and sensory options.",
+      cn: "温柔体贴，服务至上，让您在繁忙的城市中找到那份宁静与欢愉。情儿现已来到中区，为您提供最专业的身心呵护。主要提供按摩和感官互动服务。额外的标准互动均可配合。"
+    },
+    price: "$160 / 1h",
+    services: {
+      en: ["Sensual\u00A0massage", "HJ\u00A0(condom)", "Topless", "Handjob", "Extra: Natural\u00A0BJ\u00A0(+$50) Natural\u00A0BJ\u00A0&\u00A0cim\u00A0in\u00A0mouth\u00A0(+$80)"],
+      cn: ["按摩", "带套口", "裸上身", "飞机", "额外：无套口(+$50) 无套口&口报(+$80)"]
+    },
+    gallery: [
+      "/images/girls/qinger/1.jpg",
+      "/images/girls/qinger/2.jpg",
+      "/images/girls/qinger/3.jpg",
+      "/images/girls/qinger/4.jpg",
+      "/images/girls/qinger/5.jpg",
+      "/images/girls/qinger/6.jpg"
+    ]
+  },
+  {
+    id: 31,
+    name: { en: "Er-er", cn: "二二" },
+    status: "available",
+    verified: true,
+    location: "Central",
+    stats: {
+      age: 26,
+      height: "163cm",
+      weight: "45kg",
+      cup: "D",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/erer/1.jpg",
+    description: {
+      en: "Youthful and energetic, Er-er is a stunning beauty from the '00s generation' now serving Central Auckland. Standing at 163cm with a perfectly balanced figure and a natural D-cup, she specializes in providing a high-participation, sensory-focused experience. Her sessions are characterized by warmth, enthusiasm, and a deep commitment to service quality. For those seeking the ultimate indulgence, her premium VIP package offers multiple rounds, extended interactions, and specialized oral services in a luxurious, relaxed environment.",
+      cn: "青春活力00后，身材娇小火辣（D杯），服务主动且配合度极高。二二现已在中心区为您开启专属的私密时光。主要提供高参与度的感官服务。VIP套餐包含：蛇吻, 一起洗澡, 胸推漫游, 感官按摩, 无套口, 69, 口报, 多次等。"
+    },
+    price: "$300 / 1h (VIP) · $240 / 1h · $180 / 30min",
+    services: {
+      en: ["French\u00A0kiss", "Sensory\u00A0massage", "69", "BJ\u00A0(condom)", "1\u00A0shot", "VIP: Snake\u00A0kiss, Shower, Breast\u00A0massage, Body\u00A0slide, Natural\u00A0BJ, CIM, Multiple\u00A0rounds"],
+      cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
+    },
+    gallery: [
+      "/images/girls/erer/1.jpg",
+      "/images/girls/erer/2.jpg",
+      "/images/girls/erer/3.jpg",
+      "/images/girls/erer/4.jpg",
+      "/images/girls/erer/5.jpg"
+    ]
+  },
+  {
+    id: 32,
+    name: { en: "Zhuzhu", cn: "珠珠" },
+    status: "available",
+    verified: true,
+    location: "Central",
+    stats: {
+      age: 26,
+      height: "163cm",
+      weight: "45kg",
+      cup: "B-C",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/zhuzhu/1.jpg",
+    description: {
+      en: "Elegance meets youthful charm in Zhuzhu, a delightful member of our '00s generation' collection in Central Auckland. Standing at 163cm with a slim, graceful physique, she focuses on high-quality sensory interaction and attentive service. Whether you choose her standard session or the comprehensive VIP experience (including multiple rounds and specialized oral services), Zhuzhu ensures a memorable and deeply relaxing stay with her smooth, professional touch.",
+      cn: "优雅与青春的完美结合。珠珠作为00后新秀，现已在中区为您提供最贴心的服务。她身材纤细（B-C杯），动作轻柔且专业。无论是标准按摩还是包含蛇吻、口报和多次互动的VIP套餐，珠珠都会让您感受到前所未有的放松与愉悦。"
+    },
+    price: "$300 / 1h (VIP) · $240 / 1h · $180 / 30min",
+    services: {
+      en: ["French\u00A0kiss", "Sensory\u00A0massage", "69", "BJ\u00A0(condom)", "1\u00A0shot", "VIP: Snake\u00A0kiss, Shower, Breast\u00A0massage, Body\u00A0slide, Natural\u00A0BJ, CIM, Multiple\u00A0rounds"],
+      cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
+    },
+    gallery: [
+      "/images/girls/zhuzhu/1.jpg",
+      "/images/girls/zhuzhu/2.jpg",
+      "/images/girls/zhuzhu/3.jpg",
+      "/images/girls/zhuzhu/4.jpg"
+    ]
+  },
+  {
+    id: 33,
+    name: { en: "Michelle", cn: "Michelle" },
+    status: "available",
+    verified: true,
+    location: "Central",
+    stats: {
+      age: 25,
+      height: "163cm",
+      weight: "45kg",
+      cup: "B-C",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/michelle/1.jpg",
+    description: {
+      en: "Stunning and sophisticated, Michelle is a premium addition to our Central Auckland collection. Standing at 163cm with a slim 45kg frame and a natural B-C cup, she specializes in high-quality French kissing and sensory massage. Michelle is known for her graceful presence and exceptional service standards. Her VIP package offers an immersive experience including snake kisses, shower sessions, and multiple premium interactions for the most discerning guests.",
+      cn: "顶级佳丽 Michelle。身高 163cm，体重 45kg，身材匀称（B-C杯）。Michelle 以其卓越的服务态度和迷人的法式接吻深受好评。现在她已就位中区，为您带来最尊贵的感官盛宴。VIP 套餐包含蛇吻、鸳鸯浴、胸推漫游等全方位互动服务。"
+    },
+    price: "$300 / 1h (VIP) · $220 / 1h · $180 / 30min",
+    services: {
+      en: ["French\u00A0kiss", "Sensory\u00A0massage", "69", "BJ\u00A0(condom)", "1\u00A0shot", "VIP: Snake\u00A0kiss, Shower, Breast\u00A0massage, Body\u00A0slide, Natural\u00A0BJ, CIM, Multiple\u00A0rounds"],
+      cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
+    },
+    gallery: [
+      "/images/girls/michelle/1.jpg",
+      "/images/girls/michelle/2.jpg",
+      "/images/girls/michelle/3.jpg",
+      "/images/girls/michelle/4.jpg"
+    ]
+  },
+  {
+    id: 34,
+    name: { en: "Bingbing", cn: "冰冰" },
+    status: "available",
+    verified: true,
+    location: "Central",
+    stats: {
+      age: 25,
+      height: "163cm",
+      weight: "45kg",
+      cup: "C",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/bingbing/1.jpg",
+    description: {
+      en: "Warm and inviting, Bingbing is a beautiful addition to our collection in Central Auckland. Standing at 163cm with a slender 45kg physique and a full C-cup, she specializes in sensory massage and romantic interaction. Whether you prefer a standard session or her comprehensive VIP package—featuring snake kisses, shared showers, and multiple interactions—Bingbing provides a deeply personal and attentive service designed to melt away your stress.",
+      cn: "温柔似水，娇艳动人。冰冰拥有 163cm 的高挑身材和完美的 C 杯曲线。她擅长通过感官按摩和温柔互动为您排忧解难。VIP 套餐更包含蛇吻、鸳鸯浴、胸推漫游及多次云雨互动。冰冰现已在中区恭候您的光临，为您开启一段难忘的私密之旅。"
+    },
+    price: "$300 / 1h (VIP) · $220 / 1h · $180 / 30min",
+    services: {
+      en: ["French\u00A0kiss", "Sensory\u00A0massage", "69", "BJ\u00A0(condom)", "1\u00A0shot", "VIP: Snake\u00A0kiss, Shower, Breast\u00A0massage, Body\u00A0slide, Natural\u00A0BJ, CIM, Multiple\u00A0rounds"],
+      cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
+    },
+    gallery: [
+      "/images/girls/bingbing/1.jpg",
+      "/images/girls/bingbing/2.jpg",
+      "/images/girls/bingbing/3.jpg",
+      "/images/girls/bingbing/4.jpg",
+      "/images/girls/bingbing/5.jpg"
+    ]
+  },
+  {
     id: 1,
     name: { en: "Momo", cn: "Momo" },
     status: "unavailable",
@@ -1005,196 +1195,6 @@ export const girls = [
       "/images/girls/shanshan/3.jpg",
       "/images/girls/shanshan/4.jpg",
       "/images/girls/shanshan/5.jpg"
-    ]
-  },
-  {
-    id: 29,
-    name: { en: "Qingbao", cn: "晴宝" },
-    status: "available",
-    verified: true,
-    location: "CBD",
-    stats: {
-      age: 24,
-      height: "170cm",
-      weight: "46kg",
-      cup: "E",
-      nationality: "Taiwanese"
-    },
-    image: "/images/girls/qingbao/1.jpg",
-    video: "/images/girls/qingbao/video.mp4",
-    description: {
-      en: "Pure sweetness from Taiwan, Qingbao makes her first appearance in Auckland, bringing a delightful blend of innocence and allure. Newly arrived, she features an incredible natural E-cup figure on a slender 46kg frame. With her sweet personality, big eyes, and charming Taiwanese accent, she provides an attentive and deeply immersive service quality. Ideal for those seeking a premium encounter with a companion who is both elegant and incredibly sweet, she is only here for a short stay.",
-      cn: "台湾空降🪂 台湾影视学院晴宝初次登场AKL 高颜值童颜巨ru声音高颜值大眼睛超甜 服务主动 带入感很强、纯天E🥛大🐻大pi古 前凸后翘气质文雅 长相御姐 声音台湾腔嗲嗲酥酥超甜的反差纯白水🎉 短期停留"
-    },
-    price: "$500 / 1h · $400 / 30min",
-    services: {
-      en: ["Natural\u00A0bj", "shower\u00A0together", "69", "French\u00A0kiss", "stockings", "Submarine\u00A0bj", "Licking\u00A0eggs", "shower", "1\u00A0shot", "Extra: second\u00A0time\u00A0(+$50)"],
-      cn: ["无套口", "陪浴", "69", "舌吻", "黑丝", "水中箫", "舔蛋", "淋浴", "做1次", "额外：第二次(+$50)"]
-    },
-    gallery: [
-      "/images/girls/qingbao/1.jpg",
-      "/images/girls/qingbao/2.jpg",
-      "/images/girls/qingbao/3.jpg",
-      "/images/girls/qingbao/4.jpg",
-      "/images/girls/qingbao/5.jpg",
-      "/images/girls/qingbao/6.jpg",
-      "/images/girls/qingbao/7.jpg",
-      "/images/girls/qingbao/8.jpg",
-      "/images/girls/qingbao/9.jpg"
-    ]
-  },
-  {
-    id: 30,
-    name: { en: "Qinger", cn: "情儿" },
-    status: "available",
-    verified: true,
-    location: "Central",
-    stats: {
-      age: 24,
-      height: "160cm",
-      weight: "45kg",
-      cup: "B+",
-      nationality: "Chinese"
-    },
-    image: "/images/girls/qinger/1.jpg",
-    description: {
-      en: "Charming and attentive, Qinger brings a soft and sensual energy to her sessions in Central Auckland. Standing at 160cm with a delicate build, she specializes in therapeutic and sensual massage, focusing on relaxation and high-quality interaction. Her gentle nature and careful service make her a favorite for those seeking a more personal and soothing experience. Available for both standard sessions and extended premium interactions with additional oral and sensory options.",
-      cn: "温柔体贴，服务至上，让您在繁忙的城市中找到那份宁静与欢愉。情儿现已来到中区，为您提供最专业的身心呵护。主要提供按摩和感官互动服务。额外的标准互动均可配合。"
-    },
-    price: "$160 / 1h",
-    services: {
-      en: ["Sensual\u00A0massage", "HJ\u00A0(condom)", "Topless", "Handjob", "Extra: Natural\u00A0BJ\u00A0(+$50) Natural\u00A0BJ\u00A0&\u00A0cim\u00A0in\u00A0mouth\u00A0(+$80)"],
-      cn: ["按摩", "带套口", "裸上身", "飞机", "额外：无套口(+$50) 无套口&口报(+$80)"]
-    },
-    gallery: [
-      "/images/girls/qinger/1.jpg",
-      "/images/girls/qinger/2.jpg",
-      "/images/girls/qinger/3.jpg",
-      "/images/girls/qinger/4.jpg",
-      "/images/girls/qinger/5.jpg",
-      "/images/girls/qinger/6.jpg"
-    ]
-  },
-  {
-    id: 31,
-    name: { en: "Er-er", cn: "二二" },
-    status: "available",
-    verified: true,
-    location: "Central",
-    stats: {
-      age: 26,
-      height: "163cm",
-      weight: "45kg",
-      cup: "D",
-      nationality: "Chinese"
-    },
-    image: "/images/girls/erer/1.jpg",
-    description: {
-      en: "Youthful and energetic, Er-er is a stunning beauty from the '00s generation' now serving Central Auckland. Standing at 163cm with a perfectly balanced figure and a natural D-cup, she specializes in providing a high-participation, sensory-focused experience. Her sessions are characterized by warmth, enthusiasm, and a deep commitment to service quality. For those seeking the ultimate indulgence, her premium VIP package offers multiple rounds, extended interactions, and specialized oral services in a luxurious, relaxed environment.",
-      cn: "青春活力00后，身材娇小火辣（D杯），服务主动且配合度极高。二二现已在中心区为您开启专属的私密时光。主要提供高参与度的感官服务。VIP套餐包含：蛇吻, 一起洗澡, 胸推漫游, 感官按摩, 无套口, 69, 口报, 多次等。"
-    },
-    price: "$300 / 1h (VIP) · $240 / 1h · $180 / 30min",
-    services: {
-      en: ["French\u00A0kiss", "Sensory\u00A0massage", "69", "BJ\u00A0(condom)", "1\u00A0shot", "VIP: Snake\u00A0kiss, Shower, Breast\u00A0massage, Body\u00A0slide, Natural\u00A0BJ, CIM, Multiple\u00A0rounds"],
-      cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
-    },
-    gallery: [
-      "/images/girls/erer/1.jpg",
-      "/images/girls/erer/2.jpg",
-      "/images/girls/erer/3.jpg",
-      "/images/girls/erer/4.jpg",
-      "/images/girls/erer/5.jpg"
-    ]
-  },
-  {
-    id: 32,
-    name: { en: "Zhuzhu", cn: "珠珠" },
-    status: "available",
-    verified: true,
-    location: "Central",
-    stats: {
-      age: 26,
-      height: "163cm",
-      weight: "45kg",
-      cup: "B-C",
-      nationality: "Chinese"
-    },
-    image: "/images/girls/zhuzhu/1.jpg",
-    description: {
-      en: "Elegance meets youthful charm in Zhuzhu, a delightful member of our '00s generation' collection in Central Auckland. Standing at 163cm with a slim, graceful physique, she focuses on high-quality sensory interaction and attentive service. Whether you choose her standard session or the comprehensive VIP experience (including multiple rounds and specialized oral services), Zhuzhu ensures a memorable and deeply relaxing stay with her smooth, professional touch.",
-      cn: "优雅与青春的完美结合。珠珠作为00后新秀，现已在中区为您提供最贴心的服务。她身材纤细（B-C杯），动作轻柔且专业。无论是标准按摩还是包含蛇吻、口报和多次互动的VIP套餐，珠珠都会让您感受到前所未有的放松与愉悦。"
-    },
-    price: "$300 / 1h (VIP) · $240 / 1h · $180 / 30min",
-    services: {
-      en: ["French\u00A0kiss", "Sensory\u00A0massage", "69", "BJ\u00A0(condom)", "1\u00A0shot", "VIP: Snake\u00A0kiss, Shower, Breast\u00A0massage, Body\u00A0slide, Natural\u00A0BJ, CIM, Multiple\u00A0rounds"],
-      cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
-    },
-    gallery: [
-      "/images/girls/zhuzhu/1.jpg",
-      "/images/girls/zhuzhu/2.jpg",
-      "/images/girls/zhuzhu/3.jpg",
-      "/images/girls/zhuzhu/4.jpg"
-    ]
-  },
-  {
-    id: 33,
-    name: { en: "Michelle", cn: "Michelle" },
-    status: "available",
-    verified: true,
-    location: "Central",
-    stats: {
-      age: 25,
-      height: "163cm",
-      weight: "45kg",
-      cup: "B-C",
-      nationality: "Chinese"
-    },
-    image: "/images/girls/michelle/1.jpg",
-    description: {
-      en: "Stunning and sophisticated, Michelle is a premium addition to our Central Auckland collection. Standing at 163cm with a slim 45kg frame and a natural B-C cup, she specializes in high-quality French kissing and sensory massage. Michelle is known for her graceful presence and exceptional service standards. Her VIP package offers an immersive experience including snake kisses, shower sessions, and multiple premium interactions for the most discerning guests.",
-      cn: "顶级佳丽 Michelle。身高 163cm，体重 45kg，身材匀称（B-C杯）。Michelle 以其卓越的服务态度和迷人的法式接吻深受好评。现在她已就位中区，为您带来最尊贵的感官盛宴。VIP 套餐包含蛇吻、鸳鸯浴、胸推漫游等全方位互动服务。"
-    },
-    price: "$300 / 1h (VIP) · $220 / 1h · $180 / 30min",
-    services: {
-      en: ["French\u00A0kiss", "Sensory\u00A0massage", "69", "BJ\u00A0(condom)", "1\u00A0shot", "VIP: Snake\u00A0kiss, Shower, Breast\u00A0massage, Body\u00A0slide, Natural\u00A0BJ, CIM, Multiple\u00A0rounds"],
-      cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
-    },
-    gallery: [
-      "/images/girls/michelle/1.jpg",
-      "/images/girls/michelle/2.jpg",
-      "/images/girls/michelle/3.jpg",
-      "/images/girls/michelle/4.jpg"
-    ]
-  },
-  {
-    id: 34,
-    name: { en: "Bingbing", cn: "冰冰" },
-    status: "available",
-    verified: true,
-    location: "Central",
-    stats: {
-      age: 25,
-      height: "163cm",
-      weight: "45kg",
-      cup: "C",
-      nationality: "Chinese"
-    },
-    image: "/images/girls/bingbing/1.jpg",
-    description: {
-      en: "Warm and inviting, Bingbing is a beautiful addition to our collection in Central Auckland. Standing at 163cm with a slender 45kg physique and a full C-cup, she specializes in sensory massage and romantic interaction. Whether you prefer a standard session or her comprehensive VIP package—featuring snake kisses, shared showers, and multiple interactions—Bingbing provides a deeply personal and attentive service designed to melt away your stress.",
-      cn: "温柔似水，娇艳动人。冰冰拥有 163cm 的高挑身材和完美的 C 杯曲线。她擅长通过感官按摩和温柔互动为您排忧解难。VIP 套餐更包含蛇吻、鸳鸯浴、胸推漫游及多次云雨互动。冰冰现已在中区恭候您的光临，为您开启一段难忘的私密之旅。"
-    },
-    price: "$300 / 1h (VIP) · $220 / 1h · $180 / 30min",
-    services: {
-      en: ["French\u00A0kiss", "Sensory\u00A0massage", "69", "BJ\u00A0(condom)", "1\u00A0shot", "VIP: Snake\u00A0kiss, Shower, Breast\u00A0massage, Body\u00A0slide, Natural\u00A0BJ, CIM, Multiple\u00A0rounds"],
-      cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
-    },
-    gallery: [
-      "/images/girls/bingbing/1.jpg",
-      "/images/girls/bingbing/2.jpg",
-      "/images/girls/bingbing/3.jpg",
-      "/images/girls/bingbing/4.jpg",
-      "/images/girls/bingbing/5.jpg"
     ]
   }
 ];
