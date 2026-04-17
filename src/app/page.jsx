@@ -26,12 +26,18 @@ export default function Home() {
         <ContactBanner />
       </header>
       
+      {/* Latest Models Section Heading */}
+      <div className="flex flex-col items-center px-8 mb-4">
+        <h2 className="text-lg md:text-xl uppercase tracking-[0.3em] text-[#F84A88] font-sans font-bold drop-shadow-sm">
+          {t.grid.newCollection}
+        </h2>
+      </div>
+
       {/* Model Grid Section */}
       <GirlGrid 
-        limit={3} 
+        limit={6} 
         showCTA={true} 
         showIntro={true} 
-        girls={require("@/lib/data").girls.filter(m => [1, 3, 4].includes(m.id))} 
       />
 
       {/* Trust & Quality Footer Callout */}
