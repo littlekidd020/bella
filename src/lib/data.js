@@ -1074,6 +1074,37 @@ export const girls = [
       "/images/girls/qinger/5.jpg",
       "/images/girls/qinger/6.jpg"
     ]
+  },
+  {
+    id: 31,
+    name: { en: "Er-er", cn: "二二" },
+    status: "available",
+    verified: true,
+    location: "Central",
+    stats: {
+      age: 26,
+      height: "163cm",
+      weight: "45kg",
+      cup: "D",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/erer/1.jpg",
+    description: {
+      en: "Youthful and energetic, Er-er is a stunning beauty from the '00s generation' now serving Central Auckland. Standing at 163cm with a perfectly balanced figure and a natural D-cup, she specializes in providing a high-participation, sensory-focused experience. Her sessions are characterized by warmth, enthusiasm, and a deep commitment to service quality. For those seeking the ultimate indulgence, her premium VIP package offers multiple rounds, extended interactions, and specialized oral services in a luxurious, relaxed environment.",
+      cn: "青春活力00后，身材娇小火辣（D杯），服务主动且配合度极高。二二现已在中心区为您开启专属的私密时光。主要提供高参与度的感官服务。VIP套餐包含：蛇吻, 一起洗澡, 胸推漫游, 感官按摩, 无套口, 69, 口报, 多次等。"
+    },
+    price: "$240 / 1h · $180 / 30min",
+    services: {
+      en: ["French\u00A0kiss", "Sensory\u00A0massage", "69", "BJ\u00A0(condom)", "1\u00A0shot", "VIP: Snake\u00A0kiss, Shower, Breast\u00A0massage, Body\u00A0slide, Natural\u00A0BJ, CIM, Multiple\u00A0rounds"],
+      cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
+    },
+    gallery: [
+      "/images/girls/erer/1.jpg",
+      "/images/girls/erer/2.jpg",
+      "/images/girls/erer/3.jpg",
+      "/images/girls/erer/4.jpg",
+      "/images/girls/erer/5.jpg"
+    ]
   }
 ];
 
