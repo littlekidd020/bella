@@ -1093,7 +1093,7 @@ export const girls = [
       en: "Youthful and energetic, Er-er is a stunning beauty from the '00s generation' now serving Central Auckland. Standing at 163cm with a perfectly balanced figure and a natural D-cup, she specializes in providing a high-participation, sensory-focused experience. Her sessions are characterized by warmth, enthusiasm, and a deep commitment to service quality. For those seeking the ultimate indulgence, her premium VIP package offers multiple rounds, extended interactions, and specialized oral services in a luxurious, relaxed environment.",
       cn: "青春活力00后，身材娇小火辣（D杯），服务主动且配合度极高。二二现已在中心区为您开启专属的私密时光。主要提供高参与度的感官服务。VIP套餐包含：蛇吻, 一起洗澡, 胸推漫游, 感官按摩, 无套口, 69, 口报, 多次等。"
     },
-    price: "$240 / 1h · $180 / 30min",
+    price: "$300 / 1h (VIP) · $240 / 1h · $180 / 30min",
     services: {
       en: ["French\u00A0kiss", "Sensory\u00A0massage", "69", "BJ\u00A0(condom)", "1\u00A0shot", "VIP: Snake\u00A0kiss, Shower, Breast\u00A0massage, Body\u00A0slide, Natural\u00A0BJ, CIM, Multiple\u00A0rounds"],
       cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
@@ -1104,6 +1104,36 @@ export const girls = [
       "/images/girls/erer/3.jpg",
       "/images/girls/erer/4.jpg",
       "/images/girls/erer/5.jpg"
+    ]
+  },
+  {
+    id: 32,
+    name: { en: "Zhuzhu", cn: "珠珠" },
+    status: "available",
+    verified: true,
+    location: "Central",
+    stats: {
+      age: 26,
+      height: "163cm",
+      weight: "45kg",
+      cup: "B-C",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/zhuzhu/1.jpg",
+    description: {
+      en: "Elegance meets youthful charm in Zhuzhu, a delightful member of our '00s generation' collection in Central Auckland. Standing at 163cm with a slim, graceful physique, she focuses on high-quality sensory interaction and attentive service. Whether you choose her standard session or the comprehensive VIP experience (including multiple rounds and specialized oral services), Zhuzhu ensures a memorable and deeply relaxing stay with her smooth, professional touch.",
+      cn: "优雅与青春的完美结合。珠珠作为00后新秀，现已在中区为您提供最贴心的服务。她身材纤细（B-C杯），动作轻柔且专业。无论是标准按摩还是包含蛇吻、口报和多次互动的VIP套餐，珠珠都会让您感受到前所未有的放松与愉悦。"
+    },
+    price: "$300 / 1h (VIP) · $240 / 1h · $180 / 30min",
+    services: {
+      en: ["French\u00A0kiss", "Sensory\u00A0massage", "69", "BJ\u00A0(condom)", "1\u00A0shot", "VIP: Snake\u00A0kiss, Shower, Breast\u00A0massage, Body\u00A0slide, Natural\u00A0BJ, CIM, Multiple\u00A0rounds"],
+      cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
+    },
+    gallery: [
+      "/images/girls/zhuzhu/1.jpg",
+      "/images/girls/zhuzhu/2.jpg",
+      "/images/girls/zhuzhu/3.jpg",
+      "/images/girls/zhuzhu/4.jpg"
     ]
   }
 ];
