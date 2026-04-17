@@ -59,7 +59,8 @@ export const translations = {
         "Korean-Chinese": "韩裔华籍",
         "Japanese-Chinese": "日裔华籍",
         "Vietnamese": "越南",
-        "Thailand": "泰国"
+        "Thailand": "泰国",
+        "Taiwanese": "台湾"
       },
       locations: {
         "CBD": "市区",
@@ -178,8 +179,8 @@ export const translations = {
         "Thailand": "Thailand"
       },
       locations: {
-        "CBD": "Auckland CBD",
-        "Auckland CBD": "Auckland CBD",
+        "CBD": "CBD",
+        "Auckland CBD": "CBD",
         "Central": "Central",
         "North": "North",
         "East": "East"

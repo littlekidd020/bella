@@ -1017,7 +1017,7 @@ export const girls = [
       age: 24,
       height: "170cm",
       weight: "46kg",
-      cup: "E (Natural)",
+      cup: "E",
       nationality: "Taiwanese"
     },
     image: "/images/girls/qingbao/1.jpg",
@@ -1028,8 +1028,8 @@ export const girls = [
     },
     price: "$500 / 1h · $400 / 30min",
     services: {
-      en: ["Natural\u00A0bj", "shower\u00A0together", "French\u00A0kiss", "stockings", "breast\u00A0massage", "69", "love\u00A0once", "Extra: second\u00A0time\u00A0(+$50)"],
-      cn: ["无套口", "陪浴", "69", "舌吻", "黑丝", "淋浴", "做1次", "额外：第二次(+$50)"]
+      en: ["Natural\u00A0bj", "shower\u00A0together", "69", "French\u00A0kiss", "stockings", "Submarine\u00A0bj", "Licking\u00A0eggs", "shower", "1\u00A0shot", "Extra: second\u00A0time\u00A0(+$50)"],
+      cn: ["无套口", "陪浴", "69", "舌吻", "黑丝", "水中箫", "舔蛋", "淋浴", "做1次", "额外：第二次(+$50)"]
     },
     gallery: [
       "/images/girls/qingbao/1.jpg",
@@ -1041,6 +1041,38 @@ export const girls = [
       "/images/girls/qingbao/7.jpg",
       "/images/girls/qingbao/8.jpg",
       "/images/girls/qingbao/9.jpg"
+    ]
+  },
+  {
+    id: 30,
+    name: { en: "Qinger", cn: "情儿" },
+    status: "available",
+    verified: true,
+    location: "Central",
+    stats: {
+      age: 24,
+      height: "160cm",
+      weight: "45kg",
+      cup: "B+",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/qinger/1.jpg",
+    description: {
+      en: "Charming and attentive, Qinger brings a soft and sensual energy to her sessions in Central Auckland. Standing at 160cm with a delicate build, she specializes in therapeutic and sensual massage, focusing on relaxation and high-quality interaction. Her gentle nature and careful service make her a favorite for those seeking a more personal and soothing experience. Available for both standard sessions and extended premium interactions with additional oral and sensory options.",
+      cn: "温柔体贴，服务至上，让您在繁忙的城市中找到那份宁静与欢愉。情儿现已来到中区，为您提供最专业的身心呵护。主要提供按摩和感官互动服务。额外的标准互动均可配合。"
+    },
+    price: "$160 / 1h",
+    services: {
+      en: ["Sensual\u00A0massage", "HJ\u00A0(condom)", "Topless", "Handjob", "Extra: Natural\u00A0BJ\u00A0(+$50) Natural\u00A0BJ\u00A0&\u00A0cim\u00A0in\u00A0mouth\u00A0(+$80)"],
+      cn: ["按摩", "带套口", "裸上身", "飞机", "额外：无套口(+$50) 无套口&口报(+$80)"]
+    },
+    gallery: [
+      "/images/girls/qinger/1.jpg",
+      "/images/girls/qinger/2.jpg",
+      "/images/girls/qinger/3.jpg",
+      "/images/girls/qinger/4.jpg",
+      "/images/girls/qinger/5.jpg",
+      "/images/girls/qinger/6.jpg"
     ]
   }
 ];
