@@ -1135,6 +1135,36 @@ export const girls = [
       "/images/girls/zhuzhu/3.jpg",
       "/images/girls/zhuzhu/4.jpg"
     ]
+  },
+  {
+    id: 33,
+    name: { en: "Michelle", cn: "Michelle" },
+    status: "available",
+    verified: true,
+    location: "Central",
+    stats: {
+      age: 25,
+      height: "163cm",
+      weight: "45kg",
+      cup: "B-C",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/michelle/1.jpg",
+    description: {
+      en: "Stunning and sophisticated, Michelle is a premium addition to our Central Auckland collection. Standing at 163cm with a slim 45kg frame and a natural B-C cup, she specializes in high-quality French kissing and sensory massage. Michelle is known for her graceful presence and exceptional service standards. Her VIP package offers an immersive experience including snake kisses, shower sessions, and multiple premium interactions for the most discerning guests.",
+      cn: "顶级佳丽 Michelle。身高 163cm，体重 45kg，身材匀称（B-C杯）。Michelle 以其卓越的服务态度和迷人的法式接吻深受好评。现在她已就位中区，为您带来最尊贵的感官盛宴。VIP 套餐包含蛇吻、鸳鸯浴、胸推漫游等全方位互动服务。"
+    },
+    price: "$300 / 1h (VIP) · $220 / 1h · $180 / 30min",
+    services: {
+      en: ["French\u00A0kiss", "Sensory\u00A0massage", "69", "BJ\u00A0(condom)", "1\u00A0shot", "VIP: Snake\u00A0kiss, Shower, Breast\u00A0massage, Body\u00A0slide, Natural\u00A0BJ, CIM, Multiple\u00A0rounds"],
+      cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
+    },
+    gallery: [
+      "/images/girls/michelle/1.jpg",
+      "/images/girls/michelle/2.jpg",
+      "/images/girls/michelle/3.jpg",
+      "/images/girls/michelle/4.jpg"
+    ]
   }
 ];
 
