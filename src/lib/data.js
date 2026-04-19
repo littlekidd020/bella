@@ -187,7 +187,7 @@ export const girls = [
   {
     id: 6,
     name: { en: "Laila", cn: "莱拉" },
-    status: "available",
+    status: "unavailable",
     verified: true,
     isOnHomepage: false,
     location: "CBD",
@@ -366,7 +366,7 @@ export const girls = [
   {
     id: 11,
     name: { en: "Linda", cn: "琳达" },
-    status: "available",
+    status: "unavailable",
     verified: true,
     location: "CBD",
     stats: {
@@ -1034,7 +1034,7 @@ export const girls = [
   {
     id: 30,
     name: { en: "Michelle", cn: "Michelle" },
-    status: "available",
+    status: "unavailable",
     verified: true,
     location: "Central",
     stats: {
