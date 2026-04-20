@@ -333,7 +333,7 @@ export const girls = [
   {
     id: 10,
     name: { en: "Puffy", cn: "泡芙" },
-    status: "available",
+    status: "unavailable",
     verified: true,
     location: "CBD",
     stats: {
@@ -941,7 +941,7 @@ export const girls = [
   {
     id: 27,
     name: { en: "Qinger", cn: "情儿" },
-    status: "available",
+    status: "unavailable",
     verified: true,
     location: "Central",
     stats: {
