@@ -20,8 +20,8 @@ export const girls = [
     },
     price: "$400 / 1h · $350 / 30min · $700 / 90min · $800 / 2h",
     services: {
-      en: ["French\u00A0kiss", "shower\u00A0together", "1\u00A0shot", "69", "Water\u00A0bj", "Roleplay", "Ice\u00A0&\u00A0Fire", "Dragon\u00A0techniques", "Nipple\u00A0licking", "Pussy\u00A0slider", "3P", "Extra: Rimming\u00A0(+$50), CIM\u00A0(+$50), 2nd\u00A0shot\u00A0(+$50), Discreet\u00A0Photo/Video\u00A0(+$100), Face\u00A0CIM\u00A0(+$100), S&M\u00A0(+$100+)"],
-      cn: ["舌吻", "陪浴", "做1次", "69", "水中吹", "角色扮演", "冰火两重天", "各类龙技", "舔奶", "滑冰", "3P", "额外：毒龙(+$50), 口报(+$50), 第二次(+$50), 不露脸拍照录影(+$100), 颜射(+$100), S&M(+$100起)"]
+      en: ["shower\u00A0together", "Natural\u00A0bj", "69", "Water\u00A0bj", "Roleplay", "Ice\u00A0&\u00A0Fire", "French\u00A0kiss", "Breast\u00A0massage", "Dragon\u00A0techniques", "Deep\u00A0throat", "Swivel\u00A0Dragon", "Inverted\u00A0Dragon", "Thai\u00A0massage", "Body\u00A0massage", "Stockings", "Uniform", "3P", "1\u00A0shot", "Extra: Rimming(+$50), CIM(+$50), 2nd\u00A0shot(+$50), Discreet\u00A0Photo/Video(+$100), Face\u00A0CIM(+$100), S&M(+$100+), No\u00A0raw\u00A0sex, No\u00A0alcohol"],
+      cn: ["陪浴", "无套口", "69", "水中箫", "角色扮演", "冰火两重天", "法式kiss", "胸推", "箫摇摆龙", "深喉龙", "旋转龙", "倒挂金钩龙", "泰式抓龙筋", "按摩", "黑丝高跟", "制服诱惑", "3P", "做1次", "额外：毒龙(+$50), 口报(+$50), 第二次(+$50), 不露脸拍照录影(+$100), 颜射(+$100, 当天最后一个), S&M(+$100起), 禁无套, 禁酒后"]
     },
     gallery: [
       "/images/girls/jinxi/1.jpg",
