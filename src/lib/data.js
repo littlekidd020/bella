@@ -112,7 +112,7 @@ export const girls = [
   },
   {
     id: 4,
-    name: { en: "Ribemei", cn: "日笨妹" },
+    name: { en: "Japanese Girl", cn: "日本妹" },
     status: "available",
     verified: true,
     location: "CBD",
@@ -121,12 +121,12 @@ export const girls = [
       height: "163cm",
       weight: "45kg",
       cup: "C (Natural)",
-      nationality: "Chinese"
+      nationality: "Japanese"
     },
     image: "/images/girls/ribemei/1.jpg",
     description: {
-      en: "Sweet and petite, Ribemei brings a youthful and playful energy to the CBD. Standing at 163cm with a slender 45kg frame and natural C-cup features, she specializes in attentive, immersive service with a focus on high-quality interaction. Known for her compliance and sweet personality, she offers a comprehensive range of services including French kissing, 69, and multiple shots for a deeply satisfying and premium experience in the heart of Auckland.",
-      cn: "日笨妹，25岁，身高163cm，体重45kg，自然C杯。性格甜美可人，配合度极高，为您带来全新的感官体验。现已在奥克兰市区就位，主要提供法式热吻、无套口、69、口报等全方位精品服务。支持2次互动，让您尽享丝滑感受。"
+      en: "Sweet and petite, Japanese Girl (Nihonmei) brings a youthful and playful energy to the CBD. Standing at 163cm with a slender 45kg frame and natural C-cup features, she specializes in attentive, immersive service with a focus on high-quality interaction. Known for her compliance and sweet personality, she offers a comprehensive range of services including French kissing, 69, and multiple shots for a deeply satisfying and premium experience in the heart of Auckland.",
+      cn: "日本妹，25岁，身高163cm，体重45kg，自然C杯。性格甜美可人，配合度极高，为您带来全新的感官体验。现已在奥克兰市区就位，主要提供法式热吻、无套口、69、口报等全方位精品服务。支持2次互动，让您尽享丝滑感受。"
     },
     price: "$360 / 1h",
     services: {
@@ -136,7 +136,9 @@ export const girls = [
     gallery: [
       "/images/girls/ribemei/1.jpg",
       "/images/girls/ribemei/2.jpg",
-      "/images/girls/ribemei/3.jpg"
+      "/images/girls/ribemei/3.jpg",
+      "/images/girls/ribemei/4.jpg",
+      "/images/girls/ribemei/5.jpg"
     ]
   },
   {
