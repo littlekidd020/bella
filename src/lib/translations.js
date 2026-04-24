@@ -57,6 +57,8 @@ export const translations = {
         "china": "中国",
         "China": "中国",
         "Korean-Chinese": "韩裔华籍",
+        "Japanese": "日本",
+        "Japan": "日本",
         "Japanese-Chinese": "日裔华籍",
         "Vietnamese": "越南",
         "Thailand": "泰国",
