@@ -53,7 +53,7 @@ const parsedGirls = items.map(block => {
 const filtered = parsedGirls.filter(g => g.cn !== "栗子" && g.status !== "hidden" && g.status !== "deleted");
 
 // Priority names
-const homePriorityNames = ["晴宝", "Momo", "小绵羊"];
+const homePriorityNames = ["锦汐", "晴宝", "Momo", "小绵羊"];
 
 // Create final list
 const priorityList = [];
