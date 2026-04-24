@@ -130,8 +130,8 @@ export const girls = [
     },
     price: "$360 / 1h",
     services: {
-      en: ["French\u00A0kiss", "Natural\u00A0bj", "2\u00A0shots", "69", "Mutual\u00A0oral", "Nipple\u00A0licking", "Pussy\u00A0slider", "shower\u00A0together", "Extra: Discreet\u00A0Photo/Video\u00A0(+$150), Full\u00A0Face\u00A0Photo/Video\u00A0(+$200), Natural\u00A0Love/CIM\u00A0(+$300)"],
-      cn: ["舌吻", "无套口", "做2次", "69", "互舔", "舔奶", "滑冰", "陪浴", "额外：不露脸拍照录影(+$150), 露脸拍照录影(+$200), 无套内射(+$300)"]
+      en: ["French\u00A0kiss", "shower\u00A0together", "3P", "Natural\u00A0bj", "69", "CIM", "2\u00A0shots", "Extra: Discreet\u00A0Photo/Video\u00A0(+$150), Full\u00A0Face\u00A0Photo/Video\u00A0(+$200), Natural\u00A0Love/CIM\u00A0(+$300)"],
+      cn: ["舌吻", "陪浴", "3P", "无套口", "69", "口爆", "做2次", "额外：不露脸拍照录影(+$150), 露脸拍照录影(+$200), 无套内射(+$300)"]
     },
     gallery: [
       "/images/girls/ribemei/2.jpg",
