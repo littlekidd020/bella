@@ -72,7 +72,7 @@ export const girls = [
   {
     id: 3,
     name: { en: "Momo", cn: "Momo" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "CBD",
     stats: {
@@ -147,7 +147,7 @@ export const girls = [
   {
     id: 5,
     name: { en: "Youyou", cn: "优优" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "CBD",
     stats: {
@@ -1129,7 +1129,7 @@ export const girls = [
   {
     id: 33,
     name: { en: "Japanese Girl", cn: "日本妹" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "CBD",
     stats: {

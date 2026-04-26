@@ -51,10 +51,10 @@ export default function GirlDetailsPage() {
     // Scroll to top on mount
     window.scrollTo(0, 0);
     const foundModel = girls.find((m) => m.id === parseInt(id));
-    if (foundModel) {
+    if (foundModel && foundModel.status !== "hidden" && foundModel.status !== "deleted") {
       setModel(foundModel);
     } else {
-      router.push('/collection'); // redirect if not found
+      router.push('/collection'); // redirect if not found or hidden
     }
   }, [id, router]);
 
