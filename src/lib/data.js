@@ -54,8 +54,8 @@ export const girls = [
     },
     price: "$500 / 1h · $400 / 30min",
     services: {
-      en: ["Natural\u00A0bj", "shower\u00A0together", "69", "French\u00A0kiss", "stockings", "Submarine\u00A0bj", "Licking\u00A0eggs", "shower", "1\u00A0shot", "Extra: second\u00A0time\u00A0(+$50)"],
-      cn: ["无套口", "陪浴", "69", "舌吻", "黑丝", "水中箫", "舔蛋", "淋浴", "做1次", "额外：第二次(+$50)"]
+      en: ["Natural\u00A0bj", "shower\u00A0together", "69", "French\u00A0kiss", "stockings", "Submarine\u00A0bj", "Licking\u00A0eggs", "shower", "2\u00A0shots"],
+      cn: ["无套口", "陪浴", "69", "舌吻", "黑丝", "水中箫", "舔蛋", "淋浴", "做2次"]
     },
     gallery: [
       "/images/girls/qingbao/1.jpg",
