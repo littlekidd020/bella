@@ -185,7 +185,7 @@ export const girls = [
     name: { en: "Lamb", cn: "小绵羊" },
     status: "available",
     verified: true,
-    location: "CBD",
+    location: "Central",
     stats: {
       age: 22,
       height: "169cm",
@@ -508,7 +508,7 @@ export const girls = [
     name: { en: "Faye", cn: "语橙" },
     status: "available",
     verified: true,
-    location: "CBD",
+    location: "Central",
     stats: {
       age: 19,
       height: "170cm",
