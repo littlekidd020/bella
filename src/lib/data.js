@@ -100,7 +100,7 @@ export const girls = [
       "/images/girls/jinxi/data1.jpg",
       "/images/girls/jinxi/data2.jpg"
     ]
-  },,
+  },
   {
     id: 36,
     name: { en: "Yomi", cn: "Yomi" },
@@ -136,7 +136,7 @@ export const girls = [
       "/images/girls/yomi/data1.jpg",
       "/images/girls/yomi/data2.jpg"
     ]
-  }
+  },
   {
     id: 2,
     name: { en: "Qingbao", cn: "晴宝" },
