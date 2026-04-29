@@ -1,5 +1,73 @@
 export const girls = [
   {
+    id: 34,
+    name: { en: "Bingbing", cn: "冰冰" },
+    status: "available",
+    verified: true,
+    location: "CBD",
+    stats: {
+      age: 25,
+      height: "168cm",
+      weight: "45kg",
+      cup: "C",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/bingbing_sister/1.jpg",
+    video: "/images/girls/bingbing_sister/video.mp4",
+    description: {
+      en: "Newly arrived from China, Bingbing is one half of our stunning 'Sister Duo'. With her sophisticated 'mature sister' (Yujie) elegance and beautiful presence, she offers a professional and highly engaging experience. Her perfectly curved figure and private specialized techniques ensure an unforgettable encounter.",
+      cn: "🆕国内空降🪂姐妹花之冰冰，刚落地✈️\n🛬御姐气质风 漂亮🤩纯纯御姐风 \n冰冰前凸后翘有私密绝活哦"
+    },
+    price: "$400 / 1h · $350 / 45min · $300 / 30min",
+    services: {
+      en: ["Natural\u00A0bj", "shower\u00A0together", "kiss", "stockings", "breast\u00A0massage", "love\u00A0once", "Extra: Rimming(+$50) cim\u00A0in\u00A0mouth(+$50) second\u00A0time(+$50)"],
+      cn: ["无套口", "陪浴", "浅吻", "黑丝", "指滑", "水中捞月", "胸推", "全身漫游", "做1次", "额外：第二次(+$50) 口报(+$50) 毒龙(+$50)"]
+    },
+    gallery: [
+      "/images/girls/bingbing_sister/1.jpg",
+      "/images/girls/bingbing_sister/2.jpg",
+      "/images/girls/bingbing_sister/3.jpg",
+      "/images/girls/bingbing_sister/4.jpg",
+      "/images/girls/bingbing_sister/5.jpg",
+      "/images/girls/bingbing_sister/data1.jpg",
+      "/images/girls/bingbing_sister/data2.jpg"
+    ]
+  },
+  {
+    id: 35,
+    name: { en: "Shanshan", cn: "珊珊" },
+    status: "available",
+    verified: true,
+    location: "CBD",
+    stats: {
+      age: "33+",
+      height: "168cm",
+      weight: "45kg",
+      cup: "C",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/shanshan_sister/1.jpg",
+    description: {
+      en: "Newly arrived from China, Shanshan is the second half of our elite 'Sister Duo'. She brings a refined 'mature sister' (Yujie) charm and a slender, delicate physique. Known for her fair, tender skin and graceful presence, she provides a high-quality service that is both refreshing and deeply satisfying.",
+      cn: "🆕国内空降🪂姐妹花之珊珊，刚落地✈️\n🛬御姐气质风 漂亮🤩纯纯御姐风 \n姗姗身材细巧苗条身材 皮肤白嫩 🎉🎉🎉"
+    },
+    price: "$400 / 1h · $350 / 45min · $300 / 30min",
+    services: {
+      en: ["Natural\u00A0bj", "shower\u00A0together", "kiss", "stockings", "breast\u00A0massage", "love\u00A0once", "Extra: Rimming(+$50) cim\u00A0in\u00A0mouth(+$50) second\u00A0time(+$50)"],
+      cn: ["无套口", "陪浴", "浅吻", "黑丝", "指滑", "水中捞月", "胸推", "全身漫游", "做1次", "额外：第二次(+$50) 口报(+$50) 毒龙(+$50)"]
+    },
+    gallery: [
+      "/images/girls/shanshan_sister/1.jpg",
+      "/images/girls/shanshan_sister/2.jpg",
+      "/images/girls/shanshan_sister/3.jpg",
+      "/images/girls/shanshan_sister/4.jpg",
+      "/images/girls/shanshan_sister/5.jpg",
+      "/images/girls/shanshan_sister/6.jpg",
+      "/images/girls/shanshan_sister/data1.jpg",
+      "/images/girls/shanshan_sister/data2.jpg"
+    ]
+  },
+  {
     id: 1,
     name: { en: "Jinxi", cn: "锦汐" },
     status: "available",
@@ -1156,7 +1224,7 @@ export const girls = [
       "/images/girls/ribemei/4.jpg",
       "/images/girls/ribemei/5.jpg"
     ]
-  }
+  },
 ];
 
 export default girls;
