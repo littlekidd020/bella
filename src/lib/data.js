@@ -1246,7 +1246,7 @@ export const girls = [
     price: "$300 / 1h",
     services: {
       en: ["Bj", "shower\u00A0together", "breast\u00A0massage", "Love's\u00A0prattle", "baby\u00A0slide", "stockings", "Love\u00A0once", "Extra:\u00A069\u00A0(+$20),\u00A0natural\u00A0bj\u00A0(+$20),\u00A0French\u00A0kiss\u00A0(+$20),\u00A0CIM\u00A0(+$50)", "VIP\u00A0($380):\u00A0All\u00A0inclusive\u00A0(2\u00A0shots,\u00A069,\u00A0natural\u00A0bj,\u00A0CIM,\u00A0etc)"],
-      cn: ["带套口", "鸳鸯浴", "唇吻", "胸推", "甜🥚🥚", "调情", "做1次", "额外：无套口(+$20), 蛇吻/毒龙(+$20), 69(+$20), 口爆(+$50)", "VIP($380)：全包所有服务和额外(包含做2次等)"]
+      cn: ["带套口", "鸳鸯浴", "唇吻", "胸推", "甜🥚🥚", "调情", "做1次", "额外：无套口(+$20), 蛇吻(+$20), 69(+$20), 口爆(+$50)", "VIP($380)：全包所有服务和额外(包含做2次等)"]
     },
     gallery: [
       "/images/girls/yomi/1.jpg",
