@@ -25,7 +25,6 @@ export const girls = [
     },
     gallery: [
       "/images/girls/bingbing_sister/1.jpg",
-      "/images/girls/bingbing_sister/2.jpg",
       "/images/girls/bingbing_sister/3.jpg",
       "/images/girls/bingbing_sister/4.jpg",
       "/images/girls/bingbing_sister/5.jpg",
