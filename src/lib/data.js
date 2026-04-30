@@ -12,7 +12,7 @@ export const girls = [
       cup: "C",
       nationality: "Chinese"
     },
-    image: "/images/girls/bingbing_sister/1.jpg",
+    image: "/images/girls/bingbing_sister/2.jpg",
     video: "/images/girls/bingbing_sister/video.mp4",
     description: {
       en: "Newly arrived from China, Bingbing is one half of our stunning 'Sister Duo'. With her sophisticated 'mature sister' (Yujie) elegance and beautiful presence, she offers a professional and highly engaging experience. Her perfectly curved figure and private specialized techniques ensure an unforgettable encounter.",
