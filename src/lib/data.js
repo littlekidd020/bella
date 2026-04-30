@@ -53,8 +53,8 @@ export const girls = [
     },
     price: "$400 / 1h · $350 / 45min · $300 / 30min",
     services: {
-      en: ["Natural\u00A0bj", "shower\u00A0together", "kiss", "stockings", "breast\u00A0massage", "love\u00A0once", "Extra: Rimming(+$50) cim\u00A0in\u00A0mouth(+$50) second\u00A0time(+$50)"],
-      cn: ["无套口", "陪浴", "浅吻", "黑丝", "指滑", "水中捞月", "胸推", "全身漫游", "做1次", "额外：第二次(+$50) 口报(+$50) 毒龙(+$50)"]
+      en: ["Natural\u00A0bj", "69", "shower\u00A0together", "kiss", "stockings", "breast\u00A0massage", "love\u00A0once", "Extra: Rimming(+$50) cim\u00A0in\u00A0mouth(+$50) second\u00A0time(+$50)"],
+      cn: ["无套口", "69", "陪浴", "浅吻", "黑丝", "指滑", "水中捞月", "胸推", "全身漫游", "做1次", "额外：第二次(+$50) 口报(+$50) 毒龙(+$50)"]
     },
     gallery: [
       "/images/girls/shanshan_sister/1.jpg",

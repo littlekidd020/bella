@@ -42,7 +42,7 @@ export const translations = {
       breast: "胸围",
       nationality: "来自",
       available: "在线中",
-      unavailable: "休假中",
+      unavailable: "休息中",
       availableToBook: "当前可预约",
       portfolio: "私密写真",
       verified: "已验证",
