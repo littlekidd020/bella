@@ -218,7 +218,7 @@ export const girls = [
   {
     id: 4,
     name: { en: "Lamb", cn: "小绵羊" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "Central",
     stats: {
