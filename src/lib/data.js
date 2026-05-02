@@ -15,12 +15,12 @@ export const girls = [
     image: "/images/girls/elsa/1.jpg",
     description: {
       en: "Elsa is a gentle and charming lady with a slender waist and beautiful curves. Known for her flexibility and ability to master various positions, she provides a high-quality, intimate experience. Whether you're looking for a relaxing massage or an adventurous encounter, Elsa's versatility and warm personality will ensure a memorable time.",
-      cn: "温柔可人的 Elsa，拥有柔软的柳叶腰和性感大圆翘臀。不仅颜值在线，更是各种姿势都能轻松拿捏的实力派。性格温柔体贴，服务极具代入感，是您放松身心、享受亲密时光的绝佳选择。"
+      cn: "柔软柳叶腰，大圆翘臀，温柔可人，\n各种姿势拿捏🤏🏻"
     },
-    price: "$300 / 1h · $380 / VIP (All Inclusive)",
+    price: "$300 / 1h · $380 / VIP全包",
     services: {
-      en: ["shower\u00A0together", "breast\u00A0massage", "Bj", "Love's\u00A0prattle", "baby\u00A0slide", "stockings", "Love\u00A0once", "Extra:\u00A0natural\u00A0bj\u00A0(+$20)", "Extra:\u00A0CIM\u00A0(+$50)", "VIP:\u00A0Second\u00A0Shot\u00A0Included"],
-      cn: ["鸳鸯浴", "胸部按摩", "带套口", "唇吻", "甜蛋蛋", "黑丝", "做1次", "额外：无套口(+$20)", "额外：口报(+$50)", "VIP：全包(含做2次)"]
+      en: ["Bj", "shower\u00A0together", "Love's\u00A0prattle", "licking\u00A0eggs", "Flirting", "Massage", "Love\u00A0once", "Extra:\u00A0natural\u00A0bj\u00A0/ CIM", "VIP:\u00A0All\u00A0Inclusive"],
+      cn: ["带套口", "鸳鸯浴", "唇吻", "舔蛋蛋", "调情", "按摩", "做1次", "额外：无套口 / 口报", "VIP：全包所有服务和额外"]
     },
     gallery: [
       "/images/girls/elsa/1.jpg",
