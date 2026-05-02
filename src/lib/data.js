@@ -19,8 +19,8 @@ export const girls = [
     },
     price: "$500 / 1h · $400 / 30min · $800 / 90min",
     services: {
-      en: ["Natural\u00A0bj", "69", "shower\u00A0together", "French\u00A0kiss", "stockings", "breast\u00A0massage", "water\u00A0bj", "finger\u00A0glide", "licking\u00A0eggs", "2\u00A0shots", "Extra:\u00A0CIM\u00A0(+$50)"],
-      cn: ["无套口", "69", "鸳鸯浴", "舌吻", "黑丝", "指滑", "按摩", "水中箫", "添蛋", "做2次", "额外：口报(+$50)"]
+      en: ["Natural\u00A0bj", "shower\u00A0together", "Light\u00A0kiss", "stockings", "breast\u00A0massage", "water\u00A0bj", "finger\u00A0glide", "licking\u00A0eggs", "1\u00A0shot", "Extra:\u00A0CIM\u00A0(+$50)"],
+      cn: ["无套口", "鸳鸯浴", "轻轻吻", "黑丝", "指滑", "按摩", "水中箫", "添蛋", "做1次", "额外：口报(+$50)"]
     },
     gallery: [
       "/images/girls/maimai/2.jpg",
