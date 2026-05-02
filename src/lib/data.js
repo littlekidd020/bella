@@ -23,7 +23,6 @@ export const girls = [
       cn: ["带套口", "鸳鸯浴", "唇吻", "舔蛋蛋", "调情", "按摩", "做1次", "额外：无套口(+$20)", "额外：口报(+$50)", "VIP：全包所有服务和额外"]
     },
     gallery: [
-      "/images/girls/elsa/1.jpg",
       "/images/girls/elsa/2.jpg",
       "/images/girls/elsa/data1.jpg",
       "/images/girls/elsa/data2.jpg"
@@ -54,7 +53,6 @@ export const girls = [
       cn: ["无套口", "69", "鸳鸯浴", "舌吻", "黑丝", "指滑", "按摩", "水中箫", "添蛋", "做2次", "额外：口报(+$50)"]
     },
     gallery: [
-      "/images/girls/maimai/1.jpg",
       "/images/girls/maimai/2.jpg",
       "/images/girls/maimai/3.jpg",
       "/images/girls/maimai/4.jpg",
