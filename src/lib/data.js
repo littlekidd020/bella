@@ -19,8 +19,8 @@ export const girls = [
     },
     price: "$300 / 1h · $380 / VIP全包",
     services: {
-      en: ["Bj", "shower\u00A0together", "Love's\u00A0prattle", "licking\u00A0eggs", "Flirting", "Massage", "Love\u00A0once", "Extra:\u00A0natural\u00A0bj\u00A0/ CIM", "VIP:\u00A0All\u00A0Inclusive"],
-      cn: ["带套口", "鸳鸯浴", "唇吻", "舔蛋蛋", "调情", "按摩", "做1次", "额外：无套口 / 口报", "VIP：全包所有服务和额外"]
+      en: ["Bj", "shower\u00A0together", "Love's\u00A0prattle", "licking\u00A0eggs", "Flirting", "Massage", "Love\u00A0once", "Extra:\u00A0natural\u00A0bj\u00A0(+$20)", "Extra:\u00A0CIM\u00A0(+$50)", "VIP:\u00A0All\u00A0Inclusive"],
+      cn: ["带套口", "鸳鸯浴", "唇吻", "舔蛋蛋", "调情", "按摩", "做1次", "额外：无套口(+$20)", "额外：口报(+$50)", "VIP：全包所有服务和额外"]
     },
     gallery: [
       "/images/girls/elsa/1.jpg",
