@@ -1,5 +1,39 @@
 export const girls = [
   {
+    id: 37,
+    name: { en: "Maimai", cn: "麦麦" },
+    status: "available",
+    verified: true,
+    location: "CBD",
+    stats: {
+      age: 19,
+      height: "173cm",
+      weight: "45kg",
+      cup: "C (Natural)",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/maimai/1.jpg",
+    description: {
+      en: "Newly arrived student from Xiamen, Maimai is the 'White Moonlight' of your dreams. Standing at 173cm with a perfect model frame and natural C-cup features, she offers a pure, innocent yet incredibly sweet encounter. Her service is active, highly engaging, and full of that 'first love' charm. Short term stay until May 16th.",
+      cn: "🆕厦门在读大三学生麦麦，初次登场AKL！\n🌟你的白月光、初恋遗憾，超高颜值，素颜抗打\n👗清纯可爱迷人，衣服架子身材，服务主动配合，带入感极强\n💖初下海不久，超甜反差纯白水，短期停留5月16号回国"
+    },
+    price: "$500 / 1h · $400 / 30min · $800 / 90min",
+    services: {
+      en: ["Natural\u00A0bj", "69", "shower\u00A0together", "French\u00A0kiss", "stockings", "breast\u00A0massage", "water\u00A0bj", "finger\u00A0glide", "licking\u00A0eggs", "2\u00A0shots", "Extra:\u00A0CIM\u00A0(+$50)"],
+      cn: ["无套口", "69", "鸳鸯浴", "舌吻", "黑丝", "指滑", "按摩", "水中箫", "添蛋", "做2次", "额外：口报(+$50)"]
+    },
+    gallery: [
+      "/images/girls/maimai/1.jpg",
+      "/images/girls/maimai/2.jpg",
+      "/images/girls/maimai/3.jpg",
+      "/images/girls/maimai/4.jpg",
+      "/images/girls/maimai/5.jpg",
+      "/images/girls/maimai/6.jpg",
+      "/images/girls/maimai/7.jpg",
+      "/images/girls/maimai/8.jpg"
+    ]
+  },
+  {
     id: 34,
     name: { en: "Bingbing", cn: "冰冰" },
     status: "available",
