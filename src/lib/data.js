@@ -1,35 +1,5 @@
 export const girls = [
   {
-    id: 38,
-    name: { en: "Elsa", cn: "Elsa" },
-    status: "available",
-    verified: true,
-    location: "CBD",
-    stats: {
-      age: 26,
-      height: "165cm",
-      weight: "47kg",
-      cup: "B+",
-      nationality: "Chinese"
-    },
-    image: "/images/girls/elsa/1.jpg",
-    description: {
-      en: "Elsa is a gentle and charming lady with a slender waist and beautiful curves. Known for her flexibility and ability to master various positions, she provides a high-quality, intimate experience. Whether you're looking for a relaxing massage or an adventurous encounter, Elsa's versatility and warm personality will ensure a memorable time.",
-      cn: "柔软柳叶腰，大圆翘臀，温柔可人，\n各种姿势拿捏🤏🏻"
-    },
-    price: "$300 / 1h · $380 / VIP全包",
-    services: {
-      en: ["Bj", "shower\u00A0together", "Love's\u00A0prattle", "licking\u00A0eggs", "Flirting", "Massage", "Love\u00A0once", "Extra:\u00A0natural\u00A0bj\u00A0(+$20)", "Extra:\u00A0CIM\u00A0(+$50)", "VIP:\u00A0All\u00A0Inclusive"],
-      cn: ["带套口", "鸳鸯浴", "唇吻", "舔蛋蛋", "调情", "按摩", "做1次", "额外：无套口(+$20)", "额外：口报(+$50)", "VIP：全包所有服务和额外"]
-    },
-    gallery: [
-      "/images/girls/elsa/2.jpg",
-      "/images/girls/elsa/data1.jpg",
-      "/images/girls/elsa/data2.jpg"
-    ],
-    video: "/images/girls/elsa/video.mp4"
-  },
-  {
     id: 37,
     name: { en: "Maimai", cn: "麦麦" },
     status: "available",
@@ -63,6 +33,108 @@ export const girls = [
       "/images/girls/maimai/data1.jpg",
       "/images/girls/maimai/data2.jpg"
     ]
+  },
+  {
+    id: 1,
+    name: { en: "Jinxi", cn: "锦汐" },
+    status: "available",
+    verified: true,
+    location: "CBD",
+    stats: {
+      age: 24,
+      height: "171cm",
+      weight: "48kg",
+      cup: "C+ (Natural)",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/jinxi/1.jpg",
+    video: "/images/girls/jinxi/video.mp4",
+    description: {
+      en: "Elegance meets sophistication in Auckland CBD with Jinxi. Standing tall at 171cm with a slender model frame and natural C+ features, she offers an exceptionally refined and immersive experience. Specializing in high-end, diverse techniques and playful roleplay, she brings a premium touch to every interaction. Perfectly bilingual and highly professional, she ensures every visit is memorable, discreet, and deeply satisfying.",
+      cn: "锦汐，24岁，身高171cm，体重48kg，自然C+杯。模特身材，气质出众。现已在奥克兰市区就位，为您提供最专业、最贴心的的高端体验。擅长法式热吻、角色扮演、冰火两重天等多种精品服务，配合度极高。支持S&M等特殊定制，让您在繁华市区享受难忘的温柔时光。"
+    },
+    price: "$400 / 1h · $350 / 30min · $700 / 90min · $800 / 2h",
+    services: {
+      en: ["shower\u00A0together", "Natural\u00A0bj", "69", "Water\u00A0bj", "Roleplay", "Ice\u00A0&\u00A0Fire", "French\u00A0kiss", "Breast\u00A0massage", "Dragon\u00A0techniques", "Deep\u00A0throat", "Swivel\u00A0Dragon", "Inverted\u00A0Dragon", "Thai\u00A0massage", "Body\u00A0massage", "Stockings", "Uniform", "3P", "1\u00A0shot", "Extra: Rimming(+$50) CIM(+$50) 2nd\u00A0shot(+$50) Discreet\u00A0Photo/Video(+$100) Face\u00A0CIM(+$100) S&M(+$100+) No\u00A0raw\u00A0sex No\u00A0alcohol"],
+      cn: ["陪浴", "无套口", "69", "水中箫", "角色扮演", "冰火两重天", "法式kiss", "胸推", "箫摇摆龙", "深喉龙", "旋转龙", "倒挂金钩龙", "泰式抓龙筋", "按摩", "黑丝高跟", "制服诱惑", "3P", "做1次", "额外：毒龙(+$50) 口报(+$50) 第二次(+$50) 不露脸拍照录影(+$100) 颜射(+$100, 当天最后一个) S&M(+$100起) 禁无套 禁酒后"]
+    },
+    gallery: [
+      "/images/girls/jinxi/1.jpg",
+      "/images/girls/jinxi/2.jpg",
+      "/images/girls/jinxi/3.jpg",
+      "/images/girls/jinxi/4.jpg",
+      "/images/girls/jinxi/5.jpg",
+      "/images/girls/jinxi/data1.jpg",
+      "/images/girls/jinxi/data2.jpg"
+    ]
+  },
+  {
+    id: 6,
+    name: { en: "CC", cn: "CC" },
+    status: "available",
+    verified: true,
+    location: "CBD",
+    stats: {
+      age: 23,
+      height: "160cm",
+      weight: "45kg",
+      cup: "C+ (Natural)",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/cc/1.jpg",
+    video: "/images/girls/cc/video.mp4",
+    description: {
+      en: "CC (born in 2003), is an elegant and refined beauty. Standing at 160cm with a natural C+ cup, she offers a wide spectrum of services from intimate companionship to a full VIP experience. Whether you seek a simple relaxation or a premium sensory journey, CC's professionalism and sweet demeanor ensure an unforgettable encounter.",
+      cn: "03年，身高160cm，体重45kg，胸围C+真。"
+    },
+    price: "$550/1h (VIP) · $450/1h · $400/30min",
+    services: {
+      en: [
+        "Natural\u00A0bj", "69", "shower\u00A0together", "French\u00A0kiss", "stockings", "one\u00A0shot",
+        "Extra: Cum\u00A0in\u00A0face(+$50) Cum\u00A0in\u00A0mouth&eat(+$100) second\u00A0shot(+$100)"
+      ],
+      cn: [
+        "无套口", "舔蛋", "抚摸蛋", "指划蛋", "舔乳头", "情趣制服", "黑丝", "共浴", "69", "舌吻", "做1次",
+        "VIP: 鸳鸯浴 舌吻 Kiss 360度无套口 抚摸 皖式服务 胸推 按摩 弹指 全身漫游 深喉 指滑毒龙 海底捞月 情趣内衣 丝袜 丝袜足交",
+        "额外：口爆吞精(+$100) 颜射(+$50) 情景角色扮演/SM(+$150) 加一次(+$100)"
+      ]
+    },
+    gallery: [
+      "/images/girls/cc/2.jpg",
+      "/images/girls/cc/3.jpg",
+      "/images/girls/cc/4.jpg",
+      "/images/girls/cc/5.jpg"
+    ]
+  },
+  {
+    id: 38,
+    name: { en: "Elsa", cn: "Elsa" },
+    status: "available",
+    verified: true,
+    location: "CBD",
+    stats: {
+      age: 26,
+      height: "165cm",
+      weight: "47kg",
+      cup: "B+",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/elsa/1.jpg",
+    description: {
+      en: "Elsa is a gentle and charming lady with a slender waist and beautiful curves. Known for her flexibility and ability to master various positions, she provides a high-quality, intimate experience. Whether you're looking for a relaxing massage or an adventurous encounter, Elsa's versatility and warm personality will ensure a memorable time.",
+      cn: "柔软柳叶腰，大圆翘臀，温柔可人，\n各种姿势拿捏🤏🏻"
+    },
+    price: "$300 / 1h · $380 / VIP全包",
+    services: {
+      en: ["Bj", "shower\u00A0together", "Love's\u00A0prattle", "licking\u00A0eggs", "Flirting", "Massage", "Love\u00A0once", "Extra:\u00A0natural\u00A0bj\u00A0(+$20)", "Extra:\u00A0CIM\u00A0(+$50)", "VIP:\u00A0All\u00A0Inclusive"],
+      cn: ["带套口", "鸳鸯浴", "唇吻", "舔蛋蛋", "调情", "按摩", "做1次", "额外：无套口(+$20)", "额外：口报(+$50)", "VIP：全包所有服务和额外"]
+    },
+    gallery: [
+      "/images/girls/elsa/2.jpg",
+      "/images/girls/elsa/data1.jpg",
+      "/images/girls/elsa/data2.jpg"
+    ],
+    video: "/images/girls/elsa/video.mp4"
   },
   {
     id: 34,
@@ -129,40 +201,6 @@ export const girls = [
       "/images/girls/shanshan_sister/6.jpg",
       "/images/girls/shanshan_sister/data1.jpg",
       "/images/girls/shanshan_sister/data2.jpg"
-    ]
-  },
-  {
-    id: 1,
-    name: { en: "Jinxi", cn: "锦汐" },
-    status: "available",
-    verified: true,
-    location: "CBD",
-    stats: {
-      age: 24,
-      height: "171cm",
-      weight: "48kg",
-      cup: "C+ (Natural)",
-      nationality: "Chinese"
-    },
-    image: "/images/girls/jinxi/1.jpg",
-    video: "/images/girls/jinxi/video.mp4",
-    description: {
-      en: "Elegance meets sophistication in Auckland CBD with Jinxi. Standing tall at 171cm with a slender model frame and natural C+ features, she offers an exceptionally refined and immersive experience. Specializing in high-end, diverse techniques and playful roleplay, she brings a premium touch to every interaction. Perfectly bilingual and highly professional, she ensures every visit is memorable, discreet, and deeply satisfying.",
-      cn: "锦汐，24岁，身高171cm，体重48kg，自然C+杯。模特身材，气质出众。现已在奥克兰市区就位，为您提供最专业、最贴心的的高端体验。擅长法式热吻、角色扮演、冰火两重天等多种精品服务，配合度极高。支持S&M等特殊定制，让您在繁华市区享受难忘的温柔时光。"
-    },
-    price: "$400 / 1h · $350 / 30min · $700 / 90min · $800 / 2h",
-    services: {
-      en: ["shower\u00A0together", "Natural\u00A0bj", "69", "Water\u00A0bj", "Roleplay", "Ice\u00A0&\u00A0Fire", "French\u00A0kiss", "Breast\u00A0massage", "Dragon\u00A0techniques", "Deep\u00A0throat", "Swivel\u00A0Dragon", "Inverted\u00A0Dragon", "Thai\u00A0massage", "Body\u00A0massage", "Stockings", "Uniform", "3P", "1\u00A0shot", "Extra: Rimming(+$50) CIM(+$50) 2nd\u00A0shot(+$50) Discreet\u00A0Photo/Video(+$100) Face\u00A0CIM(+$100) S&M(+$100+) No\u00A0raw\u00A0sex No\u00A0alcohol"],
-      cn: ["陪浴", "无套口", "69", "水中箫", "角色扮演", "冰火两重天", "法式kiss", "胸推", "箫摇摆龙", "深喉龙", "旋转龙", "倒挂金钩龙", "泰式抓龙筋", "按摩", "黑丝高跟", "制服诱惑", "3P", "做1次", "额外：毒龙(+$50) 口报(+$50) 第二次(+$50) 不露脸拍照录影(+$100) 颜射(+$100, 当天最后一个) S&M(+$100起) 禁无套 禁酒后"]
-    },
-    gallery: [
-      "/images/girls/jinxi/1.jpg",
-      "/images/girls/jinxi/2.jpg",
-      "/images/girls/jinxi/3.jpg",
-      "/images/girls/jinxi/4.jpg",
-      "/images/girls/jinxi/5.jpg",
-      "/images/girls/jinxi/data1.jpg",
-      "/images/girls/jinxi/data2.jpg"
     ]
   },
   {
@@ -346,44 +384,6 @@ export const girls = [
       "/images/girls/youyou/6.jpg",
       "/images/girls/youyou/7.jpg",
       "/images/girls/youyou/8.jpg"
-    ]
-  },
-  {
-    id: 6,
-    name: { en: "CC", cn: "CC" },
-    status: "available",
-    verified: true,
-    location: "CBD",
-    stats: {
-      age: 23,
-      height: "160cm",
-      weight: "45kg",
-      cup: "C+ (Natural)",
-      nationality: "Chinese"
-    },
-    image: "/images/girls/cc/1.jpg",
-    video: "/images/girls/cc/video.mp4",
-    description: {
-      en: "CC (born in 2003), is an elegant and refined beauty. Standing at 160cm with a natural C+ cup, she offers a wide spectrum of services from intimate companionship to a full VIP experience. Whether you seek a simple relaxation or a premium sensory journey, CC's professionalism and sweet demeanor ensure an unforgettable encounter.",
-      cn: "03年，身高160cm，体重45kg，胸围C+真。"
-    },
-    price: "$550/1h (VIP) · $450/1h · $400/30min",
-    services: {
-      en: [
-        "Natural\u00A0bj", "69", "shower\u00A0together", "French\u00A0kiss", "stockings", "one\u00A0shot",
-        "Extra: Cum\u00A0in\u00A0face(+$50) Cum\u00A0in\u00A0mouth&eat(+$100) second\u00A0shot(+$100)"
-      ],
-      cn: [
-        "无套口", "舔蛋", "抚摸蛋", "指划蛋", "舔乳头", "情趣制服", "黑丝", "共浴", "69", "舌吻", "做1次",
-        "VIP: 鸳鸯浴 舌吻 Kiss 360度无套口 抚摸 皖式服务 胸推 按摩 弹指 全身漫游 深喉 指滑毒龙 海底捞月 情趣内衣 丝袜 丝袜足交",
-        "额外：口爆吞精(+$100) 颜射(+$50) 情景角色扮演/SM(+$150) 加一次(+$100)"
-      ]
-    },
-    gallery: [
-      "/images/girls/cc/2.jpg",
-      "/images/girls/cc/3.jpg",
-      "/images/girls/cc/4.jpg",
-      "/images/girls/cc/5.jpg"
     ]
   },
   {
