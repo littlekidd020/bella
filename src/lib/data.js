@@ -12,7 +12,7 @@ export const girls = [
       cup: "C (Natural)",
       nationality: "Chinese"
     },
-    image: "/images/girls/maimai/1.jpg",
+    image: "/images/girls/maimai/1.webp",
     description: {
       en: "Newly arrived student from Xiamen, Maimai is the 'White Moonlight' of your dreams. Standing at 173cm with a perfect model frame and natural C-cup features, she offers a pure, innocent yet incredibly sweet encounter. Her service is active, highly engaging, and full of that 'first love' charm. Short term stay until May 16th.",
       cn: "🆕厦门在读大三学生麦麦，初次登场AKL！\n🌟你的白月光、初恋遗憾，超高颜值，素颜抗打\n👗清纯可爱迷人，衣服架子身材，服务主动配合，带入感极强\n💖初下海不久，超甜反差纯白水，短期停留5月16号回国"
@@ -23,15 +23,15 @@ export const girls = [
       cn: ["无套口", "鸳鸯浴", "轻轻吻", "黑丝", "指滑", "按摩", "水中箫", "添蛋", "做1次"]
     },
     gallery: [
-      "/images/girls/maimai/2.jpg",
-      "/images/girls/maimai/3.jpg",
-      "/images/girls/maimai/4.jpg",
-      "/images/girls/maimai/5.jpg",
-      "/images/girls/maimai/6.jpg",
-      "/images/girls/maimai/7.jpg",
-      "/images/girls/maimai/8.jpg",
-      "/images/girls/maimai/data1.jpg",
-      "/images/girls/maimai/data2.jpg"
+      "/images/girls/maimai/2.webp",
+      "/images/girls/maimai/3.webp",
+      "/images/girls/maimai/4.webp",
+      "/images/girls/maimai/5.webp",
+      "/images/girls/maimai/6.webp",
+      "/images/girls/maimai/7.webp",
+      "/images/girls/maimai/8.webp",
+      "/images/girls/maimai/data1.webp",
+      "/images/girls/maimai/data2.webp"
     ]
   },
   {
@@ -47,7 +47,7 @@ export const girls = [
       cup: "C+ (Natural)",
       nationality: "Chinese"
     },
-    image: "/images/girls/jinxi/1.jpg",
+    image: "/images/girls/jinxi/1.webp",
     video: "/images/girls/jinxi/video.mp4",
     description: {
       en: "Elegance meets sophistication in Auckland CBD with Jinxi. Standing tall at 171cm with a slender model frame and natural C+ features, she offers an exceptionally refined and immersive experience. Specializing in high-end, diverse techniques and playful roleplay, she brings a premium touch to every interaction. Perfectly bilingual and highly professional, she ensures every visit is memorable, discreet, and deeply satisfying.",
@@ -59,13 +59,13 @@ export const girls = [
       cn: ["陪浴", "无套口", "69", "水中箫", "角色扮演", "冰火两重天", "法式kiss", "胸推", "箫摇摆龙", "深喉龙", "旋转龙", "倒挂金钩龙", "泰式抓龙筋", "按摩", "黑丝高跟", "制服诱惑", "3P", "做1次", "额外：毒龙(+$50) 口报(+$50) 第二次(+$50) 不露脸拍照录影(+$100) 颜射(+$100, 当天最后一个) S&M(+$100起) 禁无套 禁酒后"]
     },
     gallery: [
-      "/images/girls/jinxi/1.jpg",
-      "/images/girls/jinxi/2.jpg",
-      "/images/girls/jinxi/3.jpg",
-      "/images/girls/jinxi/4.jpg",
-      "/images/girls/jinxi/5.jpg",
-      "/images/girls/jinxi/data1.jpg",
-      "/images/girls/jinxi/data2.jpg"
+      "/images/girls/jinxi/1.webp",
+      "/images/girls/jinxi/2.webp",
+      "/images/girls/jinxi/3.webp",
+      "/images/girls/jinxi/4.webp",
+      "/images/girls/jinxi/5.webp",
+      "/images/girls/jinxi/data1.webp",
+      "/images/girls/jinxi/data2.webp"
     ]
   },
   {
@@ -81,7 +81,7 @@ export const girls = [
       cup: "C+ (Natural)",
       nationality: "Chinese"
     },
-    image: "/images/girls/cc/1.jpg",
+    image: "/images/girls/cc/1.webp",
     video: "/images/girls/cc/video.mp4",
     description: {
       en: "CC (born in 2003), is an elegant and refined beauty. Standing at 160cm with a natural C+ cup, she offers a wide spectrum of services from intimate companionship to a full VIP experience. Whether you seek a simple relaxation or a premium sensory journey, CC's professionalism and sweet demeanor ensure an unforgettable encounter.",
@@ -100,10 +100,10 @@ export const girls = [
       ]
     },
     gallery: [
-      "/images/girls/cc/2.jpg",
-      "/images/girls/cc/3.jpg",
-      "/images/girls/cc/4.jpg",
-      "/images/girls/cc/5.jpg"
+      "/images/girls/cc/2.webp",
+      "/images/girls/cc/3.webp",
+      "/images/girls/cc/4.webp",
+      "/images/girls/cc/5.webp"
     ]
   },
   {
@@ -119,7 +119,7 @@ export const girls = [
       cup: "B+",
       nationality: "Chinese"
     },
-    image: "/images/girls/elsa/1.jpg",
+    image: "/images/girls/elsa/1.webp",
     description: {
       en: "Elsa is a gentle and charming lady with a slender waist and beautiful curves. Known for her flexibility and ability to master various positions, she provides a high-quality, intimate experience. Whether you're looking for a relaxing massage or an adventurous encounter, Elsa's versatility and warm personality will ensure a memorable time.",
       cn: "柔软柳叶腰，大圆翘臀，温柔可人，\n各种姿势拿捏🤏🏻"
@@ -130,9 +130,9 @@ export const girls = [
       cn: ["带套口", "鸳鸯浴", "唇吻", "舔蛋蛋", "调情", "按摩", "做1次", "额外：无套口(+$20)", "额外：口报(+$50)", "VIP：全包所有服务和额外"]
     },
     gallery: [
-      "/images/girls/elsa/2.jpg",
-      "/images/girls/elsa/data1.jpg",
-      "/images/girls/elsa/data2.jpg"
+      "/images/girls/elsa/2.webp",
+      "/images/girls/elsa/data1.webp",
+      "/images/girls/elsa/data2.webp"
     ],
     video: "/images/girls/elsa/video.mp4"
   },
@@ -149,7 +149,7 @@ export const girls = [
       cup: "C",
       nationality: "Chinese"
     },
-    image: "/images/girls/bingbing_sister/2.jpg",
+    image: "/images/girls/bingbing_sister/2.webp",
     video: "/images/girls/bingbing_sister/video.mp4",
     description: {
       en: "Newly arrived from China, Bingbing is one half of our stunning 'Sister Duo'. With her sophisticated 'mature sister' (Yujie) elegance and beautiful presence, she offers a professional and highly engaging experience. Her perfectly curved figure and private specialized techniques ensure an unforgettable encounter.",
@@ -161,12 +161,12 @@ export const girls = [
       cn: ["无套口", "陪浴", "浅吻", "黑丝", "指滑", "水中捞月", "胸推", "全身漫游", "做1次", "额外：第二次(+$50) 口报(+$50) 毒龙(+$50)"]
     },
     gallery: [
-      "/images/girls/bingbing_sister/1.jpg",
-      "/images/girls/bingbing_sister/3.jpg",
-      "/images/girls/bingbing_sister/4.jpg",
-      "/images/girls/bingbing_sister/5.jpg",
-      "/images/girls/bingbing_sister/data1.jpg",
-      "/images/girls/bingbing_sister/data2.jpg"
+      "/images/girls/bingbing_sister/1.webp",
+      "/images/girls/bingbing_sister/3.webp",
+      "/images/girls/bingbing_sister/4.webp",
+      "/images/girls/bingbing_sister/5.webp",
+      "/images/girls/bingbing_sister/data1.webp",
+      "/images/girls/bingbing_sister/data2.webp"
     ]
   },
   {
@@ -182,7 +182,7 @@ export const girls = [
       cup: "C",
       nationality: "Chinese"
     },
-    image: "/images/girls/shanshan_sister/1.jpg",
+    image: "/images/girls/shanshan_sister/1.webp",
     description: {
       en: "Newly arrived from China, Shanshan is the second half of our elite 'Sister Duo'. She brings a refined 'mature sister' (Yujie) charm and a slender, delicate physique. Known for her fair, tender skin and graceful presence, she provides a high-quality service that is both refreshing and deeply satisfying.",
       cn: "🆕国内空降🪂姐妹花之珊珊，刚落地✈️\n🛬御姐气质风 漂亮🤩纯纯御姐风 \n姗姗身材细巧苗条身材 皮肤白嫩 🎉🎉🎉"
@@ -193,14 +193,14 @@ export const girls = [
       cn: ["无套口", "69", "陪浴", "浅吻", "黑丝", "指滑", "水中捞月", "胸推", "全身漫游", "做1次", "额外：第二次(+$50) 口报(+$50) 毒龙(+$50)"]
     },
     gallery: [
-      "/images/girls/shanshan_sister/1.jpg",
-      "/images/girls/shanshan_sister/2.jpg",
-      "/images/girls/shanshan_sister/3.jpg",
-      "/images/girls/shanshan_sister/4.jpg",
-      "/images/girls/shanshan_sister/5.jpg",
-      "/images/girls/shanshan_sister/6.jpg",
-      "/images/girls/shanshan_sister/data1.jpg",
-      "/images/girls/shanshan_sister/data2.jpg"
+      "/images/girls/shanshan_sister/1.webp",
+      "/images/girls/shanshan_sister/2.webp",
+      "/images/girls/shanshan_sister/3.webp",
+      "/images/girls/shanshan_sister/4.webp",
+      "/images/girls/shanshan_sister/5.webp",
+      "/images/girls/shanshan_sister/6.webp",
+      "/images/girls/shanshan_sister/data1.webp",
+      "/images/girls/shanshan_sister/data2.webp"
     ]
   },
   {
@@ -216,7 +216,7 @@ export const girls = [
       cup: "B+",
       nationality: "Chinese"
     },
-    image: "/images/girls/yomi/1.jpg",
+    image: "/images/girls/yomi/1.webp",
     description: {
       en: "Sweet and charming, Yomi is a beautiful 23-year-old with a natural B+ cup and a wonderful figure. She provides attentive and deeply satisfying service, ensuring a memorable and highly interactive experience.",
       cn: "柔软柳叶腰，大圆翘臀，温柔可人，各种姿势拿捏。拥有高颜值和魔鬼身材，性格温柔甜美，配合度极高，为您带来一场难忘的感官盛宴。"
@@ -227,16 +227,16 @@ export const girls = [
       cn: ["带套口", "鸳鸯浴", "唇吻", "胸推", "甜🥚🥚", "调情", "做1次", "额外：无套口(+$20), 蛇吻(+$20), 69(+$20), 口爆(+$50)", "VIP($380)：全包所有服务和额外(包含做2次等)"]
     },
     gallery: [
-      "/images/girls/yomi/1.jpg",
-      "/images/girls/yomi/2.jpg",
-      "/images/girls/yomi/3.jpg",
-      "/images/girls/yomi/4.jpg",
-      "/images/girls/yomi/5.jpg",
-      "/images/girls/yomi/6.jpg",
-      "/images/girls/yomi/7.jpg",
-      "/images/girls/yomi/8.jpg",
-      "/images/girls/yomi/data1.jpg",
-      "/images/girls/yomi/data2.jpg"
+      "/images/girls/yomi/1.webp",
+      "/images/girls/yomi/2.webp",
+      "/images/girls/yomi/3.webp",
+      "/images/girls/yomi/4.webp",
+      "/images/girls/yomi/5.webp",
+      "/images/girls/yomi/6.webp",
+      "/images/girls/yomi/7.webp",
+      "/images/girls/yomi/8.webp",
+      "/images/girls/yomi/data1.webp",
+      "/images/girls/yomi/data2.webp"
     ]
   },
   {
@@ -252,7 +252,7 @@ export const girls = [
       cup: "E",
       nationality: "Taiwanese"
     },
-    image: "/images/girls/qingbao/1.jpg",
+    image: "/images/girls/qingbao/1.webp",
     video: "/images/girls/qingbao/video.mp4",
     description: {
       en: "Pure sweetness from Taiwan, Qingbao makes her first appearance in Auckland, bringing a delightful blend of innocence and allure. Newly arrived, she features an incredible natural E-cup figure on a slender 46kg frame. With her sweet personality, big eyes, and charming Taiwanese accent, she provides an attentive and deeply immersive service quality. Ideal for those seeking a premium encounter with a companion who is both elegant and incredibly sweet, she is only here for a short stay.",
@@ -264,15 +264,15 @@ export const girls = [
       cn: ["无套口", "陪浴", "69", "舌吻", "黑丝", "水中箫", "舔蛋", "淋浴", "做2次"]
     },
     gallery: [
-      "/images/girls/qingbao/1.jpg",
-      "/images/girls/qingbao/2.jpg",
-      "/images/girls/qingbao/3.jpg",
-      "/images/girls/qingbao/4.jpg",
-      "/images/girls/qingbao/5.jpg",
-      "/images/girls/qingbao/6.jpg",
-      "/images/girls/qingbao/7.jpg",
-      "/images/girls/qingbao/8.jpg",
-      "/images/girls/qingbao/9.jpg"
+      "/images/girls/qingbao/1.webp",
+      "/images/girls/qingbao/2.webp",
+      "/images/girls/qingbao/3.webp",
+      "/images/girls/qingbao/4.webp",
+      "/images/girls/qingbao/5.webp",
+      "/images/girls/qingbao/6.webp",
+      "/images/girls/qingbao/7.webp",
+      "/images/girls/qingbao/8.webp",
+      "/images/girls/qingbao/9.webp"
     ]
   },
   {
@@ -288,7 +288,7 @@ export const girls = [
       cup: "D",
       nationality: "Chinese"
     },
-    image: "/images/girls/momo/1.jpg",
+    image: "/images/girls/momo/1.webp",
     description: {
       en: "A professional and trained talent newly arrived from China. Momo offers a unique and high-end sensory experience with expert performance skills and a captivating presence.",
       cn: "国内空降刚落地🪂，AV女优专业训练的莞式服务，可S（专业艳舞表演 可免费观看）按摩养生不在话下，让你体验一场不一样的愉悦的快感，你会是那位男主角吗？请务必来体验哦，快来找我吧……😘😘"
@@ -302,20 +302,20 @@ export const girls = [
       cn: ["无套口", "69", "陪浴", "舌吻", "黑丝", "艳舞表演", "前列腺高潮", "全身漫游", "额外：第二次(+$50) 口爆(+$50) 毒龙(+$50)"]
     },
     gallery: [
-      "/images/girls/momo/1.jpg",
-      "/images/girls/momo/2.jpg",
-      "/images/girls/momo/3.jpg",
-      "/images/girls/momo/4.jpg",
-      "/images/girls/momo/5.jpg",
-      "/images/girls/momo/6.jpg",
-      "/images/girls/momo/7.jpg",
-      "/images/girls/momo/8.jpg",
-      "/images/girls/momo/9.jpg",
-      "/images/girls/momo/10.jpg",
-      "/images/girls/momo/11.jpg",
-      "/images/girls/momo/12.jpg",
-      "/images/girls/momo/13.jpg",
-      "/images/girls/momo/14.jpg"
+      "/images/girls/momo/1.webp",
+      "/images/girls/momo/2.webp",
+      "/images/girls/momo/3.webp",
+      "/images/girls/momo/4.webp",
+      "/images/girls/momo/5.webp",
+      "/images/girls/momo/6.webp",
+      "/images/girls/momo/7.webp",
+      "/images/girls/momo/8.webp",
+      "/images/girls/momo/9.webp",
+      "/images/girls/momo/10.webp",
+      "/images/girls/momo/11.webp",
+      "/images/girls/momo/12.webp",
+      "/images/girls/momo/13.webp",
+      "/images/girls/momo/14.webp"
     ]
   },
   {
@@ -331,7 +331,7 @@ export const girls = [
       cup: "C",
       nationality: "Chinese"
     },
-    image: "/images/girls/lamb/4.jpg",
+    image: "/images/girls/lamb/4.webp",
     description: {
       en: "Sweet and gentle, Lamb (Xiao Mian Yang) is the ultimate 'girl next door' beauty now based in Auckland CBD. With her soft, delicate voice and incredibly smooth skin, she offers an intimate experience that feels genuinely warm and professional. Her slender yet curvaceous 162cm frame and sweet personality ensure a high-end encounter that is both relaxed and deeply satisfying.",
       cn: "小绵羊🐑😘温柔体贴甜甜可爱 纯纯小良家 声音嗲嗲的 刚下海不久 完美身材前凸后翘 皮肤光滑白嫩白嫩"
@@ -342,12 +342,12 @@ export const girls = [
       cn: ["无套口", "陪浴", "69", "蛇吻", "黑丝", "按摩", "做2次", "60分钟只做一次"]
     },
     gallery: [
-      "/images/girls/lamb/4.jpg",
-      "/images/girls/lamb/1.jpg",
-      "/images/girls/lamb/2.jpg",
-      "/images/girls/lamb/3.jpg",
-      "/images/girls/lamb/5.jpg",
-      "/images/girls/lamb/6.jpg"
+      "/images/girls/lamb/4.webp",
+      "/images/girls/lamb/1.webp",
+      "/images/girls/lamb/2.webp",
+      "/images/girls/lamb/3.webp",
+      "/images/girls/lamb/5.webp",
+      "/images/girls/lamb/6.webp"
     ]
   },
   {
@@ -363,7 +363,7 @@ export const girls = [
       cup: "C",
       nationality: "china"
     },
-    image: "/images/girls/youyou/1.jpg",
+    image: "/images/girls/youyou/1.webp",
     description: {
       en: "A gentle and elegant beauty with a sophisticated presence. Youyou is known for her sweet, obedient nature and exceptional high level of cooperation. She offers both relaxing massage therapy and deeply intimate full sessions with a focus on providing a warm, caring experience.",
       cn: "良家初下海，温柔乖巧，懂事听话，气质小姐姐，服务系，配合度高，可半套。"
@@ -376,14 +376,14 @@ export const girls = [
       cn: ["陪澡", "69", "无套口", "舌吻", "黑丝", "按摩", "爱2次 (半小时1次)", "可半🍑 ($160/1h)"]
     },
     gallery: [
-      "/images/girls/youyou/1.jpg",
-      "/images/girls/youyou/2.jpg",
-      "/images/girls/youyou/3.jpg",
-      "/images/girls/youyou/4.jpg",
-      "/images/girls/youyou/5.jpg",
-      "/images/girls/youyou/6.jpg",
-      "/images/girls/youyou/7.jpg",
-      "/images/girls/youyou/8.jpg"
+      "/images/girls/youyou/1.webp",
+      "/images/girls/youyou/2.webp",
+      "/images/girls/youyou/3.webp",
+      "/images/girls/youyou/4.webp",
+      "/images/girls/youyou/5.webp",
+      "/images/girls/youyou/6.webp",
+      "/images/girls/youyou/7.webp",
+      "/images/girls/youyou/8.webp"
     ]
   },
   {
@@ -400,7 +400,7 @@ export const girls = [
       cup: "F",
       nationality: "Chinese"
     },
-    image: "/images/girls/laila/2.jpg",
+    image: "/images/girls/laila/2.webp",
     video: "/images/girls/laila/video.mp4",
     description: {
       en: "Elegant and passionate, Laila is a stunning Chinese beauty with a natural F cup figure. Her gentle touch, professional massage, and commitment to delivering a truly immersive and pleasurable experience make her an unforgettable companion for those seeking a premium escape.",
@@ -415,15 +415,15 @@ export const girls = [
       cn: ["调情", "舌吻", "戴套吹", "鸳鸯浴", "水中箫", "制服诱惑", "简单按摩", "激情性爱", "做一次", "额外：无套口(+$30) 口爆(+$30) 玩具(+$50)"]
     },
     gallery: [
-      "/images/girls/laila/2.jpg",
-      "/images/girls/laila/3.jpg",
-      "/images/girls/laila/4.jpg",
-      "/images/girls/laila/5.jpg",
-      "/images/girls/laila/6.jpg",
-      "/images/girls/laila/7.jpg",
-      "/images/girls/laila/8.jpg",
-      "/images/girls/laila/9.jpg",
-      "/images/girls/laila/1.jpg"
+      "/images/girls/laila/2.webp",
+      "/images/girls/laila/3.webp",
+      "/images/girls/laila/4.webp",
+      "/images/girls/laila/5.webp",
+      "/images/girls/laila/6.webp",
+      "/images/girls/laila/7.webp",
+      "/images/girls/laila/8.webp",
+      "/images/girls/laila/9.webp",
+      "/images/girls/laila/1.webp"
     ]
   },
   {
@@ -439,7 +439,7 @@ export const girls = [
       cup: "C",
       nationality: "Vietnamese"
     },
-    image: "/images/girls/barbara/1.jpg",
+    image: "/images/girls/barbara/1.webp",
     description: {
       en: "Exotic and charming, Barbara is a 24-year-old Vietnamese beauty. With her slender figure and radiant personality, she offers a wide variety of services including professional massage and intimate companionship to ensure a deeply relaxing and pleasurable experience.",
       cn: "充满异域风情且迷人，芭芭拉是一位24岁的越南美女。她拥有苗条的身材和开朗的性格，提供包括专业按摩和亲密陪伴在内的多种服务，致力于为您带来深度放松和愉悦的体验。"
@@ -453,13 +453,13 @@ export const girls = [
       cn: ["陪浴", "69", "舌吻", "黑丝", "按摩", "做1次", "额外：第二次(+$40) 无套口(+$20) 无套口&口报(+$50)"]
     },
     gallery: [
-      "/images/girls/barbara/1.jpg",
-      "/images/girls/barbara/2.jpg",
-      "/images/girls/barbara/3.jpg",
-      "/images/girls/barbara/4.jpg",
-      "/images/girls/barbara/5.jpg",
-      "/images/girls/barbara/6.jpg",
-      "/images/girls/barbara/7.jpg"
+      "/images/girls/barbara/1.webp",
+      "/images/girls/barbara/2.webp",
+      "/images/girls/barbara/3.webp",
+      "/images/girls/barbara/4.webp",
+      "/images/girls/barbara/5.webp",
+      "/images/girls/barbara/6.webp",
+      "/images/girls/barbara/7.webp"
     ]
   },
   {
@@ -475,7 +475,7 @@ export const girls = [
       cup: "36C",
       nationality: "Chinese"
     },
-    image: "/images/girls/anan/1.jpg",
+    image: "/images/girls/anan/1.webp",
     video: "/videos/anan.mov",
     description: {
       en: "A professional and attentive experience tailored to your needs. Anan is highly skilled in various relaxation techniques and ensures a comfortable, high-quality session.",
@@ -490,16 +490,16 @@ export const girls = [
       cn: ["洗澡", "胸推", "按摩", "戴套口", "情趣内衣", "有2次", "VIP: 莞式一条龙，服务全包", "额外：无套口(+$20) 口爆(+$50) 69(+$30) 舌吻(+$30) 毒龙(+$50)"]
     },
     gallery: [
-      "/images/girls/anan/1.jpg",
-      "/images/girls/anan/2.jpg",
-      "/images/girls/anan/5.jpg",
-      "/images/girls/anan/6.jpg",
-      "/images/girls/anan/7.jpg",
-      "/images/girls/anan/8.jpg",
-      "/images/girls/anan/9.jpg",
-      "/images/girls/anan/10.jpg",
-      "/images/girls/anan/11.jpg",
-      "/images/girls/anan/12.jpg"
+      "/images/girls/anan/1.webp",
+      "/images/girls/anan/2.webp",
+      "/images/girls/anan/5.webp",
+      "/images/girls/anan/6.webp",
+      "/images/girls/anan/7.webp",
+      "/images/girls/anan/8.webp",
+      "/images/girls/anan/9.webp",
+      "/images/girls/anan/10.webp",
+      "/images/girls/anan/11.webp",
+      "/images/girls/anan/12.webp"
     ]
   },
   {
@@ -515,7 +515,7 @@ export const girls = [
       cup: "C",
       nationality: "Chinese"
     },
-    image: "/images/girls/kaka/1.jpg",
+    image: "/images/girls/kaka/1.webp",
     description: {
       en: "A charming and attentive professional dedicated to providing a high-quality, personalized service. With her graceful figure and warm personality, Kaka specializes in traditional massage combined with intimate sensory care. She is highly cooperative and ensures every session is tailored to your specific preferences for an unforgettable experience.",
       cn: "温柔体贴，服务态度好，配合度高。擅长专业按摩与深度感官服务，致力于为您打造尊贵舒适的私享体验。"
@@ -526,10 +526,10 @@ export const girls = [
       cn: ["按摩", "带套口", "飞机", "额外：脱上衣(+$20) 全裸(+$30) 无套口(+$30)"]
     },
     gallery: [
-      "/images/girls/kaka/1.jpg",
-      "/images/girls/kaka/2.jpg",
-      "/images/girls/kaka/3.jpg",
-      "/images/girls/kaka/4.jpg"
+      "/images/girls/kaka/1.webp",
+      "/images/girls/kaka/2.webp",
+      "/images/girls/kaka/3.webp",
+      "/images/girls/kaka/4.webp"
     ]
   },
   {
@@ -545,7 +545,7 @@ export const girls = [
       cup: "C",
       nationality: "Chinese"
     },
-    image: "/images/girls/paofu/1.jpg",
+    image: "/images/girls/paofu/1.webp",
     description: {
       en: "Elegant and sophisticated, Puffy is a warm and dedicated professional who provides a personalized, intoxicated experience.",
       cn: "气质型，温柔贴心，醉情人。"
@@ -559,10 +559,10 @@ export const girls = [
       cn: ["鸳鸯浴", "带套口", "爱爱一次", "额外：无套口(+$50)"]
     },
     gallery: [
-      "/images/girls/paofu/1.jpg",
-      "/images/girls/paofu/2.jpg",
-      "/images/girls/paofu/3.jpg",
-      "/images/girls/paofu/4.jpg"
+      "/images/girls/paofu/1.webp",
+      "/images/girls/paofu/2.webp",
+      "/images/girls/paofu/3.webp",
+      "/images/girls/paofu/4.webp"
     ]
   },
   {
@@ -578,7 +578,7 @@ export const girls = [
       cup: "36C",
       nationality: "Chinese"
     },
-    image: "/images/girls/linda/1.jpg",
+    image: "/images/girls/linda/1.webp",
     description: {
       en: "A versatile and passionate professional, Linda offers a high-end experience with a wide range of specialized services to ensure your total satisfaction.",
       cn: "多才多艺且充满热情，琳达提供高品质、全方位的专业服务，致力于让您的每一次体验都无懈可击。"
@@ -593,14 +593,14 @@ export const girls = [
       cn: ["水中漫游", "猛虎上山", "鸳鸯戏水", "VIP: 口爆 床头广式服务 俄罗斯大战 观音坐莲 侧方程式停车 毒龙 全身漫游", "额外：无套口(+$20)"]
     },
     gallery: [
-      "/images/girls/linda/1.jpg",
-      "/images/girls/linda/2.jpg",
-      "/images/girls/linda/3.jpg",
-      "/images/girls/linda/4.jpg",
-      "/images/girls/linda/5.jpg",
-      "/images/girls/linda/6.jpg",
-      "/images/girls/linda/7.jpg",
-      "/images/girls/linda/8.jpg"
+      "/images/girls/linda/1.webp",
+      "/images/girls/linda/2.webp",
+      "/images/girls/linda/3.webp",
+      "/images/girls/linda/4.webp",
+      "/images/girls/linda/5.webp",
+      "/images/girls/linda/6.webp",
+      "/images/girls/linda/7.webp",
+      "/images/girls/linda/8.webp"
     ]
   },
   {
@@ -616,7 +616,7 @@ export const girls = [
       cup: "E",
       nationality: "Thailand"
     },
-    image: "/images/girls/faye/1.jpg",
+    image: "/images/girls/faye/1.webp",
     description: {
       en: "Pure and radiant, Faye (语橙) is a 19-year-old international student from Thailand. With her tall, slender figure and healthy sun-kissed skin, she offers a genuine and refreshing experience. Specializing in Thai massage and intimate companionship, she ensures a deeply relaxing time with a focus on quality and discretion.",
       cn: "泰国🇹🇭 Faye，中文名：语橙。真正的留学生，19岁（真实2006年护照为证），颜值不错，身材高挑，健康肤色，清纯系女生。"
@@ -630,12 +630,12 @@ export const girls = [
       cn: ["陪浴", "带套口", "全身漫游", "69", "浅吻", "指划", "丝袜", "泰式按摩", "第二次 (约半小时的只能做一次)"]
     },
     gallery: [
-      "/images/girls/faye/1.jpg",
-      "/images/girls/faye/2.jpg",
-      "/images/girls/faye/3.jpg",
-      "/images/girls/faye/4.jpg",
-      "/images/girls/faye/5.jpg",
-      "/images/girls/faye/6.jpg"
+      "/images/girls/faye/1.webp",
+      "/images/girls/faye/2.webp",
+      "/images/girls/faye/3.webp",
+      "/images/girls/faye/4.webp",
+      "/images/girls/faye/5.webp",
+      "/images/girls/faye/6.webp"
     ]
   },
   {
@@ -651,7 +651,7 @@ export const girls = [
       cup: "D",
       nationality: "Chinese"
     },
-    image: "/images/girls/yuxi/1.jpg",
+    image: "/images/girls/yuxi/1.webp",
     description: {
       en: "Elegant and versatile, Yuxi is a tall (170cm) and stunning beauty with a refined D-cup figure. She offers a unique range of services in Central Auckland, specializing in both full sensory experiences and professional therapeutic bodywork. From romantic 'S-kiss' techniques to specialized prostate maintenance, her sessions are thorough and deeply relaxing. Her VIP package includes multiple rounds and an even more extensive service menu for the ultimate indulgence.",
       cn: "优雅大气、高挑迷人，羽西身高 170cm，拥有出众的 D 杯身材。她不仅擅长细腻缠绵的感官互动，如共浴、舌吻和漫游，更有专业的按摩以及专为男士打造的前列腺保养服务。无论是追求浪漫互动还是深度舒缓，她都能为您提供超预期的完美体验。她的 $320 VIP 套餐更包含制服诱惑、多次陪伴及无套深度陪伴，让您尽享丝滑奢宠。"
@@ -662,11 +662,11 @@ export const girls = [
       cn: ["调情", "戴套口", "水中萧", "舌吻", "共浴", "漫游", "69", "可2次", "额外: 无套口 (+$20)", "VIP: 调情 舌吻 無套吹 共浴 制服 黑丝 专业按摩 爱爱 胸推 臀推 漫游 过水 口痧 水中萧 毒龙 口爆 可2次"]
     },
     gallery: [
-      "/images/girls/yuxi/1.jpg",
-      "/images/girls/yuxi/2.jpg",
-      "/images/girls/yuxi/3.jpg",
-      "/images/girls/yuxi/4.jpg",
-      "/images/girls/yuxi/5.jpg"
+      "/images/girls/yuxi/1.webp",
+      "/images/girls/yuxi/2.webp",
+      "/images/girls/yuxi/3.webp",
+      "/images/girls/yuxi/4.webp",
+      "/images/girls/yuxi/5.webp"
     ]
   },
   {
@@ -682,7 +682,7 @@ export const girls = [
       cup: "C",
       nationality: "Chinese"
     },
-    image: "/images/girls/sisi/1.jpg",
+    image: "/images/girls/sisi/1.webp",
     description: {
       en: "Radiant and charming, Sisi (Si Si) offers a premium sensory experience in Central Auckland. Standing at 165cm with a graceful figure, she excels in delivering deep relaxation through specialized sensory massage. Her VIP tier is exceptionally comprehensive, featuring a luxury bath together, body slides, and multiple intimate rounds for a truly indulgent escape.",
       cn: "明亮动人、极具魅力，思思为您在中区带来一场至臻感官盛宴。她身高 165cm，身材曼妙，擅长通过专业的感官按摩为您带来深度放松。她的 VIP 套餐配置豪华，包含一起洗澡、胸推漫游以及无套口等深度服务，并支持多次陪伴，让您尽享私密尊贵的悠闲时光。"
@@ -697,18 +697,18 @@ export const girls = [
       cn: ["接吻", "感官按摩", "69", "戴套吹", "啪一次", "VIP: 蛇吻 陪浴 胸推漫游 感官按摩 无套口 69 口爆 多次"]
     },
     gallery: [
-      "/images/girls/sisi/1.jpg",
-      "/images/girls/sisi/2.jpg",
-      "/images/girls/sisi/3.jpg",
-      "/images/girls/sisi/4.jpg",
-      "/images/girls/sisi/5.jpg",
-      "/images/girls/sisi/6.jpg",
-      "/images/girls/sisi/7.jpg",
-      "/images/girls/sisi/8.jpg",
-      "/images/girls/sisi/9.jpg",
-      "/images/girls/sisi/10.jpg",
-      "/images/girls/sisi/11.jpg",
-      "/images/girls/sisi/12.jpg"
+      "/images/girls/sisi/1.webp",
+      "/images/girls/sisi/2.webp",
+      "/images/girls/sisi/3.webp",
+      "/images/girls/sisi/4.webp",
+      "/images/girls/sisi/5.webp",
+      "/images/girls/sisi/6.webp",
+      "/images/girls/sisi/7.webp",
+      "/images/girls/sisi/8.webp",
+      "/images/girls/sisi/9.webp",
+      "/images/girls/sisi/10.webp",
+      "/images/girls/sisi/11.webp",
+      "/images/girls/sisi/12.webp"
     ]
   },
   {
@@ -724,7 +724,7 @@ export const girls = [
       cup: "B-C",
       nationality: "Chinese"
     },
-    image: "/images/girls/candice/1.jpg",
+    image: "/images/girls/candice/1.webp",
     description: {
       en: "Experienced and professional, Candice focuses on high-quality service and attention to detail. Specially trained in premium massage and intimate companionship, she offers a deeply relaxing experience including traditional massage and free cupping therapy.",
       cn: "经验丰富、专业典雅，Candice 专注于为您提供最高品质的服务。凭借成熟的专业手法，她通过精致的按摩和贴心的陪伴为您带来极致放松的体验。店内还为客人免费提供拔火罐等理疗选项。"
@@ -739,13 +739,13 @@ export const girls = [
       cn: ["洗澡", "按摩", "无套口", "接吻", "做2次", "VIP: 莞式服务", "免费赠送: 拔火罐"]
     },
     gallery: [
-      "/images/girls/candice/1.jpg",
-      "/images/girls/candice/2.jpg",
-      "/images/girls/candice/3.jpg",
-      "/images/girls/candice/4.jpg",
-      "/images/girls/candice/5.jpg",
-      "/images/girls/candice/6.jpg",
-      "/images/girls/candice/7.jpg"
+      "/images/girls/candice/1.webp",
+      "/images/girls/candice/2.webp",
+      "/images/girls/candice/3.webp",
+      "/images/girls/candice/4.webp",
+      "/images/girls/candice/5.webp",
+      "/images/girls/candice/6.webp",
+      "/images/girls/candice/7.webp"
     ]
   },
   {
@@ -761,7 +761,7 @@ export const girls = [
       cup: "D",
       nationality: "Chinese"
     },
-    image: "/images/girls/cherry/1.jpg",
+    image: "/images/girls/cherry/1.webp",
     description: {
       en: "Delicate and charming, Cherry is a professional therapist in Central Auckland. Known for her petite 157cm figure and stunning natural D cup, she offers a perfect blend of high-quality massage and warm, intimate companionship. Whether you're seeking a standard or premium VIP experience, her attentive touch will ensure absolute relaxation.",
       cn: "娇小玲珑、魅力十足，Cherry 是中区备受推崇的高端服务者。她拥有 157cm 的玲珑身材和傲人的天然 D 杯，将精湛的按摩手法与温柔的贴心陪伴完美结合。无论您是选择标准套餐还是极致的 VIP 体验，她细腻的触碰都将为您带来一场难忘的舒压之旅。"
@@ -775,11 +775,11 @@ export const girls = [
       cn: ["按摩", "调情", "有套口", "kiss", "爱一次", "VIP: 无套口 蛇吻 69 陪浴 2-3次"]
     },
     gallery: [
-      "/images/girls/cherry/1.jpg",
-      "/images/girls/cherry/2.jpg",
-      "/images/girls/cherry/3.jpg",
-      "/images/girls/cherry/4.jpg",
-      "/images/girls/cherry/5.jpg"
+      "/images/girls/cherry/1.webp",
+      "/images/girls/cherry/2.webp",
+      "/images/girls/cherry/3.webp",
+      "/images/girls/cherry/4.webp",
+      "/images/girls/cherry/5.webp"
     ]
   },
   {
@@ -795,7 +795,7 @@ export const girls = [
       cup: "B",
       nationality: "Chinese"
     },
-    image: "/images/girls/emma/1.jpg",
+    image: "/images/girls/emma/1.webp",
     description: {
       en: "Sophisticated and experienced, Emma offers a premium relaxation experience in Central Auckland. Standing at 162cm, she combines professional massage with intimate care. Her VIP service is exceptionally comprehensive, including extended rounds and specialized intimate techniques for those seeking the ultimate escape.",
       cn: "典雅稳重、经验丰富，Emma 为您在中区提供高品质的舒压体验。她身高 162cm，将专业的按摩技巧与细腻的温情看护完美结合。她的 VIP 服务极具诚意，包含多 round 陪伴和多种特色私密技巧，是追求极致放松体验的不二之选。"
@@ -810,10 +810,10 @@ export const girls = [
       cn: ["洗澡", "带套口", "69", "kiss", "按摩", "啪1次", "额外: 第二次(+$30)", "VIP: 无套口 口爆 毒龙 第2次"]
     },
     gallery: [
-      "/images/girls/emma/1.jpg",
-      "/images/girls/emma/2.jpg",
-      "/images/girls/emma/3.jpg",
-      "/images/girls/emma/4.jpg"
+      "/images/girls/emma/1.webp",
+      "/images/girls/emma/2.webp",
+      "/images/girls/emma/3.webp",
+      "/images/girls/emma/4.webp"
     ]
   },
   {
@@ -829,7 +829,7 @@ export const girls = [
       cup: "B",
       nationality: "Chinese"
     },
-    image: "/images/girls/jessica/1.jpg",
+    image: "/images/girls/jessica/1.webp",
     description: {
       en: "Elegant and poised, Jessica provides a high-standard service in Central Auckland. Standing at 162cm with a slim 49kg figure, she offers a perfect balance of professional massage and warm companionship. Her extensive service list ensures every visit is tailored to your preferences, promising a deeply satisfying and relaxing experience.",
       cn: "典雅端庄、气质出众，Jessica 是中区为您提供高标准服务的理想之选。她身高 162cm，体重 49kg，身材匀称，将专业的按摩手法与温柔的贴心陪伴完美融合。她丰富的服务项目确保能满足您的各种需求，为您带来一场深度放松且极度愉悦的私密体验。"
@@ -844,11 +844,11 @@ export const girls = [
       cn: ["洗澡", "带套口", "69", "吻", "按摩", "啪1次", "第二次: +$30"]
     },
     gallery: [
-      "/images/girls/jessica/1.jpg",
-      "/images/girls/jessica/2.jpg",
-      "/images/girls/jessica/3.jpg",
-      "/images/girls/jessica/4.jpg",
-      "/images/girls/jessica/5.jpg"
+      "/images/girls/jessica/1.webp",
+      "/images/girls/jessica/2.webp",
+      "/images/girls/jessica/3.webp",
+      "/images/girls/jessica/4.webp",
+      "/images/girls/jessica/5.webp"
     ]
   },
   {
@@ -864,7 +864,7 @@ export const girls = [
       cup: "B-C",
       nationality: "Chinese"
     },
-    image: "/images/girls/ying/1.jpg",
+    image: "/images/girls/ying/1.webp",
     description: {
       en: "Petite and energetic, Ying (Xiao Ying) offers a comprehensive 'Dongguan style' service in Central Auckland. At 160cm, she pairs her professional massage skills with a high degree of intimacy and attentiveness. Her VIP package is exceptionally detailed, even including a complimentary cupping treatment for a full wellness experience. She is known for her warm personality and commitment to total relaxation.",
       cn: "身材娇小、活力十足，小英为您在中区提供极具特色的“莞式服务”。她身高 160cm，将专业的按摩技巧与细腻的温情看护完美结合，服务态度极佳。她的 VIP 套餐诚意满满，包含全方位的深度放松，并特别赠送拔火罐调理。她以亲切的个性和极高的配合度著称，致力于为您打造一场全身心放松的至臻体验。"
@@ -879,16 +879,16 @@ export const girls = [
       cn: ["洗澡", "按摩", "无套口", "接吻", "做2次", "VIP: 莞式服务", "免费赠送: 拔火罐"]
     },
     gallery: [
-      "/images/girls/ying/1.jpg",
-      "/images/girls/ying/2.jpg",
-      "/images/girls/ying/3.jpg",
-      "/images/girls/ying/4.jpg",
-      "/images/girls/ying/5.jpg",
-      "/images/girls/ying/6.jpg",
-      "/images/girls/ying/7.jpg",
-      "/images/girls/ying/8.jpg",
-      "/images/girls/ying/9.jpg",
-      "/images/girls/ying/10.jpg"
+      "/images/girls/ying/1.webp",
+      "/images/girls/ying/2.webp",
+      "/images/girls/ying/3.webp",
+      "/images/girls/ying/4.webp",
+      "/images/girls/ying/5.webp",
+      "/images/girls/ying/6.webp",
+      "/images/girls/ying/7.webp",
+      "/images/girls/ying/8.webp",
+      "/images/girls/ying/9.webp",
+      "/images/girls/ying/10.webp"
     ]
   },
   {
@@ -904,7 +904,7 @@ export const girls = [
       cup: "B-C",
       nationality: "Chinese"
     },
-    image: "/images/girls/yang/1.jpg",
+    image: "/images/girls/yang/1.webp",
     description: {
       en: "Yang (Yang Yang) is a delightful and attentive beauty providing top-tier service in Central Auckland. Standing at 160cm, she is known for her high-end 'Dongguan style' service and professional touch. Her VIP package is highly recommended, featuring a detailed wellness experience with a complimentary cupping therapy. She ensures a very high standard of satisfaction and total relaxation.",
       cn: "洋洋是中区一位笑容亲切、极具热情的资深女孩。她身高 160cm，主打高端“莞式服务”，以细腻入微的操作和极高的配合度深受好评。她的 VIP 套餐配置齐全，不仅包含全方位的贴心陪伴，还特别赠送拔火罐调理。她致力于为您打造一场全身心放松、极具沉浸感的至臻享受。"
@@ -919,10 +919,10 @@ export const girls = [
       cn: ["洗澡", "按摩", "无套口", "接吻", "做2次", "VIP: 莞式服务", "免费赠送: 拔火罐"]
     },
     gallery: [
-      "/images/girls/yang/1.jpg",
-      "/images/girls/yang/2.jpg",
-      "/images/girls/yang/3.jpg",
-      "/images/girls/yang/4.jpg"
+      "/images/girls/yang/1.webp",
+      "/images/girls/yang/2.webp",
+      "/images/girls/yang/3.webp",
+      "/images/girls/yang/4.webp"
     ]
   },
   {
@@ -938,7 +938,7 @@ export const girls = [
       cup: "C",
       nationality: "Chinese"
     },
-    image: "/images/girls/aimi/2.jpg",
+    image: "/images/girls/aimi/2.webp",
     description: {
       en: "Sweet and youthful, Aimi (Ai Mi) is a charming 2000-born beauty in Central Auckland. Standing at 162cm with a perfect C-cup figure, she offers an intimate experience focused on deep sensory relaxation. Her VIP service is exceptionally thorough, featuring a luxury bath together, romantic 'S-kiss' techniques, and multiple rounds. She is known for her warm energy and dedication to making every moment special.",
       cn: "温婉可人、青春洋溢，爱米是一位来自 00 后的心动女生。她身高 162cm，拥有完美的 C 杯身材，擅长通过细腻的感官按摩为您带来全方位的舒缓体验。她的 VIP 服务极其贴心周到，包含共同沐浴、缠绵蛇吻以及多次深度陪伴，让您在温馨惬意的氛围中尽享私密时光。"
@@ -953,13 +953,13 @@ export const girls = [
       cn: ["接吻", "感官按摩", "69", "戴套口", "做1次", "VIP: 蛇吻 一起洗澡 胸推漫游 感光按摩 无套口 口爆 多次"]
     },
     gallery: [
-      "/images/girls/aimi/2.jpg",
-      "/images/girls/aimi/1.jpg",
-      "/images/girls/aimi/3.jpg",
-      "/images/girls/aimi/4.jpg",
-      "/images/girls/aimi/5.jpg",
-      "/images/girls/aimi/6.jpg",
-      "/images/girls/aimi/7.jpg"
+      "/images/girls/aimi/2.webp",
+      "/images/girls/aimi/1.webp",
+      "/images/girls/aimi/3.webp",
+      "/images/girls/aimi/4.webp",
+      "/images/girls/aimi/5.webp",
+      "/images/girls/aimi/6.webp",
+      "/images/girls/aimi/7.webp"
     ]
   },
   {
@@ -974,7 +974,7 @@ export const girls = [
       cup: "Varies",
       nationality: "Chinese"
     },
-    image: "/images/girls/blindbox/grid.jpg",
+    image: "/images/girls/blindbox/grid.webp",
     description: {
       en: "Experience the thrill of the unknown with our 'Blind Box' special. For a flat rate of $360, you'll be paired with one of our high-quality surprise beauties in CBD Auckland. This discounted package includes a full sensory session with a bath, romantic techniques, and a guaranteed second round. It's the perfect way to discover a new favorite at an exceptional value.",
       cn: "开启您的心跳私密盲盒！仅需 $360 特惠价，您将随机选择一位我们在市区的高端宝藏女孩。盲盒包不仅包含温馨沐浴、缠绵蛇吻以及深度无套陪伴，更承诺两次云雨体验。在未知的惊喜中，以超值的价格选择您的下一位挚爱，尽享私密慢生活。"
@@ -985,13 +985,13 @@ export const girls = [
       cn: ["陪浴", "蛇吻", "无套口", "69", "丝袜", "满2次"]
     },
     gallery: [
-      "/images/girls/blindbox/grid.jpg",
-      "/images/girls/blindbox/1.jpg",
-      "/images/girls/blindbox/2.jpg",
-      "/images/girls/blindbox/3.jpg",
-      "/images/girls/blindbox/4.jpg",
-      "/images/girls/blindbox/5.jpg",
-      "/images/girls/blindbox/6.jpg"
+      "/images/girls/blindbox/grid.webp",
+      "/images/girls/blindbox/1.webp",
+      "/images/girls/blindbox/2.webp",
+      "/images/girls/blindbox/3.webp",
+      "/images/girls/blindbox/4.webp",
+      "/images/girls/blindbox/5.webp",
+      "/images/girls/blindbox/6.webp"
     ]
   },
   {
@@ -1007,7 +1007,7 @@ export const girls = [
       cup: "B+",
       nationality: "Chinese"
     },
-    image: "/images/girls/yumo/3.jpg",
+    image: "/images/girls/yumo/3.webp",
     description: {
       en: "Radiant and naturally stunning, Yumo is a 2002-born university undergraduate in CBD Auckland. A 'Girl Next Door' with hidden talents in piano, calligraphy, and dance, she offers a rare blend of elegance and athletic flexibility. 100% natural and freshly available, she is known for her exceptional cooperation and sweet personality. Don't miss this limited-time opportunity to meet her.",
       cn: "优点：颜值在线，甜妹，大学本科生在读🎓。钢琴🎹、书法、舞蹈💃、一字马，全身天然无科技。初下💦不久，绝对配合度极高，系邻家妹妹🤤。短期还在等什么🫶"
@@ -1018,11 +1018,11 @@ export const girls = [
       cn: ["共浴", "无套口", "全身漫游", "69", "蛇吻", "指滑", "丝袜", "水中萧", "按摩", "第2次", "额外: 口爆(+$50)"]
     },
     gallery: [
-      "/images/girls/yumo/3.jpg",
-      "/images/girls/yumo/2.jpg",
-      "/images/girls/yumo/1.jpg",
-      "/images/girls/yumo/4.jpg",
-      "/images/girls/yumo/5.jpg"
+      "/images/girls/yumo/3.webp",
+      "/images/girls/yumo/2.webp",
+      "/images/girls/yumo/1.webp",
+      "/images/girls/yumo/4.webp",
+      "/images/girls/yumo/5.webp"
     ]
   },
   {
@@ -1038,7 +1038,7 @@ export const girls = [
       cup: "C",
       nationality: "Chinese"
     },
-    image: "/images/girls/may/1.jpg",
+    image: "/images/girls/may/1.webp",
     description: {
       en: "Sweet and adventurous, May is a stunning companion now available on the North Shore. Known for her petite frame and natural C-cup figure, she offers a playful yet intimate experience. She is highly accommodating and specializes in sensory interactions like romantic 'S-kiss' and multiple rounds. For those seeking a more adventurous session, she also offers 'Back Garden' (Anal) services and a premium VIP package for the complete indulgence.",
       cn: "甜蜜动人、活泼大方，May 现已来到北岸为您提供贴心相伴。她身材娇小均衡，拥有诱人的 C 杯曲线。May 以温柔的性格和极高的配合度著称，擅长细腻的感官互动，如舌吻和双倍云雨体验（可2次）。对于追求极致刺激的朋友，她还提供‘后花园’特殊服务，以及涵盖多项顶级体验的 VIP 奢华套餐，为您开启全方位的感官盛宴。"
@@ -1057,11 +1057,11 @@ export const girls = [
       ]
     },
     gallery: [
-      "/images/girls/may/1.jpg",
-      "/images/girls/may/2.jpg",
-      "/images/girls/may/3.jpg",
-      "/images/girls/may/4.jpg",
-      "/images/girls/may/5.jpg"
+      "/images/girls/may/1.webp",
+      "/images/girls/may/2.webp",
+      "/images/girls/may/3.webp",
+      "/images/girls/may/4.webp",
+      "/images/girls/may/5.webp"
     ]
   },
   {
@@ -1077,7 +1077,7 @@ export const girls = [
       cup: "C",
       nationality: "Chinese"
     },
-    image: "/images/girls/dajie/1.jpg",
+    image: "/images/girls/dajie/1.webp",
     description: {
       en: "Mature and professional, Dajie is a tall (170cm) and elegant companion serving East Auckland. She specializes in 'Zhua Long Jin' (specialized prostate and tantric massage), delivering a session that is both therapeutic and deeply pleasurable. Her mature energy and thorough service ensure a refined and satisfying experience. Her VIP package offers extended indulgence with a suite of sensory interactions and multiple rounds for those seeking the ultimate escape.",
       cn: "成熟稳重、技术纯熟，大姐身高 170cm，为您在东区提供极具深度的身心呵护。她尤其擅长‘抓龙筋’这项专业的男性保健按摩，能为您带来前所未有的舒压与愉悦体验。大姐以成熟的风韵和无微不至的服务著称，无论是标准的单次圆满，还是涵盖舌吻、熊推、漫游及多次陪伴（多次）的 VIP 尊享套餐，她都能以细腻的技巧让您流连忘返。"
@@ -1094,13 +1094,13 @@ export const girls = [
       ]
     },
     gallery: [
-      "/images/girls/dajie/1.jpg",
-      "/images/girls/dajie/2.jpg",
-      "/images/girls/dajie/3.jpg",
-      "/images/girls/dajie/4.jpg",
-      "/images/girls/dajie/5.jpg",
-      "/images/girls/dajie/6.jpg",
-      "/images/girls/dajie/7.jpg"
+      "/images/girls/dajie/1.webp",
+      "/images/girls/dajie/2.webp",
+      "/images/girls/dajie/3.webp",
+      "/images/girls/dajie/4.webp",
+      "/images/girls/dajie/5.webp",
+      "/images/girls/dajie/6.webp",
+      "/images/girls/dajie/7.webp"
     ]
   },
   {
@@ -1116,7 +1116,7 @@ export const girls = [
       cup: "C",
       nationality: "Chinese"
     },
-    image: "/images/girls/shanshan/1.jpg",
+    image: "/images/girls/shanshan/1.webp",
     description: {
       en: "Radiant and highly accommodating, Shanshan is a standout beauty now serving East Auckland. With her impressive height of 168cm and natural C-cup figure, she provides an intimate experience focused on service quality. She specializes in 'Zhua Long Jin' (Tantric massage) and offers a deeply sensory journey. For those seeking the ultimate connection, she is one of the few companions offering 'Unprotected Finish' options within her premium VIP package, alongside multiple rounds and oral interactions.",
       cn: "珊珊现已来到东区，为您带来专业且高配合度的私密陪伴。她身高 168cm，身材曼妙平衡（C杯），以卓越的服务态度深受好评。珊珊不仅擅长‘抓龙筋’等专业按摩理疗，更通过细腻的感官互动带您领略不一样的舒缓体验。作为极富冒险精神的女神，她在 VIP 尊享套餐中特别提供‘可无套圆满’（无套🍑）选项，结合多次陪伴和唇齿间的温存，为您打造真正极致的解压时光。"
@@ -1133,11 +1133,11 @@ export const girls = [
       ]
     },
     gallery: [
-      "/images/girls/shanshan/1.jpg",
-      "/images/girls/shanshan/2.jpg",
-      "/images/girls/shanshan/3.jpg",
-      "/images/girls/shanshan/4.jpg",
-      "/images/girls/shanshan/5.jpg"
+      "/images/girls/shanshan/1.webp",
+      "/images/girls/shanshan/2.webp",
+      "/images/girls/shanshan/3.webp",
+      "/images/girls/shanshan/4.webp",
+      "/images/girls/shanshan/5.webp"
     ]
   },
   {
@@ -1153,7 +1153,7 @@ export const girls = [
       cup: "B+",
       nationality: "Chinese"
     },
-    image: "/images/girls/qinger/1.jpg",
+    image: "/images/girls/qinger/1.webp",
     description: {
       en: "Charming and attentive, Qinger brings a soft and sensual energy to her sessions in Central Auckland. Standing at 160cm with a delicate build, she specializes in therapeutic and sensual massage, focusing on relaxation and high-quality interaction. Her gentle nature and careful service make her a favorite for those seeking a more personal and soothing experience. Available for both standard sessions and extended premium interactions with additional oral and sensory options.",
       cn: "温柔体贴，服务至上，让您在繁忙的城市中找到那份宁静与欢愉。情儿现已来到中区，为您提供最专业的身心呵护。主要提供按摩和感官互动服务。额外的标准互动均可配合。"
@@ -1164,12 +1164,12 @@ export const girls = [
       cn: ["按摩", "带套口", "裸上身", "飞机", "额外：无套口(+$50) 无套口&口报(+$80)"]
     },
     gallery: [
-      "/images/girls/qinger/1.jpg",
-      "/images/girls/qinger/2.jpg",
-      "/images/girls/qinger/3.jpg",
-      "/images/girls/qinger/4.jpg",
-      "/images/girls/qinger/5.jpg",
-      "/images/girls/qinger/6.jpg"
+      "/images/girls/qinger/1.webp",
+      "/images/girls/qinger/2.webp",
+      "/images/girls/qinger/3.webp",
+      "/images/girls/qinger/4.webp",
+      "/images/girls/qinger/5.webp",
+      "/images/girls/qinger/6.webp"
     ]
   },
   {
@@ -1185,7 +1185,7 @@ export const girls = [
       cup: "D",
       nationality: "Chinese"
     },
-    image: "/images/girls/erer/1.jpg",
+    image: "/images/girls/erer/1.webp",
     description: {
       en: "Youthful and energetic, Er-er is a stunning beauty from the '00s generation' now serving Central Auckland. Standing at 163cm with a perfectly balanced figure and a natural D-cup, she specializes in providing a high-participation, sensory-focused experience. Her sessions are characterized by warmth, enthusiasm, and a deep commitment to service quality. For those seeking the ultimate indulgence, her premium VIP package offers multiple rounds, extended interactions, and specialized oral services in a luxurious, relaxed environment.",
       cn: "青春活力00后，身材娇小火辣（D杯），服务主动且配合度极高。二二现已在中心区为您开启专属的私密时光。主要提供高参与度的感官服务。VIP套餐包含：蛇吻, 一起洗澡, 胸推漫游, 感官按摩, 无套口, 69, 口报, 多次等。"
@@ -1196,11 +1196,11 @@ export const girls = [
       cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
     },
     gallery: [
-      "/images/girls/erer/1.jpg",
-      "/images/girls/erer/2.jpg",
-      "/images/girls/erer/3.jpg",
-      "/images/girls/erer/4.jpg",
-      "/images/girls/erer/5.jpg"
+      "/images/girls/erer/1.webp",
+      "/images/girls/erer/2.webp",
+      "/images/girls/erer/3.webp",
+      "/images/girls/erer/4.webp",
+      "/images/girls/erer/5.webp"
     ]
   },
   {
@@ -1216,7 +1216,7 @@ export const girls = [
       cup: "B-C",
       nationality: "Chinese"
     },
-    image: "/images/girls/zhuzhu/1.jpg",
+    image: "/images/girls/zhuzhu/1.webp",
     description: {
       en: "Elegance meets youthful charm in Zhuzhu, a delightful member of our '00s generation' collection in Central Auckland. Standing at 163cm with a slim, graceful physique, she focuses on high-quality sensory interaction and attentive service. Whether you choose her standard session or the comprehensive VIP experience (including multiple rounds and specialized oral services), Zhuzhu ensures a memorable and deeply relaxing stay with her smooth, professional touch.",
       cn: "优雅与青春的完美结合。珠珠作为00后新秀，现已在中区为您提供最贴心的服务。她身材纤细（B-C杯），动作轻柔且专业。无论是标准按摩还是包含蛇吻、口报和多次互动的VIP套餐，珠珠都会让您感受到前所未有的放松与愉悦。"
@@ -1227,10 +1227,10 @@ export const girls = [
       cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
     },
     gallery: [
-      "/images/girls/zhuzhu/1.jpg",
-      "/images/girls/zhuzhu/2.jpg",
-      "/images/girls/zhuzhu/3.jpg",
-      "/images/girls/zhuzhu/4.jpg"
+      "/images/girls/zhuzhu/1.webp",
+      "/images/girls/zhuzhu/2.webp",
+      "/images/girls/zhuzhu/3.webp",
+      "/images/girls/zhuzhu/4.webp"
     ]
   },
   {
@@ -1246,7 +1246,7 @@ export const girls = [
       cup: "B-C",
       nationality: "Chinese"
     },
-    image: "/images/girls/michelle/1.jpg",
+    image: "/images/girls/michelle/1.webp",
     description: {
       en: "Stunning and sophisticated, Michelle is a premium addition to our Central Auckland collection. Standing at 163cm with a slim 45kg frame and a natural B-C cup, she specializes in high-quality French kissing and sensory massage. Michelle is known for her graceful presence and exceptional service standards. Her VIP package offers an immersive experience including snake kisses, shower sessions, and multiple premium interactions for the most discerning guests.",
       cn: "顶级佳丽 Michelle。身高 163cm，体重 45kg，身材匀称（B-C杯）。Michelle 以其卓越的服务态度和迷人的法式接吻深受好评。现在她已就位中区，为您带来最尊贵的感官盛宴。VIP 套餐包含蛇吻、鸳鸯浴、胸推漫游等全方位互动服务。"
@@ -1257,10 +1257,10 @@ export const girls = [
       cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
     },
     gallery: [
-      "/images/girls/michelle/1.jpg",
-      "/images/girls/michelle/2.jpg",
-      "/images/girls/michelle/3.jpg",
-      "/images/girls/michelle/4.jpg"
+      "/images/girls/michelle/1.webp",
+      "/images/girls/michelle/2.webp",
+      "/images/girls/michelle/3.webp",
+      "/images/girls/michelle/4.webp"
     ]
   },
   {
@@ -1276,7 +1276,7 @@ export const girls = [
       cup: "C",
       nationality: "Chinese"
     },
-    image: "/images/girls/bingbing/1.jpg",
+    image: "/images/girls/bingbing/1.webp",
     description: {
       en: "Warm and inviting, Bingbing is a beautiful addition to our collection in Central Auckland. Standing at 163cm with a slender 45kg physique and a full C-cup, she specializes in sensory massage and romantic interaction. Whether you prefer a standard session or her comprehensive VIP package—featuring snake kisses, shared showers, and multiple interactions—Bingbing provides a deeply personal and attentive service designed to melt away your stress.",
       cn: "温柔似水，娇艳动人。冰冰拥有 163cm 的高挑身材和完美的 C 杯曲线。她擅长通过感官按摩和温柔互动为您排忧解难。VIP 套餐更包含蛇吻、鸳鸯浴、胸推漫游及多次云雨互动。冰冰现已在中区恭候您的光临，为您开启一段难忘的私密之旅。"
@@ -1287,11 +1287,11 @@ export const girls = [
       cn: ["接吻", "感官按摩", "69", "戴套吹", "1次圆满", "VIP: 蛇吻, 一起洗澡, 胸推漫游, 无套口, 口报, 多次圆满"]
     },
     gallery: [
-      "/images/girls/bingbing/1.jpg",
-      "/images/girls/bingbing/2.jpg",
-      "/images/girls/bingbing/3.jpg",
-      "/images/girls/bingbing/4.jpg",
-      "/images/girls/bingbing/5.jpg"
+      "/images/girls/bingbing/1.webp",
+      "/images/girls/bingbing/2.webp",
+      "/images/girls/bingbing/3.webp",
+      "/images/girls/bingbing/4.webp",
+      "/images/girls/bingbing/5.webp"
     ]
   },
   {
@@ -1307,7 +1307,7 @@ export const girls = [
       cup: "C (Natural)",
       nationality: "Japanese"
     },
-    image: "/images/girls/ribemei/2.jpg",
+    image: "/images/girls/ribemei/2.webp",
     description: {
       en: "Sweet and petite, Japanese Girl (Nihonmei) brings a youthful and playful energy to the CBD. Standing at 163cm with a slender 45kg frame and natural C-cup features, she specializes in attentive, immersive service with a focus on high-quality interaction. Known for her compliance and sweet personality, she offers a comprehensive range of services including French kissing, 69, and multiple shots for a deeply satisfying and premium experience in the heart of Auckland.",
       cn: "日本妹，25岁，身高163cm，体重45kg，自然C杯。性格甜美可人，配合度极高，为您带来全新的感官体验。现已在奥克兰市区就位，主要提供法式热吻、无套口、69、口报等全方位精品服务。支持2次互动，让您尽享丝滑感受。"
@@ -1318,11 +1318,11 @@ export const girls = [
       cn: ["舌吻", "陪浴", "3P", "无套口", "69", "口爆", "做2次", "额外：不露脸拍照录影(+$150), 露脸拍照录影(+$200), 无套内射(+$300)"]
     },
     gallery: [
-      "/images/girls/ribemei/2.jpg",
-      "/images/girls/ribemei/1.jpg",
-      "/images/girls/ribemei/3.jpg",
-      "/images/girls/ribemei/4.jpg",
-      "/images/girls/ribemei/5.jpg"
+      "/images/girls/ribemei/2.webp",
+      "/images/girls/ribemei/1.webp",
+      "/images/girls/ribemei/3.webp",
+      "/images/girls/ribemei/4.webp",
+      "/images/girls/ribemei/5.webp"
     ]
   }
 ];

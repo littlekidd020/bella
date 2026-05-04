@@ -40,7 +40,7 @@ const AgeGate = ({ children }) => {
                  initial={{ scale: 1.15 }}
                  animate={{ scale: 1.05 }}
                  transition={{ duration: 20, repeat: Infinity, repeatType: "reverse", ease: "linear" }}
-                 src="/images/landing-bg-erotic-new.jpg" 
+                 src="/images/landing-bg-erotic-new.webp" 
                  className="w-full h-full object-cover object-center opacity-85 mix-blend-luminosity"
                  alt="Luxury Entry"
                />

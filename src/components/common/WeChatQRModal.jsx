@@ -47,7 +47,7 @@ const WeChatQRModal = ({ isOpen, onClose }) => {
             <div className="p-6">
               <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-sm relative bg-white/50 border border-[#F84A88]/10">
                 <img 
-                  src="/images/wechat-qr.png" 
+                  src="/images/wechat-qr.webp" 
                   alt="WeChat QR Code" 
                   className="w-full h-full object-cover"
                 />

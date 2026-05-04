@@ -23,7 +23,7 @@ export default function CollectionPage() {
         {/* Background Erotic Image */}
         <div className="absolute inset-0 z-0 bg-[#FFE4EC]">
           <img 
-            src="/images/header-bg-custom.jpg" 
+            src="/images/header-bg-custom.webp" 
             alt="Sensual Collection Background" 
             className="w-full h-full object-cover object-center opacity-85 mix-blend-luminosity"
           />

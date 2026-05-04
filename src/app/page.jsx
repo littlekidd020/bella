@@ -16,7 +16,7 @@ export default function Home() {
         {/* Background Sensual Image */}
         <div className="absolute inset-0 z-0 bg-[#FFE4EC]">
           <img 
-            src="/images/header-bg-custom.jpg" 
+            src="/images/header-bg-custom.webp" 
             alt="Sensual Boutique Background" 
             className="w-full h-full object-cover opacity-85 mix-blend-luminosity"
           />
@@ -38,7 +38,7 @@ export default function Home() {
         {/* Background Erotic Image for Text Block */}
         <div className="absolute inset-0 z-0 bg-[#FFE4EC]">
           <img 
-            src="/images/footer-bg-custom.jpg" 
+            src="/images/footer-bg-custom.webp" 
             alt="Custom Erotic Background" 
             className="w-full h-full object-cover object-center opacity-85 mix-blend-luminosity"
           />
