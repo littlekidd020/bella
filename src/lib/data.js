@@ -128,15 +128,11 @@ export const girls = [
     services: {
       en: [
         "Shower\u00A0together", "Light\u00A0kiss", "Natural\u00A0bj", "69", "2\u00A0shots",
-        "Extra: Facial(+$100) Bareback(+$150) Bareback\u00A0finish(+$200)",
-        "Extra: Discreet\u00A0Photo/Video(+$200) Photo/Video\u00A0with\u00A0face(+$300)",
-        "SM\u00A0(+$200): Golden\u00A0shower/Swallow/Whipping/Choking/Hair\u00A0pulling/Spanking/Deep\u00A0throat/French\u00A0kiss/Toys"
+        "Extra: Facial(+$100) Bareback(+$150) Bareback\u00A0finish(+$200) Discreet\u00A0Photo/Video(+$200) Photo/Video\u00A0with\u00A0face(+$300) SM(+$200: Golden\u00A0shower/Swallow/Whipping/Choking/Hair\u00A0pulling/Spanking/Deep\u00A0throat/French\u00A0kiss/Toys)"
       ],
       cn: [
         "洗澡", "轻吻", "无套口", "69", "做2次",
-        "额外：颜射(+$100) 无套(+$150) 无套内射(+$200)",
-        "额外：不露脸拍照摄像(+$200) 露脸拍照摄像(+$300)",
-        "SM (+$200)：黄金表演者/吞咽/鞭打/掐脖/扯发/拍打/深喉/蛇吻/玩具等"
+        "额外：颜射(+$100) 无套(+$150) 无套内射(+$200) 不露脸拍照(+$200) 露脸拍照(+$300) SM(+$200:黄金表演/吞咽/鞭打/掐脖/扯发/拍打/深喉/蛇吻/玩具等)"
       ]
     },
     gallery: [
