@@ -108,26 +108,36 @@ export const girls = [
   },
   {
     id: 39,
-    name: { en: "Hikari", cn: "青空光" },
+    name: { en: "Aozora Hikari", cn: "青空光" },
     status: "available",
     verified: true,
     location: "Central",
     stats: {
       age: 24,
-      height: "160cm",
-      weight: "45kg",
-      cup: "C",
+      height: "169cm",
+      weight: "52kg",
+      cup: "DD",
       nationality: "Japanese"
     },
     image: "/images/girls/hikari/1.webp",
     description: {
-      en: "Newly arrived Japanese beauty Aozora Hikari (born 2002). A stunning, gentle, and highly anticipated arrival.",
-      cn: "🆕最新日本空降🌸 中区：青空光（02年），超高颜值，甜美可爱，服务温柔细致。（资料卡详情待确认）"
+      en: "Newly arrived Japanese beauty Aozora Hikari (born 2002). A stunning, gentle, and highly anticipated arrival, offering a premium and highly customizable experience.",
+      cn: "🆕最新日本空降🌸 中区：青空光（02年），超高颜值，甜美可爱，服务温柔细致，提供高品质多样化互动体验。"
     },
-    price: "Please check data card",
+    price: "$380 / 1h · $320 / 45min · $280 / 30min",
     services: {
-      en: ["Please check data card"],
-      cn: ["详情请查看资料卡"]
+      en: [
+        "Shower\u00A0together", "Light\u00A0kiss", "Natural\u00A0bj", "69", "2\u00A0shots",
+        "Extra: Facial(+$100) Bareback(+$150) Bareback\u00A0finish(+$200)",
+        "Extra: Discreet\u00A0Photo/Video(+$200) Photo/Video\u00A0with\u00A0face(+$300)",
+        "SM\u00A0(+$200): Golden\u00A0shower/Swallow/Whipping/Choking/Hair\u00A0pulling/Spanking/Deep\u00A0throat/French\u00A0kiss/Toys"
+      ],
+      cn: [
+        "洗澡", "轻吻", "无套口", "69", "做2次",
+        "额外：颜射(+$100) 无套(+$150) 无套内射(+$200)",
+        "额外：不露脸拍照摄像(+$200) 露脸拍照摄像(+$300)",
+        "SM (+$200)：黄金表演者/吞咽/鞭打/掐脖/扯发/拍打/深喉/蛇吻/玩具等"
+      ]
     },
     gallery: [
       "/images/girls/hikari/1.webp",
