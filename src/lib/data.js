@@ -157,19 +157,25 @@ export const girls = [
     stats: {
       age: 25,
       height: "165cm",
-      weight: "48kg",
+      weight: "47kg",
       cup: "C",
       nationality: "Chinese"
     },
     image: "/images/girls/fangfang/1.webp",
     description: {
-      en: "Newly arrived beauty Fangfang. Stay tuned for more details.",
-      cn: "🆕最新空降🌸 中区：芳芳，超高颜值，甜美可爱。（资料卡详情待确认）"
+      en: "Newly arrived beauty Fangfang. Gentle and charming, she offers a deeply relaxing sensual massage and an unforgettable VIP experience.",
+      cn: "🆕最新空降🌸 中区：芳芳，超高颜值，甜美可爱。温柔体贴的她为您带来极致的感官按摩与尊贵的全方位VIP互动体验。"
     },
-    price: "Please check data card",
+    price: "$300 / 1h (VIP) · $240 / 1h · $180 / 30min",
     services: {
-      en: ["Please check data card"],
-      cn: ["详情请查看资料卡"]
+      en: [
+        "Kiss", "Sensual\u00A0massage", "69", "BJ\u00A0(with\u00A0condom)", "1\u00A0shot",
+        "VIP\u00A0($300): French\u00A0kiss, Shower\u00A0together, Breast\u00A0massage\u00A0&\u00A0Body\u00A0slide, Sensual\u00A0massage, Natural\u00A0bj, 69, Cum\u00A0in\u00A0mouth, Multiple\u00A0shots"
+      ],
+      cn: [
+        "接吻", "感官按摩", "69", "戴套吹", "做1次",
+        "VIP ($300)：蛇吻，一起洗澡，胸推漫游，感官按摩，无套口，69，口报，多次"
+      ]
     },
     gallery: [
       "/images/girls/fangfang/1.webp",
