@@ -321,7 +321,7 @@ export const girls = [
   {
     id: 2,
     name: { en: "Qingbao", cn: "晴宝" },
-    status: "leave",
+    status: "available",
     verified: true,
     location: "CBD",
     stats: {
@@ -753,7 +753,7 @@ export const girls = [
     name: { en: "Sisi", cn: "思思" },
     status: "available",
     verified: true,
-    location: "Central",
+    location: "East",
     stats: {
       age: 26,
       height: "165cm",
@@ -763,8 +763,8 @@ export const girls = [
     },
     image: "/images/girls/sisi/1.webp",
     description: {
-      en: "Radiant and charming, Sisi (Si Si) offers a premium sensory experience in Central Auckland. Standing at 165cm with a graceful figure, she excels in delivering deep relaxation through specialized sensory massage. Her VIP tier is exceptionally comprehensive, featuring a luxury bath together, body slides, and multiple intimate rounds for a truly indulgent escape.",
-      cn: "明亮动人、极具魅力，思思为您在中区带来一场至臻感官盛宴。她身高 165cm，身材曼妙，擅长通过专业的感官按摩为您带来深度放松。她的 VIP 套餐配置豪华，包含一起洗澡、胸推漫游以及无套口等深度服务，并支持多次陪伴，让您尽享私密尊贵的悠闲时光。"
+      en: "Radiant and charming, Sisi (Si Si) offers a premium sensory experience in East Auckland. Standing at 165cm with a graceful figure, she excels in delivering deep relaxation through specialized sensory massage. Her VIP tier is exceptionally comprehensive, featuring a luxury bath together, body slides, and multiple intimate rounds for a truly indulgent escape.",
+      cn: "明亮动人、极具魅力，思思为您在东区带来一场至臻感官盛宴。她身高 165cm，身材曼妙，擅长通过专业的感官按摩为您带来深度放松。她的 VIP 套餐配置豪华，包含一起洗澡、胸推漫游以及无套口等深度服务，并支持多次陪伴，让您尽享私密尊贵的悠闲时光。"
     },
     price: "$320 / 1h (VIP) · $250 / 30min (VIP) · $220 / 1h · $180 / 30min",
     services: {
