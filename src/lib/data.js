@@ -107,6 +107,42 @@ export const girls = [
     ]
   },
   {
+    id: 39,
+    name: { en: "Hikari", cn: "青空光" },
+    status: "available",
+    verified: true,
+    location: "Central",
+    stats: {
+      age: 24,
+      height: "160cm",
+      weight: "45kg",
+      cup: "C",
+      nationality: "Japanese"
+    },
+    image: "/images/girls/hikari/1.webp",
+    description: {
+      en: "Newly arrived Japanese beauty Aozora Hikari (born 2002). A stunning, gentle, and highly anticipated arrival.",
+      cn: "🆕最新日本空降🌸 中区：青空光（02年），超高颜值，甜美可爱，服务温柔细致。（资料卡详情待确认）"
+    },
+    price: "Please check data card",
+    services: {
+      en: ["Please check data card"],
+      cn: ["详情请查看资料卡"]
+    },
+    gallery: [
+      "/images/girls/hikari/1.webp",
+      "/images/girls/hikari/2.webp",
+      "/images/girls/hikari/3.webp",
+      "/images/girls/hikari/4.webp",
+      "/images/girls/hikari/5.webp",
+      "/images/girls/hikari/6.webp",
+      "/images/girls/hikari/7.webp",
+      "/images/girls/hikari/8.webp",
+      "/images/girls/hikari/data1.webp",
+      "/images/girls/hikari/data2.webp"
+    ]
+  },
+  {
     id: 38,
     name: { en: "Elsa", cn: "Elsa" },
     status: "available",
