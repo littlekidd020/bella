@@ -82,7 +82,7 @@ while IFS= read -r -d '' file; do
   fi
   
   # Step 2: Convert to WebP
-  cwebp -q "$WEBP_QUALITY" -m 6 -quiet "$file" -o "$webp_file" 2>/dev/null
+  npx -y cwebp-bin -q "$WEBP_QUALITY" -m 6 -quiet "$file" -o "$webp_file" 2>/dev/null
   
   if [[ -f "$webp_file" ]]; then
     new_size=$(stat -f%z "$webp_file" 2>/dev/null || stat -c%s "$webp_file" 2>/dev/null)

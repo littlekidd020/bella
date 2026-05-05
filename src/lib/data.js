@@ -119,7 +119,7 @@ export const girls = [
       cup: "DD",
       nationality: "Japanese"
     },
-    image: "/images/girls/hikari/1.jpg",
+    image: "/images/girls/hikari/1.webp",
     description: {
       en: "Newly arrived Japanese beauty Aozora Hikari (born 2002). A stunning, gentle, and highly anticipated arrival, offering a premium and highly customizable experience.",
       cn: "🆕最新日本空降🌸 中区：青空光（02年），超高颜值，甜美可爱，服务温柔细致，提供高品质多样化互动体验。"
@@ -136,16 +136,16 @@ export const girls = [
       ]
     },
     gallery: [
-      "/images/girls/hikari/1.jpg",
-      "/images/girls/hikari/2.jpg",
-      "/images/girls/hikari/3.jpg",
-      "/images/girls/hikari/4.jpg",
-      "/images/girls/hikari/5.jpg",
-      "/images/girls/hikari/6.jpg",
-      "/images/girls/hikari/7.jpg",
-      "/images/girls/hikari/8.jpg",
-      "/images/girls/hikari/data1.jpg",
-      "/images/girls/hikari/data2.jpg"
+      "/images/girls/hikari/1.webp",
+      "/images/girls/hikari/2.webp",
+      "/images/girls/hikari/3.webp",
+      "/images/girls/hikari/4.webp",
+      "/images/girls/hikari/5.webp",
+      "/images/girls/hikari/6.webp",
+      "/images/girls/hikari/7.webp",
+      "/images/girls/hikari/8.webp",
+      "/images/girls/hikari/data1.webp",
+      "/images/girls/hikari/data2.webp"
     ]
   },
   {
