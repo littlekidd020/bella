@@ -149,6 +149,37 @@ export const girls = [
     ]
   },
   {
+    id: 40,
+    name: { en: "Fangfang", cn: "芳芳" },
+    status: "available",
+    verified: true,
+    location: "Central",
+    stats: {
+      age: 25,
+      height: "165cm",
+      weight: "48kg",
+      cup: "C",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/fangfang/1.webp",
+    description: {
+      en: "Newly arrived beauty Fangfang. Stay tuned for more details.",
+      cn: "🆕最新空降🌸 中区：芳芳，超高颜值，甜美可爱。（资料卡详情待确认）"
+    },
+    price: "Please check data card",
+    services: {
+      en: ["Please check data card"],
+      cn: ["详情请查看资料卡"]
+    },
+    gallery: [
+      "/images/girls/fangfang/1.webp",
+      "/images/girls/fangfang/2.webp",
+      "/images/girls/fangfang/3.webp",
+      "/images/girls/fangfang/data1.webp",
+      "/images/girls/fangfang/data2.webp"
+    ]
+  },
+  {
     id: 38,
     name: { en: "Elsa", cn: "Elsa" },
     status: "available",
