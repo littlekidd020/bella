@@ -224,7 +224,7 @@ export const girls = [
   {
     id: 38,
     name: { en: "Elsa", cn: "Elsa" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "CBD",
     stats: {
@@ -321,7 +321,7 @@ export const girls = [
   {
     id: 36,
     name: { en: "Yomi", cn: "Yomi" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "CBD",
     stats: {
