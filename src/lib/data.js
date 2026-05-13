@@ -32,149 +32,7 @@ export const girls = [
       "/images/girls/sweetie/data2.webp"
     ]
   },
-  {
-    id: 37,
-    name: { en: "Maimai", cn: "麦麦" },
-    status: "available",
-    verified: true,
-    location: "CBD",
-    stats: {
-      age: 19,
-      height: "173cm",
-      weight: "45kg",
-      cup: "C (Natural)",
-      nationality: "Chinese"
-    },
-    image: "/images/girls/maimai/1.webp",
-    description: {
-      en: "Newly arrived student from Xiamen, Maimai is the 'White Moonlight' of your dreams. Standing at 173cm with a perfect model frame and natural C-cup features, she offers a pure, innocent yet incredibly sweet encounter. Her service is active, highly engaging, and full of that 'first love' charm. Short term stay until May 16th.",
-      cn: "🆕厦门在读大三学生麦麦，初次登场AKL！\n🌟你的白月光、初恋遗憾，超高颜值，素颜抗打\n👗清纯可爱迷人，衣服架子身材，服务主动配合，带入感极强\n💖初下海不久，超甜反差纯白水，短期停留5月16号回国"
-    },
-    price: "$500 / 1h · $400 / 30min · $800 / 90min",
-    services: {
-      en: ["Natural\u00A0bj", "shower\u00A0together", "Light\u00A0kiss", "stockings", "breast\u00A0massage", "water\u00A0bj", "finger\u00A0glide", "licking\u00A0eggs", "1\u00A0shot"],
-      cn: ["无套口", "鸳鸯浴", "轻轻吻", "黑丝", "指滑", "按摩", "水中箫", "添蛋", "做1次"]
-    },
-    gallery: [
-      "/images/girls/maimai/2.webp",
-      "/images/girls/maimai/3.webp",
-      "/images/girls/maimai/4.webp",
-      "/images/girls/maimai/5.webp",
-      "/images/girls/maimai/6.webp",
-      "/images/girls/maimai/7.webp",
-      "/images/girls/maimai/8.webp",
-      "/images/girls/maimai/data1.webp",
-      "/images/girls/maimai/data2.webp"
-    ]
-  },
-  {
-    id: 1,
-    name: { en: "Jinxi", cn: "锦汐" },
-    status: "available",
-    verified: true,
-    location: "CBD",
-    stats: {
-      age: 24,
-      height: "171cm",
-      weight: "48kg",
-      cup: "C+ (Natural)",
-      nationality: "Chinese"
-    },
-    image: "/images/girls/jinxi/1.webp",
-    video: "/images/girls/jinxi/video.mp4",
-    description: {
-      en: "Elegance meets sophistication in Auckland CBD with Jinxi. Standing tall at 171cm with a slender model frame and natural C+ features, she offers an exceptionally refined and immersive experience. Specializing in high-end, diverse techniques and playful roleplay, she brings a premium touch to every interaction. Perfectly bilingual and highly professional, she ensures every visit is memorable, discreet, and deeply satisfying.",
-      cn: "锦汐，24岁，身高171cm，体重48kg，自然C+杯。模特身材，气质出众。现已在奥克兰市区就位，为您提供最专业、最贴心的的高端体验。擅长法式热吻、角色扮演、冰火两重天等多种精品服务，配合度极高。支持S&M等特殊定制，让您在繁华市区享受难忘的温柔时光。"
-    },
-    price: "$400 / 1h · $350 / 30min · $700 / 90min · $800 / 2h",
-    services: {
-      en: ["shower\u00A0together", "Natural\u00A0bj", "69", "Water\u00A0bj", "Roleplay", "Ice\u00A0&\u00A0Fire", "French\u00A0kiss", "Breast\u00A0massage", "Dragon\u00A0techniques", "Deep\u00A0throat", "Swivel\u00A0Dragon", "Inverted\u00A0Dragon", "Thai\u00A0massage", "Body\u00A0massage", "Stockings", "Uniform", "3P", "1\u00A0shot", "Extra: Rimming(+$50) CIM(+$50) 2nd\u00A0shot(+$50) Discreet\u00A0Photo/Video(+$100) Face\u00A0CIM(+$100) S&M(+$100+) No\u00A0raw\u00A0sex No\u00A0alcohol"],
-      cn: ["陪浴", "无套口", "69", "水中箫", "角色扮演", "冰火两重天", "法式kiss", "胸推", "箫摇摆龙", "深喉龙", "旋转龙", "倒挂金钩龙", "泰式抓龙筋", "按摩", "黑丝高跟", "制服诱惑", "3P", "做1次", "额外：毒龙(+$50) 口报(+$50) 第二次(+$50) 不露脸拍照录影(+$100) 颜射(+$100, 当天最后一个) S&M(+$100起) 禁无套 禁酒后"]
-    },
-    gallery: [
-      "/images/girls/jinxi/1.webp",
-      "/images/girls/jinxi/2.webp",
-      "/images/girls/jinxi/3.webp",
-      "/images/girls/jinxi/4.webp",
-      "/images/girls/jinxi/5.webp",
-      "/images/girls/jinxi/data1.webp",
-      "/images/girls/jinxi/data2.webp"
-    ]
-  },
-  {
-    id: 2,
-    name: { en: "Qingbao", cn: "晴宝" },
-    status: "available",
-    verified: true,
-    location: "CBD",
-    stats: {
-      age: 24,
-      height: "170cm",
-      weight: "46kg",
-      cup: "E",
-      nationality: "Taiwanese"
-    },
-    image: "/images/girls/qingbao/1.webp",
-    video: "/images/girls/qingbao/video.mp4",
-    description: {
-      en: "Pure sweetness from Taiwan, Qingbao makes her first appearance in Auckland, bringing a delightful blend of innocence and allure. Newly arrived, she features an incredible natural E-cup figure on a slender 46kg frame. With her sweet personality, big eyes, and charming Taiwanese accent, she provides an attentive and deeply immersive service quality. Ideal for those seeking a premium encounter with a companion who is both elegant and incredibly sweet, she is only here for a short stay.",
-      cn: "台湾空降🪂 台湾影视学院晴宝初次登场AKL 高颜值童颜巨ru声音高颜值大眼睛超甜 服务主动 带入感很强、纯天E🥛大🐻大pi古 前凸后翘气质文雅 长相御姐 声音台湾腔嗲嗲酥酥超甜的反差纯白水🎉 短期停留"
-    },
-    price: "$500 / 1h · $400 / 30min",
-    services: {
-      en: ["Natural\u00A0bj", "shower\u00A0together", "69", "French\u00A0kiss", "stockings", "Submarine\u00A0bj", "Licking\u00A0eggs", "shower", "2\u00A0shots"],
-      cn: ["无套口", "陪浴", "69", "舌吻", "黑丝", "水中箫", "舔蛋", "淋浴", "做2次"]
-    },
-    gallery: [
-      "/images/girls/qingbao/1.webp",
-      "/images/girls/qingbao/2.webp",
-      "/images/girls/qingbao/3.webp",
-      "/images/girls/qingbao/4.webp",
-      "/images/girls/qingbao/5.webp",
-      "/images/girls/qingbao/6.webp",
-      "/images/girls/qingbao/7.webp",
-      "/images/girls/qingbao/8.webp",
-      "/images/girls/qingbao/9.webp"
-    ]
-  },
-  {
-    id: 6,
-    name: { en: "CC", cn: "CC" },
-    status: "hidden",
-    verified: true,
-    location: "CBD",
-    stats: {
-      age: 23,
-      height: "160cm",
-      weight: "45kg",
-      cup: "C+ (Natural)",
-      nationality: "Chinese"
-    },
-    image: "/images/girls/cc/1.webp",
-    video: "/images/girls/cc/video.mp4",
-    description: {
-      en: "CC (born in 2003), is an elegant and refined beauty. Standing at 160cm with a natural C+ cup, she offers a wide spectrum of services from intimate companionship to a full VIP experience. Whether you seek a simple relaxation or a premium sensory journey, CC's professionalism and sweet demeanor ensure an unforgettable encounter.",
-      cn: "03年，身高160cm，体重45kg，胸围C+真。"
-    },
-    price: "$550/1h (VIP) · $450/1h · $400/30min",
-    services: {
-      en: [
-        "Natural\u00A0bj", "69", "shower\u00A0together", "French\u00A0kiss", "stockings", "one\u00A0shot",
-        "Extra: Cum\u00A0in\u00A0face(+$50) Cum\u00A0in\u00A0mouth&eat(+$100) second\u00A0shot(+$100)"
-      ],
-      cn: [
-        "无套口", "舔蛋", "抚摸蛋", "指划蛋", "舔乳头", "情趣制服", "黑丝", "共浴", "69", "舌吻", "做1次",
-        "VIP: 鸳鸯浴 舌吻 Kiss 360度无套口 抚摸 皖式服务 胸推 按摩 弹指 全身漫游 深喉 指滑毒龙 海底捞月 情趣内衣 丝袜 丝袜足交",
-        "额外：口爆吞精(+$100) 颜射(+$50) 情景角色扮演/SM(+$150) 加一次(+$100)"
-      ]
-    },
-    gallery: [
-      "/images/girls/cc/2.webp",
-      "/images/girls/cc/3.webp",
-      "/images/girls/cc/4.webp",
-      "/images/girls/cc/5.webp"
-    ]
-  },
+  ,
   {
     id: 39,
     name: { en: "Aozora Hikari", cn: "青空光" },
@@ -217,6 +75,187 @@ export const girls = [
       "/images/girls/hikari/data2.webp"
     ]
   },
+  ,
+  {
+    id: 28,
+    name: { en: "Qinger", cn: "情儿" },
+    status: "unavailable",
+    verified: true,
+    location: "Central",
+    stats: {
+      age: 24,
+      height: "160cm",
+      weight: "45kg",
+      cup: "B+",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/qinger/1.webp",
+    description: {
+      en: "Charming and attentive, Qinger brings a soft and sensual energy to her sessions in Central Auckland. Standing at 160cm with a delicate build, she specializes in therapeutic and sensual massage, focusing on relaxation and high-quality interaction. Her gentle nature and careful service make her a favorite for those seeking a more personal and soothing experience. Available for both standard sessions and extended premium interactions with additional oral and sensory options.",
+      cn: "温柔体贴，服务至上，让您在繁忙的城市中找到那份宁静与欢愉。情儿现已来到中区，为您提供最专业的身心呵护。主要提供按摩和感官互动服务。额外的标准互动均可配合。"
+    },
+    price: "$160 / 1h",
+    services: {
+      en: ["Sensual\u00A0massage", "HJ\u00A0(condom)", "Topless", "Handjob", "Extra: Natural\u00A0BJ\u00A0(+$50) Natural\u00A0BJ\u00A0&\u00A0cim\u00A0in\u00A0mouth\u00A0(+$80)"],
+      cn: ["按摩", "带套口", "裸上身", "飞机", "额外：无套口(+$50) 无套口&口报(+$80)"]
+    },
+    gallery: [
+      "/images/girls/qinger/1.webp",
+      "/images/girls/qinger/2.webp",
+      "/images/girls/qinger/3.webp",
+      "/images/girls/qinger/4.webp",
+      "/images/girls/qinger/5.webp",
+      "/images/girls/qinger/6.webp"
+    ]
+  },
+  ,
+  {
+    id: 37,
+    name: { en: "Maimai", cn: "麦麦" },
+    status: "hidden",
+    verified: true,
+    location: "CBD",
+    stats: {
+      age: 19,
+      height: "173cm",
+      weight: "45kg",
+      cup: "C (Natural)",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/maimai/1.webp",
+    description: {
+      en: "Newly arrived student from Xiamen, Maimai is the 'White Moonlight' of your dreams. Standing at 173cm with a perfect model frame and natural C-cup features, she offers a pure, innocent yet incredibly sweet encounter. Her service is active, highly engaging, and full of that 'first love' charm. Short term stay until May 16th.",
+      cn: "🆕厦门在读大三学生麦麦，初次登场AKL！\n🌟你的白月光、初恋遗憾，超高颜值，素颜抗打\n👗清纯可爱迷人，衣服架子身材，服务主动配合，带入感极强\n💖初下海不久，超甜反差纯白水，短期停留5月16号回国"
+    },
+    price: "$500 / 1h · $400 / 30min · $800 / 90min",
+    services: {
+      en: ["Natural\u00A0bj", "shower\u00A0together", "Light\u00A0kiss", "stockings", "breast\u00A0massage", "water\u00A0bj", "finger\u00A0glide", "licking\u00A0eggs", "1\u00A0shot"],
+      cn: ["无套口", "鸳鸯浴", "轻轻吻", "黑丝", "指滑", "按摩", "水中箫", "添蛋", "做1次"]
+    },
+    gallery: [
+      "/images/girls/maimai/2.webp",
+      "/images/girls/maimai/3.webp",
+      "/images/girls/maimai/4.webp",
+      "/images/girls/maimai/5.webp",
+      "/images/girls/maimai/6.webp",
+      "/images/girls/maimai/7.webp",
+      "/images/girls/maimai/8.webp",
+      "/images/girls/maimai/data1.webp",
+      "/images/girls/maimai/data2.webp"
+    ]
+  },
+  ,
+  {
+    id: 1,
+    name: { en: "Jinxi", cn: "锦汐" },
+    status: "hidden",
+    verified: true,
+    location: "CBD",
+    stats: {
+      age: 24,
+      height: "171cm",
+      weight: "48kg",
+      cup: "C+ (Natural)",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/jinxi/1.webp",
+    video: "/images/girls/jinxi/video.mp4",
+    description: {
+      en: "Elegance meets sophistication in Auckland CBD with Jinxi. Standing tall at 171cm with a slender model frame and natural C+ features, she offers an exceptionally refined and immersive experience. Specializing in high-end, diverse techniques and playful roleplay, she brings a premium touch to every interaction. Perfectly bilingual and highly professional, she ensures every visit is memorable, discreet, and deeply satisfying.",
+      cn: "锦汐，24岁，身高171cm，体重48kg，自然C+杯。模特身材，气质出众。现已在奥克兰市区就位，为您提供最专业、最贴心的的高端体验。擅长法式热吻、角色扮演、冰火两重天等多种精品服务，配合度极高。支持S&M等特殊定制，让您在繁华市区享受难忘的温柔时光。"
+    },
+    price: "$400 / 1h · $350 / 30min · $700 / 90min · $800 / 2h",
+    services: {
+      en: ["shower\u00A0together", "Natural\u00A0bj", "69", "Water\u00A0bj", "Roleplay", "Ice\u00A0&\u00A0Fire", "French\u00A0kiss", "Breast\u00A0massage", "Dragon\u00A0techniques", "Deep\u00A0throat", "Swivel\u00A0Dragon", "Inverted\u00A0Dragon", "Thai\u00A0massage", "Body\u00A0massage", "Stockings", "Uniform", "3P", "1\u00A0shot", "Extra: Rimming(+$50) CIM(+$50) 2nd\u00A0shot(+$50) Discreet\u00A0Photo/Video(+$100) Face\u00A0CIM(+$100) S&M(+$100+) No\u00A0raw\u00A0sex No\u00A0alcohol"],
+      cn: ["陪浴", "无套口", "69", "水中箫", "角色扮演", "冰火两重天", "法式kiss", "胸推", "箫摇摆龙", "深喉龙", "旋转龙", "倒挂金钩龙", "泰式抓龙筋", "按摩", "黑丝高跟", "制服诱惑", "3P", "做1次", "额外：毒龙(+$50) 口报(+$50) 第二次(+$50) 不露脸拍照录影(+$100) 颜射(+$100, 当天最后一个) S&M(+$100起) 禁无套 禁酒后"]
+    },
+    gallery: [
+      "/images/girls/jinxi/1.webp",
+      "/images/girls/jinxi/2.webp",
+      "/images/girls/jinxi/3.webp",
+      "/images/girls/jinxi/4.webp",
+      "/images/girls/jinxi/5.webp",
+      "/images/girls/jinxi/data1.webp",
+      "/images/girls/jinxi/data2.webp"
+    ]
+  },
+  ,
+  {
+    id: 2,
+    name: { en: "Qingbao", cn: "晴宝" },
+    status: "hidden",
+    verified: true,
+    location: "CBD",
+    stats: {
+      age: 24,
+      height: "170cm",
+      weight: "46kg",
+      cup: "E",
+      nationality: "Taiwanese"
+    },
+    image: "/images/girls/qingbao/1.webp",
+    video: "/images/girls/qingbao/video.mp4",
+    description: {
+      en: "Pure sweetness from Taiwan, Qingbao makes her first appearance in Auckland, bringing a delightful blend of innocence and allure. Newly arrived, she features an incredible natural E-cup figure on a slender 46kg frame. With her sweet personality, big eyes, and charming Taiwanese accent, she provides an attentive and deeply immersive service quality. Ideal for those seeking a premium encounter with a companion who is both elegant and incredibly sweet, she is only here for a short stay.",
+      cn: "台湾空降🪂 台湾影视学院晴宝初次登场AKL 高颜值童颜巨ru声音高颜值大眼睛超甜 服务主动 带入感很强、纯天E🥛大🐻大pi古 前凸后翘气质文雅 长相御姐 声音台湾腔嗲嗲酥酥超甜的反差纯白水🎉 短期停留"
+    },
+    price: "$500 / 1h · $400 / 30min",
+    services: {
+      en: ["Natural\u00A0bj", "shower\u00A0together", "69", "French\u00A0kiss", "stockings", "Submarine\u00A0bj", "Licking\u00A0eggs", "shower", "2\u00A0shots"],
+      cn: ["无套口", "陪浴", "69", "舌吻", "黑丝", "水中箫", "舔蛋", "淋浴", "做2次"]
+    },
+    gallery: [
+      "/images/girls/qingbao/1.webp",
+      "/images/girls/qingbao/2.webp",
+      "/images/girls/qingbao/3.webp",
+      "/images/girls/qingbao/4.webp",
+      "/images/girls/qingbao/5.webp",
+      "/images/girls/qingbao/6.webp",
+      "/images/girls/qingbao/7.webp",
+      "/images/girls/qingbao/8.webp",
+      "/images/girls/qingbao/9.webp"
+    ]
+  },
+  ,
+  {
+    id: 6,
+    name: { en: "CC", cn: "CC" },
+    status: "hidden",
+    verified: true,
+    location: "CBD",
+    stats: {
+      age: 23,
+      height: "160cm",
+      weight: "45kg",
+      cup: "C+ (Natural)",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/cc/1.webp",
+    video: "/images/girls/cc/video.mp4",
+    description: {
+      en: "CC (born in 2003), is an elegant and refined beauty. Standing at 160cm with a natural C+ cup, she offers a wide spectrum of services from intimate companionship to a full VIP experience. Whether you seek a simple relaxation or a premium sensory journey, CC's professionalism and sweet demeanor ensure an unforgettable encounter.",
+      cn: "03年，身高160cm，体重45kg，胸围C+真。"
+    },
+    price: "$550/1h (VIP) · $450/1h · $400/30min",
+    services: {
+      en: [
+        "Natural\u00A0bj", "69", "shower\u00A0together", "French\u00A0kiss", "stockings", "one\u00A0shot",
+        "Extra: Cum\u00A0in\u00A0face(+$50) Cum\u00A0in\u00A0mouth&eat(+$100) second\u00A0shot(+$100)"
+      ],
+      cn: [
+        "无套口", "舔蛋", "抚摸蛋", "指划蛋", "舔乳头", "情趣制服", "黑丝", "共浴", "69", "舌吻", "做1次",
+        "VIP: 鸳鸯浴 舌吻 Kiss 360度无套口 抚摸 皖式服务 胸推 按摩 弹指 全身漫游 深喉 指滑毒龙 海底捞月 情趣内衣 丝袜 丝袜足交",
+        "额外：口爆吞精(+$100) 颜射(+$50) 情景角色扮演/SM(+$150) 加一次(+$100)"
+      ]
+    },
+    gallery: [
+      "/images/girls/cc/2.webp",
+      "/images/girls/cc/3.webp",
+      "/images/girls/cc/4.webp",
+      "/images/girls/cc/5.webp"
+    ]
+  },
+  ,
   {
     id: 40,
     name: { en: "Fangfang", cn: "芳芳" },
@@ -254,6 +293,7 @@ export const girls = [
       "/images/girls/fangfang/data2.webp"
     ]
   },
+  ,
   {
     id: 38,
     name: { en: "Elsa", cn: "Elsa" },
@@ -284,6 +324,7 @@ export const girls = [
     ],
     video: "/images/girls/elsa/video.mp4"
   },
+  ,
   {
     id: 34,
     name: { en: "Bingbing", cn: "冰冰" },
@@ -317,6 +358,7 @@ export const girls = [
       "/images/girls/bingbing_sister/data2.webp"
     ]
   },
+  ,
   {
     id: 35,
     name: { en: "Shanshan", cn: "珊珊" },
@@ -351,6 +393,7 @@ export const girls = [
       "/images/girls/shanshan_sister/data2.webp"
     ]
   },
+  ,
   {
     id: 36,
     name: { en: "Yomi", cn: "Yomi" },
@@ -387,6 +430,7 @@ export const girls = [
       "/images/girls/yomi/data2.webp"
     ]
   },
+  ,
   {
     id: 3,
     name: { en: "Momo", cn: "Momo" },
@@ -430,6 +474,7 @@ export const girls = [
       "/images/girls/momo/14.webp"
     ]
   },
+  ,
   {
     id: 4,
     name: { en: "Lamb", cn: "小绵羊" },
@@ -462,6 +507,7 @@ export const girls = [
       "/images/girls/lamb/6.webp"
     ]
   },
+  ,
   {
     id: 5,
     name: { en: "Youyou", cn: "优优" },
@@ -498,6 +544,7 @@ export const girls = [
       "/images/girls/youyou/8.webp"
     ]
   },
+  ,
   {
     id: 7,
     name: { en: "Laila", cn: "莱拉" },
@@ -538,6 +585,7 @@ export const girls = [
       "/images/girls/laila/1.webp"
     ]
   },
+  ,
   {
     id: 8,
     name: { en: "Barbara", cn: "芭芭拉" },
@@ -574,6 +622,7 @@ export const girls = [
       "/images/girls/barbara/7.webp"
     ]
   },
+  ,
   {
     id: 9,
     name: { en: "Anan", cn: "安安" },
@@ -614,6 +663,7 @@ export const girls = [
       "/images/girls/anan/12.webp"
     ]
   },
+  ,
   {
     id: 10,
     name: { en: "Kaka", cn: "卡卡" },
@@ -644,6 +694,7 @@ export const girls = [
       "/images/girls/kaka/4.webp"
     ]
   },
+  ,
   {
     id: 11,
     name: { en: "Puffy", cn: "泡芙" },
@@ -677,6 +728,7 @@ export const girls = [
       "/images/girls/paofu/4.webp"
     ]
   },
+  ,
   {
     id: 12,
     name: { en: "Linda", cn: "琳达" },
@@ -715,6 +767,7 @@ export const girls = [
       "/images/girls/linda/8.webp"
     ]
   },
+  ,
   {
     id: 13,
     name: { en: "Faye", cn: "语橙" },
@@ -750,6 +803,7 @@ export const girls = [
       "/images/girls/faye/6.webp"
     ]
   },
+  ,
   {
     id: 14,
     name: { en: "Yuxi", cn: "羽西" },
@@ -781,6 +835,7 @@ export const girls = [
       "/images/girls/yuxi/5.webp"
     ]
   },
+  ,
   {
     id: 15,
     name: { en: "Sisi", cn: "思思" },
@@ -823,6 +878,7 @@ export const girls = [
       "/images/girls/sisi/12.webp"
     ]
   },
+  ,
   {
     id: 16,
     name: { en: "Candice", cn: "Candice" },
@@ -860,6 +916,7 @@ export const girls = [
       "/images/girls/candice/7.webp"
     ]
   },
+  ,
   {
     id: 17,
     name: { en: "Cherry", cn: "Cherry" },
@@ -894,6 +951,7 @@ export const girls = [
       "/images/girls/cherry/5.webp"
     ]
   },
+  ,
   {
     id: 18,
     name: { en: "Emma", cn: "Emma" },
@@ -928,6 +986,7 @@ export const girls = [
       "/images/girls/emma/4.webp"
     ]
   },
+  ,
   {
     id: 19,
     name: { en: "Jessica", cn: "Jessica" },
@@ -963,6 +1022,7 @@ export const girls = [
       "/images/girls/jessica/5.webp"
     ]
   },
+  ,
   {
     id: 20,
     name: { en: "Ying", cn: "小英" },
@@ -1003,6 +1063,7 @@ export const girls = [
       "/images/girls/ying/10.webp"
     ]
   },
+  ,
   {
     id: 21,
     name: { en: "Yang", cn: "洋洋" },
@@ -1037,6 +1098,7 @@ export const girls = [
       "/images/girls/yang/4.webp"
     ]
   },
+  ,
   {
     id: 22,
     name: { en: "Aimi", cn: "爱米" },
@@ -1074,6 +1136,7 @@ export const girls = [
       "/images/girls/aimi/7.webp"
     ]
   },
+  ,
   {
     id: 23,
     name: { en: "Blind Box", cn: "开盲盒" },
@@ -1106,6 +1169,7 @@ export const girls = [
       "/images/girls/blindbox/6.webp"
     ]
   },
+  ,
   {
     id: 24,
     name: { en: "Yumo", cn: "语沫" },
@@ -1137,6 +1201,7 @@ export const girls = [
       "/images/girls/yumo/5.webp"
     ]
   },
+  ,
   {
     id: 25,
     name: { en: "May", cn: "May" },
@@ -1176,6 +1241,7 @@ export const girls = [
       "/images/girls/may/5.webp"
     ]
   },
+  ,
   {
     id: 26,
     name: { en: "Dajie", cn: "大姐" },
@@ -1215,6 +1281,7 @@ export const girls = [
       "/images/girls/dajie/7.webp"
     ]
   },
+  ,
   {
     id: 27,
     name: { en: "Shanshan", cn: "珊珊" },
@@ -1252,38 +1319,7 @@ export const girls = [
       "/images/girls/shanshan/5.webp"
     ]
   },
-  {
-    id: 28,
-    name: { en: "Qinger", cn: "情儿" },
-    status: "unavailable",
-    verified: true,
-    location: "Central",
-    stats: {
-      age: 24,
-      height: "160cm",
-      weight: "45kg",
-      cup: "B+",
-      nationality: "Chinese"
-    },
-    image: "/images/girls/qinger/1.webp",
-    description: {
-      en: "Charming and attentive, Qinger brings a soft and sensual energy to her sessions in Central Auckland. Standing at 160cm with a delicate build, she specializes in therapeutic and sensual massage, focusing on relaxation and high-quality interaction. Her gentle nature and careful service make her a favorite for those seeking a more personal and soothing experience. Available for both standard sessions and extended premium interactions with additional oral and sensory options.",
-      cn: "温柔体贴，服务至上，让您在繁忙的城市中找到那份宁静与欢愉。情儿现已来到中区，为您提供最专业的身心呵护。主要提供按摩和感官互动服务。额外的标准互动均可配合。"
-    },
-    price: "$160 / 1h",
-    services: {
-      en: ["Sensual\u00A0massage", "HJ\u00A0(condom)", "Topless", "Handjob", "Extra: Natural\u00A0BJ\u00A0(+$50) Natural\u00A0BJ\u00A0&\u00A0cim\u00A0in\u00A0mouth\u00A0(+$80)"],
-      cn: ["按摩", "带套口", "裸上身", "飞机", "额外：无套口(+$50) 无套口&口报(+$80)"]
-    },
-    gallery: [
-      "/images/girls/qinger/1.webp",
-      "/images/girls/qinger/2.webp",
-      "/images/girls/qinger/3.webp",
-      "/images/girls/qinger/4.webp",
-      "/images/girls/qinger/5.webp",
-      "/images/girls/qinger/6.webp"
-    ]
-  },
+  ,
   {
     id: 29,
     name: { en: "Er-er", cn: "二二" },
@@ -1315,6 +1351,7 @@ export const girls = [
       "/images/girls/erer/5.webp"
     ]
   },
+  ,
   {
     id: 30,
     name: { en: "Zhuzhu", cn: "珠珠" },
@@ -1345,6 +1382,7 @@ export const girls = [
       "/images/girls/zhuzhu/4.webp"
     ]
   },
+  ,
   {
     id: 31,
     name: { en: "Michelle", cn: "Michelle" },
@@ -1375,6 +1413,7 @@ export const girls = [
       "/images/girls/michelle/4.webp"
     ]
   },
+  ,
   {
     id: 32,
     name: { en: "Bingbing", cn: "冰冰" },
@@ -1406,6 +1445,7 @@ export const girls = [
       "/images/girls/bingbing/5.webp"
     ]
   },
+  ,
   {
     id: 33,
     name: { en: "Japanese Girl", cn: "日本妹" },
