@@ -1,5 +1,38 @@
 export const girls = [
   {
+    id: 41,
+    name: { en: "Sweetie", cn: "小甜心" },
+    status: "available",
+    verified: true,
+    location: "CBD",
+    stats: {
+      age: 19,
+      height: "164cm",
+      weight: "45kg",
+      cup: "B+ (Natural)",
+      nationality: "Chinese"
+    },
+    image: "/images/girls/sweetie/1.webp",
+    description: {
+      en: "Newly arrived student Sweetie (born 2006), a radiant young beauty with stunning looks even without makeup. Standing at 164cm with a natural B+ cup, she is energetic, loves singing, dancing, and fitness. Her bubbly, healing personality and youthful charm create an unforgettable contrast. Highly cooperative with amazing service. Ultra short-term stay of only 5 days — don't miss out!",
+      cn: "最🆕澳洲空降🪂小甜心06年学生👩‍🎓，超短期停留5️⃣天，小哥哥还在等什么走过路过千万不要错过...😘😘\\n🧢超过颜值 素颜抗打 雅思四个7\\n🍭能歌善舞，舞动多姿 也爱健身💪，特别是爱笑的性格超级治愈\\n这种年龄小又能给你反差的sao 真不多了🤩🎉\\n😱 偏M属性 这个06年绝对有服务会配合有服务 …不见不散💋😘"
+    },
+    price: "$600 / 1h · $500 / 45min · $400 / 30min",
+    services: {
+      en: ["Natural\u00A0bj", "69", "French\u00A0kiss", "stockings", "breast\u00A0massage", "massage", "Submarine\u00A0bj", "finger\u00A0glide", "licking\u00A0eggs", "2\u00A0shots"],
+      cn: ["无套口", "69", "舌吻", "黑丝", "胸推", "按摩", "水中箫", "指滑", "舔蛋", "做2次"]
+    },
+    gallery: [
+      "/images/girls/sweetie/2.webp",
+      "/images/girls/sweetie/3.webp",
+      "/images/girls/sweetie/4.webp",
+      "/images/girls/sweetie/5.webp",
+      "/images/girls/sweetie/6.webp",
+      "/images/girls/sweetie/data1.webp",
+      "/images/girls/sweetie/data2.webp"
+    ]
+  },
+  {
     id: 37,
     name: { en: "Maimai", cn: "麦麦" },
     status: "available",
