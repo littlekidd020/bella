@@ -2017,7 +2017,7 @@ export const girls = [
     ],
   },
   {
-    id: "doudou",
+    id: 42,
     name: { en: "Doudou", cn: "兜兜" },
     status: "available",
     verified: true,
