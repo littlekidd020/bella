@@ -4,7 +4,7 @@ export const girls = [
     name: { en: "Doudou", cn: "兜兜" },
     status: "available",
     verified: true,
-    location: "City",
+    location: "CBD",
     stats: {
       age: 22,
       height: "158cm",
