@@ -2016,6 +2016,52 @@ export const girls = [
       "/images/girls/ribemei/5.webp",
     ],
   },
+  {
+    id: "doudou",
+    name: "兜兜",
+    engName: "Doudou",
+    age: 22,
+    height: 158,
+    weight: 45,
+    measurements: "B+",
+    price: 450,
+    priceDetails: " / 1h",
+    location: "City",
+    description: {
+      en: "Limited edition 2003 model. Not very cool, but very genuine. Can be energetic, can be quiet. Might get emo but heals quickly. Wants to be someone slightly cute, a bit special, and very easy to get along with ❤️",
+      cn: "03年款限量版，不是很酷，但很真，会闹腾，也会安静，会emo但更会自愈，想做一个有点可爱，有点特别，又很好相处的人❤️",
+    },
+    status: "available",
+    services: {
+      en: [
+        "kiss",
+        "69",
+        "shower together",
+        "stockings",
+        "uniform",
+        "natural bj",
+        "cooperate with various poses",
+        "breast massage",
+        "Extra: 2nd round (+11175100)",
+      ],
+      cn: [
+        "轻吻",
+        "69",
+        "陪浴",
+        "黑丝",
+        "制服",
+        "无套吹",
+        "配合各种姿势",
+        "胸推",
+        "额外：第二次 (+11175100)",
+      ],
+    },
+    gallery: [
+      "/images/girls/doudou/doudou1.webp",
+      "/images/girls/doudou/doudou2.webp",
+      "/images/girls/doudou/doudou3.webp",
+    ],
+  },
 ];
 
 export default girls;
