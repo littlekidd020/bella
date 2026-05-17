@@ -122,7 +122,7 @@ export const girls = [
       en: "Limited edition 2003 model. Not very cool, but very genuine. Can be energetic, can be quiet. Might get emo but heals quickly. Wants to be someone slightly cute, a bit special, and very easy to get along with ❤️",
       cn: "03年款限量版，不是很酷，但很真，会闹腾，也会安静，会emo但更会自愈，想做一个有点可爱，有点特别，又很好相处的人❤️",
     },
-    price: "$450 / 1h",
+    price: "$400 / 1h",
     services: {
       en: [
         "kiss",
