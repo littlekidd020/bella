@@ -62,7 +62,7 @@ export const girls = [
   {
     id: 41,
     name: { en: "Sweetie", cn: "小甜心" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "CBD",
     stats: {
