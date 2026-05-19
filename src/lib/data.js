@@ -6,7 +6,7 @@ export const girls = [
     verified: true,
     location: "CBD",
     stats: {
-      age: 22,
+      age: 24,
       height: "170cm",
       weight: "47kg",
       cup: "C",
