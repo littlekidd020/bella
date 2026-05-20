@@ -32,7 +32,7 @@ export const girls = [
         "Body slide",
         "1 round",
         "VIP: Companionship, Shower together, Shower BJ, French kiss, Breast massage, 69, Finger glide, Body slide, Roaming, Uniform temptation, Natural BJ, Stockings, 2 rounds, Light S/M support",
-        "Extra: French kiss (+$30) · Natural BJ (+$30) · Cum in mouth (+$50) · Extra round (+$50)",
+        "Extra: French kiss (+$30), Natural BJ (+$30), Cum in mouth (+$50), Second round (+$50)",
       ],
       cn: [
         "陪伴",
@@ -47,7 +47,7 @@ export const girls = [
         "臀推",
         "做1次",
         "VIP: 陪伴、水中箫、舌吻、胸推、69、指滑、臀推、漫游、制服诱惑、无套口、黑丝、配合各种姿势、做2次、可轻微S/M",
-        "额外：舌吻 (+$30) · 无套口 (+$30) · 口爆 (+$50) · 做第二次 (+$50)",
+        "额外：舌吻 (+$30)，无套口(+$30)，口爆(+$50)，做第二次 (+$50)",
       ],
     },
     gallery: [
