@@ -351,18 +351,11 @@ export default function GirlDetailsPage() {
             </div>
 
             {model.gallery?.map((img, idx) => {
-              const isLastAndOdd =
-                model.gallery.length % 2 !== 0 &&
-                idx === model.gallery.length - 1;
               return (
                 <div
                   key={idx}
                   onClick={() => openImageModal(idx + 1)}
-                  className={`relative rounded-3xl overflow-hidden shadow-2xl group cursor-zoom-in ${
-                    isLastAndOdd
-                      ? "md:col-span-2 md:aspect-[21/9] aspect-square"
-                      : "aspect-square"
-                  }`}
+                  className="relative rounded-3xl overflow-hidden shadow-2xl group cursor-zoom-in aspect-square"
                 >
                   <img
                     src={img}
