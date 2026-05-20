@@ -43,6 +43,7 @@ export const girls = [
       "/images/girls/rourou/rourou3.webp",
       "/images/girls/rourou/rourou4.webp",
       "/images/girls/rourou/rourou5.webp",
+      "/images/girls/rourou/rourou6.webp",
     ],
   },
   {
