@@ -256,7 +256,6 @@ export default function GirlDetailsPage() {
                     const sortedGroups = [...main, ...extra, ...vip];
 
                     return sortedGroups.map((group, groupIdx, groups) => {
-                      const servicesInGroup = group.split(" ");
                       const isVipGroup =
                         group.startsWith("VIP:") || group.startsWith("VIP：");
                       const isExtraGroup =
@@ -268,46 +267,33 @@ export default function GirlDetailsPage() {
                         group.startsWith("Note:") ||
                         group.startsWith("Note：");
 
+                      const isNextGroupOnSameLine =
+                        groupIdx < groups.length - 1 &&
+                        !groups[groupIdx + 1].startsWith("VIP:") &&
+                        !groups[groupIdx + 1].includes("额外") &&
+                        !groups[groupIdx + 1].startsWith("免费赠送:") &&
+                        !groups[groupIdx + 1].startsWith("Note:") &&
+                        !groups[groupIdx + 1].startsWith("Note：");
+
+                      const showDot = !isVipGroup && !isExtraGroup && isNextGroupOnSameLine;
+
                       return (
                         <React.Fragment key={groupIdx}>
                           {(isVipGroup || isExtraGroup) && (
                             <div className="w-full h-0" />
                           )}
-                          {servicesInGroup.map((s, sIdx) => {
-                            const isLastInGroup =
-                              sIdx === servicesInGroup.length - 1;
-                            const isNextGroupOnSameLine =
-                              groupIdx < groups.length - 1 &&
-                              !groups[groupIdx + 1].startsWith("VIP:") &&
-                              !groups[groupIdx + 1].includes("额外") &&
-                              !groups[groupIdx + 1].startsWith("免费赠送:") &&
-                              !groups[groupIdx + 1].startsWith("Note:") &&
-                              !groups[groupIdx + 1].startsWith("Note：");
-
-                            const showDot =
-                              (!isLastInGroup &&
-                                !s.endsWith(":") &&
-                                !s.endsWith("：")) ||
-                              (isLastInGroup && isNextGroupOnSameLine);
-
-                            return (
-                              <span
-                                key={`${groupIdx}-${sIdx}`}
-                                className="inline max-w-full"
-                              >
-                                <span className="whitespace-normal break-words">
-                                  {s.includes("(")
-                                    ? s.split(",").join(", ")
-                                    : s}
-                                </span>
-                                {showDot && (
-                                  <span className="mx-2 text-[#15030A]/30 inline-block">
-                                    ·
-                                  </span>
-                                )}
+                          <span className="inline max-w-full">
+                            <span className="whitespace-normal break-words">
+                              {group.includes("(")
+                                ? group.split(",").join(", ")
+                                : group}
+                            </span>
+                            {showDot && (
+                              <span className="mx-2 text-[#15030A]/30 inline-block">
+                                ·
                               </span>
-                            );
-                          })}
+                            )}
+                          </span>
                         </React.Fragment>
                       );
                     });
