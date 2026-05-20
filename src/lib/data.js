@@ -1,7 +1,7 @@
 export const girls = [
   {
     id: 43,
-    name: { en: "Joanna", cn: "Joanna" },
+    name: { en: "Susu", cn: "苏苏" },
     status: "available",
     verified: true,
     location: "CBD",
@@ -12,7 +12,7 @@ export const girls = [
       cup: "C",
       nationality: "Chinese",
     },
-    image: "/images/girls/joanna/joanna1.webp",
+    image: "/images/girls/susu/susu1.webp",
     description: {
       en: "The newest Australian arrival ✈️ 170cm legs, model figure, fair skin and tender girl, extremely cooperative. Short stay in Auckland, what are you waiting for? Do not miss this...",
       cn: "最🆕澳洲空降✈️170足腿精，模特身材，肤白妹嫩，配合度超高。短期停留奥克兰，小哥哥还在等什么，走过路过千万不要错过...",
@@ -49,14 +49,13 @@ export const girls = [
       ],
     },
     gallery: [
-      "/images/girls/joanna/joanna2.webp",
-      "/images/girls/joanna/joanna3.webp",
-      "/images/girls/joanna/joanna4.webp",
-      "/images/girls/joanna/joanna5.webp",
-      "/images/girls/joanna/joanna6.webp",
-      "/images/girls/joanna/joanna7.webp",
-      "/images/girls/joanna/joanna8.webp",
-      "/images/girls/joanna/joanna9.webp",
+      "/images/girls/susu/susu2.webp",
+      "/images/girls/susu/susu3.webp",
+      "/images/girls/susu/susu4.webp",
+      "/images/girls/susu/susu5.webp",
+      "/images/girls/susu/susu6.webp",
+      "/images/girls/susu/susu7.webp",
+      "/images/girls/susu/susu8.webp",
     ],
   },
   {
