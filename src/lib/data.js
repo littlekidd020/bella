@@ -84,7 +84,7 @@ export const girls = [
       en: "The newest Australian arrival ✈️ 170cm legs, model figure, fair skin and tender girl, extremely cooperative. Short stay in Auckland, what are you waiting for? Do not miss this...",
       cn: "最🆕澳洲空降✈️170足腿精，模特身材，肤白妹嫩，配合度超高。短期停留奥克兰，小哥哥还在等什么，走过路过千万不要错过...",
     },
-    price: "$500 / 1h · $400 / 30min",
+    price: "$450 / 1h · $350 / 30min",
     services: {
       en: [
         "French kiss",
