@@ -17,7 +17,7 @@ export const girls = [
       en: "The newest Australian arrival ✈️born in 2003, super tender young beauty Nainai! High visual, absolutely stunning even bare-faced. Active fitness lover with fair, smooth, and firm skin, featuring natural C-cup full breasts. Sweet and cute face with an incredibly sexy, passionate contrast. Extremely attentive and proactive, she loves to tease and perfectly caters to your every whim. Let's meet in the City, a premium experience you cannot miss!",
       cn: "最🆕澳洲空降✈️03年超嫩美少女小奈奈！初次来到奥克兰，颜值极高，素颜抗打。平时非常热爱健身，拥有白嫩紧致的完美肤色，纯天然C罩杯饱满柔软。虽然五官甜美动人，但却有着反差极大的性感调情天赋。作为服务系女生，主动撩人，极尽迎合，让您体验百分百的温柔。City不见不散，绝对不容错过的极品体验！",
     },
-    price: "$500 / 1h · $450 / 45min · $400 / 30min",
+    price: "$450 / 1h · $400 / 45min · $350 / 30min",
     services: {
       en: [
         "Companionship",
@@ -62,6 +62,8 @@ export const girls = [
       "/images/girls/nainai/nainai4.webp",
       "/images/girls/nainai/nainai5.webp",
       "/images/girls/nainai/nainai6.webp",
+      "/images/girls/nainai/nainai7.webp",
+      "/images/girls/nainai/nainai8.webp",
     ],
   },
   {
