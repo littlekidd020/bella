@@ -62,8 +62,6 @@ export const girls = [
       "/images/girls/nainai/nainai4.webp",
       "/images/girls/nainai/nainai5.webp",
       "/images/girls/nainai/nainai6.webp",
-      "/images/girls/nainai/nainai7.webp",
-      "/images/girls/nainai/nainai8.webp",
       "/images/girls/nainai/data1.webp",
       "/images/girls/nainai/data2.webp",
     ],
