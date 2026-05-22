@@ -238,7 +238,7 @@ export const girls = [
   {
     id: 44,
     name: { en: "Rourou", cn: "肉肉" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "CBD",
     stats: {
