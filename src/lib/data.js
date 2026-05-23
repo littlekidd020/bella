@@ -1,48 +1,5 @@
 export const girls = [
   {
-    id: 47,
-    name: { en: "Blind Box 3", cn: "盲盒3" },
-    status: "available",
-    verified: true,
-    location: "CBD",
-    stats: {
-      age: 24,
-      height: "163cm",
-      weight: "47kg",
-      cup: "D",
-      nationality: "Chinese",
-    },
-    image: "/images/girls/blindbox3/1.webp",
-    description: {
-      en: "Experience the ultimate excitement with Blind Box 3! For a flat rate of $320, enjoy a premium 1-hour session featuring a beautiful 24-year-old treasure with a perfect 163cm, 47kg frame and natural D-cup curves. The package includes double the pleasure with 2 full rounds, relaxing shower play, direct natural BJ, intimate 69, stockings, and premium oral finishing. High value, intense passion, and unforgettable moments in the CBD!",
-      cn: "开启心动盲盒3号惊喜！仅需 $320 特惠价，为您解锁一位 24岁、身高163cm、体重47kg、拥有天然D罩杯性感曲线的市区高端宝藏女孩。特惠体验包含双人洗浴、深度无套口、69互动、性感黑丝、激情口报以及毒龙服务，更承诺整整 2 次云雨体验。在CBD温馨舒适的私密空间中，尽享超值与反差的极致激情！",
-    },
-    price: "$320 / Special Package (2 rounds)",
-    services: {
-      en: [
-        "Shower together",
-        "Natural BJ",
-        "69",
-        "Stockings",
-        "Cum in mouth",
-        "Rimming",
-        "2 rounds",
-      ],
-      cn: [
-        "陪浴",
-        "无套口",
-        "69",
-        "黑丝",
-        "口报",
-        "毒龙",
-        "做2次",
-      ],
-    },
-    gallery: [
-      "/images/girls/blindbox3/1.webp",
-    ],
-  },
-  {
     id: 46,
     name: { en: "Nainai", cn: "小奈奈" },
     status: "available",
@@ -216,6 +173,49 @@ export const girls = [
       "/images/girls/hikari/8.webp",
       "/images/girls/hikari/data1.webp",
       "/images/girls/hikari/data2.webp",
+    ],
+  },
+  {
+    id: 47,
+    name: { en: "Blind Box 3", cn: "盲盒3" },
+    status: "available",
+    verified: true,
+    location: "CBD",
+    stats: {
+      age: 24,
+      height: "163cm",
+      weight: "47kg",
+      cup: "D",
+      nationality: "Chinese",
+    },
+    image: "/images/girls/blindbox3/1.webp",
+    description: {
+      en: "Experience the ultimate excitement with Blind Box 3! For a flat rate of $320, enjoy a premium 1-hour session featuring a beautiful 24-year-old treasure with a perfect 163cm, 47kg frame and natural D-cup curves. The package includes double the pleasure with 2 full rounds, relaxing shower play, direct natural BJ, intimate 69, stockings, and premium oral finishing. High value, intense passion, and unforgettable moments in the CBD!",
+      cn: "开启心动盲盒3号惊喜！仅需 $320 特惠价，为您解锁一位 24岁、身高163cm、体重47kg、拥有天然D罩杯性感曲线的市区高端宝藏女孩。特惠体验包含双人洗浴、深度无套口、69互动、性感黑丝、激情口报以及毒龙服务，更承诺整整 2 次云雨体验。在CBD温馨舒适的私密空间中，尽享超值与反差的极致激情！",
+    },
+    price: "$320 / Special Package (2 rounds)",
+    services: {
+      en: [
+        "Shower together",
+        "Natural BJ",
+        "69",
+        "Stockings",
+        "Cum in mouth",
+        "Rimming",
+        "2 rounds",
+      ],
+      cn: [
+        "陪浴",
+        "无套口",
+        "69",
+        "黑丝",
+        "口报",
+        "毒龙",
+        "做2次",
+      ],
+    },
+    gallery: [
+      "/images/girls/blindbox3/1.webp",
     ],
   },
   {
