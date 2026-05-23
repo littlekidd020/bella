@@ -426,6 +426,8 @@ export const girls = [
     gallery: [
       "/images/girls/doudou/doudou2.webp",
       "/images/girls/doudou/doudou3.webp",
+      "/images/girls/doudou/doudou4.webp",
+      "/images/girls/doudou/doudou5.webp",
     ],
   },
   {
