@@ -128,7 +128,7 @@ export const girls = [
   {
     id: 39,
     name: { en: "Aozora Hikari", cn: "青空光" },
-    status: "available",
+    status: "unavailable",
     verified: true,
     location: "Central",
     stats: {
@@ -178,7 +178,7 @@ export const girls = [
   {
     id: 47,
     name: { en: "Blind Box 3", cn: "盲盒3" },
-    status: "available",
+    status: "unavailable",
     verified: true,
     location: "CBD",
     stats: {
@@ -1193,7 +1193,7 @@ export const girls = [
   {
     id: 8,
     name: { en: "Barbara", cn: "芭芭拉" },
-    status: "available",
+    status: "unavailable",
     verified: true,
     location: "CBD",
     stats: {
