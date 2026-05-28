@@ -18,7 +18,7 @@ export const girls = [
       en: "The newest Australian arrival ✈️born in 2003, super gorgeous student Baicha! High visual, absolutely stunning even bare-faced. Active fitness lover with fair, smooth, and firm skin, featuring natural 36D+ full breasts. Sweet and cute face with an incredibly sexy, passionate contrast. Extremely attentive and proactive, she loves to tease and perfectly caters to your every whim. Short stay of only 9 days in Auckland CBD — a premium experience you cannot miss!",
       cn: "最🆕澳洲空降✈️03年在读学生！超级惊艳的颜值天花板小白茶！超高颜值，素颜抗打。平时非常热爱健身，拥有白嫩紧致的完美肤色，纯天然36D+罩杯饱满柔软，吹弹可破。虽然五官甜美动人，但却有着反差极大的性感调情天赋。作为服务系女生，主动撩人，极尽迎合，让您体验百分百的温柔。短期在奥克兰CBD停留仅9天，绝对不容错过的极品体验！",
     },
-    price: "$500 / 1h · $850 / 90min",
+    price: "$600 / 1h",
     services: {
       en: [
         "Shower together",
