@@ -10,7 +10,15 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
   const { t, lang } = useLanguage();
 
   const filteredGirls = girls.filter(model => model.status !== "hidden" && model.status !== "deleted");
-  const displayedGirls = limit ? filteredGirls.slice(0, limit) : filteredGirls;
+  
+  // Sort: available girls first, resting/unavailable (leave/unavailable) girls last
+  const sortedGirls = [...filteredGirls].sort((a, b) => {
+    const aAvail = a.status === "available" ? 1 : 0;
+    const bAvail = b.status === "available" ? 1 : 0;
+    return bAvail - aAvail;
+  });
+
+  const displayedGirls = limit ? sortedGirls.slice(0, limit) : sortedGirls;
 
   return (
     <section className="px-8 pb-24 max-w-7xl mx-auto mt-4 md:mt-16">
