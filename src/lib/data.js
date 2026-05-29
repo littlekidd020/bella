@@ -2076,6 +2076,8 @@ export const girls = [
       "/images/girls/may/3.webp",
       "/images/girls/may/4.webp",
       "/images/girls/may/5.webp",
+      "/images/girls/may/6.webp",
+      "/images/girls/may/7.webp",
     ],
   },
   {
