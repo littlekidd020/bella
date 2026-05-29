@@ -71,7 +71,7 @@ export default function CollectionPage() {
         </div>
       </section>
 
-      <GirlGrid girls={filteredGirls} />
+      <GirlGrid girls={filteredGirls} sortRestingLast={true} />
     </main>
   );
 }

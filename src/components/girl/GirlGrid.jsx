@@ -6,17 +6,19 @@ import { girls as defaultGirls } from "@/lib/data";
 import GirlCard from "./GirlCard";
 import { useLanguage } from "@/context/LanguageContext";
 
-const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = false }) => {
+const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = false, sortRestingLast = false }) => {
   const { t, lang } = useLanguage();
 
   const filteredGirls = girls.filter(model => model.status !== "hidden" && model.status !== "deleted");
   
   // Sort: available girls first, resting/unavailable (leave/unavailable) girls last
-  const sortedGirls = [...filteredGirls].sort((a, b) => {
-    const aAvail = a.status === "available" ? 1 : 0;
-    const bAvail = b.status === "available" ? 1 : 0;
-    return bAvail - aAvail;
-  });
+  const sortedGirls = sortRestingLast
+    ? [...filteredGirls].sort((a, b) => {
+        const aAvail = a.status === "available" ? 1 : 0;
+        const bAvail = b.status === "available" ? 1 : 0;
+        return bAvail - aAvail;
+      })
+    : filteredGirls;
 
   const displayedGirls = limit ? sortedGirls.slice(0, limit) : sortedGirls;
 
