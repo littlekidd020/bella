@@ -45,6 +45,33 @@ const StatItem = ({ icon: Icon, label, value, t }) => {
   );
 };
 
+const getGalleryDesc = (idx, lang) => {
+  const descs = {
+    en: [
+      "Artistic Portrait",
+      "Sweet & Candid",
+      "Sultry Figure",
+      "Alluring Close-up",
+      "Elegant Silhouette",
+      "Authentic Snapshot",
+      "Bespoke Showcase",
+      "Exclusive Capture"
+    ],
+    cn: [
+      "私享艺术大片",
+      "清甜生活自拍",
+      "魅惑身段特写",
+      "绝美细节瞬间",
+      "极致优雅定格",
+      "官方真实认证",
+      "高端奢华呈现",
+      "独家专属映像"
+    ]
+  };
+  const list = descs[lang] || descs.en;
+  return list[idx % list.length];
+};
+
 export default function GirlDetailsPage() {
   const { id } = useParams();
   const router = useRouter();
@@ -321,6 +348,14 @@ export default function GirlDetailsPage() {
                     alt={`${model.name.en} Gallery ${idx + 1}`}
                     className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-[1.03]"
                   />
+                  {/* Premium Image Caption Overlay */}
+                  <div className="absolute inset-x-0 bottom-0 p-2.5 pt-5 bg-gradient-to-t from-black/80 via-black/35 to-transparent flex items-end opacity-90 md:opacity-0 group-hover:opacity-100 transition-all duration-500">
+                    <div className="border-l border-[#C5A059]/70 pl-2 overflow-hidden">
+                      <span className="block text-[8px] sm:text-[10px] md:text-xs text-[#FAF5F7] font-sans font-semibold tracking-[0.1em] uppercase truncate max-w-full">
+                        {getGalleryDesc(idx, lang)}
+                      </span>
+                    </div>
+                  </div>
                 </div>
               ))}
             </div>
