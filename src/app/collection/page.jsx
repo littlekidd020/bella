@@ -45,7 +45,7 @@ export default function CollectionPage() {
       </header>
       
       {/* Search/Filter Bar */}
-      <section className="w-full mb-8 md:mb-16 max-w-7xl mx-auto px-8">
+      <section className="w-full mt-8 md:mt-0 mb-8 md:mb-16 max-w-7xl mx-auto px-8">
         <div className="flex flex-nowrap md:flex-wrap items-center justify-start md:justify-center gap-3 md:gap-8 overflow-x-auto pb-2 md:pb-0 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden snap-x">
           {locations.map((loc) => {
             const label = loc === "All" 

@@ -314,7 +314,7 @@ export default function GirlDetailsPage() {
                 <div
                   key={idx}
                   onClick={() => openImageModal(idx + 1)}
-                  className="relative rounded-xl overflow-hidden shadow-[var(--shadow-soft)] cursor-zoom-in group aspect-[4/5]"
+                  className="relative w-full rounded-xl overflow-hidden shadow-[var(--shadow-soft)] cursor-zoom-in group aspect-[4/5]"
                 >
                   <img
                     src={img}
