@@ -42,7 +42,7 @@ const GirlCard = ({ model, isLarge = false }) => {
           
           <div className="flex items-end justify-between">
             <div className="flex items-center gap-3">
-              <h3 className={`${isLarge ? 'text-4xl' : 'text-2xl'} font-serif text-[#2D1822] tracking-wide italic font-bold`}>
+              <h3 className={`${isLarge ? 'text-2xl md:text-4xl' : 'text-2xl'} font-serif text-[#2D1822] tracking-wide italic font-bold`}>
                 {model.name[lang] || model.name.en}
               </h3>
               <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-[9px] font-bold font-sans tracking-[0.2em] bg-[#FFFFFF]/60 border border-[#F84A88]/20 backdrop-blur-md ${isAvailable ? 'text-[#F84A88]' : 'text-[#2D1822]/50'}`}>
@@ -58,7 +58,7 @@ const GirlCard = ({ model, isLarge = false }) => {
             </p>
             
             <div className="flex items-baseline gap-1">
-              <p className={`${isLarge ? 'text-xl' : 'text-base'} font-serif text-[#C5A059] font-bold`}>
+              <p className={`${isLarge ? 'text-base md:text-xl' : 'text-base'} font-serif text-[#C5A059] font-bold`}>
                 {typeof model.stats.cup === 'string' ? model.stats.cup.replace("(Natural)", t.girl.natural) : model.stats.cup}
               </p>
               <p className="text-[8px] uppercase tracking-[0.2em] text-[#2D1822]/50 font-sans">{t.girl.breast}</p>

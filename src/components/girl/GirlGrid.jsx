@@ -44,14 +44,14 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
           
           if (index === 0) {
             // First item: large feature (left half on desktop, full top on tablet)
-            spanClasses = "md:col-span-2 lg:col-span-2 row-span-2";
+            spanClasses = "col-span-1 md:col-span-2 lg:col-span-2 md:row-span-2";
           } else if (index === 1 || index === 2) {
             // Second and third items: stacked on the right half on desktop
-            spanClasses = "md:col-span-1 lg:col-span-2 row-span-1";
+            spanClasses = "col-span-1 md:col-span-1 lg:col-span-2 row-span-1";
           } else if (index === 3 || index === 6) {
-            spanClasses = "md:col-span-2 lg:col-span-2 row-span-1";
+            spanClasses = "col-span-1 md:col-span-2 lg:col-span-2 row-span-1";
           } else if (index === 4) {
-            spanClasses = "col-span-1 row-span-2";
+            spanClasses = "col-span-1 md:row-span-2";
           }
 
           return (
