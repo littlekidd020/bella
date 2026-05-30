@@ -67,14 +67,12 @@ const GirlCard = ({ model, isLarge = false }) => {
 
         </div>
 
-        {/* About Text Preview (Only visible in larger cards or hover) */}
-        {isLarge && (
-          <div className="mt-4 border-l border-[#F84A88]/30 pl-4">
-            <p className="text-[#2D1822]/70 text-xs font-sans leading-relaxed line-clamp-2">
-              {model.description[lang] || model.description.en}
-            </p>
-          </div>
-        )}
+        {/* About Text Preview */}
+        <div className={`${isLarge ? 'block' : 'hidden max-md:block'} mt-4 border-l border-[#F84A88]/30 pl-4`}>
+          <p className="text-[#2D1822]/70 text-xs font-sans leading-relaxed line-clamp-2">
+            {model.description[lang] || model.description.en}
+          </p>
+        </div>
       </div>
       
       {/* Editorial Hover Glow */}
