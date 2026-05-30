@@ -2,9 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useLanguage } from "@/context/LanguageContext";
-import { Phone, MessageCircle } from "lucide-react";
 import { usePathname } from "next/navigation";
-import BrandIcon from "@/components/common/BrandIcon";
 
 export default function ContactBanner() {
   const { t } = useLanguage();
@@ -15,62 +13,62 @@ export default function ContactBanner() {
 
   return (
     <motion.div 
-       initial={{ y: 50, opacity: 0 }}
-       animate={{ y: 0, opacity: 1 }}
-       className={`relative z-20 w-full bg-[#F84A88] text-white overflow-hidden shadow-[0_-20px_50px_rgba(248,74,136,0.2)] border-y border-[#F84A88]/50 mt-auto ${shouldHideOnMobile ? 'hidden md:block' : 'block'}`}
+      initial={{ y: 50, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      className={`relative z-20 w-[calc(100%-4rem)] md:w-[96%] max-w-7xl mx-auto mb-6 md:mb-8 rounded-[2rem] md:rounded-full bg-gradient-to-r from-[#F84A88] via-[#e23773] to-[#D41E5D] border border-white/20 overflow-hidden shadow-[0_10px_40px_rgba(248,74,136,0.3)] ${shouldHideOnMobile ? 'hidden md:block' : ''}`}
     >
-      {/* Inner Content of Pink Banner */}
-      <div className="w-full max-w-7xl mx-auto px-4 py-4 md:py-0 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-3 md:h-[70px]">
-        
-        {/* Logo & Identity */}
-        <div className="flex justify-center items-center gap-3 shrink-0">
-           <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center shadow-[0_0_15px_rgba(255,255,255,0.4)] p-1 relative overflow-hidden shrink-0">
-             <BrandIcon className="w-full h-full relative z-10" />
-           </div>
-           <div className="flex flex-col justify-center text-center md:text-left">
-             <h2 className="text-lg md:text-2xl font-black tracking-wider drop-shadow-md leading-none mb-1">
-               {t.banner?.title || "专业接线 纽澳独家精品资源"}
-             </h2>
-             <p className="text-[9px] md:text-xs uppercase tracking-[0.2em] md:tracking-[0.4em] font-bold opacity-90 drop-shadow-sm font-sans">
-               {t.banner?.subtitle || "尊贵 • 隐秘 • 奢界"}
-             </p>
-           </div>
-        </div>
+      {/* Decorative Shine Overlay */}
+      <div className="absolute inset-0 w-full h-full bg-gradient-to-b from-white/10 to-transparent pointer-events-none" />
 
-        {/* Middle Contact Block */}
-        <div className="relative flex flex-col items-center justify-center px-6 md:px-10 w-full md:w-auto h-auto md:h-full md:mx-auto py-4 md:py-0">
-          <div className="absolute inset-y-0 -left-6 -right-6 bg-[#D41E5D] -skew-x-[25deg] shadow-inner hidden md:block" />
-          <div className="absolute inset-0 bg-[#D41E5D]/30 md:hidden rounded-2xl mx-2 my-1 border border-white/20" />
-          
-          <div className="relative z-10 flex flex-col items-center gap-2 w-full">
-             <a href="tel:+64225391339" className="flex items-center gap-3 hover:text-white/80 transition-colors text-base md:text-lg font-black tracking-widest drop-shadow-md">
-               <span className="opacity-70 text-[10px] md:text-xs font-bold font-sans min-w-[3em] text-right">{t.banner?.phone}</span> 
-               <span>022-5391339</span>
-             </a>
-              <div className="flex flex-col md:flex-row items-center gap-1 md:gap-4 text-[13px] md:text-base font-black tracking-widest drop-shadow-md">
-                <div className="flex items-center gap-3">
-                  <span className="opacity-70 text-[9px] md:text-xs font-bold font-sans uppercase tracking-[0.2em]">{t.banner?.wechat}</span> 
-                  <span>Angelya3312</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="opacity-40 hidden md:block">|</span>
-                  <span className="opacity-70 text-[9px] md:text-xs font-bold md:hidden">/</span>
-                  <span>Angel91339</span>
-                </div>
-              </div>
+      {/* Inner Container */}
+      <div className="relative z-10 flex flex-col md:flex-row items-center justify-between h-auto md:h-24 px-6 md:px-12 py-4 md:py-0">
+        
+        {/* Left: Brand section */}
+        <div className="flex items-center gap-4 w-full md:w-auto justify-center md:justify-start mb-4 md:mb-0">
+          <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center p-2 shadow-inner shrink-0">
+            <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+          </div>
+          <div className="flex flex-col text-white">
+            <h3 className="font-bold tracking-widest text-sm md:text-base drop-shadow-md">专业接线 纽澳独家精品资源</h3>
+            <div className="flex items-center gap-2 text-[10px] md:text-xs mt-1 opacity-90 tracking-[0.2em]">
+              <span>尊贵</span>
+              <span className="w-1 h-1 bg-white/60 rounded-full"></span>
+              <span>隐秘</span>
+              <span className="w-1 h-1 bg-white/60 rounded-full"></span>
+              <span>奢界</span>
+            </div>
           </div>
         </div>
 
-        {/* Slogan */}
-        <div className="hidden md:flex flex-col text-center md:text-right justify-center shrink-0 md:pl-4 mb-4 md:mb-0">
-           <p className="text-[10px] md:text-xl font-black tracking-[0.3em] md:tracking-[0.5em] leading-none mb-1.5 drop-shadow-md text-white/90">
-             {t.banner?.slogan1 || "品 味 顶 奢 之 夜"}
-           </p>
-           <p className="text-[8px] md:text-[13px] font-bold tracking-[0.3em] md:tracking-[0.4em] opacity-90 drop-shadow-sm font-sans">
-             {t.banner?.slogan2 || "纵 享 倾 城 绝 色"}
-           </p>
+        {/* Separator (Desktop) */}
+        <div className="hidden md:block w-px h-12 bg-white/25 mx-4 shrink-0"></div>
+
+        {/* Center: Contact section */}
+        <div className="flex flex-col items-center justify-center w-full md:w-auto mb-4 md:mb-0">
+          <div className="flex items-center gap-3">
+            <span className="text-white/80 text-xs tracking-wider">电话:</span>
+            <span className="text-white text-xl md:text-2xl font-bold tracking-wider drop-shadow-md">022-5391339</span>
+          </div>
+          <div className="flex items-center gap-3 text-white text-xs md:text-sm tracking-wider mt-1.5 md:mt-1">
+            <span className="text-white/80">微信:</span>
+            <span className="font-medium">Angelya3312</span>
+            <span className="text-white/50">|</span>
+            <span className="font-medium">Angel91339</span>
+          </div>
         </div>
-        
+
+        {/* Separator (Desktop) */}
+        <div className="hidden md:block w-px h-12 bg-white/25 mx-4 shrink-0"></div>
+
+        {/* Right: Slogan */}
+        <div className="hidden md:flex flex-col items-center md:items-end justify-center w-full md:w-auto pt-4 md:pt-0 border-t border-white/20 md:border-none">
+          <div className="flex items-center gap-3 text-white font-bold text-sm md:text-base tracking-[0.3em] drop-shadow-md">
+            <span>品</span><span>味</span><span>顶</span><span>奢</span><span>之</span><span>夜</span>
+          </div>
+          <div className="flex items-center gap-3 text-white text-[10px] md:text-xs tracking-[0.4em] mt-2 opacity-90">
+            <span>纵</span><span>享</span><span>倾</span><span>城</span><span>绝</span><span>色</span>
+          </div>
+        </div>
       </div>
     </motion.div>
   );

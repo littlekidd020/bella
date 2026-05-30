@@ -13,11 +13,11 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
   const displayedGirls = limit ? filteredGirls.slice(0, limit) : filteredGirls;
 
   return (
-    <section className="px-8 pb-24 max-w-7xl mx-auto mt-4 md:mt-16">
+    <section className="px-8 pb-0 md:pb-12 max-w-7xl mx-auto mt-4 md:mt-16">
       {/* Intro Text */}
       {showIntro && (
         <div className="mb-6 md:mb-16 text-center max-w-2xl mx-auto flex flex-col items-center">
-          <p className="hidden md:block text-2xl font-serif italic text-[#15030A]/80 leading-relaxed font-playfair transition-all duration-700">
+          <p className="hidden md:block text-2xl font-serif italic text-[#2D1822]/80 leading-relaxed font-playfair transition-all duration-700">
             {lang === "cn" ? (
               "推门而入，喧嚣在外，这里是身份与品味的无声共鸣，不为喧宾夺主，只为让身处其中的每一个人，都能找到属于自己的——。"
             ) : (
@@ -27,44 +27,54 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
           <div className="mt-0 md:mt-10 mb-2 w-full flex justify-center px-4">
             <Link 
               href="/collection" 
-              className="inline-block text-center border border-[#F84A88]/80 text-[#F84A88] w-full max-w-[300px] md:max-w-[340px] py-3.5 md:py-4 text-base tracking-[0.4em] md:tracking-[0.5em] font-sans font-bold hover:bg-[#F84A88]/5 transition-colors duration-300"
+              className="text-[#C5A059] font-serif italic text-lg hover:text-[#F84A88] transition-colors duration-500"
             >
-              {lang === "cn" ? "查看所有女生" : "VIEW COLLECTION"}
+              {lang === "cn" ? "查看所有女生" : "View Collection"} →
             </Link>
           </div>
-          <h2 className="text-lg md:text-xl uppercase tracking-[0.3em] text-[#F84A88] mt-8 md:mt-16 font-sans font-bold drop-shadow-sm">
+          <h2 className="text-lg md:text-xl uppercase tracking-[0.3em] text-[#F84A88] mt-4 md:mt-8 font-sans font-bold">
             {t.grid.newCollection}
           </h2>
+          <div className="w-16 h-[1px] bg-[#C5A059] mx-auto mt-4 mb-2" />
         </div>
-      )}  {/* Masonry-Style Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 transition-all duration-700">
-        {displayedGirls.map((model, index) => (
-          <div 
-            key={model.id}
-            className={`${
-              index % 3 === 1 ? "md:translate-y-12" : ""
-            } ${
-              index % 3 === 2 ? "lg:translate-y-24" : ""
-            }`}
-          >
-            <Link href={`/girl/${model.id}`}>
-              <GirlCard model={model} />
-            </Link>
-          </div>
-        ))}
+      )}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-5 transition-all duration-700 auto-rows-[380px]">
+        {displayedGirls.map((model, index) => {
+          let spanClasses = "col-span-1 row-span-1";
+          
+          if (index === 0) {
+            // First item: large feature (left half on desktop, full top on tablet)
+            spanClasses = "md:col-span-2 lg:col-span-2 row-span-2";
+          } else if (index === 1 || index === 2) {
+            // Second and third items: stacked on the right half on desktop
+            spanClasses = "md:col-span-1 lg:col-span-2 row-span-1";
+          } else if (index === 3 || index === 6) {
+            spanClasses = "md:col-span-2 lg:col-span-2 row-span-1";
+          } else if (index === 4) {
+            spanClasses = "col-span-1 row-span-2";
+          }
+
+          return (
+            <div 
+              key={model.id}
+              className={`${spanClasses} h-full group w-full`}
+            >
+              <Link href={`/girl/${model.id}`} className="block w-full h-full relative overflow-hidden rounded-2xl card">
+                <GirlCard model={model} isLarge={index === 0} />
+              </Link>
+            </div>
+          );
+        })}
       </div>
 
       {/* CTA Button */}
       {showCTA && (
-        <div className="mt-32 flex justify-center">
+        <div className="mt-12 md:mt-16 flex justify-center">
           <Link 
             href="/collection"
-            className="group relative px-12 py-4 bg-transparent border border-[#F84A88]/30 hover:border-[#F84A88] transition-all duration-500 overflow-hidden"
+            className="text-[#C5A059] font-serif italic text-lg hover:text-[#F84A88] transition-colors duration-500"
           >
-            <span className="relative z-10 text-xs uppercase tracking-[0.4em] text-[#F84A88] group-hover:text-white transition-colors duration-500 font-bold">
-              {t.grid.viewAll}
-            </span>
-            <div className="absolute inset-0 bg-[#F84A88] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out" />
+            {t.grid.viewAll} →
           </Link>
         </div>
       )}

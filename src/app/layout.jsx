@@ -1,4 +1,4 @@
-import { Inter, Playfair_Display, Noto_Sans_SC, Noto_Serif_SC } from "next/font/google";
+import { Montserrat, Cormorant, Noto_Sans_SC, Noto_Serif_SC } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/layout/Navbar";
 import ConciergeBar from "../components/layout/ConciergeBar";
@@ -6,8 +6,8 @@ import Footer from "../components/layout/Footer";
 import { LanguageProvider } from "../context/LanguageContext";
 import AgeGate from "../components/common/AgeGate";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
+const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-montserrat" });
+const cormorant = Cormorant({ subsets: ["latin"], variable: "--font-cormorant" });
 const notoSansCN = Noto_Sans_SC({ 
   subsets: ["latin"], 
   weight: ["400", "700", "900"],
@@ -31,7 +31,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body suppressHydrationWarning className={`${inter.variable} ${playfair.variable} ${notoSansCN.variable} ${notoSerifCN.variable} font-sans antialiased bg-[#FFE4EC] text-[#F5F5F5]`}>
+      <body suppressHydrationWarning className={`${montserrat.variable} ${cormorant.variable} ${notoSansCN.variable} ${notoSerifCN.variable} font-sans antialiased bg-[#FAF5F7] text-[#2D1822]`}>
         <LanguageProvider>
           <AgeGate>
             <Navbar />
