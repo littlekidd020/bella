@@ -50,13 +50,13 @@ const Navbar = () => {
         <div className="flex items-center gap-4 md:hidden">
           <button 
             onClick={toggleLang}
-            className="flex items-center justify-center w-10 h-10 text-xs font-bold text-[#2D1822]/60 hover:text-[#F84A88] transition-colors border border-[#2D1822]/10 rounded-full"
+            className="flex items-center justify-center w-10 h-10 text-xs font-bold text-[#2D1822]/60 hover:text-[#F84A88] transition-colors border border-[#2D1822]/10 rounded-full bg-[#FAF5F7]/80 backdrop-blur-sm shadow-sm"
           >
             {lang === "cn" ? "EN" : "中"}
           </button>
           <button 
             onClick={() => setIsOpen(!isOpen)}
-            className="flex items-center justify-center w-10 h-10 border border-[#2D1822]/10 rounded-full text-[#2D1822] hover:text-[#F84A88] hover:border-[#F84A88]/30 transition-colors relative z-[80]"
+            className="flex items-center justify-center w-10 h-10 border border-[#2D1822]/10 rounded-full text-[#2D1822] hover:text-[#F84A88] hover:border-[#F84A88]/30 transition-colors relative z-[80] bg-[#FAF5F7]/80 backdrop-blur-sm shadow-sm"
           >
             <Menu size={20} />
           </button>
