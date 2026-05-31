@@ -58,7 +58,7 @@ const GirlCard = ({ model, isLarge = false }) => {
             </p>
             
             <div className="flex items-baseline gap-1">
-              <p className={`${isLarge ? 'text-base md:text-xl' : 'text-base'} font-serif text-[#FFE3EC] font-bold`}>
+              <p className={`${isLarge ? 'text-base md:text-xl' : 'text-base'} font-serif text-[#F84A88] font-bold`}>
                 {typeof model.stats.cup === 'string' ? model.stats.cup.replace("(Natural)", t.girl.natural) : model.stats.cup}
               </p>
               <p className="text-[8px] uppercase tracking-[0.2em] text-[#2D1822]/50 font-sans">{t.girl.breast}</p>
@@ -77,7 +77,7 @@ const GirlCard = ({ model, isLarge = false }) => {
       
       {/* Editorial Hover Glow */}
       <div className="absolute inset-0 border-2 border-[#F84A88]/0 group-hover:border-[#F84A88]/20 transition-all duration-700 pointer-events-none rounded-3xl" />
-      <div className="absolute inset-0 bg-gradient-to-tr from-[#F84A88]/0 via-transparent to-[#FFE3EC]/0 group-hover:from-[#F84A88]/5 group-hover:to-[#FFE3EC]/5 transition-all duration-700 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-tr from-[#F84A88]/0 via-transparent to-[#F84A88]/0 group-hover:from-[#F84A88]/5 group-hover:to-[#F84A88]/5 transition-all duration-700 pointer-events-none" />
     </>
   );
 };

@@ -74,11 +74,11 @@ const Navbar = () => {
           </Link>
         </div>
         
-        <div className="w-12 h-[1px] bg-[#FFE3EC]/30" />
+        <div className="w-12 h-[1px] bg-[#F84A88]/30" />
 
         <button 
           onClick={() => { toggleLang(); setIsOpen(false); }}
-          className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#F84A88] to-[#FFE3EC] text-white rounded-full font-bold tracking-widest shadow-[0_0_20px_rgba(248,74,136,0.3)] hover:shadow-[0_0_30px_rgba(248,74,136,0.5)] transition-shadow duration-300"
+          className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#F84A88] to-[#D41E5D] text-white rounded-full font-bold tracking-widest shadow-[0_0_20px_rgba(248,74,136,0.3)] hover:shadow-[0_0_30px_rgba(248,74,136,0.5)] transition-shadow duration-300"
         >
           <Globe size={20} />
           <span>{lang === "cn" ? "SWITCH TO ENGLISH" : "切换至中文"}</span>

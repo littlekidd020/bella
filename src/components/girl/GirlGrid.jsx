@@ -27,7 +27,7 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
           <div className="mt-0 md:mt-10 mb-2 w-full flex justify-center px-4">
             <Link 
               href="/collection" 
-              className="text-[#FFE3EC] font-serif italic text-lg hover:text-[#F84A88] transition-colors duration-500"
+              className="text-[#F84A88] font-serif italic text-lg hover:text-[#F84A88] transition-colors duration-500"
             >
               {lang === "cn" ? "查看所有女生" : "View Collection"} →
             </Link>
@@ -35,7 +35,7 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
           <h2 className="text-lg md:text-xl uppercase tracking-[0.3em] text-[#F84A88] mt-4 md:mt-8 font-sans font-bold">
             {t.grid.newCollection}
           </h2>
-          <div className="w-16 h-[1px] bg-[#FFE3EC] mx-auto mt-4 mb-2" />
+          <div className="w-16 h-[1px] bg-[#F84A88] mx-auto mt-4 mb-2" />
         </div>
       )}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-5 transition-all duration-700 auto-rows-[380px]">
@@ -72,7 +72,7 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
         <div className="mt-12 md:mt-16 flex justify-center">
           <Link 
             href="/collection"
-            className="text-[#FFE3EC] font-serif italic text-lg hover:text-[#F84A88] transition-colors duration-500"
+            className="text-[#F84A88] font-serif italic text-lg hover:text-[#F84A88] transition-colors duration-500"
           >
             {t.grid.viewAll} →
           </Link>

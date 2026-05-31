@@ -18,14 +18,14 @@ export default function Home() {
         {/* Abstract Dark Liquid Background */}
         <div className="absolute inset-0 bg-[#FFE3EC]">
           <div className="absolute top-1/4 -left-1/4 w-[80vw] h-[80vw] bg-[#F84A88]/10 rounded-full blur-[120px] mix-blend-screen" />
-          <div className="absolute bottom-1/4 -right-1/4 w-[60vw] h-[60vw] bg-[#FFE3EC]/10 rounded-full blur-[100px] mix-blend-screen" />
+          <div className="absolute bottom-1/4 -right-1/4 w-[60vw] h-[60vw] bg-[#F84A88]/10 rounded-full blur-[100px] mix-blend-screen" />
         </div>
         
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 grid grid-cols-1 lg:grid-cols-12 gap-12 pt-32 lg:pt-40 flex-1 items-center">
           
           {/* Typography Block */}
           <div className="lg:col-span-5 flex flex-col justify-center space-y-0 lg:space-y-8 z-20 order-2 lg:order-1 pb-0 lg:pb-0 text-center lg:text-left items-center lg:items-start">
-            <p className="hidden lg:block text-[10px] uppercase tracking-[0.4em] text-[#FFE3EC] font-sans font-bold mb-6">{t.hero.bespokeCompanions || "BESPOKE COMPANIONS"}</p>
+            <p className="hidden lg:block text-[10px] uppercase tracking-[0.4em] text-[#F84A88] font-sans font-bold mb-6">{t.hero.bespokeCompanions || "BESPOKE COMPANIONS"}</p>
             <h1 className="hidden lg:block text-5xl md:text-7xl lg:text-8xl font-serif text-[#2D1822] leading-[0.95] mb-8">
               {lang === "cn" ? (
                 <>
@@ -39,7 +39,7 @@ export default function Home() {
                 </>
               )}
             </h1>
-            <p className="hidden lg:block text-[#2D1822]/60 text-sm md:text-base font-sans tracking-[0.1em] leading-relaxed max-w-md border-l border-[#FFE3EC]/40 pl-6">
+            <p className="hidden lg:block text-[#2D1822]/60 text-sm md:text-base font-sans tracking-[0.1em] leading-relaxed max-w-md border-l border-[#F84A88]/40 pl-6">
               {lang === "cn" ? 
                 "这里是身份与品味的无声共鸣，不为喧宾夺主，只为让身处其中的每一个人，都能找到属于自己的——。" : 
                 "A curated selection of the most sophisticated and refined talent, dedicated to the art of relaxation."}
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
 
           {/* Masked Image Panel */}
-          <div className="hidden lg:block lg:col-span-7 relative h-[50vh] lg:h-[80vh] w-full rounded-[60px] overflow-hidden border border-[#FFE3EC]/20 shadow-[0_20px_50px_rgba(255,227,236,0.10)] order-1 lg:order-2">
+          <div className="hidden lg:block lg:col-span-7 relative h-[50vh] lg:h-[80vh] w-full rounded-[60px] overflow-hidden border border-[#F84A88]/20 shadow-[0_20px_50px_rgba(248,74,136,0.10)] order-1 lg:order-2">
             <img 
               src="/images/header-bg-custom.webp" 
               alt="Sensual Boutique Background" 
@@ -80,7 +80,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-serif italic text-[#2D1822]">
             {t.grid.newCollection}
           </h2>
-          <div className="w-16 h-[1px] bg-[#FFE3EC] mx-auto mt-6" />
+          <div className="w-16 h-[1px] bg-[#F84A88] mx-auto mt-6" />
         </div>
         <GirlGrid 
           limit={3} 
@@ -107,7 +107,7 @@ export default function Home() {
           </div>
 
           <div className="card-elevated rounded-3xl p-10 md:p-12 flex flex-col items-start gap-4 group hover:-translate-y-1 transition-all duration-500">
-            <div className="w-14 h-14 rounded-full bg-[#F84A88]/5 flex items-center justify-center text-[#FFE3EC] mb-4 group-hover:scale-110 transition-transform">
+            <div className="w-14 h-14 rounded-full bg-[#F84A88]/5 flex items-center justify-center text-[#F84A88] mb-4 group-hover:scale-110 transition-transform">
                <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8V7a4 4 0 00-8 0v4h8z" /></svg>
             </div>
             <h4 className="text-2xl font-serif text-[#2D1822]">{t.grid.discreet}</h4>
@@ -121,7 +121,7 @@ export default function Home() {
                 <h4 className="text-3xl font-serif text-[#2D1822] italic mb-2">{t.grid.vip}</h4>
                 <p className="text-[#2D1822]/50 text-sm max-w-md">{t.grid.vipDesc}</p>
               </div>
-              <a href="/contact-us" className="px-8 py-4 bg-[#2D1822] text-[#FFE3EC] rounded-full font-bold tracking-widest text-xs hover:bg-[#FFE3EC] hover:text-[#2D1822] transition-colors duration-300 text-center uppercase">
+              <a href="/contact-us" className="px-8 py-4 bg-[#2D1822] text-[#FFE3EC] rounded-full font-bold tracking-widest text-xs hover:bg-[#D41E5D] hover:text-white transition-colors duration-300 text-center uppercase">
                 {t.grid.discoverMore}
               </a>
             </div>

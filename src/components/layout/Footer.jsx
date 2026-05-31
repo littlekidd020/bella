@@ -8,7 +8,7 @@ const Footer = () => {
   const { t } = useLanguage();
 
   return (
-    <footer className="relative bg-[#FFE3EC] border-t border-[#FFE3EC]/20 overflow-hidden">
+    <footer className="relative bg-[#FFE3EC] border-t border-[#F84A88]/20 overflow-hidden">
       
       <div className="relative max-w-7xl mx-auto px-6 md:px-10 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8 items-end">
@@ -17,7 +17,7 @@ const Footer = () => {
             <BrandLogo className="w-12 h-12 opacity-70 hover:opacity-100 transition-opacity duration-700" />
             <div className="space-y-2 text-left">
               <h2 className="text-3xl md:text-5xl font-serif text-[#2D1822] italic opacity-90">{t.footer?.title || t.hero.title}</h2>
-              <p className="text-[10px] md:text-xs text-[#FFE3EC] uppercase tracking-[0.4em] font-medium">
+              <p className="text-[10px] md:text-xs text-[#F84A88] uppercase tracking-[0.4em] font-medium">
                 {t.footer?.bespokeService || "High-End Bespoke Service"}
               </p>
             </div>
@@ -40,8 +40,8 @@ const Footer = () => {
                 &copy; 2026 {t.hero.title}. All Rights Reserved.
               </p>
               <div className="flex gap-6 text-[10px] tracking-[0.2em] uppercase text-[#2D1822]/40">
-                <a href="/collection" className="hover:text-[#FFE3EC] transition-colors">{t.footer?.collection || "Collection"}</a>
-                <a href="/contact-us" className="hover:text-[#FFE3EC] transition-colors">{t.footer?.contact || "Contact"}</a>
+                <a href="/collection" className="hover:text-[#F84A88] transition-colors">{t.footer?.collection || "Collection"}</a>
+                <a href="/contact-us" className="hover:text-[#F84A88] transition-colors">{t.footer?.contact || "Contact"}</a>
               </div>
             </div>
           </div>
