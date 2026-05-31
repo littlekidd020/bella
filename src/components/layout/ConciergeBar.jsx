@@ -43,7 +43,7 @@ const ConciergeBar = () => {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-        className="fixed z-50 bottom-4 left-1/2 -translate-x-1/2 md:bottom-auto md:left-auto md:right-6 md:top-1/2 md:-translate-y-1/2 flex flex-row md:flex-col items-center gap-3 md:gap-5 bg-[#FFE3EC]/85 md:bg-transparent backdrop-blur-xl md:backdrop-blur-none px-5 py-3 md:p-0 rounded-full md:rounded-none border border-[#F84A88]/20 md:border-none shadow-[0_4px_20px_rgba(45,24,34,0.08)] md:shadow-none"
+        className="fixed z-50 bottom-4 left-1/2 -translate-x-1/2 md:bottom-auto md:left-auto md:right-6 md:top-1/2 md:-translate-y-1/2 flex flex-row md:flex-col items-center gap-3 md:gap-5 bg-[#FAF5F7]/85 md:bg-transparent backdrop-blur-xl md:backdrop-blur-none px-5 py-3 md:p-0 rounded-full md:rounded-none border border-[#F84A88]/20 md:border-none shadow-[0_4px_20px_rgba(45,24,34,0.08)] md:shadow-none"
       >
         {contactItems.map((item) => (
           <a 
@@ -51,7 +51,7 @@ const ConciergeBar = () => {
             href={item.href} 
             className="flex flex-col items-center gap-1.5 md:block group cursor-pointer"
           >
-            <div className="relative flex items-center justify-center w-10 h-10 md:w-14 md:h-14 rounded-full bg-[#FFFFFF]/90 md:bg-[#FFE3EC]/90 backdrop-blur-xl border border-[#F84A88]/30 text-[#F84A88] hover:bg-[#F84A88] hover:text-white hover:border-[#F84A88] md:hover:scale-110 shadow-[0_0_15px_rgba(248,74,136,0.15)] hover:shadow-[0_0_25px_rgba(248,74,136,0.4)] transition-all duration-500">
+            <div className="relative flex items-center justify-center w-10 h-10 md:w-14 md:h-14 rounded-full bg-[#FFFFFF]/90 md:bg-[#FAF5F7]/90 backdrop-blur-xl border border-[#F84A88]/30 text-[#F84A88] hover:bg-[#F84A88] hover:text-white hover:border-[#F84A88] md:hover:scale-110 shadow-[0_0_15px_rgba(248,74,136,0.15)] hover:shadow-[0_0_25px_rgba(248,74,136,0.4)] transition-all duration-500">
               <item.icon size={18} className="md:w-[22px] md:h-[22px]" />
               
               {/* Tooltip for desktop */}
@@ -76,7 +76,7 @@ const ConciergeBar = () => {
           href="#" 
           className="flex flex-col items-center gap-1.5 md:block group cursor-pointer"
         >
-          <div className="relative flex items-center justify-center w-10 h-10 md:w-14 md:h-14 rounded-full bg-[#FFFFFF]/90 md:bg-[#FFE3EC]/90 backdrop-blur-xl border border-[#F84A88]/30 text-[#F84A88] hover:bg-[#F84A88] hover:text-white hover:border-[#F84A88] md:hover:scale-110 shadow-[0_0_15px_rgba(248,74,136,0.15)] hover:shadow-[0_0_25px_rgba(248,74,136,0.4)] transition-all duration-500">
+          <div className="relative flex items-center justify-center w-10 h-10 md:w-14 md:h-14 rounded-full bg-[#FFFFFF]/90 md:bg-[#FAF5F7]/90 backdrop-blur-xl border border-[#F84A88]/30 text-[#F84A88] hover:bg-[#F84A88] hover:text-white hover:border-[#F84A88] md:hover:scale-110 shadow-[0_0_15px_rgba(248,74,136,0.15)] hover:shadow-[0_0_25px_rgba(248,74,136,0.4)] transition-all duration-500">
             <MessageCircle size={18} className="md:w-[22px] md:h-[22px]" />
             
             <div className="absolute right-[120%] top-1/2 -translate-y-1/2 px-4 py-2 bg-[#2D1822] text-white text-[10px] uppercase tracking-[0.2em] font-bold rounded-full opacity-0 pointer-events-none group-hover:opacity-100 group-hover:right-[130%] transition-all duration-500 hidden md:block whitespace-nowrap shadow-lg">
