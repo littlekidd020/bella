@@ -35,8 +35,8 @@ export default function CollectionPage() {
           <h1 className="text-5xl md:text-7xl font-serif text-[#2D1822] italic opacity-90 drop-shadow-md">
             {t.nav.collection}
           </h1>
-          <div className="w-20 h-[1px] bg-[#C5A059] mx-auto mt-6" />
-          <p className="hidden md:block text-[#C5A059] uppercase tracking-[0.4em] font-medium text-xs mt-6 max-w-2xl mx-auto px-6">
+          <div className="w-20 h-[1px] bg-[#FFE3EC] mx-auto mt-6" />
+          <p className="hidden md:block text-[#FFE3EC] uppercase tracking-[0.4em] font-medium text-xs mt-6 max-w-2xl mx-auto px-6">
             {activeFilter === "All" 
               ? "A Curated Selection of Sophisticated Companions"
               : `${activeFilter === "All" ? (lang === "cn" ? "全部" : "All") : (t.girl.locations[activeFilter] || activeFilter)} Collection`}

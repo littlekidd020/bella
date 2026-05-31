@@ -34,7 +34,7 @@ const StatItem = ({ icon: Icon, label, value, t }) => {
     <div className="flex flex-col gap-2.5 p-5 md:p-6 rounded-2xl bg-[#FFE3EC]/60 hover:-translate-y-0.5 transition-all duration-500">
       <div className="flex items-center gap-2">
         <Icon size={16} className="text-[#F84A88]" />
-        <span className="text-[10px] uppercase tracking-[0.2em] font-sans text-[#C5A059] font-bold">
+        <span className="text-[10px] uppercase tracking-[0.2em] font-sans text-[#FFE3EC] font-bold">
           {label}
         </span>
       </div>
@@ -145,7 +145,7 @@ export default function GirlDetailsPage() {
                 </button>
                 {model.location && (
                   <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 bg-white border border-[#2D1822]/8 rounded-full">
-                    <MapPin size={12} className="text-[#C5A059]" />
+                    <MapPin size={12} className="text-[#FFE3EC]" />
                     <span className="text-[9px] uppercase tracking-[0.2em] font-sans text-[#2D1822]/70 font-bold">
                       {t.girl.locations[model.location] || model.location}
                     </span>
@@ -163,7 +163,7 @@ export default function GirlDetailsPage() {
                   <span className={`w-1.5 h-1.5 rounded-full ${isAvailable ? "bg-[#F84A88]" : "bg-[#2D1822]/30"}`} />
                   {isAvailable ? t.girl.available : t.girl.unavailable}
                 </span>
-                <p className="text-[10px] uppercase tracking-[0.3em] text-[#C5A059] font-bold font-sans">
+                <p className="text-[10px] uppercase tracking-[0.3em] text-[#FFE3EC] font-bold font-sans">
                   {t.girl.nationalities[model.stats.nationality] || model.stats.nationality}
                   {model.stats.age && ` · ${model.stats.age}${t.girl.ageUnit}`}
                 </p>
@@ -195,8 +195,8 @@ export default function GirlDetailsPage() {
             
             {/* About Section */}
             <div className="space-y-4">
-              <h4 className="text-[10px] uppercase tracking-[0.3em] text-[#C5A059] font-bold font-sans flex items-center gap-2">
-                <MessageCircle size={12} className="text-[#C5A059]" /> {t.girl.about}
+              <h4 className="text-[10px] uppercase tracking-[0.3em] text-[#FFE3EC] font-bold font-sans flex items-center gap-2">
+                <MessageCircle size={12} className="text-[#FFE3EC]" /> {t.girl.about}
               </h4>
               <p className="text-[#2D1822]/70 leading-[1.8] font-sans text-sm md:text-base tracking-wide">
                 {model.description && typeof model.description === "object"
@@ -320,8 +320,8 @@ export default function GirlDetailsPage() {
           {/* Trust Video */}
           {model.video && (
             <div className="space-y-6 mt-8">
-              <h4 className="text-[10px] uppercase tracking-[0.3em] text-[#C5A059] font-bold font-sans flex items-center gap-2">
-                <Play size={12} className="text-[#C5A059]" /> {t.grid.verification}
+              <h4 className="text-[10px] uppercase tracking-[0.3em] text-[#FFE3EC] font-bold font-sans flex items-center gap-2">
+                <Play size={12} className="text-[#FFE3EC]" /> {t.grid.verification}
               </h4>
               <div className="rounded-2xl overflow-hidden shadow-[var(--shadow-lifted)] border border-[#2D1822]/5">
                 <TrustVideo src={model.video} poster={model.image} />
@@ -350,7 +350,7 @@ export default function GirlDetailsPage() {
                   />
                   {/* Premium Image Caption Overlay */}
                   <div className="absolute inset-x-0 bottom-0 p-2.5 pt-5 bg-gradient-to-t from-black/80 via-black/35 to-transparent flex items-end opacity-90 md:opacity-0 group-hover:opacity-100 transition-all duration-500">
-                    <div className="border-l border-[#C5A059]/70 pl-2 overflow-hidden">
+                    <div className="border-l border-[#FFE3EC]/70 pl-2 overflow-hidden">
                       <span className="block text-[8px] sm:text-[10px] md:text-xs text-[#FFE3EC] font-sans font-semibold tracking-[0.1em] uppercase truncate max-w-full">
                         {getGalleryDesc(idx, lang)}
                       </span>
@@ -375,7 +375,7 @@ export default function GirlDetailsPage() {
             <p className="font-serif italic text-[#2D1822] text-2xl">
               {model.name[lang] || model.name.en}
             </p>
-            <p className="text-[9px] text-[#C5A059] uppercase tracking-widest font-bold font-sans">
+            <p className="text-[9px] text-[#FFE3EC] uppercase tracking-widest font-bold font-sans">
               {t.girl.availableToBook}
             </p>
           </div>
@@ -394,7 +394,7 @@ export default function GirlDetailsPage() {
 
             <button
               onClick={() => setShowQR(true)}
-              className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-8 py-3 bg-[#C5A059] text-white rounded-xl hover:bg-[#A8884C] transition-all duration-300"
+              className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-8 py-3 bg-[#FFE3EC] text-[#2D1822] rounded-xl hover:bg-[#FFE3EC]/80 border border-[#F84A88]/20 transition-all duration-300"
             >
               <MessageSquare size={16} />
               <span className="text-[10px] md:text-xs uppercase tracking-[0.2em] font-bold font-sans">

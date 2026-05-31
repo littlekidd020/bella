@@ -40,7 +40,7 @@ const GirlProfileOverlay = ({ model, onClose, onNext, onPrev }) => {
     const displayValue = typeof value === 'string' ? value.replace("(Natural)", t.girl.natural) : value;
     return (
       <div className="flex flex-col gap-2 p-4 rounded-xl bg-white/40 border border-white/60 shadow-sm backdrop-blur-sm">
-        <div className="flex items-center gap-2 text-[#C5A059]">
+        <div className="flex items-center gap-2 text-[#FFE3EC]">
           <Icon size={16} />
           <span className="text-[10px] uppercase tracking-widest font-sans text-[#15030A]/50">{label}</span>
         </div>

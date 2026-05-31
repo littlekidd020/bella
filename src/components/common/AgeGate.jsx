@@ -65,13 +65,13 @@ const AgeGate = ({ children }) => {
                      >
                         <BrandLogo className="w-full h-full" />
                      </motion.div>
-                    <div className="h-px w-32 bg-gradient-to-r from-transparent via-[#C5A059]/40 to-transparent" />
+                    <div className="h-px w-32 bg-gradient-to-r from-transparent via-[#FFE3EC]/40 to-transparent" />
                  </div>
 
                  {/* Welcome Message Box */}
                  <div className="card-elevated p-8 md:p-16 rounded-[3rem] relative overflow-hidden">
                     {/* Luxury Gradient Accent */}
-                    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-1 bg-gradient-to-r from-transparent via-[#C5A059]/50 to-transparent" />
+                    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-1 bg-gradient-to-r from-transparent via-[#FFE3EC]/50 to-transparent" />
                     
                     <h1 className="text-5xl md:text-7xl font-serif text-[#2D1822] italic leading-[0.95] mb-6">
                       {t.ageGate.welcome}
@@ -84,12 +84,12 @@ const AgeGate = ({ children }) => {
                     <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
                        <button
                          onClick={handleVerify}
-                         className="group relative px-10 py-4 bg-transparent border border-[#C5A059]/40 hover:border-[#C5A059] rounded-xl overflow-hidden transition-all duration-500 w-full sm:w-auto min-w-[200px]"
+                         className="group relative px-10 py-4 bg-transparent border border-[#FFE3EC]/40 hover:border-[#FFE3EC] rounded-xl overflow-hidden transition-all duration-500 w-full sm:w-auto min-w-[200px]"
                        >
-                          <span className="relative z-10 text-[#2D1822] font-serif italic text-xl tracking-widest group-hover:text-white transition-colors">
+                          <span className="relative z-10 text-[#2D1822] font-serif italic text-xl tracking-widest group-hover:text-[#2D1822] transition-colors">
                             {t.ageGate.buttonEn}
                           </span>
-                          <span className="absolute inset-0 bg-[#C5A059] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out" />
+                          <span className="absolute inset-0 bg-[#FFE3EC] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out" />
                        </button>
 
                        <button

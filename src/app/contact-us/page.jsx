@@ -46,8 +46,8 @@ const ConciergePage = () => {
           <h1 className="text-5xl md:text-7xl font-serif text-[#2D1822] italic opacity-90 drop-shadow-md">
             {t.concierge.title}
           </h1>
-          <div className="w-20 h-[1px] bg-[#C5A059] mx-auto mt-6" />
-          <p className="hidden md:block text-[#C5A059] uppercase tracking-[0.4em] font-medium text-xs mt-6 max-w-2xl mx-auto px-6">
+          <div className="w-20 h-[1px] bg-[#FFE3EC] mx-auto mt-6" />
+          <p className="hidden md:block text-[#FFE3EC] uppercase tracking-[0.4em] font-medium text-xs mt-6 max-w-2xl mx-auto px-6">
             {t.concierge.subtitle}
           </p>
         </div>
