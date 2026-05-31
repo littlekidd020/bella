@@ -101,6 +101,7 @@ export default function GirlDetailsPage() {
   const isAvailable = model.status === "available";
   const uniqueGallery = model ? (model.gallery || []).filter((img) => img !== model.image) : [];
   const allImages = model ? [model.image, ...uniqueGallery] : [];
+  const displayGallery = model.video ? allImages : uniqueGallery;
 
   const openImageModal = (idx) => {
     setImageIdx(idx);
@@ -170,21 +171,32 @@ export default function GirlDetailsPage() {
               </div>
             </motion.div>
 
-            {/* Main Image Masked */}
-            <motion.div 
-              initial={{ y: 20, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              onClick={() => openImageModal(0)}
-              className="hidden lg:block relative aspect-[3/4] w-full rounded-3xl overflow-hidden border-2 border-white shadow-[var(--shadow-lifted)] cursor-zoom-in group mt-12"
-            >
-              <img 
-                src={model.image} 
-                alt={`${model.name.en} Portrait`} 
-                className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-[1.03]"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-white/30 via-transparent to-transparent" />
-            </motion.div>
+            {/* Main Media Placeholder (Desktop) */}
+            {model.video ? (
+              <motion.div 
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                className="hidden lg:block w-full rounded-3xl overflow-hidden border-2 border-white shadow-[var(--shadow-lifted)] mt-12"
+              >
+                <TrustVideo src={model.video} poster={model.image} />
+              </motion.div>
+            ) : (
+              <motion.div 
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                onClick={() => openImageModal(0)}
+                className="hidden lg:block relative aspect-[3/4] w-full rounded-3xl overflow-hidden border-2 border-white shadow-[var(--shadow-lifted)] cursor-zoom-in group mt-12"
+              >
+                <img 
+                  src={model.image} 
+                  alt={`${model.name.en} Portrait`} 
+                  className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-[1.03]"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-white/30 via-transparent to-transparent" />
+              </motion.div>
+            )}
           </div>
         </div>
 
@@ -317,9 +329,9 @@ export default function GirlDetailsPage() {
             </div>
           </div>
 
-          {/* Trust Video */}
+          {/* Trust Video (Desktop-hidden, only visible on mobile under details) */}
           {model.video && (
-            <div className="space-y-6 mt-8">
+            <div className="space-y-6 mt-8 lg:hidden">
               <h4 className="text-[10px] uppercase tracking-[0.3em] text-[#F84A88] font-bold font-sans flex items-center gap-2">
                 <Play size={12} className="text-[#F84A88]" /> {t.grid.verification}
               </h4>
@@ -337,27 +349,30 @@ export default function GirlDetailsPage() {
 
             <div className="grid grid-cols-2 gap-3">
 
-              {uniqueGallery.map((img, idx) => (
-                <div
-                  key={idx}
-                  onClick={() => openImageModal(idx + 1)}
-                  className="relative w-full rounded-xl overflow-hidden shadow-[var(--shadow-soft)] cursor-zoom-in group aspect-[4/5]"
-                >
-                  <img
-                    src={img}
-                    alt={`${model.name.en} Gallery ${idx + 1}`}
-                    className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-[1.03]"
-                  />
-                  {/* Premium Image Caption Overlay */}
-                  <div className="absolute inset-x-0 bottom-0 p-2.5 pt-5 bg-gradient-to-t from-black/80 via-black/35 to-transparent flex items-end opacity-90 md:opacity-0 group-hover:opacity-100 transition-all duration-500">
-                    <div className="border-l border-[#F84A88]/70 pl-2 overflow-hidden">
-                      <span className="block text-[8px] sm:text-[10px] md:text-xs text-[#FFE3EC] font-sans font-semibold tracking-[0.1em] uppercase truncate max-w-full">
-                        {getGalleryDesc(idx, lang)}
-                      </span>
+              {displayGallery.map((img, idx) => {
+                const modalIdx = model.video ? idx : idx + 1;
+                return (
+                  <div
+                    key={idx}
+                    onClick={() => openImageModal(modalIdx)}
+                    className="relative w-full rounded-xl overflow-hidden shadow-[var(--shadow-soft)] cursor-zoom-in group aspect-[4/5]"
+                  >
+                    <img
+                      src={img}
+                      alt={`${model.name.en} Gallery ${idx + 1}`}
+                      className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-[1.03]"
+                    />
+                    {/* Premium Image Caption Overlay */}
+                    <div className="absolute inset-x-0 bottom-0 p-2.5 pt-5 bg-gradient-to-t from-black/80 via-black/35 to-transparent flex items-end opacity-90 md:opacity-0 group-hover:opacity-100 transition-all duration-500">
+                      <div className="border-l border-[#F84A88]/70 pl-2 overflow-hidden">
+                        <span className="block text-[8px] sm:text-[10px] md:text-xs text-[#FFE3EC] font-sans font-semibold tracking-[0.1em] uppercase truncate max-w-full">
+                          {getGalleryDesc(idx, lang)}
+                        </span>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
         </div>
