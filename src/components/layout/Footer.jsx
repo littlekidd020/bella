@@ -8,7 +8,7 @@ const Footer = () => {
   const { t } = useLanguage();
 
   return (
-    <footer className="relative bg-[#FAF5F7] border-t border-[#C5A059]/20 overflow-hidden">
+    <footer className="relative bg-[#FFE3EC] border-t border-[#C5A059]/20 overflow-hidden">
       
       <div className="relative max-w-7xl mx-auto px-6 md:px-10 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8 items-end">

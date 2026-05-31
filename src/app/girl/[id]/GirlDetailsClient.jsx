@@ -31,7 +31,7 @@ const StatItem = ({ icon: Icon, label, value, t }) => {
       ? value.replace("(Natural)", t.girl.natural)
       : value;
   return (
-    <div className="flex flex-col gap-2.5 p-5 md:p-6 rounded-2xl bg-[#FAF5F7] hover:-translate-y-0.5 transition-all duration-500">
+    <div className="flex flex-col gap-2.5 p-5 md:p-6 rounded-2xl bg-[#FFE3EC]/60 hover:-translate-y-0.5 transition-all duration-500">
       <div className="flex items-center gap-2">
         <Icon size={16} className="text-[#F84A88]" />
         <span className="text-[10px] uppercase tracking-[0.2em] font-sans text-[#C5A059] font-bold">
@@ -96,7 +96,7 @@ export default function GirlDetailsPage() {
     }
   }, [id, router]);
 
-  if (!model) return <div className="min-h-screen bg-[#FAF5F7]" />;
+  if (!model) return <div className="min-h-screen bg-[#FFE3EC]" />;
 
   const isAvailable = model.status === "available";
   const uniqueGallery = model ? (model.gallery || []).filter((img) => img !== model.image) : [];
@@ -112,7 +112,7 @@ export default function GirlDetailsPage() {
     setImageIdx((prev) => (prev - 1 + allImages.length) % allImages.length);
 
   return (
-    <main className="min-h-screen bg-[#FAF5F7] pb-24 md:pb-32 relative">
+    <main className="min-h-screen bg-[#FFE3EC] pb-24 md:pb-32 relative">
       {/* Immersive Background */}
       <div className="fixed inset-0 z-0 hidden lg:block">
         <img 
@@ -120,8 +120,8 @@ export default function GirlDetailsPage() {
           alt={model.name.en} 
           className="w-full h-full object-cover object-top opacity-[0.12] blur-[3px] transition-all duration-1000 scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#FAF5F7] via-[#FAF5F7]/90 to-[#FAF5F7]/70" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#FAF5F7] via-transparent to-[#FAF5F7]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#FFE3EC] via-[#FFE3EC]/90 to-[#FFE3EC]/70" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#FFE3EC] via-transparent to-[#FFE3EC]" />
       </div>
 
       {/* Main Content Grid */}
@@ -222,7 +222,7 @@ export default function GirlDetailsPage() {
                   <h4 className="text-[10px] uppercase tracking-[0.3em] text-[#F84A88] font-bold font-sans flex items-center gap-2 mb-4">
                     <Banknote size={12} className="text-[#F84A88]" /> {t.girl.price || "Price"}
                   </h4>
-                  <div className="flex flex-col gap-3 bg-[#FAF5F7] rounded-2xl p-5 md:p-6">
+                  <div className="flex flex-col gap-3 bg-[#FFE3EC]/60 rounded-2xl p-5 md:p-6">
                     {model.price.split("·").map((rate, i) => {
                       const parts = rate.split("/");
                       const amount = parts[0];
@@ -303,7 +303,7 @@ export default function GirlDetailsPage() {
                               <div className="w-full h-2" />
                             )}
                             <span className="inline max-w-full">
-                              <span className="whitespace-normal break-words px-3.5 py-1.5 bg-[#FAF5F7] text-[#2D1822]/65 rounded-full inline-block text-[13px]">
+                              <span className="whitespace-normal break-words px-3.5 py-1.5 bg-[#FFE3EC]/75 text-[#2D1822]/65 rounded-full inline-block text-[13px]">
                                 {group.includes("(") ? group.split(",").join(", ") : group}
                               </span>
                             </span>
@@ -351,7 +351,7 @@ export default function GirlDetailsPage() {
                   {/* Premium Image Caption Overlay */}
                   <div className="absolute inset-x-0 bottom-0 p-2.5 pt-5 bg-gradient-to-t from-black/80 via-black/35 to-transparent flex items-end opacity-90 md:opacity-0 group-hover:opacity-100 transition-all duration-500">
                     <div className="border-l border-[#C5A059]/70 pl-2 overflow-hidden">
-                      <span className="block text-[8px] sm:text-[10px] md:text-xs text-[#FAF5F7] font-sans font-semibold tracking-[0.1em] uppercase truncate max-w-full">
+                      <span className="block text-[8px] sm:text-[10px] md:text-xs text-[#FFE3EC] font-sans font-semibold tracking-[0.1em] uppercase truncate max-w-full">
                         {getGalleryDesc(idx, lang)}
                       </span>
                     </div>

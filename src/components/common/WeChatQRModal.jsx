@@ -26,7 +26,7 @@ const WeChatQRModal = ({ isOpen, onClose }) => {
             onClick={(e) => e.stopPropagation()}
           >
             {/* Close Button */}
-            <button onClick={onClose} className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full text-[#2D1822]/40 hover:text-[#2D1822] hover:bg-[#FAF5F7] transition-colors z-10">✕</button>
+            <button onClick={onClose} className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full text-[#2D1822]/40 hover:text-[#2D1822] hover:bg-[#FFE3EC] transition-colors z-10">✕</button>
             {/* Header */}
             <div className="p-6 pb-2 flex justify-between items-start">
               <div>

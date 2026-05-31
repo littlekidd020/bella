@@ -15,7 +15,7 @@
   --color-noir: #260613;
 
   /* Light Theme Surface Tokens */
-  --color-surface: #FAF5F7;
+  --color-surface: #FFE3EC;
   --color-surface-elevated: #FFFFFF;
   --color-surface-glass: rgba(255, 255, 255, 0.55);
   --color-text-primary: #2D1822;
@@ -36,7 +36,7 @@
 
 @layer base {
   body {
-    background-color: #FAF5F7;
+    background-color: #FFE3EC;
     color: #2D1822;
     letter-spacing: 0.01em;
   }

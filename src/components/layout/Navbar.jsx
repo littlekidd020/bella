@@ -64,7 +64,7 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile Menu Overlay */}
-      <div className={`fixed inset-0 bg-[#FAF5F7]/95 backdrop-blur-3xl z-[75] transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col items-center justify-center gap-12 ${isOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-4'}`}>
+      <div className={`fixed inset-0 bg-[#FFE3EC]/95 backdrop-blur-3xl z-[75] transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col items-center justify-center gap-12 ${isOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-4'}`}>
         <div className="flex flex-col items-center gap-10 text-3xl font-serif italic tracking-[0.2em]">
           <Link href="/collection" onClick={() => setIsOpen(false)} className="text-[#2D1822] hover:text-[#F84A88] transition-colors hover:scale-105 duration-300 transform">
             {t.nav.collection}

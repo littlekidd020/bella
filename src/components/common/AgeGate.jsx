@@ -32,10 +32,10 @@ const AgeGate = ({ children }) => {
           <motion.div
             initial={{ opacity: 1 }}
             exit={{ opacity: 0, transition: { duration: 1, ease: [0.43, 0.13, 0.23, 0.96] } }}
-            className="fixed inset-0 z-[200] bg-[#FAF5F7] flex flex-col font-sans overflow-hidden"
+            className="fixed inset-0 z-[200] bg-[#FFE3EC] flex flex-col font-sans overflow-hidden"
           >
             {/* Background Image Container */}
-            <div className="absolute inset-0 bg-[#FAF5F7]">
+            <div className="absolute inset-0 bg-[#FFE3EC]">
                <motion.img 
                  initial={{ scale: 1.15 }}
                  animate={{ scale: 1.05 }}
@@ -44,7 +44,7 @@ const AgeGate = ({ children }) => {
                  className="w-full h-full object-cover object-center opacity-30 blur-[2px]"
                  alt="Luxury Entry"
                />
-               <div className="absolute inset-0 bg-gradient-to-b from-[#FAF5F7]/90 via-[#FAF5F7]/40 to-[#FAF5F7]" />
+               <div className="absolute inset-0 bg-gradient-to-b from-[#FFE3EC]/90 via-[#FFE3EC]/40 to-[#FFE3EC]" />
             </div>
 
             {/* Content Overlay */}
@@ -99,7 +99,7 @@ const AgeGate = ({ children }) => {
                           <span className="relative z-10 text-[#2D1822]/70 font-sans font-bold text-xs md:text-sm tracking-[0.2em] group-hover:text-[#2D1822] transition-colors">
                             {t.ageGate.buttonCn}
                           </span>
-                          <span className="absolute inset-0 bg-[#FAF5F7] opacity-0 group-hover:opacity-100 transition-opacity" />
+                          <span className="absolute inset-0 bg-[#FFE3EC] opacity-0 group-hover:opacity-100 transition-opacity" />
                        </button>
                     </div>
                  </div>

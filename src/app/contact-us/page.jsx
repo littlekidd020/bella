@@ -18,7 +18,7 @@ const ConciergePage = () => {
 
   const Feature = ({ icon: Icon, title, desc }) => (
     <div className="card rounded-2xl p-8 flex flex-col gap-4 hover:-translate-y-1 transition-all duration-500">
-      <div className="w-12 h-12 rounded-full bg-[#FAF5F7] flex items-center justify-center text-[#F84A88]">
+      <div className="w-12 h-12 rounded-full bg-[#FFE3EC] flex items-center justify-center text-[#F84A88]">
         <Icon size={24} />
       </div>
       <h3 className="text-xl font-serif text-[#2D1822] font-playfair">{title}</h3>
@@ -27,18 +27,18 @@ const ConciergePage = () => {
   );
 
   return (
-    <main className="min-h-screen bg-[#FAF5F7] transition-colors duration-700">
+    <main className="min-h-screen bg-[#FFE3EC] transition-colors duration-700">
       
       {/* Editorial Header Banner */}
-      <header className="relative w-full h-[220px] md:h-[360px] flex items-center justify-center overflow-hidden border-b border-[#F84A88]/10 bg-[#FAF5F7] mb-0 md:mb-10">
+      <header className="relative w-full h-[220px] md:h-[360px] flex items-center justify-center overflow-hidden border-b border-[#F84A88]/10 bg-[#FFE3EC] mb-0 md:mb-10">
         {/* Background Image */}
-        <div className="absolute inset-0 z-0 bg-[#FAF5F7]">
+        <div className="absolute inset-0 z-0 bg-[#FFE3EC]">
           <img 
             src="/images/header-bg-custom.webp" 
             alt="Sensual Concierge Background" 
             className="w-full h-full object-cover object-top opacity-50 parallax"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#FAF5F7] via-[#FAF5F7]/60 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#FFE3EC] via-[#FFE3EC]/60 to-transparent" />
         </div>
 
         {/* Text Content */}

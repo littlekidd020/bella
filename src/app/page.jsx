@@ -11,12 +11,12 @@ export default function Home() {
   const { t, lang } = useLanguage();
 
   return (
-    <main className="min-h-screen bg-[#FAF5F7] overflow-x-hidden transition-all duration-700">
+    <main className="min-h-screen bg-[#FFE3EC] overflow-x-hidden transition-all duration-700">
       
       {/* Asymmetrical Editorial Hero */}
       <header className="relative w-full min-h-[auto] lg:min-h-screen flex flex-col overflow-hidden">
         {/* Abstract Dark Liquid Background */}
-        <div className="absolute inset-0 bg-[#FAF5F7]">
+        <div className="absolute inset-0 bg-[#FFE3EC]">
           <div className="absolute top-1/4 -left-1/4 w-[80vw] h-[80vw] bg-[#F84A88]/10 rounded-full blur-[120px] mix-blend-screen" />
           <div className="absolute bottom-1/4 -right-1/4 w-[60vw] h-[60vw] bg-[#C5A059]/10 rounded-full blur-[100px] mix-blend-screen" />
         </div>
@@ -64,7 +64,7 @@ export default function Home() {
               alt="Sensual Boutique Background" 
               className="w-full h-full object-cover object-top opacity-80 hover:scale-105 transition-transform duration-1000"
             />
-            <div className="absolute inset-0 bg-gradient-to-tr from-[#FAF5F7]/80 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-tr from-[#FFE3EC]/80 via-transparent to-transparent" />
           </div>
         </div>
 
@@ -121,7 +121,7 @@ export default function Home() {
                 <h4 className="text-3xl font-serif text-[#2D1822] italic mb-2">{t.grid.vip}</h4>
                 <p className="text-[#2D1822]/50 text-sm max-w-md">{t.grid.vipDesc}</p>
               </div>
-              <a href="/contact-us" className="px-8 py-4 bg-[#2D1822] text-[#FAF5F7] rounded-full font-bold tracking-widest text-xs hover:bg-[#C5A059] hover:text-white transition-colors duration-300 text-center uppercase">
+              <a href="/contact-us" className="px-8 py-4 bg-[#2D1822] text-[#FFE3EC] rounded-full font-bold tracking-widest text-xs hover:bg-[#C5A059] hover:text-white transition-colors duration-300 text-center uppercase">
                 {t.grid.discoverMore}
               </a>
             </div>
