@@ -212,7 +212,6 @@ export const girls = [
         "Body slide",
         "Natural BJ",
         "Multi shots",
-        "Extra: Cum in mouth (+$50)",
         "VIP: Natural BJ · French kiss · 69 · Cum in mouth · Multi shots · Can do natural sex (bareback)",
       ],
       cn: [
@@ -223,7 +222,6 @@ export const girls = [
         "胸推漫游",
         "无套口",
         "多次数",
-        "额外：口爆 (+$50)",
         "VIP套餐：无套口 · 舌吻 · 69 · 口爆 · 多次数 · 🉑无套做",
       ],
     },
@@ -262,7 +260,6 @@ export const girls = [
         "Body slide",
         "Natural BJ",
         "Multi shots",
-        "Extra: Cum in mouth (+$50)",
         "VIP: Natural BJ · French kiss · 69 · Cum in mouth · Multi shots · Shower together",
       ],
       cn: [
@@ -273,7 +270,6 @@ export const girls = [
         "胸推漫游",
         "无套口",
         "多次数",
-        "额外：口爆 (+$50)",
         "VIP套餐：无套口 · 舌吻 · 69 · 口爆 · 多次数 · 双人洗浴",
       ],
     },
@@ -311,7 +307,6 @@ export const girls = [
         "Body slide",
         "Natural BJ",
         "Multi shots",
-        "Extra: Cum in mouth (+$50)",
         "VIP: Natural BJ · French kiss · 69 · Cum in mouth · Multi shots · Shower together",
       ],
       cn: [
@@ -322,7 +317,6 @@ export const girls = [
         "胸推漫游",
         "无套口",
         "多次数",
-        "额外：口爆 (+$50)",
         "VIP套餐：无套口 · 舌吻 · 69 · 口爆 · 多次数 · 双人洗浴",
       ],
     },
@@ -360,7 +354,6 @@ export const girls = [
         "Body slide",
         "Natural BJ",
         "Multi shots",
-        "Extra: Cum in mouth (+$50)",
         "VIP: Natural BJ · French kiss · 69 · Cum in mouth · Multi shots · Shower together",
       ],
       cn: [
@@ -371,7 +364,6 @@ export const girls = [
         "胸推漫游",
         "无套口",
         "多次数",
-        "额外：口爆 (+$50)",
         "VIP套餐：无套口 · 舌吻 · 69 · 口爆 · 多次数 · 双人洗浴",
       ],
     },
