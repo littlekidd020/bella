@@ -58,7 +58,7 @@ export default function CollectionPage() {
                 onClick={() => setActiveFilter(loc)}
                 className={`whitespace-nowrap shrink-0 snap-start px-6 py-2.5 rounded-full text-[10px] md:text-xs uppercase tracking-widest transition-all duration-500 font-bold border ${
                   activeFilter === loc 
-                    ? "bg-[#F84A88] text-white border-[#F84A88] shadow-[0_4px_14px_rgba(248,74,136,0.3)]" 
+                    ? "bg-[#F84A88] text-white border-[#F84A88] shadow-[0_8px_20px_rgba(248,74,136,0.3)]" 
                     : "bg-[#FAF5F7]/30 backdrop-blur-sm text-[#2D1822]/70 border-[#F84A88]/20 hover:border-[#F84A88]/40 hover:text-[#2D1822] hover:bg-[#FAF5F7]/60 shadow-[0_2px_8px_rgba(45,24,34,0.04)]"
                 }`}
               >
