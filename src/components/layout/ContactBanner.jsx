@@ -26,7 +26,7 @@ export default function ContactBanner() {
         {/* Left: Brand section */}
         <div className="flex items-center gap-4 w-full md:w-auto justify-center md:justify-start mb-4 md:mb-0">
           <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center p-2 shadow-inner shrink-0">
-            <img src="/images/logo.png" alt="Logo" className="w-full h-full object-contain" />
+            <img src="/images/logo-icon.svg" alt="Logo" className="w-full h-full object-contain" />
           </div>
           <div className="flex flex-col text-white">
             <h3 className="font-bold tracking-widest text-sm md:text-base drop-shadow-md">专业接线 纽澳独家精品资源</h3>
