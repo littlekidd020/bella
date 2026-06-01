@@ -25,9 +25,9 @@ const Navbar = () => {
         ? "bg-white shadow-[var(--shadow-soft)] border-b border-[#2D1822]/5 rounded-full py-2 px-6 md:px-10" 
         : "bg-transparent py-4 px-6 md:px-10 rounded-full"
     }`}>
-      <nav className="flex items-center justify-between w-full h-14 md:h-20">
+      <nav className="flex items-center justify-between w-full h-16 md:h-24">
         <Link href="/" className="flex items-center group">
-          <div className="relative w-36 h-12 md:w-44 md:h-16 transition-transform duration-500 group-hover:scale-105">
+          <div className="relative w-[154px] h-[56px] md:w-[209px] md:h-[76px] transition-transform duration-500 group-hover:scale-105">
             <BrandLogo className="w-full h-full" />
           </div>
         </Link>
