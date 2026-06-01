@@ -44,7 +44,7 @@ export default function Home() {
                 "这里是身份与品味的无声共鸣，不为喧宾夺主，只为让身处其中的每一个人，都能找到属于自己的——。" : 
                 "A curated selection of the most sophisticated and refined talent, dedicated to the art of relaxation."}
             </p>
-            <div className="flex pt-6 lg:pt-4 w-full justify-center lg:justify-start">
+            <div className="hidden lg:flex pt-0 lg:pt-4 w-full justify-center lg:justify-start">
               <Link 
                 href="/collection" 
                 className="group relative inline-block text-center border border-[#F84A88]/30 hover:border-[#F84A88] w-full max-w-[280px] md:max-w-[340px] py-3.5 md:py-4 transition-all duration-500 overflow-hidden rounded-full bg-[#FAF5F7]/30 backdrop-blur-sm shadow-[0_4px_20px_rgba(248,74,136,0.08)]"
@@ -69,8 +69,21 @@ export default function Home() {
         </div>
 
         {/* Full width Contact Banner at the bottom */}
-        <div className="w-full mt-auto pt-0 lg:pt-16 relative z-20">
+        <div className="w-full mt-auto pt-0 lg:pt-16 relative z-20 flex flex-col items-center">
           <ContactBanner />
+          
+          {/* Mobile-only CTA button below the banner */}
+          <div className="flex lg:hidden pt-4 pb-8 w-full justify-center px-6">
+            <Link 
+              href="/collection" 
+              className="group relative inline-block text-center border border-[#F84A88]/30 hover:border-[#F84A88] w-full max-w-[280px] py-3.5 transition-all duration-500 overflow-hidden rounded-full bg-[#FAF5F7]/30 backdrop-blur-sm shadow-[0_4px_20px_rgba(248,74,136,0.08)]"
+            >
+              <span className="relative z-10 text-base tracking-[0.4em] text-[#F84A88] group-hover:text-white transition-colors duration-500 font-sans font-bold">
+                {lang === "cn" ? "查看所有女生" : "VIEW COLLECTION"}
+              </span>
+              <div className="absolute inset-0 bg-[#F84A88] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out" />
+            </Link>
+          </div>
         </div>
       </header>
       
