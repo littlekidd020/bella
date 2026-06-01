@@ -210,7 +210,7 @@ export default function GirlDetailsPage() {
               <h4 className="text-[10px] uppercase tracking-[0.3em] text-[#F84A88] font-bold font-sans flex items-center gap-2">
                 <MessageCircle size={12} className="text-[#F84A88]" /> {t.girl.about}
               </h4>
-              <p className="text-[#2D1822]/70 leading-[1.8] font-sans text-sm md:text-base tracking-wide">
+              <p className="border-l-2 border-[#F84A88]/30 pl-5 text-[#2D1822]/70 leading-[1.8] font-sans text-sm md:text-base tracking-wide">
                 {model.description && typeof model.description === "object"
                   ? model.description[lang] || model.description.en
                   : model.description || "A dedicated professional offering a personalized and refined experience. Expertly trained in various techniques to ensure your absolute relaxation and satisfaction."}
