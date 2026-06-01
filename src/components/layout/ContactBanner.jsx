@@ -20,15 +20,6 @@ export default function ContactBanner() {
       {/* Decorative Shine Overlay */}
       <div className="absolute inset-0 w-full h-full bg-gradient-to-b from-white/10 to-transparent pointer-events-none" />
 
-      {/* Blended Background Image Layer */}
-      <div className="absolute inset-0 z-0 w-full h-full pointer-events-none overflow-hidden">
-        <img 
-          src="/images/contact-banner-bg.jpg" 
-          alt="Banner Background" 
-          className="w-full h-full object-cover object-[center_35%] opacity-40 mix-blend-luminosity"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#F84A88]/20 via-[#e23773]/30 to-[#D41E5D]/20 pointer-events-none" />
-      </div>
 
       {/* Inner Container */}
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-between h-auto md:h-24 px-6 md:px-12 py-4 md:py-0">
