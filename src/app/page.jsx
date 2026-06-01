@@ -15,8 +15,8 @@ export default function Home() {
       
       {/* Asymmetrical Editorial Hero */}
       <header className="relative w-full min-h-[auto] lg:min-h-screen flex flex-col overflow-hidden">
-        {/* Background Image & Gradient Overlay */}
-        <div className="absolute inset-0 z-0 bg-[#FFE3EC]">
+        {/* Background Image & Gradient Overlay (Matching other page header dimensions) */}
+        <div className="absolute top-0 left-0 right-0 h-[220px] md:h-[360px] z-0 bg-[#FFE3EC] border-b border-[#F84A88]/10 overflow-hidden">
           <img 
             src="/images/header-bg-custom.webp" 
             alt="Sensual Homepage Background" 
