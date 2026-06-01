@@ -24,22 +24,22 @@ export default function Home() {
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 grid grid-cols-1 lg:grid-cols-12 gap-12 pt-32 lg:pt-40 flex-1 items-center">
           
           {/* Typography Block */}
-          <div className="lg:col-span-5 flex flex-col justify-center space-y-4 lg:space-y-8 z-20 order-2 lg:order-1 pb-0 lg:pb-0 text-center lg:text-left items-center lg:items-start">
-            <p className="text-[10px] uppercase tracking-[0.4em] text-[#F84A88] font-sans font-bold mb-2 lg:mb-6">{t.hero.bespokeCompanions || "BESPOKE COMPANIONS"}</p>
-            <h1 className="text-4xl md:text-7xl lg:text-8xl font-serif text-[#2D1822] leading-[1.2] lg:leading-[0.95] mb-4 lg:mb-8">
+          <div className="lg:col-span-5 flex flex-col justify-center space-y-0 lg:space-y-8 z-20 order-2 lg:order-1 pb-0 lg:pb-0 text-center lg:text-left items-center lg:items-start">
+            <p className="hidden lg:block text-[10px] uppercase tracking-[0.4em] text-[#F84A88] font-sans font-bold mb-6">{t.hero.bespokeCompanions || "BESPOKE COMPANIONS"}</p>
+            <h1 className="hidden lg:block text-5xl md:text-7xl lg:text-8xl font-serif text-[#2D1822] leading-[0.95] mb-8">
               {lang === "cn" ? (
                 <>
-                  <span className="font-bold tracking-widest block whitespace-nowrap lg:inline-block">推门而入</span>
-                  <span className="font-bold tracking-widest block mt-2 lg:mt-0 lg:inline-block whitespace-nowrap lg:ml-4">喧嚣在外</span>
+                  <span className="font-bold tracking-widest block whitespace-nowrap">推门而入</span>
+                  <span className="font-bold tracking-widest block mt-2 whitespace-nowrap">喧嚣在外</span>
                 </>
               ) : (
                 <>
-                  <span className="italic opacity-80 block lg:inline-block">Bespoke</span>
-                  <span className="font-bold lg:ml-4 block lg:inline-block">Elegance</span>
+                  <span className="italic opacity-80 block">Bespoke</span>
+                  <span className="font-bold">Elegance</span>
                 </>
               )}
             </h1>
-            <p className="text-[#2D1822]/60 text-xs md:text-base font-sans tracking-[0.1em] leading-relaxed max-w-sm lg:max-w-md border-l-2 lg:border-l border-[#F84A88]/40 pl-4 lg:pl-6 text-left mx-auto lg:mx-0">
+            <p className="hidden lg:block text-[#2D1822]/60 text-sm md:text-base font-sans tracking-[0.1em] leading-relaxed max-w-md border-l border-[#F84A88]/40 pl-6">
               {lang === "cn" ? 
                 "这里是身份与品味的无声共鸣，不为喧宾夺主，只为让身处其中的每一个人，都能找到属于自己的——。" : 
                 "A curated selection of the most sophisticated and refined talent, dedicated to the art of relaxation."}
