@@ -5,14 +5,15 @@ export const translations = {
       concierge: "联系我们",
       account: "会员中心",
       brand: "天使小可爱",
-      hours: "营业时间：早上10点 - 晚上11点"
+      hours: "早上10点 - 晚上11点"
     },
     hero: {
       title: "天使小可爱",
       subtitle: "高端中国实体服务",
       est: "始于 2026",
       location: "奥克兰高端休闲体验",
-      support: "一周7天 专属客服支持"
+      support: "一周7天 专属客服支持",
+      bespokeCompanions: "高端定制伴侣"
     },
     banner: {
       title: "专业接线 纽澳独家精品资源",
@@ -30,9 +31,21 @@ export const translations = {
       standard: "精品标准",
       desc: "我们的女孩均经过严格筛选，确保服务质量、性格与专业度。所有档案均经过真人实拍审核，并提供高端服务保障。",
       verification: "真人实拍审核",
+      verificationDesc: "严格的甄选流程，确保绝对真实与最顶级的陪伴体验。",
       discreet: "安全与隐私保障",
+      discreetDesc: "绝对保密与私密邀约，为您量身定制，让您安心无忧。",
       vip: "VIP 客服经理",
-      viewAll: "查看所有女生"
+      vipDesc: "极致奢华体验。无与伦比的专属关注，量身定制的行程与非凡时刻。",
+      viewAll: "查看所有女生",
+      discoverMore: "探索更多"
+    },
+    footer: {
+      title: "高端定制服务",
+      bespokeService: "安全与隐私保障",
+      secureDiscreet: "安全与隐私保障",
+      hoursLabel: "营业时间",
+      collection: "心动女生",
+      contact: "联系我们"
     },
     girl: {
       age: "年龄",
@@ -126,14 +139,15 @@ export const translations = {
       concierge: "Contact us",
       account: "Account",
       brand: "Angel Cuties",
-      hours: "Hours: 10:00 AM - 11:00 PM"
+      hours: "10:00 AM - 11:00 PM"
     },
     hero: {
       title: "Angel Cuties",
       subtitle: "High-End Collection",
       est: "Established 2026",
       location: "Sophisticated Relaxation in Auckland",
-      support: "All-week Concierge Support"
+      support: "All-week Concierge Support",
+      bespokeCompanions: "BESPOKE COMPANIONS"
     },
     banner: {
       title: "The VIP Experience",
@@ -151,9 +165,21 @@ export const translations = {
       standard: "Angel Cuties Standard",
       desc: "Our collection is exclusively handpicked for quality, personality, and professionalism. Every profile features physically verified imagery and a high-end service guarantee.",
       verification: "Physical Verification",
+      verificationDesc: "Rigorous selection process ensuring absolute authenticity and the highest echelon of companionship.",
       discreet: "Secure & Discreet",
+      discreetDesc: "Complete confidentiality and private engagements tailored for your peace of mind.",
       vip: "VIP Concierge",
-      viewAll: "Explore Full Collection"
+      vipDesc: "The ultimate luxury experience. Unparalleled attention, tailored itineraries, and exceptional moments.",
+      viewAll: "Explore Full Collection",
+      discoverMore: "DISCOVER MORE"
+    },
+    footer: {
+      title: "Angel Cuties",
+      bespokeService: "High-End Bespoke Service",
+      secureDiscreet: "Secure & Discreet",
+      hoursLabel: "Service Hours",
+      collection: "Collection",
+      contact: "Contact"
     },
     girl: {
       age: "Age",
