@@ -388,8 +388,8 @@ export const girls = [
     },
     image: "/images/girls/blindbox2/1.webp",
     description: {
-      en: "Unveil the excitement of Blind Box 2! For a flat rate of $360 per hour, you'll be paired with a stunning surprise beauty in CBD Auckland. Fully verified with incredible customer feedback praising her exceptional tightness, this package features a premium sensory experience including shower together, passionate French kissing, relaxing massage, 69, sexy stockings, and 1 complete round of pure bliss. Indulge in an ultra-satisfying, high-passion escape!",
-      cn: "解锁全新心动盲盒2号！仅需 $360/小时，即可在市区CBD私密邂逅一位颜值出众、身材诱人的宝藏女孩。客户反馈极佳（力赞“下面超级紧致”！），带给您无与伦比的包裹感与极致体验。超值服务涵盖双人陪浴、缠绵舌吻、性感黑丝、贴心69、感官精油按摩及完整 1 次云雨，更支持多种极品额外升级。在繁华的CBD，让她的温柔与极致紧致拂去您的所有疲惫！",
+      en: "Unveil the excitement of Blind Box 2! For a flat rate of $360 per hour, you'll be paired with a stunning surprise beauty in CBD Auckland. This premium package features an ultra-satisfying sensory experience including shower together, passionate French kissing, relaxing massage, intimate 69, sexy stockings, and 1 complete round of pure bliss, plus premium options like natural BJ and oral finish. High value, intense passion, and unforgettable moments in the CBD!",
+      cn: "开启心动盲盒2号惊喜！仅需 $360 特惠价，为您解锁市区CBD的一位高端宝藏女孩。特惠体验包含双人陪浴、深度无套口、口爆、贴心69、缠绵舌吻、性感黑丝、感官精油按摩及完整 1 次云雨。在CBD温馨舒适的私密空间中，尽享超值与反差的极致浪漫与极致激情！",
     },
     price: "$360 / 1h",
     services: {
@@ -414,7 +414,6 @@ export const girls = [
     },
     gallery: [
       "/images/girls/blindbox2/1.webp",
-      "/images/girls/blindbox2/data1.webp",
     ],
   },
   {
