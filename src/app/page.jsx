@@ -18,7 +18,7 @@ export default function Home() {
         {/* Background Image & Gradient Overlay (Matching other page header dimensions) */}
         <div className="absolute top-0 left-0 right-0 h-[220px] md:h-[360px] z-0 bg-[#FFE3EC] border-b border-[#F84A88]/10 overflow-hidden">
           <img 
-            src="/images/header-bg-custom.webp" 
+            src="/images/header-bg-custom.jpg" 
             alt="Sensual Homepage Background" 
             className="w-full h-full object-cover object-top opacity-50 parallax"
           />
@@ -64,7 +64,7 @@ export default function Home() {
           {/* Masked Image Panel */}
           <div className="hidden lg:block lg:col-span-7 relative h-[50vh] lg:h-[80vh] w-full rounded-[60px] overflow-hidden border border-[#F84A88]/20 shadow-[0_20px_50px_rgba(248,74,136,0.10)] order-1 lg:order-2">
             <img 
-              src="/images/header-bg-custom.webp" 
+              src="/images/header-bg-custom.jpg" 
               alt="Sensual Boutique Background" 
               className="w-full h-full object-cover object-top opacity-80 hover:scale-105 transition-transform duration-1000"
             />

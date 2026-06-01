@@ -23,7 +23,7 @@ export default function CollectionPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0 bg-[#FFE3EC]">
           <img 
-            src="/images/header-bg-custom.webp" 
+            src="/images/header-bg-custom.jpg" 
             alt="Sensual Collection Background" 
             className="w-full h-full object-cover object-top opacity-50 parallax"
           />
