@@ -38,7 +38,7 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
           <div className="w-16 h-[1px] bg-[#F84A88] mx-auto mt-4 mb-2" />
         </div>
       )}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-5 transition-all duration-700 auto-rows-[380px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-5 transition-all duration-700 auto-rows-[380px]">
         {displayedGirls.map((model, index) => {
           let spanClasses = "col-span-1 row-span-1";
           
@@ -59,7 +59,7 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
               key={model.id}
               className={`${spanClasses} h-full group w-full`}
             >
-              <Link href={`/girl/${model.id}`} className="block w-full h-full relative overflow-hidden rounded-2xl card">
+              <Link href={`/girl/${model.id}`} className="flex flex-col w-full h-full relative group">
                 <GirlCard model={model} isLarge={index === 0} />
               </Link>
             </div>

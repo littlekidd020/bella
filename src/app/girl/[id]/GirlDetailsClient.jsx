@@ -113,7 +113,7 @@ export default function GirlDetailsPage() {
     setImageIdx((prev) => (prev - 1 + allImages.length) % allImages.length);
 
   return (
-    <main className="min-h-screen bg-[#FFE3EC] pb-24 md:pb-32 relative">
+    <main className="min-h-screen bg-[#FFE3EC] pb-20 md:pb-32 relative">
       {/* Immersive Background */}
       <div className="fixed inset-0 z-0 hidden lg:block">
         <img 
@@ -201,9 +201,9 @@ export default function GirlDetailsPage() {
         </div>
 
         {/* Right Column: Details & Gallery */}
-        <div className="lg:col-span-7 space-y-8 mt-0 pb-32">
+        <div className="lg:col-span-7 space-y-6 lg:space-y-8 mt-0 pb-20 lg:pb-32">
           
-          <div className="space-y-10">
+          <div className="space-y-6 lg:space-y-10">
             
             {/* About Section */}
             <div className="space-y-4">
@@ -342,7 +342,7 @@ export default function GirlDetailsPage() {
           )}
 
           {/* Gallery */}
-          <div className="space-y-8 mt-12">
+          <div className="space-y-4 lg:space-y-8 mt-6 lg:mt-12">
             <h3 className="text-2xl md:text-3xl font-serif text-[#2D1822] italic">
               {t.girl.portfolio}
             </h3>
