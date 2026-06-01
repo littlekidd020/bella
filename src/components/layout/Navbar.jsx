@@ -27,7 +27,7 @@ const Navbar = () => {
     }`}>
       <nav className="flex items-center justify-between w-full h-14 md:h-20">
         <Link href="/" className="flex items-center group">
-          <div className="relative w-28 h-10 md:w-44 md:h-16 transition-transform duration-500 group-hover:scale-105">
+          <div className="relative w-36 h-12 md:w-44 md:h-16 transition-transform duration-500 group-hover:scale-105">
             <BrandLogo className="w-full h-full" />
           </div>
         </Link>
