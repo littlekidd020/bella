@@ -31,7 +31,7 @@ const StatItem = ({ icon: Icon, label, value, t }) => {
       ? value.replace("(Natural)", t.girl.natural)
       : value;
   return (
-    <div className="flex flex-col gap-2.5 p-5 md:p-6 rounded-2xl bg-[#FFE3EC]/60 hover:-translate-y-0.5 transition-all duration-500">
+    <div className="flex flex-col gap-2.5 p-5 md:p-6 rounded-2xl bg-white border border-[#2D1822]/4 shadow-[var(--shadow-soft)] hover:-translate-y-0.5 transition-all duration-500">
       <div className="flex items-center gap-2">
         <Icon size={16} className="text-[#F84A88]" />
         <span className="text-[10px] uppercase tracking-[0.2em] font-sans text-[#F84A88] font-bold">
@@ -234,7 +234,7 @@ export default function GirlDetailsPage() {
                   <h4 className="text-[10px] uppercase tracking-[0.3em] text-[#F84A88] font-bold font-sans flex items-center gap-2 mb-4">
                     <Banknote size={12} className="text-[#F84A88]" /> {t.girl.price || "Price"}
                   </h4>
-                  <div className="flex flex-col gap-3 bg-[#FFE3EC]/60 rounded-2xl p-5 md:p-6">
+                  <div className="flex flex-col gap-3 bg-white border border-[#2D1822]/4 shadow-[var(--shadow-soft)] rounded-2xl p-5 md:p-6">
                     {model.price.split("·").map((rate, i) => {
                       const parts = rate.split("/");
                       const amount = parts[0];
@@ -315,7 +315,7 @@ export default function GirlDetailsPage() {
                               <div className="w-full h-2" />
                             )}
                             <span className="inline max-w-full">
-                              <span className="whitespace-normal break-words px-3.5 py-1.5 bg-[#FFE3EC]/75 text-[#2D1822]/65 rounded-full inline-block text-[13px]">
+                              <span className="whitespace-normal break-words px-3.5 py-1.5 bg-white border border-[#2D1822]/4 text-[#2D1822]/65 rounded-full inline-block text-[13px] shadow-sm">
                                 {group.includes("(") ? group.split(",").join(", ") : group}
                               </span>
                             </span>
