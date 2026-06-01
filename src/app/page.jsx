@@ -15,10 +15,17 @@ export default function Home() {
       
       {/* Asymmetrical Editorial Hero */}
       <header className="relative w-full min-h-[auto] lg:min-h-screen flex flex-col overflow-hidden">
-        {/* Abstract Dark Liquid Background */}
-        <div className="absolute inset-0 bg-[#FFE3EC]">
-          <div className="absolute top-1/4 -left-1/4 w-[80vw] h-[80vw] bg-[#F84A88]/10 rounded-full blur-[120px] mix-blend-screen" />
-          <div className="absolute bottom-1/4 -right-1/4 w-[60vw] h-[60vw] bg-[#F84A88]/10 rounded-full blur-[100px] mix-blend-screen" />
+        {/* Background Image & Gradient Overlay */}
+        <div className="absolute inset-0 z-0 bg-[#FFE3EC]">
+          <img 
+            src="/images/header-bg-custom.webp" 
+            alt="Sensual Homepage Background" 
+            className="w-full h-full object-cover object-top opacity-50"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#FFE3EC] via-[#FFE3EC]/60 to-transparent" />
+          {/* Subtle Ambient Glow */}
+          <div className="absolute top-1/4 -left-1/4 w-[80vw] h-[80vw] bg-[#F84A88]/10 rounded-full blur-[120px] mix-blend-screen pointer-events-none" />
+          <div className="absolute bottom-1/4 -right-1/4 w-[60vw] h-[60vw] bg-[#F84A88]/10 rounded-full blur-[100px] mix-blend-screen pointer-events-none" />
         </div>
         
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 grid grid-cols-1 lg:grid-cols-12 gap-12 pt-32 lg:pt-40 flex-1 items-center">
