@@ -73,7 +73,7 @@ export default function Home() {
           <ContactBanner />
           
           {/* Mobile-only CTA button below the banner */}
-          <div className="flex lg:hidden pt-4 pb-8 w-full justify-center px-6">
+          <div className="flex lg:hidden pt-4 pb-0 w-full justify-center px-6">
             <Link 
               href="/collection" 
               className="group relative inline-block text-center border border-[#F84A88]/30 hover:border-[#F84A88] w-full max-w-[280px] py-3.5 transition-all duration-500 overflow-hidden rounded-full bg-[#FAF5F7]/30 backdrop-blur-sm shadow-[0_4px_20px_rgba(248,74,136,0.08)]"
