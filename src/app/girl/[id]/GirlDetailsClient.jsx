@@ -177,9 +177,9 @@ export default function GirlDetailsPage() {
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.6, delay: 0.2 }}
-                className="hidden lg:block w-full rounded-3xl overflow-hidden mt-12"
+                className="hidden lg:block w-full rounded-3xl overflow-hidden border-2 border-white shadow-[var(--shadow-lifted)] mt-12"
               >
-                <TrustVideo src={model.video} poster={model.image} aspect="aspect-[3/4]" plain={true} />
+                <TrustVideo src={model.video} poster={model.image} />
               </motion.div>
             ) : (
               <motion.div 
@@ -203,7 +203,7 @@ export default function GirlDetailsPage() {
         {/* Right Column: Details & Gallery */}
         <div className="lg:col-span-7 space-y-8 mt-0 pb-32">
           
-          <div className="card-elevated rounded-3xl p-7 md:p-10 space-y-10">
+          <div className="space-y-10">
             
             {/* About Section */}
             <div className="space-y-4">
@@ -335,8 +335,8 @@ export default function GirlDetailsPage() {
               <h4 className="text-[10px] uppercase tracking-[0.3em] text-[#F84A88] font-bold font-sans flex items-center gap-2">
                 <Play size={12} className="text-[#F84A88]" /> {t.grid.verification}
               </h4>
-              <div className="rounded-2xl overflow-hidden">
-                <TrustVideo src={model.video} poster={model.image} plain={true} />
+              <div className="rounded-2xl overflow-hidden shadow-[var(--shadow-lifted)] border border-[#2D1822]/5">
+                <TrustVideo src={model.video} poster={model.image} />
               </div>
             </div>
           )}

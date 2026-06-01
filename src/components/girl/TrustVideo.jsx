@@ -3,7 +3,7 @@ import { Play, Pause, Volume2, VolumeX, X, Maximize2 } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import { motion, AnimatePresence } from "framer-motion";
 
-const TrustVideo = ({ src, poster, aspect = "aspect-[9/16]", plain = false }) => {
+const TrustVideo = ({ src, poster }) => {
   const { t } = useLanguage();
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(true);
@@ -49,11 +49,7 @@ const TrustVideo = ({ src, poster, aspect = "aspect-[9/16]", plain = false }) =>
     <>
       <div 
         onClick={openModal}
-        className={`relative ${aspect} w-full overflow-hidden cursor-pointer group/video ${
-          plain 
-            ? "bg-transparent rounded-none" 
-            : "bg-black rounded-sm border border-[#F84A88]/10 shadow-2xl"
-        }`}
+        className="relative aspect-[9/16] w-full bg-black rounded-sm overflow-hidden border border-[#F84A88]/10 shadow-2xl group/video cursor-pointer"
       >
         <video
           ref={videoRef}
@@ -62,7 +58,7 @@ const TrustVideo = ({ src, poster, aspect = "aspect-[9/16]", plain = false }) =>
           loop
           muted={isMuted}
           playsInline
-          className="w-full h-full object-cover transition-transform duration-700 group-hover/video:scale-110"
+          className="w-full h-full object-cover opacity-90 transition-transform duration-700 group-hover/video:scale-110"
         />
         
         {/* Overlay Controls */}
