@@ -25,26 +25,12 @@ const Navbar = () => {
         ? "bg-white shadow-[var(--shadow-soft)] border-b border-[#2D1822]/5 rounded-full py-2 px-6 md:px-10" 
         : "bg-transparent py-4 px-6 md:px-10 rounded-full"
     }`}>
-      <nav className="relative flex items-center justify-between w-full h-16 md:h-24">
-        
-        {/* Mobile Lang Switch (Left) */}
-        <div className="flex md:hidden items-center">
-          <button 
-            onClick={toggleLang}
-            className="flex items-center justify-center w-10 h-10 text-xs font-bold text-[#2D1822]/60 hover:text-[#F84A88] transition-colors border border-[#2D1822]/10 rounded-full bg-[#FAF5F7]/40 backdrop-blur-sm shadow-sm"
-          >
-            {lang === "cn" ? "EN" : "中"}
-          </button>
-        </div>
-
-        {/* Logo (Centered on mobile, Left on desktop) */}
-        <div className="absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0 flex items-center">
-          <Link href="/" className="flex items-center group">
-            <div className="relative w-[154px] h-[56px] md:w-[209px] md:h-[76px] transition-transform duration-500 group-hover:scale-105">
-              <BrandLogo className="w-full h-full" />
-            </div>
-          </Link>
-        </div>
+      <nav className="flex items-center justify-between w-full h-16 md:h-24">
+        <Link href="/" className="flex items-center group">
+          <div className="relative w-[154px] h-[56px] md:w-[209px] md:h-[76px] transition-transform duration-500 group-hover:scale-105">
+            <BrandLogo className="w-full h-full" />
+          </div>
+        </Link>
         
         {/* Desktop Links & Lang Toggle */}
         <div className="hidden md:flex items-center gap-12 text-sm uppercase tracking-[0.2em] font-sans text-[#2D1822]/80 font-medium">
@@ -60,8 +46,14 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Menu Control (Right) */}
-        <div className="flex md:hidden items-center">
+        {/* Mobile Controls */}
+        <div className="flex items-center gap-4 md:hidden">
+          <button 
+            onClick={toggleLang}
+            className="flex items-center justify-center w-10 h-10 text-xs font-bold text-[#2D1822]/60 hover:text-[#F84A88] transition-colors border border-[#2D1822]/10 rounded-full bg-[#FAF5F7]/40 backdrop-blur-sm shadow-sm"
+          >
+            {lang === "cn" ? "EN" : "中"}
+          </button>
           <button 
             onClick={() => setIsOpen(!isOpen)}
             className="flex items-center justify-center w-10 h-10 border border-[#2D1822]/10 rounded-full text-[#2D1822] hover:text-[#F84A88] hover:border-[#F84A88]/30 transition-colors relative z-[80] bg-[#FAF5F7]/40 backdrop-blur-sm shadow-sm"
