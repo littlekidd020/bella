@@ -22,10 +22,10 @@ const Navbar = () => {
   return (
     <header className={`fixed top-4 md:top-6 left-4 right-4 z-[70] mx-auto max-w-7xl transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${
       scrolled 
-        ? "bg-white shadow-[var(--shadow-soft)] border-b border-[#2D1822]/5 rounded-full py-2 px-6 md:px-10" 
-        : "bg-transparent py-4 px-6 md:px-10 rounded-full"
+        ? "bg-white shadow-[var(--shadow-soft)] border-b border-[#2D1822]/5 rounded-[2rem] md:rounded-full py-2 px-6 md:px-10 before:content-[''] before:absolute before:inset-0 before:bg-[url('/images/header-bg-custom.jpg')] before:bg-[length:25%] before:bg-left-bottom before:bg-no-repeat before:opacity-60 before:rounded-[2rem] before:pointer-events-none md:before:hidden" 
+        : "bg-transparent py-4 px-6 md:px-10 rounded-[2rem] md:rounded-full"
     }`}>
-      <nav className="flex flex-col-reverse md:flex-row items-center md:justify-between w-full gap-2 md:gap-0 h-auto md:h-24">
+      <nav className="relative z-10 flex flex-col-reverse md:flex-row items-center md:justify-between w-full gap-2 md:gap-0 h-auto md:h-24">
         <Link href="/" className="flex items-center justify-end md:justify-start group w-full md:w-auto">
           <div className="relative w-[154px] h-[56px] md:w-[209px] md:h-[76px] transition-transform duration-500 group-hover:scale-105">
             <BrandLogo className="w-full h-full" />

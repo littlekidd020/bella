@@ -25,7 +25,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-t from-[#FFE3EC] via-[#FFE3EC]/60 to-transparent" />
         </div>
         
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 grid grid-cols-1 lg:grid-cols-12 gap-12 pt-32 lg:pt-40 flex-1 items-center">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 grid grid-cols-1 lg:grid-cols-12 gap-12 pt-40 lg:pt-40 flex-1 items-center">
           
           {/* Typography Block */}
           <div className="lg:col-span-5 flex flex-col justify-center space-y-0 lg:space-y-8 z-20 order-2 lg:order-1 pb-0 lg:pb-0 text-center lg:text-left items-center lg:items-start">
@@ -64,7 +64,7 @@ export default function Home() {
           {/* Masked Image Panel */}
           <div className="hidden lg:block lg:col-span-7 relative h-[50vh] lg:h-[80vh] w-full rounded-[60px] overflow-hidden border border-[#F84A88]/20 shadow-[0_20px_50px_rgba(248,74,136,0.10)] order-1 lg:order-2">
             <img 
-              src="/images/header-bg-custom.jpg" 
+              src="/images/header-bg-custom.webp" 
               alt="Sensual Boutique Background" 
               className="w-full h-full object-cover object-top opacity-80 hover:scale-105 transition-transform duration-1000"
             />
