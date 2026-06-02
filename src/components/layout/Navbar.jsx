@@ -25,8 +25,8 @@ const Navbar = () => {
         ? "bg-white shadow-[var(--shadow-soft)] border-b border-[#2D1822]/5 rounded-full py-2 px-6 md:px-10" 
         : "bg-transparent py-4 px-6 md:px-10 rounded-full"
     }`}>
-      <nav className="flex items-center justify-between w-full h-16 md:h-24">
-        <Link href="/" className="flex items-center group">
+      <nav className="flex flex-col-reverse md:flex-row items-center md:justify-between w-full gap-2 md:gap-0 h-auto md:h-24">
+        <Link href="/" className="flex items-center justify-end md:justify-start group w-full md:w-auto">
           <div className="relative w-[154px] h-[56px] md:w-[209px] md:h-[76px] transition-transform duration-500 group-hover:scale-105">
             <BrandLogo className="w-full h-full" />
           </div>
@@ -47,7 +47,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Controls */}
-        <div className="flex items-center gap-4 md:hidden">
+        <div className="flex items-center justify-end w-full md:w-auto gap-4 md:hidden">
           <button 
             onClick={toggleLang}
             className="flex items-center justify-center w-10 h-10 text-xs font-bold text-[#2D1822]/60 hover:text-[#F84A88] transition-colors border border-[#2D1822]/10 rounded-full bg-[#FAF5F7]/40 backdrop-blur-sm shadow-sm"
