@@ -15,7 +15,7 @@ export default function ContactBanner() {
     <motion.div 
       initial={{ y: 50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      className={`relative z-20 w-[calc(100%-4rem)] md:w-[96%] max-w-7xl mx-auto mb-6 md:mb-8 rounded-[2rem] md:rounded-full bg-gradient-to-r from-[#F84A88] via-[#e23773] to-[#D41E5D] border border-white/20 overflow-hidden shadow-[0_10px_40px_rgba(248,74,136,0.3)] ${shouldHideOnMobile ? 'hidden md:block' : ''}`}
+      className={`relative z-20 w-[calc(100%-4rem)] md:w-[96%] max-w-7xl mx-auto mb-6 md:mb-8 rounded-[2rem] md:rounded-full bg-gradient-to-r from-[#F84A88]/50 via-[#e23773]/50 to-[#D41E5D]/50 backdrop-blur-md border border-white/20 overflow-hidden shadow-[0_10px_40px_rgba(248,74,136,0.3)] ${shouldHideOnMobile ? 'hidden md:block' : ''}`}
     >
       {/* Decorative Shine Overlay */}
       <div className="absolute inset-0 w-full h-full bg-gradient-to-b from-white/10 to-transparent pointer-events-none" />
