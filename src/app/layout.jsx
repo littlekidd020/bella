@@ -31,7 +31,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body suppressHydrationWarning className={`${montserrat.variable} ${cormorant.variable} ${notoSansCN.variable} ${notoSerifCN.variable} font-sans antialiased bg-[#FFE3EC] text-[#2D1822]`}>
+      <body suppressHydrationWarning className={`${montserrat.variable} ${cormorant.variable} ${notoSansCN.variable} ${notoSerifCN.variable} font-sans antialiased bg-[#FFF5F8] text-[#593A48]`}>
         <LanguageProvider>
           <AgeGate>
             <Navbar />

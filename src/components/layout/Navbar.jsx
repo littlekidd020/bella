@@ -20,65 +20,81 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className={`fixed top-4 md:top-6 left-4 right-4 z-[70] mx-auto max-w-7xl transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+    <header className={`fixed top-0 left-0 right-0 z-[70] transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${
       scrolled 
-        ? "bg-white shadow-[var(--shadow-soft)] border-b border-[#2D1822]/5 rounded-[2rem] md:rounded-full py-2 px-6 md:px-10 before:content-[''] before:absolute before:inset-0 before:bg-[url('/images/header-bg-custom.jpg')] before:bg-[length:25%] before:bg-left-bottom before:bg-no-repeat before:opacity-60 before:rounded-[2rem] before:pointer-events-none md:before:hidden" 
-        : "bg-transparent py-4 px-6 md:px-10 rounded-[2rem] md:rounded-full"
+        ? "bg-white shadow-[var(--shadow-soft)] border-b border-[#593A48]/5" 
+        : "bg-transparent"
     }`}>
-      <nav className="relative z-10 flex flex-col-reverse md:flex-row items-center md:justify-between w-full gap-2 md:gap-0 h-auto md:h-24">
-        <Link href="/" className="flex items-center justify-end md:justify-start group w-full md:w-auto">
-          <div className="relative w-[154px] h-[56px] md:w-[209px] md:h-[76px] transition-transform duration-500 group-hover:scale-105">
-            <BrandLogo className="w-full h-full" />
-          </div>
-        </Link>
-        
-        {/* Desktop Links & Lang Toggle */}
-        <div className="hidden md:flex items-center gap-12 text-sm uppercase tracking-[0.2em] font-sans text-[#2D1822]/80 font-medium">
-          <Link href="/collection" className="hover:text-[#F84A88] transition-colors duration-300 tracking-[0.2em]">{t.nav.collection}</Link>
-          <Link href="/contact-us" className="hover:text-[#F84A88] transition-colors duration-300 tracking-[0.2em]">{t.nav.concierge}</Link>
-          
-          <button 
-            onClick={toggleLang}
-            className="flex items-center gap-2 px-4 py-2 text-[#2D1822]/60 hover:text-[#F84A88] transition-colors duration-300 font-sans text-sm font-medium tracking-widest"
-          >
-            <Globe size={16} />
-            <span>{lang === "cn" ? "EN" : "中文"}</span>
+      {/* Top Info Bar - Hidden on mobile */}
+      <div className={`hidden md:flex justify-between items-center px-10 py-2 border-b border-[#593A48]/5 text-[#593A48]/60 text-[10px] tracking-widest uppercase transition-colors duration-500 ${scrolled ? 'bg-[#FCEEF2]' : 'bg-transparent'}`}>
+        <div className="flex gap-6">
+          <span>营业时间：早上10点 - 晚上11点</span>
+          <span>服务覆盖全城 (AUCKLAND WIDE)</span>
+        </div>
+        <div className="flex items-center gap-4">
+          <button onClick={toggleLang} className="hover:text-[#F05C88] transition-colors flex items-center gap-1">
+            <Globe size={12} />
+            <span>{lang === "cn" ? "EN" : "中"}</span>
           </button>
+        </div>
+      </div>
+
+      <div className="mx-auto max-w-7xl px-4 md:px-10 py-3 md:py-4">
+        <nav className="relative z-10 flex items-center justify-between w-full">
+          <Link href="/" className="flex items-center group">
+            <div className="relative w-[140px] h-[50px] md:w-[180px] md:h-[65px] transition-transform duration-500 group-hover:scale-105">
+              <BrandLogo className="w-full h-full" />
+            </div>
+          </Link>
+        
+        {/* Desktop Links */}
+        <div className="hidden md:flex items-center gap-8 text-xs uppercase tracking-[0.2em] font-sans text-[#593A48]/80 font-medium">
+          <Link href="/" className="hover:text-[#F05C88] transition-colors duration-300">首页</Link>
+          <Link href="/collection" className="hover:text-[#F05C88] transition-colors duration-300">{t.nav.collection}</Link>
+          <Link href="/contact-us" className="hover:text-[#F05C88] transition-colors duration-300">{t.nav.concierge}</Link>
+          
+          <Link href="/contact-us" className="ml-4 px-6 py-2.5 bg-[#F05C88] text-white rounded-full font-bold tracking-widest hover:bg-[#E8356E] hover:shadow-[0_4px_15px_rgba(240,92,136,0.2)] transition-all duration-300">
+            预约服务
+          </Link>
         </div>
 
         {/* Mobile Controls */}
-        <div className="flex items-center justify-end w-full md:w-auto gap-4 md:hidden">
+        <div className="flex items-center justify-end gap-3 md:hidden">
           <button 
             onClick={toggleLang}
-            className="flex items-center justify-center w-10 h-10 text-xs font-bold text-[#2D1822]/60 hover:text-[#F84A88] transition-colors border border-[#2D1822]/10 rounded-full bg-[#FAF5F7]/40 backdrop-blur-sm shadow-sm"
+            className="flex items-center justify-center w-9 h-9 text-[10px] font-bold text-[#593A48]/60 hover:text-[#F05C88] transition-colors border border-[#593A48]/10 rounded-full bg-[#FFF5F8]/40 backdrop-blur-sm"
           >
             {lang === "cn" ? "EN" : "中"}
           </button>
           <button 
             onClick={() => setIsOpen(!isOpen)}
-            className="flex items-center justify-center w-10 h-10 border border-[#2D1822]/10 rounded-full text-[#2D1822] hover:text-[#F84A88] hover:border-[#F84A88]/30 transition-colors relative z-[80] bg-[#FAF5F7]/40 backdrop-blur-sm shadow-sm"
+            className="flex items-center justify-center w-9 h-9 border border-[#593A48]/10 rounded-full text-[#593A48] hover:text-[#F05C88] hover:border-[#F05C88]/30 transition-colors relative z-[80] bg-[#FFF5F8]/40 backdrop-blur-sm"
           >
-            <Menu size={20} />
+            <Menu size={18} />
           </button>
         </div>
-      </nav>
+        </nav>
+      </div>
 
       {/* Mobile Menu Overlay */}
-      <div className={`fixed inset-0 bg-[#FFE3EC]/95 backdrop-blur-3xl z-[75] transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col items-center justify-center gap-12 ${isOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-4'}`}>
+      <div className={`fixed inset-0 bg-[#FFF5F8]/95 backdrop-blur-3xl z-[75] transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col items-center justify-center gap-12 ${isOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-4'}`}>
         <div className="flex flex-col items-center gap-10 text-3xl font-serif italic tracking-[0.2em]">
-          <Link href="/collection" onClick={() => setIsOpen(false)} className="text-[#2D1822] hover:text-[#F84A88] transition-colors hover:scale-105 duration-300 transform">
+          <Link href="/" onClick={() => setIsOpen(false)} className="text-[#593A48] hover:text-[#F05C88] transition-colors hover:scale-105 duration-300 transform">
+            首页
+          </Link>
+          <Link href="/collection" onClick={() => setIsOpen(false)} className="text-[#593A48] hover:text-[#F05C88] transition-colors hover:scale-105 duration-300 transform">
             {t.nav.collection}
           </Link>
-          <Link href="/contact-us" onClick={() => setIsOpen(false)} className="text-[#2D1822] hover:text-[#F84A88] transition-colors hover:scale-105 duration-300 transform">
+          <Link href="/contact-us" onClick={() => setIsOpen(false)} className="text-[#593A48] hover:text-[#F05C88] transition-colors hover:scale-105 duration-300 transform">
             {t.nav.concierge}
           </Link>
         </div>
         
-        <div className="w-12 h-[1px] bg-[#F84A88]/30" />
+        <div className="w-12 h-[1px] bg-[#F05C88]/40" />
 
         <button 
           onClick={() => { toggleLang(); setIsOpen(false); }}
-          className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#F84A88] to-[#D41E5D] text-white rounded-full font-bold tracking-widest shadow-[0_0_20px_rgba(248,74,136,0.3)] hover:shadow-[0_0_30px_rgba(248,74,136,0.5)] transition-shadow duration-300"
+          className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#F05C88] to-[#D41E5D] text-white rounded-full font-bold tracking-widest shadow-[0_0_20px_rgba(240,92,136,0.3)] hover:shadow-[0_0_30px_rgba(240,92,136,0.5)] transition-shadow duration-300"
         >
           <Globe size={20} />
           <span>{lang === "cn" ? "SWITCH TO ENGLISH" : "切换至中文"}</span>
@@ -86,7 +102,7 @@ const Navbar = () => {
 
         <button 
           onClick={() => setIsOpen(false)}
-          className="absolute bottom-12 text-[#2D1822]/40 text-xs uppercase tracking-[0.5em] font-sans font-bold hover:text-[#2D1822] transition-colors"
+          className="absolute bottom-12 text-[#593A48]/40 text-xs uppercase tracking-[0.5em] font-sans font-bold hover:text-[#593A48] transition-colors"
         >
           CLOSE [X]
         </button>

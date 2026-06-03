@@ -15,7 +15,7 @@ export default function ContactBanner() {
     <motion.div 
       initial={{ y: 50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      className={`relative z-20 w-[calc(100%-4rem)] md:w-[96%] max-w-7xl mx-auto mb-6 md:mb-8 rounded-[2rem] md:rounded-full bg-gradient-to-r from-[#F84A88] via-[#e23773] to-[#D41E5D] backdrop-blur-md border border-white/20 overflow-hidden shadow-[0_10px_40px_rgba(248,74,136,0.3)] ${shouldHideOnMobile ? 'hidden md:block' : ''}`}
+      className={`relative z-20 w-[calc(100%-4rem)] md:w-[96%] max-w-7xl mx-auto mb-6 md:mb-8 rounded-[2rem] md:rounded-full bg-[#593A48] backdrop-blur-md border border-[#F05C88]/20 overflow-hidden shadow-[var(--shadow-lifted)] ${shouldHideOnMobile ? 'hidden md:block' : ''}`}
     >
       {/* Decorative Shine Overlay */}
       <div className="absolute inset-0 w-full h-full bg-gradient-to-b from-white/10 to-transparent pointer-events-none" />
@@ -26,8 +26,8 @@ export default function ContactBanner() {
         
         {/* Left: Brand section */}
         <div className="flex items-center gap-4 w-full md:w-auto justify-center md:justify-start mb-4 md:mb-0">
-          <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-inner shrink-0 overflow-hidden border-2 border-white/50">
-            <img src="/images/header-bg-custom.jpg" alt="Logo Avatar" className="w-full h-full object-cover" />
+          <div className="w-12 h-12 bg-[#FFF5F8] rounded-full flex items-center justify-center shadow-inner shrink-0 overflow-hidden border border-[#F05C88]/50">
+            <img src="/images/logo-icon.svg" alt="Angel Cuties Icon" className="w-8 h-8 object-contain" />
           </div>
           <div className="flex flex-col text-white">
             <h3 className="font-bold tracking-widest text-sm md:text-base drop-shadow-md">专业接线 纽澳独家精品资源</h3>
@@ -47,13 +47,13 @@ export default function ContactBanner() {
         {/* Center: Contact section */}
         <div className="flex flex-col items-center justify-center w-full md:w-auto mb-4 md:mb-0">
           <div className="flex items-center gap-3">
-            <span className="text-white/80 text-xs tracking-wider">电话:</span>
+            <span className="text-[#F05C88] text-xs tracking-wider">电话:</span>
             <span className="text-white text-xl md:text-2xl font-bold tracking-wider drop-shadow-md">022-5391339</span>
           </div>
           <div className="flex items-center gap-3 text-white text-xs md:text-sm tracking-wider mt-1.5 md:mt-1">
-            <span className="text-white/80">微信:</span>
+            <span className="text-[#F05C88]">微信:</span>
             <span className="font-medium">Angelya3312</span>
-            <span className="text-white/50">|</span>
+            <span className="text-white/30">|</span>
             <span className="font-medium">Angel91339</span>
           </div>
         </div>

@@ -9,16 +9,16 @@
   --font-noto-serif: var(--font-noto-serif-cn);
   
   /* Quiet Luxury Palette */
-  --color-gold: #F84A88;
-  --color-rose: #F84A88;
+  --color-gold: #F05C88;
+  --color-rose: #F05C88;
   --color-blush: #FFD1DC;
   --color-noir: #260613;
 
   /* Light Theme Surface Tokens */
-  --color-surface: #FFE3EC;
+  --color-surface: #FFF5F8;
   --color-surface-elevated: #FFFFFF;
   --color-surface-glass: rgba(255, 255, 255, 0.55);
-  --color-text-primary: #2D1822;
+  --color-text-primary: #593A48;
   --color-text-muted: rgba(45, 24, 34, 0.55);
   --color-border-subtle: rgba(248, 74, 136, 0.08);
 
@@ -36,9 +36,13 @@
 
 @layer base {
   body {
-    background-color: #FFE3EC;
-    color: #2D1822;
+    background-color: #FFF5F8;
+    color: #593A48;
     letter-spacing: 0.01em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
   }
 }
 

@@ -17,26 +17,26 @@ export default function CollectionPage() {
     : girls.filter(m => m.location === activeFilter);
 
   return (
-    <main className="min-h-screen bg-[#FFE3EC] transition-colors duration-700">
+    <main className="min-h-screen bg-[#FFF5F8] transition-colors duration-700">
       {/* Editorial Header Banner */}
-      <header className="relative w-full h-[220px] md:h-[360px] flex items-center justify-center overflow-hidden border-b border-[#F84A88]/10 bg-[#FFE3EC] mb-0 md:mb-10">
+      <header className="relative w-full h-[220px] md:h-[360px] flex items-center justify-center overflow-hidden border-b border-[#F05C88]/10 bg-[#FFF5F8] mb-0 md:mb-10">
         {/* Background Image */}
-        <div className="absolute inset-0 z-0 bg-[#FFE3EC]">
+        <div className="absolute inset-0 z-0 bg-[#FFF5F8]">
           <img 
             src="/images/header-bg-custom.jpg" 
             alt="Sensual Collection Background" 
             className="w-full h-full object-cover object-top opacity-50 parallax"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#FFE3EC] via-[#FFE3EC]/60 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#FFF5F8] via-[#FFF5F8]/60 to-transparent" />
         </div>
 
         {/* Text Content */}
         <div className="relative z-10 flex flex-col items-center justify-center pt-20 md:pt-24 px-4 w-full text-center">
-          <h1 className="text-5xl md:text-7xl font-serif text-[#2D1822] italic opacity-90 drop-shadow-md">
+          <h1 className="text-5xl md:text-7xl font-serif text-[#593A48] italic opacity-90 drop-shadow-md">
             {t.nav.collection}
           </h1>
-          <div className="w-20 h-[1px] bg-[#F84A88] mx-auto mt-6" />
-          <p className="hidden md:block text-[#F84A88] uppercase tracking-[0.4em] font-medium text-xs mt-6 max-w-2xl mx-auto px-6">
+          <div className="w-20 h-[1px] bg-[#F05C88] mx-auto mt-6" />
+          <p className="hidden md:block text-[#F05C88] uppercase tracking-[0.4em] font-medium text-xs mt-6 max-w-2xl mx-auto px-6">
             {activeFilter === "All" 
               ? "A Curated Selection of Sophisticated Companions"
               : `${activeFilter === "All" ? (lang === "cn" ? "全部" : "All") : (t.girl.locations[activeFilter] || activeFilter)} Collection`}
@@ -58,8 +58,8 @@ export default function CollectionPage() {
                 onClick={() => setActiveFilter(loc)}
                 className={`whitespace-nowrap shrink-0 snap-start px-6 py-2.5 rounded-full text-[10px] md:text-xs uppercase tracking-widest transition-all duration-500 font-bold border ${
                   activeFilter === loc 
-                    ? "bg-[#F84A88] text-white border-[#F84A88] shadow-[0_4px_12px_rgba(248,74,136,0.3)]" 
-                    : "bg-[#FAF5F7]/30 backdrop-blur-sm text-[#2D1822]/70 border-[#F84A88]/20 hover:border-[#F84A88]/40 hover:text-[#2D1822] hover:bg-[#FAF5F7]/60 shadow-[0_2px_8px_rgba(45,24,34,0.04)]"
+                    ? "bg-[#F05C88] text-white border-[#F05C88] shadow-[0_4px_12px_rgba(240,92,136,0.3)]" 
+                    : "bg-[#FFF5F8]/30 backdrop-blur-sm text-[#593A48]/70 border-[#F05C88]/20 hover:border-[#F05C88]/40 hover:text-[#593A48] hover:bg-[#FFF5F8]/60 shadow-[0_2px_8px_rgba(89,58,72,0.04)]"
                 }`}
               >
                 {label}

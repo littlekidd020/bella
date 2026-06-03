@@ -32,10 +32,10 @@ const AgeGate = ({ children }) => {
           <motion.div
             initial={{ opacity: 1 }}
             exit={{ opacity: 0, transition: { duration: 1, ease: [0.43, 0.13, 0.23, 0.96] } }}
-            className="fixed inset-0 z-[200] bg-[#FFE3EC] flex flex-col font-sans overflow-hidden"
+            className="fixed inset-0 z-[200] bg-[#FFF5F8] flex flex-col font-sans overflow-hidden"
           >
             {/* Background Image Container */}
-            <div className="absolute inset-0 bg-[#FFE3EC]">
+            <div className="absolute inset-0 bg-[#FFF5F8]">
                <motion.img 
                  initial={{ scale: 1.15 }}
                  animate={{ scale: 1.05 }}
@@ -44,7 +44,7 @@ const AgeGate = ({ children }) => {
                  className="w-full h-full object-cover object-center opacity-30 blur-[2px]"
                  alt="Luxury Entry"
                />
-               <div className="absolute inset-0 bg-gradient-to-b from-[#FFE3EC]/90 via-[#FFE3EC]/40 to-[#FFE3EC]" />
+               <div className="absolute inset-0 bg-gradient-to-b from-[#FFF5F8]/90 via-[#FFF5F8]/40 to-[#FFF5F8]" />
             </div>
 
             {/* Content Overlay */}
@@ -65,47 +65,47 @@ const AgeGate = ({ children }) => {
                      >
                         <BrandLogo className="w-full h-full" />
                      </motion.div>
-                    <div className="h-px w-32 bg-gradient-to-r from-transparent via-[#F84A88]/40 to-transparent" />
+                    <div className="h-px w-32 bg-gradient-to-r from-transparent via-[#F05C88]/40 to-transparent" />
                  </div>
 
                  {/* Welcome Message Box */}
                  <div className="card-elevated p-8 md:p-16 rounded-[3rem] relative overflow-hidden">
                     {/* Luxury Gradient Accent */}
-                    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-1 bg-gradient-to-r from-transparent via-[#F84A88]/50 to-transparent" />
+                    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-1 bg-gradient-to-r from-transparent via-[#F05C88]/50 to-transparent" />
                     
-                    <h1 className="text-5xl md:text-7xl font-serif text-[#2D1822] italic leading-[0.95] mb-6">
+                    <h1 className="text-5xl md:text-7xl font-serif text-[#593A48] italic leading-[0.95] mb-6">
                       {t.ageGate.welcome}
                     </h1>
                     
-                    <p className="text-[#2D1822]/60 text-xs md:text-sm leading-relaxed max-w-md mx-auto font-sans tracking-[0.1em] uppercase">
+                    <p className="text-[#593A48]/60 text-xs md:text-sm leading-relaxed max-w-md mx-auto font-sans tracking-[0.1em] uppercase">
                       {t.ageGate.message}
                     </p>
 
                     <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
                        <button
                          onClick={handleVerify}
-                         className="group relative px-10 py-4 bg-transparent border border-[#F84A88]/40 hover:border-[#F84A88] rounded-xl overflow-hidden transition-all duration-500 w-full sm:w-auto min-w-[200px]"
+                         className="group relative px-10 py-4 bg-transparent border border-[#F05C88]/40 hover:border-[#F05C88] rounded-xl overflow-hidden transition-all duration-500 w-full sm:w-auto min-w-[200px]"
                        >
-                          <span className="relative z-10 text-[#2D1822] font-serif italic text-xl tracking-widest group-hover:text-white transition-colors">
+                          <span className="relative z-10 text-[#593A48] font-serif italic text-xl tracking-widest group-hover:text-white transition-colors">
                             {t.ageGate.buttonEn}
                           </span>
-                          <span className="absolute inset-0 bg-[#F84A88] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out" />
+                          <span className="absolute inset-0 bg-[#F05C88] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out" />
                        </button>
 
                        <button
                          onClick={handleVerify}
-                         className="group relative px-10 py-4 bg-transparent border border-[#2D1822]/10 hover:border-[#2D1822]/30 rounded-xl overflow-hidden transition-all duration-500 w-full sm:w-auto min-w-[200px]"
+                         className="group relative px-10 py-4 bg-transparent border border-[#593A48]/10 hover:border-[#593A48]/30 rounded-xl overflow-hidden transition-all duration-500 w-full sm:w-auto min-w-[200px]"
                        >
-                          <span className="relative z-10 text-[#2D1822]/70 font-sans font-bold text-xs md:text-sm tracking-[0.2em] group-hover:text-[#2D1822] transition-colors">
+                          <span className="relative z-10 text-[#593A48]/70 font-sans font-bold text-xs md:text-sm tracking-[0.2em] group-hover:text-[#593A48] transition-colors">
                             {t.ageGate.buttonCn}
                           </span>
-                          <span className="absolute inset-0 bg-[#FFE3EC] opacity-0 group-hover:opacity-100 transition-opacity" />
+                          <span className="absolute inset-0 bg-[#FFF5F8] opacity-0 group-hover:opacity-100 transition-opacity" />
                        </button>
                     </div>
                  </div>
 
                  {/* Disclaimer / Additional verification text if needed */}
-                 <p className="text-[9px] uppercase tracking-[0.5em] text-[#2D1822]/30 font-bold max-w-lg mx-auto leading-loose px-4">
+                 <p className="text-[9px] uppercase tracking-[0.5em] text-[#593A48]/30 font-bold max-w-lg mx-auto leading-loose px-4">
                    Step into a world of bespoke luxury. By entering, you confirm you are of legal age to view such content.
                  </p>
               </motion.div>
@@ -113,7 +113,7 @@ const AgeGate = ({ children }) => {
 
             {/* Global Footer */}
             <div className="relative z-10 p-10 text-center">
-               <p className="text-[10px] md:text-xs uppercase tracking-[0.3em] text-[#2D1822]/25 font-bold font-sans">
+               <p className="text-[10px] md:text-xs uppercase tracking-[0.3em] text-[#593A48]/25 font-bold font-sans">
                  {t.ageGate.footer}
                </p>
             </div>
