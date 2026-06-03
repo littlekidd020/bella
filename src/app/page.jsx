@@ -18,7 +18,7 @@ export default function Home() {
         {/* Background Image - Girl on the right */}
         <div className="absolute top-0 right-0 w-full lg:w-[75%] h-full z-0 overflow-hidden">
           <img 
-            src="/images/header-bg-custom.jpg" 
+            src="/images/header-bg-custom.png" 
             alt="Hero Angel" 
             className="w-full h-full object-cover object-[center_top] lg:object-[center_top] opacity-90"
           />
