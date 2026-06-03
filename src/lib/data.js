@@ -376,9 +376,9 @@ export const girls = [
     name: { en: "Nina", cn: "妮娜" },
     status: "available",
     verified: true,
-    location: "Central",
+    location: "East",
     stats: {
-      age: "25+",
+      age: 24,
       height: "163cm",
       weight: "47kg",
       cup: "C (Natural)",
@@ -386,10 +386,10 @@ export const girls = [
     },
     image: "/images/girls/nina/1.webp",
     description: {
-      en: "Elegant, charming, and deeply attentive, Nina is now available in Central to offer you a highly tailored, intimate encounter. Standing at 163cm with a perfectly balanced natural C-cup figure, she is incredibly accommodating and cooperative. Specializing in both gentle, full-body sensory massage and high-passion intimate sessions, she dedicates her absolute focus to catering to your every whim for a truly relaxing escape.",
-      cn: "优雅迷人、温婉贴心的妮娜，现已在奥克兰中区为您开启专属的私密邂逅。她拥有 163cm 的高挑匀称身材，天然丰满的 C 罩杯极具诱惑，配合度无与伦比。无论是细腻温柔的全身感官按摩，还是极致欢愉的多云雨体验，妮娜都能以精湛的技巧和全心全意的迎合让您沉醉其中，为您打造难以忘怀的完美享受。",
+      en: "Elegant, charming, and deeply attentive, the beautiful 24-year-old Nina is now available in East Auckland to offer you a highly tailored, intimate encounter. Standing at 163cm with a perfectly balanced natural C-cup figure and fair, smooth skin. Specializing in both gentle sensory massage and high-passion intimate SVIP/Full Service packages, she focuses on every detail to satisfy your every desire and ensure a deeply relaxing, blissful escape.",
+      cn: "优雅迷人、温婉贴心的24岁女孩妮娜，现已在奥克兰东区为您开启专属的私密邂逅。她拥有163cm、47kg的匀称娇躯，天然丰满的C罩杯极具诱惑，配合度无与伦比。专业定制SVIP与全套互动体验，包含双人淋浴、缠绵舌吻、性感黑丝、胸推漫游、深度无套口及口爆等项目。在东区舒适安逸的环境中，为您呈现极尽缠绵与彻底放松的感官享受。",
     },
-    price: "$300 / 1h (VIP) · $220 / 1h · $180 / 30min",
+    price: "$320 / 1h (VIP) · $240 / 1h · $200 / 30min",
     services: {
       en: [
         "French kiss",
@@ -399,7 +399,7 @@ export const girls = [
         "Body slide",
         "Natural BJ",
         "Multi shots",
-        "VIP: Natural BJ · French kiss · 69 · Cum in mouth · Multi shots · Shower together",
+        "VIP: Natural BJ · French kiss · 69 · Cum in mouth · Multi shots · Shower together · Body slide",
       ],
       cn: [
         "舌吻",
@@ -409,7 +409,7 @@ export const girls = [
         "胸推漫游",
         "无套口",
         "多次数",
-        "VIP套餐：无套口 · 舌吻 · 69 · 口爆 · 多次数 · 双人洗浴",
+        "VIP套餐：无套口 · 舌吻 · 69 · 口爆 · 多次数 · 双人洗浴 · 胸推漫游",
       ],
     },
     gallery: [
