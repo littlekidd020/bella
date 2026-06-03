@@ -1,41 +1,55 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
-import { Menu, Globe } from "lucide-react";
+import { usePathname } from "next/navigation";
+import { Menu, Globe, Clock, MapPin, ChevronDown } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import BrandLogo from "@/components/common/BrandLogo";
 
 const Navbar = () => {
-  const [scrolled, setScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const { lang, toggleLang, t } = useLanguage();
+  const pathname = usePathname();
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  const isActive = (path) => {
+    if (path === "/") {
+      return pathname === "/";
+    }
+    return pathname.startsWith(path);
+  };
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-[70] transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${
-      scrolled 
-        ? "bg-white shadow-[var(--shadow-soft)] border-b border-[#593A48]/5" 
-        : "bg-transparent"
-    }`}>
+    <header className="sticky top-0 left-0 right-0 z-[70] bg-white shadow-[var(--shadow-soft)] border-b border-[#593A48]/5">
       {/* Top Info Bar - Hidden on mobile */}
-      <div className={`hidden md:flex justify-between items-center px-10 py-2 border-b border-[#593A48]/5 text-[#593A48]/60 text-[10px] tracking-widest uppercase transition-colors duration-500 ${scrolled ? 'bg-[#FCEEF2]' : 'bg-transparent'}`}>
-        <div className="flex gap-6">
-          <span>营业时间：早上10点 - 晚上11点</span>
-          <span>服务覆盖全城 (AUCKLAND WIDE)</span>
-        </div>
-        <div className="flex items-center gap-4">
-          <button onClick={toggleLang} className="hover:text-[#F05C88] transition-colors flex items-center gap-1">
-            <Globe size={12} />
-            <span>{lang === "cn" ? "EN" : "中"}</span>
-          </button>
+      <div className="hidden md:flex border-b border-[#593A48]/5 bg-[#FCEEF2] text-[#593A48]/70 text-[11px] tracking-widest font-sans font-medium">
+        <div className="mx-auto w-full max-w-7xl px-4 md:px-10 py-2 flex justify-between items-center">
+          <div className="flex gap-6 items-center">
+            <span className="flex items-center gap-1.5">
+              <Clock size={12} className="text-[#593A48]/60" />
+              <span>{lang === "cn" ? "营业时间：早上10点 - 晚上11点" : "Hours: 10:00 AM - 11:00 PM"}</span>
+            </span>
+            <span className="flex items-center gap-1.5">
+              <MapPin size={12} className="text-[#593A48]/60" />
+              <span>{lang === "cn" ? "服务覆盖全城" : "Citywide Service"}</span>
+            </span>
+          </div>
+          <div className="flex items-center gap-4">
+            {/* Language Pill Selector */}
+            <button 
+              onClick={toggleLang} 
+              className="px-3 py-1 border border-[#593A48]/20 rounded-full hover:text-[#F05C88] hover:border-[#F05C88] transition-all duration-300 text-[10px] font-sans font-bold flex items-center justify-center bg-white"
+            >
+              <span>{lang === "cn" ? "EN" : "中"}</span>
+            </button>
+            
+            <Link 
+              href="/contact-us" 
+              className="px-4 py-1.5 bg-[#F05C88] text-white rounded-full text-[10px] font-bold tracking-wider hover:bg-[#E8356E] hover:shadow-[0_4px_12px_rgba(240,92,136,0.25)] transition-all duration-300 flex items-center justify-center"
+            >
+              {lang === "cn" ? "预约服务" : "BOOK NOW"}
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -47,45 +61,71 @@ const Navbar = () => {
             </div>
           </Link>
         
-        {/* Desktop Links */}
-        <div className="hidden md:flex items-center gap-8 text-xs uppercase tracking-[0.2em] font-sans text-[#593A48]/80 font-medium">
-          <Link href="/" className="hover:text-[#F05C88] transition-colors duration-300">首页</Link>
-          <Link href="/collection" className="hover:text-[#F05C88] transition-colors duration-300">{t.nav.collection}</Link>
-          <Link href="/contact-us" className="hover:text-[#F05C88] transition-colors duration-300">{t.nav.concierge}</Link>
-          
-          <Link href="/contact-us" className="ml-4 px-6 py-2.5 bg-[#F05C88] text-white rounded-full font-bold tracking-widest hover:bg-[#E8356E] hover:shadow-[0_4px_15px_rgba(240,92,136,0.2)] transition-all duration-300">
-            预约服务
-          </Link>
-        </div>
+          {/* Desktop Links */}
+          <div className="hidden md:flex items-center gap-8 text-[13px] uppercase tracking-[0.2em] font-sans text-[#593A48]/80 font-semibold mr-4">
+            <Link 
+              href="/" 
+              className={`relative py-1 transition-colors duration-300 ${
+                isActive("/") 
+                  ? "text-[#F05C88] border-b-2 border-[#F05C88]" 
+                  : "hover:text-[#F05C88]"
+              }`}
+            >
+              {lang === "cn" ? "首页" : "Home"}
+            </Link>
+            <Link 
+              href="/collection" 
+              className={`relative py-1 transition-colors duration-300 ${
+                isActive("/collection") 
+                  ? "text-[#F05C88] border-b-2 border-[#F05C88]" 
+                  : "hover:text-[#F05C88]"
+              }`}
+            >
+              {t.nav.collection}
+            </Link>
+            <Link 
+              href="/contact-us" 
+              className={`relative py-1 transition-colors duration-300 ${
+                isActive("/contact-us") 
+                  ? "text-[#F05C88] border-b-2 border-[#F05C88]" 
+                  : "hover:text-[#F05C88]"
+              }`}
+            >
+              {t.nav.concierge}
+            </Link>
+          </div>
 
-        {/* Mobile Controls */}
-        <div className="flex items-center justify-end gap-3 md:hidden">
-          <button 
-            onClick={toggleLang}
-            className="flex items-center justify-center w-9 h-9 text-[10px] font-bold text-[#593A48]/60 hover:text-[#F05C88] transition-colors border border-[#593A48]/10 rounded-full bg-[#FFF5F8]/40 backdrop-blur-sm"
-          >
-            {lang === "cn" ? "EN" : "中"}
-          </button>
-          <button 
-            onClick={() => setIsOpen(!isOpen)}
-            className="flex items-center justify-center w-9 h-9 border border-[#593A48]/10 rounded-full text-[#593A48] hover:text-[#F05C88] hover:border-[#F05C88]/30 transition-colors relative z-[80] bg-[#FFF5F8]/40 backdrop-blur-sm"
-          >
-            <Menu size={18} />
-          </button>
-        </div>
+          {/* Right Controls */}
+          <div className="flex items-center gap-3">
+            {/* Mobile Lang selector (hidden on desktop) */}
+            <button 
+              onClick={toggleLang}
+              className="flex items-center justify-center w-9 h-9 text-[10px] font-bold text-[#593A48]/60 hover:text-[#F05C88] transition-colors border border-[#593A48]/10 rounded-full bg-[#FFF5F8]/40 backdrop-blur-sm md:hidden"
+            >
+              {lang === "cn" ? "EN" : "中"}
+            </button>
+            
+            {/* Hamburger Menu Icon (Always visible) */}
+            <button 
+              onClick={() => setIsOpen(!isOpen)}
+              className="flex items-center justify-center w-10 h-10 border border-[#593A48]/10 rounded-full text-[#593A48] hover:text-[#F05C88] hover:border-[#F05C88]/30 transition-colors relative z-[80] bg-[#FFF5F8]/40 backdrop-blur-sm"
+            >
+              <Menu size={20} className="text-[#F05C88]" />
+            </button>
+          </div>
         </nav>
       </div>
 
       {/* Mobile Menu Overlay */}
-      <div className={`fixed inset-0 bg-[#FFF5F8]/95 backdrop-blur-3xl z-[75] transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col items-center justify-center gap-12 ${isOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-4'}`}>
-        <div className="flex flex-col items-center gap-10 text-3xl font-serif italic tracking-[0.2em]">
-          <Link href="/" onClick={() => setIsOpen(false)} className="text-[#593A48] hover:text-[#F05C88] transition-colors hover:scale-105 duration-300 transform">
-            首页
+      <div className={`fixed inset-0 bg-[#FFF5F8]/95 backdrop-blur-3xl z-[75] transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col items-center justify-center gap-8 ${isOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-4'}`}>
+        <div className="flex flex-col items-center gap-6 text-2xl font-serif italic tracking-[0.2em]">
+          <Link href="/" onClick={() => setIsOpen(false)} className={`hover:text-[#F05C88] transition-colors hover:scale-105 duration-300 transform ${isActive("/") ? "text-[#F05C88]" : "text-[#593A48]"}`}>
+            {lang === "cn" ? "首页" : "Home"}
           </Link>
-          <Link href="/collection" onClick={() => setIsOpen(false)} className="text-[#593A48] hover:text-[#F05C88] transition-colors hover:scale-105 duration-300 transform">
+          <Link href="/collection" onClick={() => setIsOpen(false)} className={`hover:text-[#F05C88] transition-colors hover:scale-105 duration-300 transform ${isActive("/collection") ? "text-[#F05C88]" : "text-[#593A48]"}`}>
             {t.nav.collection}
           </Link>
-          <Link href="/contact-us" onClick={() => setIsOpen(false)} className="text-[#593A48] hover:text-[#F05C88] transition-colors hover:scale-105 duration-300 transform">
+          <Link href="/contact-us" onClick={() => setIsOpen(false)} className={`hover:text-[#F05C88] transition-colors hover:scale-105 duration-300 transform ${isActive("/contact-us") ? "text-[#F05C88]" : "text-[#593A48]"}`}>
             {t.nav.concierge}
           </Link>
         </div>

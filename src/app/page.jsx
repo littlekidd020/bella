@@ -18,20 +18,20 @@ export default function Home() {
         {/* Background Image - Girl on the right */}
         <div className="absolute top-0 right-0 w-full lg:w-[75%] h-full z-0 overflow-hidden">
           <img 
-            src="/images/header-bg-custom.png" 
+            src="/images/header-bg-custom.jpg" 
             alt="Hero Angel" 
-            className="w-full h-full object-cover object-[center_top] lg:object-[center_top] opacity-90"
+            className="w-full h-full object-cover object-[80%_0%] lg:object-[80%_0%] opacity-100"
           />
           {/* Gradient to blend with left side */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#FDF6F8] via-[#FDF6F8]/80 to-transparent hidden lg:block" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#FDF6F8] via-[#FDF6F8]/40 to-transparent hidden lg:block" />
           {/* Vertical gradients for mobile and bottom blend */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#FDF6F8] via-[#FDF6F8]/30 to-transparent lg:hidden" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#FDF6F8] via-[#FDF6F8]/20 to-transparent lg:hidden" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#FDF6F8] via-transparent to-transparent hidden lg:block h-32 bottom-0 top-auto" />
         </div>
         
         {/* Left Faint Wing Watermark */}
-        <div className="absolute top-[10%] left-[5%] md:left-[2%] w-[200px] md:w-[350px] lg:w-[450px] aspect-square pointer-events-none select-none opacity-[0.12] md:opacity-20 z-0">
-          <svg viewBox="0 0 200 200" fill="none" stroke="#F05C88" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" className="w-full h-full">
+        <div className="absolute top-[12%] md:top-[10%] left-[0%] md:left-[2%] lg:left-[4%] w-[260px] md:w-[420px] lg:w-[520px] aspect-square pointer-events-none select-none opacity-25 md:opacity-30 z-0">
+          <svg viewBox="0 0 200 200" fill="none" stroke="#F05C88" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-full h-full">
             {/* Detailed Left Wing path */}
             <path d="M180,160 C150,140 100,70 60,70 C45,70 30,85 20,100" strokeWidth="2.5" />
             <path d="M60,70 C40,55 20,65 10,85 C15,80 25,80 30,85" />
@@ -50,7 +50,7 @@ export default function Home() {
         </div>
         
         {/* Hero Content */}
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 pt-32 lg:pt-0 flex-1 flex flex-col justify-center">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 pt-16 lg:pt-0 flex-1 flex flex-col justify-center">
           <div className="max-w-2xl text-center lg:text-left flex flex-col items-center lg:items-start pt-10">
             
             <h1 className="font-serif leading-tight mb-8">

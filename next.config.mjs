@@ -3,8 +3,8 @@ const nextConfig = {
   devIndicators: false,
   webpack: (config, { dev }) => {
     if (dev) {
-      // Disable cache in development to prevent file locks/sync corruption (especially on synced folders like Google Drive)
-      config.cache = false;
+      // Use memory cache instead of disabling it to prevent file locks (Google Drive) while keeping RSC working
+      config.cache = { type: 'memory' };
     }
     return config;
   },

@@ -5,7 +5,11 @@ export const translations = {
       concierge: "联系我们",
       account: "会员中心",
       brand: "天使小可爱",
-      hours: "早上10点 - 晚上11点"
+      hours: "早上10点 - 晚上11点",
+      about: "关于我们",
+      services: "服务项目",
+      reviews: "用户评价",
+      citywide: "服务覆盖全城"
     },
     hero: {
       title: "天使小可爱",
@@ -139,7 +143,11 @@ export const translations = {
       concierge: "Contact us",
       account: "Account",
       brand: "Angel Cuties",
-      hours: "10:00 AM - 11:00 PM"
+      hours: "10:00 AM - 11:00 PM",
+      about: "About Us",
+      services: "Services",
+      reviews: "Reviews",
+      citywide: "Citywide Service"
     },
     hero: {
       title: "Angel Cuties",
