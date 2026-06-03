@@ -333,18 +333,18 @@ export const girls = [
     verified: true,
     location: "Central",
     stats: {
-      age: "25+",
-      height: "160cm",
+      age: 24,
+      height: "163cm",
       weight: "47kg",
       cup: "C (Natural)",
       nationality: "Chinese",
     },
     image: "/images/girls/annie/1.webp",
     description: {
-      en: "Petite, sweet, and incredibly gentle, Annie is now available in Central to offer her dedicated companionship. Blessed with a natural C-cup bust and a beautiful petite frame, she has a warming gaze and a deeply nurturing personality. Superb in both full-body relaxation and high-passion sensory interactions, she focuses on every detail to ensure you have a highly satisfying, completely relaxing getaway.",
-      cn: "娇小玲珑、温柔甜美的安妮，现已来到中区为您提供专属的温存陪伴。她拥有自然丰满的 C 罩杯和纤细均衡的娇俏身材，眼神温柔，服务周到。安妮不仅精通全身舒缓与感官调理，更能为您带来水乳交融的深切互动。她极其注重服务细节，在温馨舒适的环境中为您呈献舒缓身心的完美体验。",
+      en: "Petite, sweet, and incredibly gentle, the charming 24-year-old Annie is now available in Central to offer you her dedicated companionship. Blessed with a natural C-cup bust and a beautiful petite frame (163cm, 47kg), she has a warming gaze and a deeply nurturing personality. Specializing in both gentle sensory massage and high-passion intimate SVIP/Full Service packages, she focuses on every detail to satisfy your every desire and ensure a deeply relaxing, blissful escape.",
+      cn: "娇小玲珑、温柔甜美的24岁女孩安妮，现已来到中区为您提供专属的温存陪伴。她拥有自然丰满的C罩杯和纤细均衡的娇俏身材（163cm，47kg），眼神温柔，服务周到。专业定制SVIP与全套互动体验，包含双人淋浴、缠绵舌吻、性感黑丝、胸推漫游、深度无套口及口爆等项目。在温馨舒适的环境中，为您呈现极尽缠绵与彻底放松的感官享受。",
     },
-    price: "$300 / 1h (VIP) · $220 / 1h · $180 / 30min",
+    price: "$320 / 1h (VIP) · $240 / 1h · $200 / 30min",
     services: {
       en: [
         "French kiss",
@@ -354,7 +354,7 @@ export const girls = [
         "Body slide",
         "Natural BJ",
         "Multi shots",
-        "VIP: Natural BJ · French kiss · 69 · Cum in mouth · Multi shots · Shower together",
+        "VIP: Natural BJ · French kiss · 69 · Cum in mouth · Multi shots · Shower together · Body slide",
       ],
       cn: [
         "舌吻",
@@ -364,7 +364,7 @@ export const girls = [
         "胸推漫游",
         "无套口",
         "多次数",
-        "VIP套餐：无套口 · 舌吻 · 69 · 口爆 · 多次数 · 双人洗浴",
+        "VIP套餐：无套口 · 舌吻 · 69 · 口爆 · 多次数 · 双人洗浴 · 胸推漫游",
       ],
     },
     gallery: [
