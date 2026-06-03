@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Clock, MapPin, Phone, MessageCircle } from "lucide-react";
+import { Clock, MapPin, Phone, MessageCircle, Globe } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import BrandLogo from "@/components/common/BrandLogo";
 
@@ -94,9 +94,10 @@ const Navbar = () => {
           <div className="flex items-center">
             <button 
               onClick={toggleLang} 
-              className="px-3.5 py-1.5 border border-[#593A48]/20 rounded-full hover:text-[#F05C88] hover:border-[#F05C88] hover:bg-[#FFF5F8] transition-all duration-300 text-[10px] font-sans font-bold flex items-center justify-center bg-white shadow-[0_2px_6px_rgba(89,58,72,0.04)]"
+              className="px-4 py-1.5 border border-[#593A48]/20 rounded-full hover:text-[#F05C88] hover:border-[#F05C88] hover:bg-[#FFF5F8] transition-all duration-300 text-[11px] font-sans font-extrabold flex items-center gap-2 bg-white shadow-[0_2px_6px_rgba(89,58,72,0.04)]"
             >
-              <span>{lang === "cn" ? "EN" : "中"}</span>
+              <Globe size={12} className="text-[#F05C88]" />
+              <span className="tracking-wider leading-none mt-[0.5px]">{lang === "cn" ? "EN" : "中"}</span>
             </button>
           </div>
         </nav>
