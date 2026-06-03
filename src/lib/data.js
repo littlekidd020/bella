@@ -287,7 +287,7 @@ export const girls = [
     verified: true,
     location: "East",
     stats: {
-      age: "25+",
+      age: 24,
       height: "163cm",
       weight: "47kg",
       cup: "C (Natural)",
@@ -295,10 +295,10 @@ export const girls = [
     },
     image: "/images/girls/luna/1.webp",
     description: {
-      en: "Gentle, intellectual, and incredibly charming, Luna is now available in the East. Blessed with a beautifully-proportioned natural C-cup figure and smooth, fair skin, she offers exceptionally attentive companionship with superb technique. From deeply relaxing massage to high-passion intimacy, she is extremely cooperative and accommodates to all requirements. Luna also offers rare bareback interactions (can do natural sex) for an uninterrupted, ultimate sensory escape.",
-      cn: "温柔如水、知性迷人的露娜，现已来到东区为您提供贴心伴侣体验。她拥有均衡有致的 C 罩杯丰盈身材，肌肤细腻，配合度极高。无论是经典的全身舒缓服务，还是充满激情的云雨体验，露娜都能以极致的温柔和高超的互动技巧满足您的需求，特别提供极其稀有的无套互动（🉑无套），为您开启极致升华的感官之旅。",
+      en: "Gentle, intellectual, and sweet, the charming 24-year-old Luna is available in East Auckland. Featuring a perfect frame (163cm, 47kg) with natural C-cup curves and fair, smooth skin. An expert in custom SVIP and Full Service experiences, she is exceptionally cooperative and accommodates all of your desires. From relaxing shower sessions, French kissing, and body slide to high-passion natural BJ and multi shots, she ensures an unforgettable, deeply relaxing escape.",
+      cn: "温柔如水、知性迷人的24岁女孩露娜，现已来到东区为您提供高端贴心陪伴。她拥有163cm、47kg的匀称娇躯，天然C罩杯性感曲线与白嫩肌肤，服务态度超群，配合度极高。专业定制SVIP与全套互动体验，包含双人淋浴、缠绵舌吻、性感黑丝、胸推漫游、深度无套口及口爆等项目。在东区舒适安逸的环境中，为您呈现极尽缠绵与彻底放松的感官享受。",
     },
-    price: "$300 / 1h (VIP) · $220 / 1h · $180 / 30min",
+    price: "$320 / 1h (VIP) · $240 / 1h · $200 / 30min",
     services: {
       en: [
         "French kiss",
@@ -308,7 +308,7 @@ export const girls = [
         "Body slide",
         "Natural BJ",
         "Multi shots",
-        "VIP: Natural BJ · French kiss · 69 · Cum in mouth · Multi shots · Can do natural sex (bareback)",
+        "VIP: Natural BJ · French kiss · 69 · Cum in mouth · Multi shots · Shower together · Body slide",
       ],
       cn: [
         "舌吻",
@@ -318,7 +318,7 @@ export const girls = [
         "胸推漫游",
         "无套口",
         "多次数",
-        "VIP套餐：无套口 · 舌吻 · 69 · 口爆 · 多次数 · 🉑无套做",
+        "VIP套餐：无套口 · 舌吻 · 69 · 口爆 · 多次数 · 双人洗浴 · 胸推漫游",
       ],
     },
     gallery: [
