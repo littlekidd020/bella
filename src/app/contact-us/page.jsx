@@ -110,7 +110,7 @@ const ConciergePage = () => {
               </div>
               <div className="flex items-center justify-center gap-3 py-4 bg-[#FFFFFF]/60 border border-[#F05C88]/30 text-[#593A48] rounded-xl hover:bg-[#FFFFFF]/80 transition-all transform hover:scale-105 cursor-pointer">
                 <span className="text-[10px] uppercase tracking-widest text-[#F05C88] font-bold font-sans">微信客服2</span>
-                <span className="text-[11px] uppercase tracking-[0.2em] font-black font-sans">Angel51339</span>
+                <span className="text-[11px] uppercase tracking-[0.2em] font-black font-sans">Angel91339</span>
               </div>
               <a 
                 href="https://line.me/ti/p/angle666akl"

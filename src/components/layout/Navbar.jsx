@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Clock, MapPin } from "lucide-react";
+import { Clock, MapPin, Phone, MessageCircle } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import BrandLogo from "@/components/common/BrandLogo";
 
@@ -33,13 +33,17 @@ const Navbar = () => {
               <span>{lang === "cn" ? "服务覆盖全城" : "Citywide Service"}</span>
             </span>
           </div>
-          <div className="flex items-center gap-4">
-            <Link 
-              href="/contact-us" 
-              className="px-4 py-1.5 bg-[#F05C88] text-white rounded-full text-[10px] font-bold tracking-wider hover:bg-[#E8356E] hover:shadow-[0_4px_12px_rgba(240,92,136,0.25)] transition-all duration-300 flex items-center justify-center"
-            >
-              {lang === "cn" ? "预约服务" : "BOOK NOW"}
-            </Link>
+          <div className="flex gap-6 items-center">
+            <span className="flex items-center gap-1.5">
+              <Phone size={12} className="text-[#F05C88]" />
+              <span>{lang === "cn" ? "电话: " : "Phone: "}</span>
+              <a href="tel:0225391339" className="hover:text-[#F05C88] transition-colors font-bold text-[#593A48]">022-5391339</a>
+            </span>
+            <span className="flex items-center gap-1.5">
+              <MessageCircle size={12} className="text-[#F05C88]" />
+              <span>{lang === "cn" ? "微信: " : "WeChat: "}</span>
+              <span className="font-bold text-[#593A48] select-all">Angelya3312 | Angel91339</span>
+            </span>
           </div>
         </div>
       </div>
