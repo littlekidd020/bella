@@ -94,9 +94,9 @@ const Navbar = () => {
           <div className="flex items-center">
             <button 
               onClick={toggleLang} 
-              className="px-4 py-1.5 border border-[#593A48]/20 rounded-full hover:text-[#F05C88] hover:border-[#F05C88] hover:bg-[#FFF5F8] transition-all duration-300 text-[11px] font-sans font-extrabold flex items-center gap-2 bg-white shadow-[0_2px_6px_rgba(89,58,72,0.04)]"
+              className="px-5 py-2 border border-[#593A48]/20 rounded-full hover:text-[#F05C88] hover:border-[#F05C88] hover:bg-[#FFF5F8] transition-all duration-300 text-[13px] font-sans font-extrabold flex items-center gap-2.5 bg-white shadow-[0_2px_6px_rgba(89,58,72,0.04)]"
             >
-              <Globe size={12} className="text-[#F05C88]" />
+              <Globe size={16} className="text-[#F05C88]" />
               <span className="tracking-wider leading-none mt-[0.5px]">{lang === "cn" ? "EN" : "中"}</span>
             </button>
           </div>
