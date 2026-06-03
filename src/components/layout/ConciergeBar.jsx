@@ -10,33 +10,6 @@ const ConciergeBar = () => {
   const { t } = useLanguage();
   const [showQR, setShowQR] = React.useState(false);
 
-  const contactItems = [
-    {
-      id: 'phone',
-      icon: Phone,
-      label: t.concierge.sticky.call,
-      href: "tel:+64225391339"
-    },
-    {
-      id: 'whatsapp',
-      icon: MessageSquare,
-      label: t.concierge.sticky.whatsapp,
-      href: "https://wa.me/64225391339"
-    },
-    {
-      id: 'telegram',
-      icon: Send,
-      label: t.concierge.sticky.telegram,
-      href: "https://t.me/LOVE0225391339"
-    },
-    {
-      id: 'line',
-      icon: MessagesSquare,
-      label: t.concierge.sticky.line,
-      href: "https://line.me/ti/p/angle666akl"
-    }
-  ];
-
   return (
     <>
       <motion.div 
