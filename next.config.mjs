@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  devIndicators: false,
   webpack: (config, { dev }) => {
     if (dev) {
       // Disable cache in development to prevent file locks/sync corruption (especially on synced folders like Google Drive)
