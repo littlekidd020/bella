@@ -2292,7 +2292,7 @@ export const girls = [
     name: { en: "Dajie", cn: "大姐" },
     status: "available",
     verified: true,
-    location: "East",
+    location: "Central",
     stats: {
       age: "33+",
       height: "170cm",
@@ -2302,8 +2302,8 @@ export const girls = [
     },
     image: "/images/girls/dajie/1.webp",
     description: {
-      en: "Mature and professional, Dajie is a tall (170cm) and elegant companion serving East Auckland. She specializes in 'Zhua Long Jin' (specialized prostate and tantric massage), delivering a session that is both therapeutic and deeply pleasurable. Her mature energy and thorough service ensure a refined and satisfying experience. Her VIP package offers extended indulgence with a suite of sensory interactions and multiple rounds for those seeking the ultimate escape.",
-      cn: "成熟稳重、技术纯熟，大姐身高 170cm，为您在东区提供极具深度的身心呵护。她尤其擅长‘抓龙筋’这项专业的男性保健按摩，能为您带来前所未有的舒压与愉悦体验。大姐以成熟的风韵和无微不至的服务著称，无论是标准的单次圆满，还是涵盖舌吻、熊推、漫游及多次陪伴（多次）的 VIP 尊享套餐，她都能以细腻的技巧让您流连忘返。",
+      en: "Mature and professional, Dajie is a tall (170cm) and elegant companion serving Central Auckland. She specializes in 'Zhua Long Jin' (specialized prostate and tantric massage), delivering a session that is both therapeutic and deeply pleasurable. Her mature energy and thorough service ensure a refined and satisfying experience. Her VIP package offers extended indulgence with a suite of sensory interactions and multiple rounds for those seeking the ultimate escape.",
+      cn: "成熟稳重、技术纯熟，大姐身高 170cm，为您在中区提供极具深度的身心呵护。她尤其擅长‘抓龙筋’这项专业的男性保健按摩，能为您带来前所未有的舒压与愉悦体验。大姐以成熟的风韵和无微不至的服务著称，无论是标准的单次圆满，还是涵盖舌吻、熊推、漫游及多次陪伴（多次）的 VIP 尊享套餐，她都能以细腻的技巧让您流连忘返。",
     },
     price: "$250 / 1h (VIP) · $170 / 1h · $140 / 30min",
     services: {
