@@ -553,7 +553,7 @@ export const girls = [
     ],},
   {id: 47,
     name: { en: "Blind Box 3", cn: "盲盒3" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "CBD",
     stats: {
