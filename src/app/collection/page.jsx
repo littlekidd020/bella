@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import GirlGrid from "@/components/girl/GirlGrid";
 import { useLanguage } from "@/context/LanguageContext";
 
@@ -8,9 +9,19 @@ import { girls } from "@/lib/data";
 
 const locations = ["All", "CBD", "Central", "North", "East"];
 
-export default function CollectionPage() {
+function CollectionContent() {
   const { t, lang } = useLanguage();
-  const [activeFilter, setActiveFilter] = useState("All");
+  const searchParams = useSearchParams();
+  const areaParam = searchParams.get("area");
+  const [activeFilter, setActiveFilter] = useState(
+    areaParam && locations.includes(areaParam) ? areaParam : "All"
+  );
+
+  useEffect(() => {
+    if (areaParam && locations.includes(areaParam)) {
+      setActiveFilter(areaParam);
+    }
+  }, [areaParam]);
 
   const filteredGirls = activeFilter === "All" 
     ? girls 
@@ -71,5 +82,20 @@ export default function CollectionPage() {
 
       <GirlGrid girls={filteredGirls} />
     </main>
+  );
+}
+
+export default function CollectionPage() {
+  return (
+    <Suspense fallback={
+      <main className="min-h-screen bg-[#FFF5F8] flex items-center justify-center">
+        <div className="text-center">
+          <div className="w-10 h-10 border-4 border-[#F05C88]/30 border-t-[#F05C88] rounded-full animate-spin mx-auto mb-4" />
+          <p className="text-[#593A48]/60 text-sm tracking-wider uppercase font-bold">Loading Collection...</p>
+        </div>
+      </main>
+    }>
+      <CollectionContent />
+    </Suspense>
   );
 }
