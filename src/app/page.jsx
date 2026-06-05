@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#FDF6F8] overflow-x-hidden transition-all duration-700">
       
-      {/* Full Bleed Asymmetrical Hero */}
-      <header className="relative w-full h-[80vh] lg:h-[90vh] flex flex-col overflow-hidden bg-[#FDF6F8]">
+      {/* Desktop Hero Section - Full Bleed Asymmetrical */}
+      <header className="hidden lg:flex relative w-full h-[80vh] lg:h-[90vh] flex-col overflow-hidden bg-[#FDF6F8]">
         {/* Background Image - Girl on the right */}
         <div className="absolute top-0 right-0 w-full lg:w-[75%] h-full z-0 overflow-hidden">
           <img 
@@ -23,14 +23,10 @@ export default function Home() {
             className="w-full h-full object-cover object-[80%_0%] lg:object-[80%_0%] opacity-100"
           />
           {/* Gradient to blend with left side */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#FDF6F8] via-[#FDF6F8]/40 to-transparent hidden lg:block" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#FDF6F8] via-[#FDF6F8]/40 to-transparent" />
           {/* Vertical gradients for mobile and bottom blend */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#FDF6F8] via-[#FDF6F8]/20 to-transparent lg:hidden" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#FDF6F8] via-transparent to-transparent hidden lg:block h-32 bottom-0 top-auto" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#FDF6F8] via-transparent to-transparent h-32 bottom-0 top-auto" />
         </div>
-        
-        
-
         
         {/* Hero Content */}
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 pt-16 lg:pt-0 flex-1 flex flex-col justify-center">
@@ -59,11 +55,11 @@ export default function Home() {
             
             <div className="mt-6">
               <Link 
-                href="/contact-us" 
+                href="/collection" 
                 className="group relative inline-flex items-center justify-center gap-4 px-8 py-3.5 bg-[#F05C88] text-white rounded-full font-sans text-sm tracking-[0.2em] hover:bg-[#E8356E] transition-all duration-300 shadow-[0_8px_20px_rgba(240,92,136,0.3)]"
               >
-                <span>立即预约</span>
-                <div className="flex items-center justify-center w-5 h-5 rounded-full bg-white/30 text-white group-hover:scale-110 transition-transform duration-300">
+                <span>{lang === "cn" ? "查看所有女生" : "VIEW COLLECTION"}</span>
+                <div className="flex items-center justify-center w-5 h-5 rounded-full bg-white text-[#F05C88] group-hover:scale-110 transition-transform duration-300">
                   <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
                 </div>
               </Link>
@@ -73,8 +69,97 @@ export default function Home() {
         </div>
       </header>
 
+      {/* Mobile Hero Section - Replicating Mockup */}
+      <header className="lg:hidden relative w-full flex flex-col pt-0 pb-6 bg-gradient-to-b from-[#FFF0F4] to-[#FDF6F8] px-5 overflow-hidden z-10">
+        {/* Soft Background Petals & Cloud Effect */}
+        <div className="absolute inset-0 pointer-events-none select-none opacity-50 z-0">
+          <div className="absolute top-10 left-[10%] w-3 h-3 bg-[#F05C88]/20 rounded-full blur-[1px]" />
+          <div className="absolute top-24 right-[15%] w-2.5 h-4 bg-[#F05C88]/30 rounded-full rotate-45" />
+          <div className="absolute bottom-16 left-[20%] w-4 h-2.5 bg-[#F05C88]/20 rounded-full -rotate-12" />
+        </div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[150px] bg-[#FFF0F4]/60 blur-3xl pointer-events-none rounded-full z-0" />
+        
+        {/* Top branding layout: Flat image of the cartoon banner with blurred bounding box */}
+        <div className="relative z-10 w-full mt-0 flex justify-center overflow-hidden">
+          <img 
+            src="/images/mobile-hero-banner.png" 
+            alt="天使小可爱 - Little Angel Cutie" 
+            className="w-full h-auto object-contain"
+          />
+          {/* Inset shadow to blur the bounding box into the pink background */}
+          <div className="absolute inset-0 shadow-[inset_0_0_24px_16px_#FFF0F4] pointer-events-none" />
+        </div>
+
+        {/* Bento Gradient Card */}
+        <div className="relative z-10 w-full mt-6 bg-gradient-to-br from-[#FF5C8A] via-[#E84E7D] to-[#D43F6E] rounded-3xl p-5 shadow-[0_12px_28px_rgba(240,92,136,0.22)] border border-white/20 flex flex-col gap-4 overflow-hidden">
+          <div className="absolute -right-10 -bottom-10 w-28 h-28 bg-white/10 rounded-full blur-xl pointer-events-none" />
+          
+          <div className="flex items-center gap-3">
+            <div className="w-14 h-14 rounded-full overflow-hidden border border-white/50 bg-white/10 flex-shrink-0">
+              <img 
+                src="/images/header-bg-custom.jpg" 
+                alt="Mini Avatar" 
+                className="w-full h-full object-cover object-[80%_0%]" 
+              />
+            </div>
+            <div className="flex flex-col text-left">
+              <span className="text-[20px] font-bold text-white tracking-[0.05em]">
+                专业接线 纽澳独家精品资源
+              </span>
+              <span className="text-[15px] text-white/80 tracking-wider mt-0.5 font-sans whitespace-nowrap">
+                —— ♥ 尊贵 · 隐秘 · 奢界 ♥ ——
+              </span>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            {/* Phone option */}
+            <div className="flex items-center gap-3 bg-white/15 backdrop-blur-sm rounded-xl p-2.5 px-3.5 border border-white/10">
+              <div className="w-7 h-7 rounded-lg bg-white/20 flex items-center justify-center text-white flex-shrink-0">
+                <Phone size={14} />
+              </div>
+              <div className="flex flex-col text-left">
+                <span className="text-[8px] text-white/70 uppercase tracking-widest font-bold font-sans">
+                  {lang === "cn" ? "电话" : "PHONE"}
+                </span>
+                <a href="tel:0225391339" className="text-white text-[14px] font-extrabold tracking-wider font-sans hover:underline">
+                  022-5391339
+                </a>
+              </div>
+            </div>
+
+            {/* WeChat option */}
+            <div className="flex items-center gap-3 bg-white/15 backdrop-blur-sm rounded-xl p-2.5 px-3.5 border border-white/10">
+              <div className="w-7 h-7 rounded-lg bg-white/20 flex items-center justify-center text-white flex-shrink-0">
+                <MessageCircle size={14} />
+              </div>
+              <div className="flex flex-col text-left overflow-hidden">
+                <span className="text-[8px] text-white/70 uppercase tracking-widest font-bold font-sans">
+                  {lang === "cn" ? "微信" : "WECHAT"}
+                </span>
+                <span className="text-white text-[12px] font-extrabold tracking-wide font-sans select-all truncate">
+                  Angelya3312 | Angel91339
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* View Collection Action Button */}
+        <div className="relative z-10 w-full flex justify-center mt-6">
+          <Link 
+            href="/collection" 
+            className="group relative flex items-center justify-center gap-3 px-8 py-3 bg-white hover:bg-[#FFF5F8] text-[#F05C88] rounded-full font-sans text-[13px] font-extrabold tracking-[0.2em] transition-all duration-300 shadow-[0_6px_18px_rgba(240,92,136,0.12)] active:scale-95 border border-[#F05C88]/10"
+          >
+            <span className="text-xs">ʚ</span>
+            <span>查看所有女生</span>
+            <span className="text-xs">ɞ</span>
+          </Link>
+        </div>
+      </header>
+
       {/* Area Selection Section */}
-      <section className="relative px-6 md:px-10 pt-16 pb-8 max-w-7xl mx-auto z-20">
+      <section className="hidden md:block relative px-6 md:px-10 pt-16 pb-8 max-w-7xl mx-auto z-20">
         <div className="flex items-center justify-center gap-4 mb-10">
           <div className="w-12 h-[1px] bg-[#EAC9D4]" />
           <div className="w-2 h-2 rounded-full bg-[#EAC9D4]" />
@@ -107,11 +192,15 @@ export default function Home() {
       
       {/* Model Grid Section */}
       <div className="pt-10 pb-0 md:pt-24 md:pb-6">
-        <div className="text-center mb-8 md:mb-16">
-          <h2 className="text-3xl md:text-4xl font-serif italic text-[#593A48]">
+        <div className="text-center mb-8 md:mb-16 px-6">
+          <h2 className="text-3xl md:text-4xl font-serif italic text-[#593A48] font-bold tracking-widest">
             {t.grid.newCollection}
           </h2>
-          <div className="w-16 h-[1px] bg-[#F05C88] mx-auto mt-6" />
+          <div className="flex items-center justify-center gap-2 mt-4 text-[#F05C88]">
+            <span className="hidden md:block w-16 h-[1px] bg-[#F05C88]/60" />
+            <span className="text-xs">♥</span>
+            <span className="hidden md:block w-16 h-[1px] bg-[#F05C88]/60" />
+          </div>
         </div>
         <GirlGrid 
           limit={3} 
@@ -152,8 +241,14 @@ export default function Home() {
                 <h4 className="text-3xl font-serif text-[#593A48] italic mb-2">{t.grid.vip}</h4>
                 <p className="text-[#593A48]/50 text-sm max-w-md">{t.grid.vipDesc}</p>
               </div>
-              <a href="/contact-us" className="px-8 py-4 bg-[#593A48] text-[#F05C88] rounded-full font-bold tracking-widest text-xs hover:bg-[#1A0E13] hover:text-white transition-colors duration-300 text-center uppercase">
-                {t.grid.discoverMore}
+              <a 
+                href="/contact-us" 
+                className="group relative inline-flex items-center justify-center gap-4 px-8 py-3.5 bg-[#F05C88] text-white rounded-full font-sans text-sm tracking-[0.2em] hover:bg-[#E8356E] transition-all duration-300 shadow-[0_8px_20px_rgba(240,92,136,0.3)] text-center"
+              >
+                <span>{t.grid.discoverMore}</span>
+                <div className="flex items-center justify-center w-5 h-5 rounded-full bg-white/20 text-white group-hover:scale-110 transition-transform duration-300">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                </div>
               </a>
             </div>
           </div>

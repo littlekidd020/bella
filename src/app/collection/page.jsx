@@ -30,28 +30,25 @@ function CollectionContent() {
   return (
     <main className="min-h-screen bg-[#FFF5F8] transition-colors duration-700">
       {/* Editorial Header Banner */}
-      <header className="relative w-full h-[220px] md:h-[360px] flex items-center justify-center overflow-hidden border-b border-[#F05C88]/10 bg-[#FFF5F8] mb-0 md:mb-10">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0 bg-[#FFF5F8]">
-          <img 
-            src="/images/header-bg-custom.jpg" 
-            alt="Sensual Collection Background" 
-            className="w-full h-full object-cover object-top opacity-50 parallax"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#FFF5F8] via-[#FFF5F8]/60 to-transparent" />
-        </div>
-
-        {/* Text Content */}
-        <div className="relative z-10 flex flex-col items-center justify-center pt-20 md:pt-24 px-4 w-full text-center">
-          <h1 className="text-5xl md:text-7xl font-serif text-[#593A48] italic opacity-90 drop-shadow-md">
-            {t.nav.collection}
-          </h1>
-          <div className="w-20 h-[1px] bg-[#F05C88] mx-auto mt-6" />
-          <p className="hidden md:block text-[#F05C88] uppercase tracking-[0.4em] font-medium text-xs mt-6 max-w-2xl mx-auto px-6">
-            {activeFilter === "All" 
-              ? "A Curated Selection of Sophisticated Companions"
-              : `${activeFilter === "All" ? (lang === "cn" ? "全部" : "All") : (t.girl.locations[activeFilter] || activeFilter)} Collection`}
-          </p>
+      <header className="relative w-full flex items-center justify-center overflow-hidden border-b border-[#F05C88]/10 bg-[#FFF5F8] mb-0 md:mb-10">
+        <div className="relative w-full md:w-[23.33%] mx-auto flex justify-center px-8 md:px-0">
+          <div 
+            className="relative w-full overflow-hidden rounded-2xl md:rounded-none"
+            style={{
+              maskImage: 'linear-gradient(to bottom, transparent, black 20px, black calc(100% - 20px), transparent), linear-gradient(to right, transparent, black 20px, black calc(100% - 20px), transparent)',
+              maskComposite: 'intersect',
+              WebkitMaskImage: 'linear-gradient(to bottom, transparent, black 20px, black calc(100% - 20px), transparent), linear-gradient(to right, transparent, black 20px, black calc(100% - 20px), transparent)',
+              WebkitMaskComposite: 'source-in'
+            }}
+          >
+            <img 
+              src="/images/collection-hero-banner.png" 
+              alt="心动女生" 
+              className="w-full h-auto object-contain"
+            />
+            {/* Inset shadow to blur the bounding box into the page background */}
+            <div className="absolute inset-0 shadow-[inset_0_0_24px_16px_#FFF5F8] pointer-events-none" />
+          </div>
         </div>
       </header>
       

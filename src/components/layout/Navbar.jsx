@@ -1,15 +1,30 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Clock, MapPin, Phone, MessageCircle, Globe } from "lucide-react";
+import { Clock, MapPin, Phone, MessageCircle, Menu, X } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import BrandLogo from "@/components/common/BrandLogo";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const { lang, toggleLang, t } = useLanguage();
   const pathname = usePathname();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+    handleScroll();
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const isActive = (path) => {
     if (path === "/") {
@@ -19,9 +34,17 @@ const Navbar = () => {
   };
 
   return (
-    <header className="sticky top-0 left-0 right-0 z-[70] bg-white shadow-[var(--shadow-soft)] border-b border-[#593A48]/5">
+    <header className={`sticky top-0 left-0 right-0 z-[70] transition-all duration-300 ${
+      isScrolled 
+        ? "bg-white/95 backdrop-blur-md shadow-[var(--shadow-soft)] border-b border-[#593A48]/5" 
+        : "bg-transparent shadow-none border-b-0 border-transparent"
+    }`}>
       {/* Top Info Bar - Hidden on mobile */}
-      <div className="hidden md:flex border-b border-[#593A48]/5 bg-[#FCEEF2] text-[#593A48]/70 text-[11px] tracking-widest font-sans font-medium">
+      <div className={`hidden md:flex border-b text-[#593A48]/70 text-[11px] tracking-widest font-sans font-medium transition-all duration-300 ${
+        isScrolled 
+          ? "bg-[#FCEEF2] border-[#593A48]/5" 
+          : "bg-transparent border-transparent"
+      }`}>
         <div className="mx-auto w-full max-w-7xl px-4 md:px-10 py-2 flex justify-between items-center">
           <div className="flex gap-6 items-center">
             <span className="flex items-center gap-1.5">
@@ -47,17 +70,17 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-
+ 
       <div className="mx-auto max-w-7xl px-4 md:px-10 py-3 md:py-4">
         <nav className="relative z-10 flex items-center justify-between w-full">
-          <Link href="/" className="flex items-center group">
+          <Link href="/" className={`${isScrolled ? "flex" : "hidden md:flex"} items-center group`}>
             <div className="relative w-[140px] h-[50px] md:w-[180px] md:h-[65px] transition-transform duration-500 group-hover:scale-105">
               <BrandLogo className="w-full h-full" />
             </div>
           </Link>
         
-          {/* Navigation Links */}
-          <div className="flex items-center gap-4 md:gap-8 text-[11px] md:text-[13px] uppercase tracking-[0.1em] md:tracking-[0.2em] font-sans text-[#593A48]/80 font-semibold">
+          {/* Navigation Links - Hidden on mobile */}
+          <div className="hidden md:flex items-center gap-8 text-[13px] uppercase tracking-[0.2em] font-sans text-[#593A48]/80 font-semibold">
             <Link 
               href="/" 
               className={`relative py-1 transition-colors duration-300 ${
@@ -90,17 +113,50 @@ const Navbar = () => {
             </Link>
           </div>
 
-          {/* Right Controls - Language Selector Pill */}
-          <div className="flex items-center">
+          {/* Desktop Language Selector Pill */}
+          <div className="hidden md:flex items-center">
             <button 
               onClick={toggleLang} 
-              className="px-5 py-2 border border-[#593A48]/20 rounded-full hover:text-[#F05C88] hover:border-[#F05C88] hover:bg-[#FFF5F8] transition-all duration-300 text-[13px] font-sans font-extrabold flex items-center gap-2.5 bg-white shadow-[0_2px_6px_rgba(89,58,72,0.04)]"
+              className="px-3.5 py-1.5 border border-[#593A48]/20 rounded-full hover:text-[#F05C88] hover:border-[#F05C88] hover:bg-[#FFF5F8] transition-all duration-300 text-[10px] font-sans font-bold flex items-center justify-center bg-white shadow-[0_2px_6px_rgba(89,58,72,0.04)]"
             >
-              <Globe size={16} className="text-[#F05C88]" />
-              <span className="tracking-wider leading-none mt-[0.5px]">{lang === "cn" ? "EN" : "中"}</span>
+              <span>{lang === "cn" ? "EN" : "中"}</span>
+            </button>
+          </div>
+
+          {/* Mobile Navigation Controls: Two Circular Buttons */}
+          <div className="flex md:hidden items-center gap-2.5 ml-auto md:ml-0">
+            {/* Language Selector Circle */}
+            <button 
+              onClick={toggleLang} 
+              className="w-10 h-10 rounded-full bg-white shadow-[0_4px_12px_rgba(240,92,136,0.12)] border border-[#F05C88]/5 flex items-center justify-center text-[#F05C88] font-extrabold text-[12px] font-sans hover:scale-105 active:scale-95 transition-all duration-300"
+            >
+              {lang === "cn" ? "EN" : "中"}
+            </button>
+
+            {/* Hamburger / Menu toggle Circle */}
+            <button 
+              onClick={() => setIsOpen(!isOpen)}
+              className="w-10 h-10 rounded-full bg-white shadow-[0_4px_12px_rgba(240,92,136,0.12)] border border-[#F05C88]/5 flex items-center justify-center text-[#F05C88] hover:scale-105 active:scale-95 transition-all duration-300 z-[80]"
+            >
+              {isOpen ? <X size={18} /> : <Menu size={18} />}
             </button>
           </div>
         </nav>
+      </div>
+
+      {/* Mobile Menu Overlay */}
+      <div className={`fixed inset-0 bg-[#FFF5F8]/95 backdrop-blur-3xl z-[75] transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col items-center justify-center gap-8 ${isOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-4'}`}>
+        <div className="flex flex-col items-center gap-6 text-2xl font-serif italic tracking-[0.2em]">
+          <Link href="/" onClick={() => setIsOpen(false)} className={`hover:text-[#F05C88] transition-colors hover:scale-105 duration-300 transform ${isActive("/") ? "text-[#F05C88]" : "text-[#593A48]"}`}>
+            {lang === "cn" ? "首页" : "Home"}
+          </Link>
+          <Link href="/collection" onClick={() => setIsOpen(false)} className={`hover:text-[#F05C88] transition-colors hover:scale-105 duration-300 transform ${isActive("/collection") ? "text-[#F05C88]" : "text-[#593A48]"}`}>
+            {t.nav.collection}
+          </Link>
+          <Link href="/contact-us" onClick={() => setIsOpen(false)} className={`hover:text-[#F05C88] transition-colors hover:scale-105 duration-300 transform ${isActive("/contact-us") ? "text-[#F05C88]" : "text-[#593A48]"}`}>
+            {t.nav.concierge}
+          </Link>
+        </div>
       </div>
     </header>
   );
