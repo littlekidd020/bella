@@ -149,69 +149,11 @@ export default function Home() {
         <div className="relative z-10 w-full flex justify-center mt-6">
           <Link 
             href="/collection" 
-            className="group relative flex items-center justify-between w-[95%] max-w-sm px-4 py-2.5 bg-gradient-to-b from-[#FFF0F4] to-[#FFE6EE] text-[#D6336C] rounded-full font-sans text-[16px] font-extrabold tracking-[0.15em] transition-all duration-300 shadow-[0_8px_24px_rgba(240,92,136,0.18),inset_0_1.5px_3px_rgba(255,255,255,0.9)] active:scale-[0.98] border border-white"
+            className="group relative flex items-center justify-center gap-3 px-8 py-3 bg-white hover:bg-[#FFF5F8] text-[#F05C88] rounded-full font-sans text-[13px] font-extrabold tracking-[0.2em] transition-all duration-300 shadow-[0_6px_18px_rgba(240,92,136,0.12)] active:scale-95 border border-[#F05C88]/10"
           >
-            {/* Winged Heart SVG (Glossy/3D) */}
-            <div className="relative w-14 h-9 flex items-center justify-center flex-shrink-0">
-              <svg width="48" height="32" viewBox="0 0 48 32" fill="none" className="drop-shadow-[0_2px_5px_rgba(240,92,136,0.2)]">
-                {/* Left Wing */}
-                <path 
-                  d="M19 15C13.5 7.5 5 10 3.5 14C8.5 14.5 13.5 17.5 14.5 20C9.5 19.5 7 22 5.5 24.5C12.5 23.5 16.5 19.5 19 15Z" 
-                  fill="white" 
-                  stroke="#FF7597" 
-                  strokeWidth="1.2" 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round" 
-                />
-                <path d="M17 13.5C13 8 7 10 5.5 13" stroke="#FF7597" strokeWidth="1.2" strokeLinecap="round" />
-                
-                {/* Right Wing */}
-                <path 
-                  d="M29 15C34.5 7.5 43 10 44.5 14C39.5 14.5 34.5 17.5 33.5 20C38.5 19.5 41 22 42.5 24.5C35.5 23.5 31.5 19.5 29 15Z" 
-                  fill="white" 
-                  stroke="#FF7597" 
-                  strokeWidth="1.2" 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round" 
-                />
-                <path d="M31 13.5C35 8 41 10 42.5 13" stroke="#FF7597" strokeWidth="1.2" strokeLinecap="round" />
-                
-                {/* Heart Shadow */}
-                <path d="M24 25.5C24 25.5 14 19 14 12.5C14 8.5 17 5.5 21 5.5C23 5.5 24 7 24 7C24 7 25 5.5 27 5.5C31 5.5 34 8.5 34 12.5C34 19 24 25.5 24 25.5Z" fill="#D61C5C" opacity="0.15" />
-                
-                {/* Heart Base with 3D Gloss Gradient */}
-                <path d="M24 24.5C24 24.5 14.5 18 14.5 11.5C14.5 7.8 17.8 4.5 21.5 4.5C23.2 4.5 24 5.5 24 5.5C24 5.5 24.8 4.5 26.5 4.5C30.2 4.5 33.5 7.8 33.5 11.5C33.5 18 24 24.5 24 24.5Z" fill="url(#glossyHeart)" />
-                
-                {/* Heart Inner Glow/Highlight */}
-                <path d="M24 23.5C24 23.5 15.5 17.3 15.5 11.5C15.5 8.3 18.3 5.5 21.5 5.5C22.8 5.5 23.5 6.2 24 6.7C24.5 6.2 25.2 5.5 26.5 5.5C29.7 5.5 32.5 8.3 32.5 11.5C32.5 17.3 24 23.5 24 23.5Z" stroke="url(#innerGlow)" strokeWidth="1" strokeLinecap="round" style={{ mixBlendMode: 'overlay' }} />
-                
-                {/* Glossy Reflection Highlight */}
-                <path d="M19.5 8.5C17.5 10 17 12.5 17 12.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" opacity="0.75" />
-                <circle cx="20.5" cy="8" r="1.5" fill="white" opacity="0.8" />
-                
-                <defs>
-                  <radialGradient id="glossyHeart" cx="35%" cy="30%" r="65%" fx="35%" fy="30%">
-                    <stop offset="0%" stopColor="#FF5C8A" />
-                    <stop offset="40%" stopColor="#F0245E" />
-                    <stop offset="85%" stopColor="#C20E42" />
-                    <stop offset="100%" stopColor="#96002A" />
-                  </radialGradient>
-                  <linearGradient id="innerGlow" x1="24" y1="4.5" x2="24" y2="24.5">
-                    <stop offset="0%" stopColor="white" stopOpacity="0.6" />
-                    <stop offset="100%" stopColor="white" stopOpacity="0" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
-
-            <span className="flex-1 text-center font-bold">{lang === "cn" ? "查看所有女生" : "VIEW ALL GIRLS"}</span>
-
-            {/* Circular Arrow Icon */}
-            <div className="flex items-center justify-center w-8 h-8 rounded-full bg-gradient-to-b from-[#FF4E7A] to-[#D82A54] text-white flex-shrink-0 shadow-[0_3px_8px_rgba(216,42,84,0.35)] border border-white/40 group-hover:scale-105 transition-transform duration-300">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="m9 18 6-6-6-6" />
-              </svg>
-            </div>
+            <span className="text-xs">ʚ</span>
+            <span>查看所有女生</span>
+            <span className="text-xs">ɞ</span>
           </Link>
         </div>
       </header>
