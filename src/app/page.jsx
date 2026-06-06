@@ -149,7 +149,7 @@ export default function Home() {
         <div className="relative z-10 w-full flex justify-center mt-6">
           <Link 
             href="/collection" 
-            className="group relative flex items-center justify-center gap-3 px-8 py-3 bg-white hover:bg-[#FFF5F8] text-[#F05C88] rounded-full font-sans text-[13px] font-extrabold tracking-[0.2em] transition-all duration-300 shadow-[0_6px_18px_rgba(240,92,136,0.12)] active:scale-95 border border-[#F05C88]/10"
+            className="group relative flex items-center justify-center gap-3 w-full py-3.5 bg-white hover:bg-[#FFF5F8] text-[#F05C88] rounded-full font-sans text-[13px] font-extrabold tracking-[0.2em] transition-all duration-300 shadow-[0_6px_18px_rgba(240,92,136,0.12)] active:scale-95 border border-[#F05C88]/10"
           >
             <span className="text-xs">ʚ</span>
             <span>查看所有女生</span>
