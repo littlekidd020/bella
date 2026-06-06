@@ -39,6 +39,11 @@ const Navbar = () => {
         ? "bg-white/95 backdrop-blur-md shadow-[var(--shadow-soft)] border-b border-[#593A48]/5" 
         : "bg-transparent shadow-none border-b-0 border-transparent"
     }`}>
+      {/* Mobile Top Info Bar - Business Hours */}
+      <div className={`flex md:hidden w-full items-center justify-center py-2 text-[#F05C88] text-[10px] tracking-widest font-sans font-bold transition-all duration-300 border-b border-[#F05C88]/10 bg-[#FFF0F4]`}>
+        <span>{lang === "cn" ? "营业时间：早上10点 - 晚上11点" : "Hours: 10:00 AM - 11:00 PM"}</span>
+      </div>
+
       {/* Top Info Bar - Hidden on mobile */}
       <div className={`hidden md:flex border-b text-[#593A48]/70 text-[11px] tracking-widest font-sans font-medium transition-all duration-300 ${
         isScrolled 
@@ -73,7 +78,7 @@ const Navbar = () => {
  
       <div className="mx-auto max-w-7xl px-4 md:px-10 py-3 md:py-4">
         <nav className="relative z-10 flex items-center justify-between w-full">
-          <Link href="/" className={`${isScrolled ? "flex" : "hidden md:flex"} items-center group`}>
+          <Link href="/" className={`${isScrolled || pathname !== "/" ? "flex" : "hidden md:flex"} items-center group`}>
             <div className="relative w-[140px] h-[50px] md:w-[180px] md:h-[65px] transition-transform duration-500 group-hover:scale-105">
               <BrandLogo className="w-full h-full" />
             </div>
@@ -123,22 +128,22 @@ const Navbar = () => {
             </button>
           </div>
 
-          {/* Mobile Navigation Controls: Two Circular Buttons */}
-          <div className="flex md:hidden items-center gap-2.5 ml-auto md:ml-0">
-            {/* Language Selector Circle */}
+          {/* Mobile Navigation Controls: Pill and Icon */}
+          <div className="flex md:hidden items-center gap-3.5 ml-auto md:ml-0">
+            {/* Language Selector Pill */}
             <button 
               onClick={toggleLang} 
-              className="w-10 h-10 rounded-full bg-white shadow-[0_4px_12px_rgba(240,92,136,0.12)] border border-[#F05C88]/5 flex items-center justify-center text-[#F05C88] font-extrabold text-[12px] font-sans hover:scale-105 active:scale-95 transition-all duration-300"
+              className="px-4.5 py-1.5 rounded-full border border-[#F05C88]/30 bg-white/40 text-[#593A48] hover:text-[#F05C88] font-bold text-xs font-sans hover:scale-105 active:scale-95 transition-all duration-300 shadow-[0_2px_6px_rgba(240,92,136,0.06)]"
             >
               {lang === "cn" ? "EN" : "中"}
             </button>
 
-            {/* Hamburger / Menu toggle Circle */}
+            {/* Hamburger / Menu toggle */}
             <button 
               onClick={() => setIsOpen(!isOpen)}
-              className="w-10 h-10 rounded-full bg-white shadow-[0_4px_12px_rgba(240,92,136,0.12)] border border-[#F05C88]/5 flex items-center justify-center text-[#F05C88] hover:scale-105 active:scale-95 transition-all duration-300 z-[80]"
+              className="p-1.5 text-[#F05C88] hover:scale-105 active:scale-95 transition-all duration-300 z-[80]"
             >
-              {isOpen ? <X size={18} /> : <Menu size={18} />}
+              {isOpen ? <X size={22} /> : <Menu size={22} />}
             </button>
           </div>
         </nav>
