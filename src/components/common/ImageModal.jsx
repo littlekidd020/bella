@@ -47,7 +47,7 @@ const ImageModal = ({ isOpen, onClose, images, currentIndex, onNext, onPrev }) =
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-6 right-6 z-[110] p-3 bg-[#FFFFFF]/55 hover:bg-[#F84A88]/20 rounded-full text-white/70 hover:text-white transition-all border border-[#F84A88]/10"
+          className="absolute top-6 right-6 z-[110] p-3 bg-[#FFFFFF]/55 hover:bg-[#F05C88]/20 rounded-full text-white/70 hover:text-white transition-all border border-[#F05C88]/10"
         >
           <X size={24} />
         </button>
@@ -61,7 +61,7 @@ const ImageModal = ({ isOpen, onClose, images, currentIndex, onNext, onPrev }) =
                 e.stopPropagation();
                 onPrev();
               }}
-              className="absolute left-0 z-[110] p-2 md:p-4 w-8 h-8 md:w-10 md:h-10 flex items-center justify-center bg-white/80 hover:bg-[#F84A88] rounded-full text-white transition-all border border-[#F84A88]/10"
+              className="absolute left-0 z-[110] p-2 md:p-4 w-8 h-8 md:w-10 md:h-10 flex items-center justify-center bg-white/80 hover:bg-[#F05C88] rounded-full text-white transition-all border border-[#F05C88]/10"
             >
               <ChevronLeft size={32} />
             </button>
@@ -74,7 +74,7 @@ const ImageModal = ({ isOpen, onClose, images, currentIndex, onNext, onPrev }) =
                 e.stopPropagation();
                 onNext();
               }}
-              className="absolute right-0 z-[110] p-2 md:p-4 w-8 h-8 md:w-10 md:h-10 flex items-center justify-center bg-white/80 hover:bg-[#F84A88] rounded-full text-white transition-all border border-[#F84A88]/10"
+              className="absolute right-0 z-[110] p-2 md:p-4 w-8 h-8 md:w-10 md:h-10 flex items-center justify-center bg-white/80 hover:bg-[#F05C88] rounded-full text-white transition-all border border-[#F05C88]/10"
             >
               <ChevronRight size={32} />
             </button>

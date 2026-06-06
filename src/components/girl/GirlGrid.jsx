@@ -27,7 +27,7 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
       {/* Intro Text */}
       {showIntro && (
         <div className="mb-6 md:mb-16 text-center max-w-2xl mx-auto flex flex-col items-center">
-          <p className="hidden md:block text-2xl font-serif italic text-[#2D1822]/80 leading-relaxed font-playfair transition-all duration-700">
+          <p className="hidden md:block text-2xl font-serif italic text-[#593A48]/80 leading-relaxed font-playfair transition-all duration-700">
             {lang === "cn" ? (
               "推门而入，喧嚣在外，这里是身份与品味的无声共鸣，不为喧宾夺主，只为让身处其中的每一个人，都能找到属于自己的——。"
             ) : (
@@ -37,15 +37,15 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
           <div className="mt-0 md:mt-10 mb-2 w-full flex justify-center px-4">
             <Link 
               href="/collection" 
-              className="text-[#F84A88] font-serif italic text-lg hover:text-[#F84A88] transition-colors duration-500"
+              className="text-[#F05C88] font-serif italic text-lg hover:text-[#F05C88] transition-colors duration-500"
             >
               {lang === "cn" ? "查看所有女生" : "View Collection"} →
             </Link>
           </div>
-          <h2 className="text-lg md:text-xl uppercase tracking-[0.3em] text-[#F84A88] mt-4 md:mt-8 font-sans font-bold">
+          <h2 className="text-lg md:text-xl uppercase tracking-[0.3em] text-[#F05C88] mt-4 md:mt-8 font-sans font-bold">
             {t.grid.newCollection}
           </h2>
-          <div className="w-16 h-[1px] bg-[#F84A88] mx-auto mt-4 mb-2" />
+          <div className="w-16 h-[1px] bg-[#F05C88] mx-auto mt-4 mb-2" />
         </div>
       )}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-5 transition-all duration-700 auto-rows-[380px]">
@@ -79,12 +79,15 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
 
       {/* CTA Button */}
       {showCTA && (
-        <div className="mt-12 md:mt-16 flex justify-center">
+        <div className="mt-12 md:mt-16 flex justify-center w-full px-6">
           <Link 
             href="/collection"
-            className="text-[#F84A88] font-serif italic text-lg hover:text-[#F84A88] transition-colors duration-500"
+            className="group relative inline-block text-center border border-[#F05C88]/30 hover:border-[#F05C88] w-full max-w-[300px] md:max-w-[340px] py-3.5 md:py-4 transition-all duration-500 overflow-hidden rounded-full bg-[#FFF5F8]/30 backdrop-blur-sm shadow-[0_4px_20px_rgba(240,92,136,0.15)]"
           >
-            {t.grid.viewAll} →
+            <span className="relative z-10 text-base tracking-[0.4em] md:tracking-[0.5em] text-[#F05C88] group-hover:text-white transition-colors duration-500 font-sans font-bold">
+              {lang === "cn" ? "查看所有女生" : "VIEW COLLECTION"}
+            </span>
+            <div className="absolute inset-0 bg-[#F05C88] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out" />
           </Link>
         </div>
       )}

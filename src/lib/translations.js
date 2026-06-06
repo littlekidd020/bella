@@ -5,7 +5,11 @@ export const translations = {
       concierge: "联系我们",
       account: "会员中心",
       brand: "天使小可爱",
-      hours: "早上10点 - 晚上11点"
+      hours: "早上10点 - 晚上11点",
+      about: "关于我们",
+      services: "服务项目",
+      reviews: "用户评价",
+      citywide: "服务覆盖全城"
     },
     hero: {
       title: "天使小可爱",
@@ -127,7 +131,7 @@ export const translations = {
     },
     ageGate: {
       welcome: "欢迎光临",
-      message: "欢迎来到 天使小可爱。真正的圈层领地，无需喧哗。我们以低调的质感、克制的细节，为懂生活的人留一处私属天地。",
+      message: "欢迎来到<span class='text-[#F05C88] font-bold'>天使小可爱</span>,\n只为成年人开启的秘密乐园,\n释放欲望与魅力，探索心动邂逅,\n享受令人激情的互动体验。",
       buttonEn: "I'M OVER 18",
       buttonCn: "我年满18周岁",
       footer: "© 2026 ANGEL CUTIES COLLECTION. 版权所有。"
@@ -139,7 +143,11 @@ export const translations = {
       concierge: "Contact us",
       account: "Account",
       brand: "Angel Cuties",
-      hours: "10:00 AM - 11:00 PM"
+      hours: "10:00 AM - 11:00 PM",
+      about: "About Us",
+      services: "Services",
+      reviews: "Reviews",
+      citywide: "Citywide Service"
     },
     hero: {
       title: "Angel Cuties",
@@ -256,7 +264,7 @@ export const translations = {
     },
     ageGate: {
       welcome: "WELCOME",
-      message: "Welcome to Angel Cuties, where sophistication meets excitement! Step into a moment of exclusive luxury and unforgettable vibes. Relax, unwind, and let us make your day extraordinary!",
+      message: "Welcome to <span class='text-[#F05C88] font-bold'>Angel Cuties</span>,\nAn exclusive paradise open only to adults,\nUnleash your desires and charm, explore heart-fluttering encounters,\nAnd enjoy a passionate, interactive experience.",
       buttonEn: "I'M OVER 18",
       buttonCn: "I AM 18+",
       footer: "© 2026 ANGEL CUTIES COLLECTION. All rights reserved."
