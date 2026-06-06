@@ -26,6 +26,17 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isOpen]);
+
   const isActive = (path) => {
     if (path === "/") {
       return pathname === "/";
@@ -34,8 +45,10 @@ const Navbar = () => {
   };
 
   return (
-    <header className={`sticky top-0 left-0 right-0 z-[70] transition-all duration-300 ${
-      isScrolled 
+    <header className={`left-0 right-0 z-[70] transition-all duration-300 ${
+      isOpen ? "fixed inset-0 bg-[#FFF5F8]/95" : "sticky top-0"
+    } ${
+      isScrolled && !isOpen
         ? "bg-white/95 backdrop-blur-md shadow-[var(--shadow-soft)] border-b border-[#593A48]/5" 
         : "bg-transparent shadow-none border-b-0 border-transparent"
     }`}>
