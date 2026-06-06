@@ -16,9 +16,9 @@ export default function Home() {
       {/* Desktop Hero Section - Full Bleed Asymmetrical */}
       <header className="hidden lg:flex relative w-full h-[80vh] lg:h-[90vh] flex-col overflow-hidden bg-[#FFE3EC]">
         {/* Background Image - Girl on the right */}
-        <div className="absolute top-0 right-0 w-full lg:w-[75%] h-full z-0 overflow-hidden">
+        <div className="absolute top-0 right-0 w-full lg:w-[65%] h-full z-0 overflow-hidden">
           <img 
-            src="/images/header-bg-custom.jpg" 
+            src="/images/header-bg-custom.png" 
             alt="Hero Angel" 
             className="w-full h-full object-cover object-[80%_0%] lg:object-[80%_0%] opacity-100"
           />
