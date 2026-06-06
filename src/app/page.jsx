@@ -11,10 +11,10 @@ export default function Home() {
   const { t, lang } = useLanguage();
 
   return (
-    <main className="min-h-screen bg-[#FDF6F8] overflow-x-hidden transition-all duration-700">
+    <main className="min-h-screen bg-[#FFE3EC] overflow-x-hidden transition-all duration-700">
       
       {/* Desktop Hero Section - Full Bleed Asymmetrical */}
-      <header className="hidden lg:flex relative w-full h-[80vh] lg:h-[90vh] flex-col overflow-hidden bg-[#FDF6F8]">
+      <header className="hidden lg:flex relative w-full h-[80vh] lg:h-[90vh] flex-col overflow-hidden bg-[#FFE3EC]">
         {/* Background Image - Girl on the right */}
         <div className="absolute top-0 right-0 w-full lg:w-[75%] h-full z-0 overflow-hidden">
           <img 
@@ -23,9 +23,9 @@ export default function Home() {
             className="w-full h-full object-cover object-[80%_0%] lg:object-[80%_0%] opacity-100"
           />
           {/* Gradient to blend with left side */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#FDF6F8] via-[#FDF6F8]/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#FFE3EC] via-[#FFE3EC]/40 to-transparent" />
           {/* Vertical gradients for mobile and bottom blend */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#FDF6F8] via-transparent to-transparent h-32 bottom-0 top-auto" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#FFE3EC] via-transparent to-transparent h-32 bottom-0 top-auto" />
         </div>
         
         {/* Hero Content */}
