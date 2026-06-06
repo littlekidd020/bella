@@ -91,54 +91,45 @@ export default function Home() {
         </div>
 
         {/* Bento Gradient Card */}
-        <div className="relative z-10 w-full -mt-6 bg-gradient-to-br from-[#FF5C8A] via-[#E84E7D] to-[#D43F6E] rounded-3xl p-5 shadow-[0_12px_28px_rgba(240,92,136,0.22)] border border-white/20 flex flex-col gap-4 overflow-hidden">
-          <div className="absolute -right-10 -bottom-10 w-28 h-28 bg-white/10 rounded-full blur-xl pointer-events-none" />
-          
-          <div className="flex items-center gap-3">
-            <div className="w-14 h-14 rounded-full overflow-hidden border border-white/50 bg-white/10 flex-shrink-0">
-              <img 
-                src="/images/header-bg-custom.jpg" 
-                alt="Mini Avatar" 
-                className="w-full h-full object-cover object-[80%_0%]" 
-              />
-            </div>
-            <div className="flex flex-col text-left">
-              <span className="text-[20px] font-bold text-white tracking-[0.05em]">
-                专业接线 纽澳独家精品资源
-              </span>
-              <span className="text-[15px] text-white/80 tracking-wider mt-0.5 font-sans whitespace-nowrap">
-                —— ♥ 尊贵 · 隐秘 · 奢界 ♥ ——
-              </span>
-            </div>
+        <div className="relative z-10 w-full -mt-6 bg-gradient-to-br from-[#FF497E] via-[#E51B5C] to-[#C00D41] rounded-[2rem] p-5 shadow-[0_12px_28px_rgba(229,27,92,0.22)] border border-white/20 flex items-center gap-4 overflow-hidden">
+          {/* Left Column: White Circle with Fairy Logo */}
+          <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center flex-shrink-0 shadow-[0_0_12px_rgba(255,255,255,0.4)] border border-white/30">
+            <img 
+              src="/images/logo-icon.svg" 
+              alt="Angel Icon" 
+              className="w-12 h-12 object-contain"
+            />
           </div>
 
-          <div className="flex flex-col gap-2">
-            {/* Phone option */}
-            <div className="flex items-center gap-3 bg-white/15 backdrop-blur-sm rounded-xl p-2.5 px-3.5 border border-white/10">
-              <div className="w-7 h-7 rounded-lg bg-white/20 flex items-center justify-center text-white flex-shrink-0">
-                <Phone size={14} />
-              </div>
-              <div className="flex flex-col text-left">
-                <span className="text-[8px] text-white/70 uppercase tracking-widest font-bold font-sans">
-                  {lang === "cn" ? "电话" : "PHONE"}
-                </span>
-                <a href="tel:0225391339" className="text-white text-[14px] font-extrabold tracking-wider font-sans hover:underline">
+          {/* Right Column: Text & Contacts */}
+          <div className="flex-1 flex flex-col text-left text-white overflow-hidden">
+            <h3 className="text-[16px] font-bold tracking-wide leading-tight">
+              专业接线 纽澳独家精品资源
+            </h3>
+            <p className="text-[12px] text-white/90 tracking-widest mt-1 font-sans">
+              尊贵 • 隐秘 • 奢界
+            </p>
+
+            {/* Dashed Separator Line */}
+            <div className="w-full border-t border-dashed border-white/30 my-2" />
+
+            {/* Contact Details */}
+            <div className="flex flex-col gap-1.5 font-sans text-xs">
+              {/* Phone Row */}
+              <div className="flex items-center gap-2">
+                <Phone size={12} className="text-white/80 flex-shrink-0" />
+                <span>电话: </span>
+                <a href="tel:0225391339" className="font-extrabold tracking-wider hover:underline">
                   022-5391339
                 </a>
               </div>
-            </div>
 
-            {/* WeChat option */}
-            <div className="flex items-center gap-3 bg-white/15 backdrop-blur-sm rounded-xl p-2.5 px-3.5 border border-white/10">
-              <div className="w-7 h-7 rounded-lg bg-white/20 flex items-center justify-center text-white flex-shrink-0">
-                <MessageCircle size={14} />
-              </div>
-              <div className="flex flex-col text-left overflow-hidden">
-                <span className="text-[8px] text-white/70 uppercase tracking-widest font-bold font-sans">
-                  {lang === "cn" ? "微信" : "WECHAT"}
-                </span>
-                <span className="text-white text-[12px] font-extrabold tracking-wide font-sans select-all truncate">
-                  Angelya3312 | Angel91339
+              {/* WeChat Row */}
+              <div className="flex items-center gap-2 overflow-hidden">
+                <MessageCircle size={12} className="text-white/80 flex-shrink-0" />
+                <span>微信: </span>
+                <span className="font-extrabold tracking-wide select-all truncate">
+                  Angelya3312 / Angel91339
                 </span>
               </div>
             </div>
