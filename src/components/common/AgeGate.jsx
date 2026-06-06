@@ -107,7 +107,7 @@ const AgeGate = ({ children }) => {
                           {/* Bottom Chinese Button (White Capsule Outline) */}
                           <button
                             onClick={handleVerify}
-                            className="w-[90%] h-12 bg-white hover:bg-[#FFF5F8] active:scale-[0.99] border border-[#F05C88]/25 rounded-full flex items-center justify-between px-10 shadow-[0_2px_10px_rgba(240,92,136,0.06)] transition-all duration-300 group"
+                            className="w-[90%] h-12 bg-white hover:bg-[#FFE3EC] active:scale-[0.99] border border-[#F05C88]/25 rounded-full flex items-center justify-between px-10 shadow-[0_2px_10px_rgba(240,92,136,0.06)] transition-all duration-300 group"
                           >
                              <span className="text-[#F05C88] text-xs opacity-70 group-hover:scale-110 transition-transform">♥</span>
                              <span className="text-[#F05C88] font-sans font-bold text-[13px] tracking-[0.25em]">

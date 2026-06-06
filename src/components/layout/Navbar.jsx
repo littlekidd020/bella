@@ -54,7 +54,7 @@ const Navbar = () => {
           : "bg-transparent shadow-none border-b-0 border-transparent"
       }`}>
         {/* Mobile Top Info Bar - Business Hours */}
-        <div className={`flex md:hidden w-full items-center justify-center py-2 text-[#F05C88] text-[10px] tracking-widest font-sans font-bold transition-all duration-300 border-b border-[#F05C88]/10 bg-[#FFF0F4]`}>
+        <div className={`flex md:hidden w-full items-center justify-center py-2 text-[#F05C88] text-[10px] tracking-widest font-sans font-bold transition-all duration-300 border-b border-[#F05C88]/10 bg-[#FFE3EC]`}>
           <span>{lang === "cn" ? "营业时间：早上10点 - 晚上11点" : "Hours: 10:00 AM - 11:00 PM"}</span>
         </div>
 
@@ -136,7 +136,7 @@ const Navbar = () => {
             <div className="hidden md:flex items-center">
               <button 
                 onClick={toggleLang} 
-                className="px-3.5 py-1.5 border border-[#593A48]/20 rounded-full hover:text-[#F05C88] hover:border-[#F05C88] hover:bg-[#FFF5F8] transition-all duration-300 text-[10px] font-sans font-bold flex items-center justify-center bg-white shadow-[0_2px_6px_rgba(89,58,72,0.04)]"
+                className="px-3.5 py-1.5 border border-[#593A48]/20 rounded-full hover:text-[#F05C88] hover:border-[#F05C88] hover:bg-[#FFE3EC] transition-all duration-300 text-[10px] font-sans font-bold flex items-center justify-center bg-white shadow-[0_2px_6px_rgba(89,58,72,0.04)]"
               >
                 <span>{lang === "cn" ? "EN" : "中"}</span>
               </button>
@@ -165,7 +165,7 @@ const Navbar = () => {
       </header>
 
       {/* Mobile Menu Overlay */}
-      <div className={`fixed inset-0 bg-[#FFF5F8]/95 backdrop-blur-3xl z-[75] transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col items-center justify-center gap-8 ${isOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-4'}`}>
+      <div className={`fixed inset-0 bg-[#FFE3EC]/95 backdrop-blur-3xl z-[75] transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col items-center justify-center gap-8 ${isOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-4'}`}>
         <div className="flex flex-col items-center gap-6 text-2xl font-serif italic tracking-[0.2em]">
           <Link href="/" onClick={() => setIsOpen(false)} className={`hover:text-[#F05C88] transition-colors hover:scale-105 duration-300 transform ${isActive("/") ? "text-[#F05C88]" : "text-[#593A48]"}`}>
             {lang === "cn" ? "首页" : "Home"}

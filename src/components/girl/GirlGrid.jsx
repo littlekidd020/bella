@@ -82,7 +82,7 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
         <div className="mt-12 md:mt-16 flex justify-center w-full px-6">
           <Link 
             href="/collection"
-            className="group relative inline-block text-center border border-[#F05C88]/30 hover:border-[#F05C88] w-full max-w-[300px] md:max-w-[340px] py-3.5 md:py-4 transition-all duration-500 overflow-hidden rounded-full bg-[#FFF5F8]/30 backdrop-blur-sm shadow-[0_4px_20px_rgba(240,92,136,0.15)]"
+            className="group relative inline-block text-center border border-[#F05C88]/30 hover:border-[#F05C88] w-full max-w-[300px] md:max-w-[340px] py-3.5 md:py-4 transition-all duration-500 overflow-hidden rounded-full bg-[#FFE3EC]/30 backdrop-blur-sm shadow-[0_4px_20px_rgba(240,92,136,0.15)]"
           >
             <span className="relative z-10 text-base tracking-[0.4em] md:tracking-[0.5em] text-[#F05C88] group-hover:text-white transition-colors duration-500 font-sans font-bold">
               {lang === "cn" ? "查看所有女生" : "VIEW COLLECTION"}

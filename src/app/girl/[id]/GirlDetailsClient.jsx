@@ -96,7 +96,7 @@ export default function GirlDetailsPage() {
     }
   }, [id, router]);
 
-  if (!model) return <div className="min-h-screen bg-[#FFF5F8]" />;
+  if (!model) return <div className="min-h-screen bg-[#FFE3EC]" />;
 
   const isAvailable = model.status === "available";
   const uniqueGallery = model ? (model.gallery || []).filter((img) => img !== model.image) : [];
@@ -113,7 +113,7 @@ export default function GirlDetailsPage() {
     setImageIdx((prev) => (prev - 1 + allImages.length) % allImages.length);
 
   return (
-    <main className="min-h-screen bg-[#FFF5F8] pb-20 md:pb-32 relative">
+    <main className="min-h-screen bg-[#FFE3EC] pb-20 md:pb-32 relative">
       {/* Immersive Background */}
       <div className="fixed inset-0 z-0 hidden lg:block">
         <img 
@@ -121,8 +121,8 @@ export default function GirlDetailsPage() {
           alt={model.name.en} 
           className="w-full h-full object-cover object-top opacity-[0.12] blur-[3px] transition-all duration-1000 scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#FFF5F8] via-[#FFF5F8]/90 to-[#FFF5F8]/70" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#FFF5F8] via-transparent to-[#FFF5F8]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#FFE3EC] via-[#FFE3EC]/90 to-[#FFE3EC]/70" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#FFE3EC] via-transparent to-[#FFE3EC]" />
       </div>
 
       {/* Main Content Grid */}
@@ -365,7 +365,7 @@ export default function GirlDetailsPage() {
                     {/* Premium Image Caption Overlay */}
                     <div className="absolute inset-x-0 bottom-0 p-2.5 pt-5 bg-gradient-to-t from-black/80 via-black/35 to-transparent flex items-end opacity-90 md:opacity-0 group-hover:opacity-100 transition-all duration-500">
                       <div className="border-l border-[#F05C88]/70 pl-2 overflow-hidden">
-                        <span className="block text-[8px] sm:text-[10px] md:text-xs text-[#FFF5F8] font-sans font-semibold tracking-[0.1em] uppercase truncate max-w-full">
+                        <span className="block text-[8px] sm:text-[10px] md:text-xs text-[#FFE3EC] font-sans font-semibold tracking-[0.1em] uppercase truncate max-w-full">
                           {getGalleryDesc(idx, lang)}
                         </span>
                       </div>

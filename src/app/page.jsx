@@ -70,14 +70,14 @@ export default function Home() {
       </header>
 
       {/* Mobile Hero Section - Replicating Mockup */}
-      <header className="lg:hidden relative w-full flex flex-col pt-0 pb-6 bg-gradient-to-b from-[#FFF0F4] to-[#FDF6F8] px-4 sm:px-5 overflow-hidden z-10">
+      <header className="lg:hidden relative w-full flex flex-col pt-0 pb-6 bg-gradient-to-b from-[#FFEAF1] to-[#FFE3EC] px-4 sm:px-5 overflow-hidden z-10">
         {/* Soft Background Petals & Cloud Effect */}
         <div className="absolute inset-0 pointer-events-none select-none opacity-50 z-0">
           <div className="absolute top-10 left-[10%] w-3 h-3 bg-[#F05C88]/20 rounded-full blur-[1px]" />
           <div className="absolute top-24 right-[15%] w-2.5 h-4 bg-[#F05C88]/30 rounded-full rotate-45" />
           <div className="absolute bottom-16 left-[20%] w-4 h-2.5 bg-[#F05C88]/20 rounded-full -rotate-12" />
         </div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[150px] bg-[#FFF0F4]/60 blur-3xl pointer-events-none rounded-full z-0" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[150px] bg-[#FFE3EC]/60 blur-3xl pointer-events-none rounded-full z-0" />
         
         {/* Top branding layout: Flat image of the cartoon banner with blurred bounding box */}
         <div className="relative z-10 w-full mt-0 flex justify-center overflow-hidden">
@@ -87,7 +87,7 @@ export default function Home() {
             className="w-full h-auto object-contain"
           />
           {/* Inset shadow to blur the bounding box into the pink background */}
-          <div className="absolute inset-0 shadow-[inset_0_0_24px_16px_#FFF0F4] pointer-events-none" />
+          <div className="absolute inset-0 shadow-[inset_0_0_24px_16px_#FFE3EC] pointer-events-none" />
         </div>
 
         {/* Bento Gradient Card */}
@@ -140,7 +140,7 @@ export default function Home() {
         <div className="relative z-10 w-full flex justify-center mt-6">
           <Link 
             href="/collection" 
-            className="group relative flex items-center justify-center gap-3 w-full py-3.5 bg-white hover:bg-[#FFF5F8] text-[#F05C88] rounded-full font-sans text-[13px] font-extrabold tracking-[0.2em] transition-all duration-300 shadow-[0_6px_18px_rgba(240,92,136,0.12)] active:scale-95 border border-[#F05C88]/10"
+            className="group relative flex items-center justify-center gap-3 w-full py-3.5 bg-white hover:bg-[#FFE3EC] text-[#F05C88] rounded-full font-sans text-[13px] font-extrabold tracking-[0.2em] transition-all duration-300 shadow-[0_6px_18px_rgba(240,92,136,0.12)] active:scale-95 border border-[#F05C88]/10"
           >
             <span className="text-xs">ʚ</span>
             <span>查看所有女生</span>

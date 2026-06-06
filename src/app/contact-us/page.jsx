@@ -27,18 +27,18 @@ const ConciergePage = () => {
   );
 
   return (
-    <main className="min-h-screen bg-[#FFF5F8] transition-colors duration-700">
+    <main className="min-h-screen bg-[#FFE3EC] transition-colors duration-700">
       
       {/* Editorial Header Banner */}
-      <header className="relative w-full h-[220px] md:h-[360px] flex items-center justify-center overflow-hidden border-b border-[#F05C88]/10 bg-[#FFF5F8] mb-0 md:mb-10">
+      <header className="relative w-full h-[220px] md:h-[360px] flex items-center justify-center overflow-hidden border-b border-[#F05C88]/10 bg-[#FFE3EC] mb-0 md:mb-10">
         {/* Background Image */}
-        <div className="absolute inset-0 z-0 bg-[#FFF5F8]">
+        <div className="absolute inset-0 z-0 bg-[#FFE3EC]">
           <img 
             src="/images/header-bg-custom.jpg" 
             alt="Sensual Concierge Background" 
             className="w-full h-full object-cover object-top opacity-50 parallax"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#FFF5F8] via-[#FFF5F8]/60 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#FFE3EC] via-[#FFE3EC]/60 to-transparent" />
         </div>
 
         {/* Text Content */}

@@ -26,7 +26,7 @@ export default function ContactBanner() {
         
         {/* Left: Brand section */}
         <div className="flex items-center gap-4 w-full md:w-auto justify-center md:justify-start mb-4 md:mb-0">
-          <div className="w-12 h-12 bg-[#FFF5F8] rounded-full flex items-center justify-center shadow-inner shrink-0 overflow-hidden border border-[#F05C88]/50">
+          <div className="w-12 h-12 bg-[#FFE3EC] rounded-full flex items-center justify-center shadow-inner shrink-0 overflow-hidden border border-[#F05C88]/50">
             <img src="/images/logo-icon.svg" alt="Angel Cuties Icon" className="w-8 h-8 object-contain" />
           </div>
           <div className="flex flex-col text-white">
