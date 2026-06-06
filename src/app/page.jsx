@@ -91,7 +91,7 @@ export default function Home() {
         </div>
 
         {/* Bento Gradient Card */}
-        <div className="relative z-10 w-full -mt-12 bg-gradient-to-br from-[#FF5C8A] via-[#E84E7D] to-[#D43F6E] rounded-3xl p-5 shadow-[0_12px_28px_rgba(240,92,136,0.22)] border border-white/20 flex flex-col gap-4 overflow-hidden">
+        <div className="relative z-10 w-full -mt-6 bg-gradient-to-br from-[#FF5C8A] via-[#E84E7D] to-[#D43F6E] rounded-3xl p-5 shadow-[0_12px_28px_rgba(240,92,136,0.22)] border border-white/20 flex flex-col gap-4 overflow-hidden">
           <div className="absolute -right-10 -bottom-10 w-28 h-28 bg-white/10 rounded-full blur-xl pointer-events-none" />
           
           <div className="flex items-center gap-3">
