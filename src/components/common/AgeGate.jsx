@@ -63,7 +63,7 @@ const AgeGate = ({ children }) => {
                       </motion.div>
                   </div>
                                   {/* Welcome Message Box */}
-                 <div className="w-full max-w-md mx-auto px-4 mt-4">
+                 <div className="w-full max-w-md mx-auto px-4 -mt-4">
                     <div className="p-6 pb-6 md:p-8 md:pb-8 rounded-[2rem] bg-white/75 backdrop-blur-sm border border-[#F05C88]/15 relative overflow-hidden shadow-sm">
                        {/* Centered decorated title with logo icon */}
                        <div className="flex items-center justify-center gap-3.5 mb-2">
