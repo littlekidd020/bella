@@ -70,7 +70,7 @@ export default function Home() {
       </header>
 
       {/* Mobile Hero Section - Replicating Mockup */}
-      <header className="lg:hidden relative w-full flex flex-col pt-0 pb-6 bg-gradient-to-b from-[#FFF0F4] to-[#FDF6F8] px-5 overflow-hidden z-10">
+      <header className="lg:hidden relative w-full flex flex-col pt-0 pb-6 bg-gradient-to-b from-[#FFF0F4] to-[#FDF6F8] px-4 sm:px-5 overflow-hidden z-10">
         {/* Soft Background Petals & Cloud Effect */}
         <div className="absolute inset-0 pointer-events-none select-none opacity-50 z-0">
           <div className="absolute top-10 left-[10%] w-3 h-3 bg-[#F05C88]/20 rounded-full blur-[1px]" />
@@ -91,22 +91,22 @@ export default function Home() {
         </div>
 
         {/* Bento Gradient Card */}
-        <div className="relative z-10 w-full -mt-6 bg-gradient-to-br from-[#FF497E] via-[#E51B5C] to-[#C00D41] rounded-[2rem] p-5 shadow-[0_12px_28px_rgba(229,27,92,0.22)] border border-white/20 flex items-center gap-4 overflow-hidden">
+        <div className="relative z-10 w-full -mt-6 bg-gradient-to-br from-[#FF497E] via-[#E51B5C] to-[#C00D41] rounded-[2rem] p-4 sm:p-5 shadow-[0_12px_28px_rgba(229,27,92,0.22)] border border-white/20 flex items-center gap-3 sm:gap-4 overflow-hidden">
           {/* Left Column: White Circle with Fairy Logo */}
-          <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center flex-shrink-0 shadow-[0_0_12px_rgba(255,255,255,0.4)] border border-white/30">
+          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white flex items-center justify-center flex-shrink-0 shadow-[0_0_12px_rgba(255,255,255,0.4)] border border-white/30">
             <img 
               src="/images/logo-icon.svg" 
               alt="Angel Icon" 
-              className="w-12 h-12 object-contain"
+              className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
             />
           </div>
 
           {/* Right Column: Text & Contacts */}
           <div className="flex-1 flex flex-col text-left text-white overflow-hidden">
-            <h3 className="text-[16px] font-bold tracking-wide leading-tight">
+            <h3 className="text-[15px] sm:text-[16px] font-bold tracking-wide leading-tight">
               专业接线 纽澳独家精品资源
             </h3>
-            <p className="text-[12px] text-white/90 tracking-widest mt-1 font-sans">
+            <p className="text-[11px] sm:text-[12px] text-white/90 tracking-widest mt-1 font-sans">
               尊贵 • 隐秘 • 奢界
             </p>
 
@@ -114,7 +114,7 @@ export default function Home() {
             <div className="w-full border-t border-dashed border-white/30 my-2" />
 
             {/* Contact Details */}
-            <div className="flex flex-col gap-1.5 font-sans text-xs">
+            <div className="flex flex-col gap-1.5 font-sans text-[11px] sm:text-xs">
               {/* Phone Row */}
               <div className="flex items-center gap-2">
                 <Phone size={12} className="text-white/80 flex-shrink-0" />
@@ -128,7 +128,7 @@ export default function Home() {
               <div className="flex items-center gap-2 overflow-hidden">
                 <MessageCircle size={12} className="text-white/80 flex-shrink-0" />
                 <span>微信: </span>
-                <span className="font-extrabold tracking-wide select-all truncate">
+                <span className="font-extrabold tracking-wide select-all truncate whitespace-nowrap">
                   Angelya3312 / Angel91339
                 </span>
               </div>
