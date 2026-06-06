@@ -126,7 +126,7 @@ export default function GirlDetailsPage() {
       </div>
 
       {/* Main Content Grid */}
-      <section className="px-6 md:px-12 max-w-[1400px] mx-auto pt-24 lg:pt-32 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
+      <section className="px-6 md:px-12 max-w-[1400px] mx-auto pt-8 lg:pt-32 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
         
         {/* Left Column: Sticky Title & Main Portrait */}
         <div className="lg:col-span-5 relative h-full">
