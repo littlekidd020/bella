@@ -34,7 +34,7 @@ const ConciergePage = () => {
         {/* Background Image */}
         <div className="absolute inset-0 z-0 bg-[#FFE3EC]">
           <img 
-            src="/images/header-bg-custom.png" 
+            src="/images/header-bg-custom.jpg" 
             alt="Sensual Concierge Background" 
             className="w-full h-full object-cover object-top opacity-50 parallax"
           />
