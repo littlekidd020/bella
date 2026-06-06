@@ -30,14 +30,14 @@ function CollectionContent() {
   return (
     <main className="min-h-screen bg-[#FFE3EC] transition-colors duration-700">
       {/* Editorial Header Banner */}
-      <header className="relative w-full flex items-center justify-center overflow-hidden border-b border-[#F05C88]/10 bg-[#FFE3EC] mb-0 md:mb-10">
+      <header className="relative w-full flex items-center justify-center overflow-hidden border-b border-[#F05C88]/10 bg-[#FFE3EC] -mt-6 md:-mt-10 mb-0 md:mb-10">
         <div className="relative w-full md:w-[23.33%] mx-auto flex justify-center px-8 md:px-0">
           <div 
             className="relative w-full overflow-hidden rounded-2xl md:rounded-none"
             style={{
-              maskImage: 'linear-gradient(to bottom, transparent, black 20px, black calc(100% - 20px), transparent), linear-gradient(to right, transparent, black 20px, black calc(100% - 20px), transparent)',
+              maskImage: 'linear-gradient(to bottom, transparent, black 8px, black calc(100% - 8px), transparent), linear-gradient(to right, transparent, black 20px, black calc(100% - 20px), transparent)',
               maskComposite: 'intersect',
-              WebkitMaskImage: 'linear-gradient(to bottom, transparent, black 20px, black calc(100% - 20px), transparent), linear-gradient(to right, transparent, black 20px, black calc(100% - 20px), transparent)',
+              WebkitMaskImage: 'linear-gradient(to bottom, transparent, black 8px, black calc(100% - 8px), transparent), linear-gradient(to right, transparent, black 20px, black calc(100% - 20px), transparent)',
               WebkitMaskComposite: 'source-in'
             }}
           >
@@ -47,7 +47,7 @@ function CollectionContent() {
               className="w-full h-auto object-contain"
             />
             {/* Inset shadow to blur the bounding box into the page background */}
-            <div className="absolute inset-0 shadow-[inset_0_0_24px_16px_#FFE3EC] pointer-events-none" />
+            <div className="absolute inset-0 shadow-[inset_0_0_12px_8px_#FFE3EC] pointer-events-none" />
           </div>
         </div>
       </header>
