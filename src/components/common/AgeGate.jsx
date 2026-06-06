@@ -8,7 +8,7 @@ import BrandLogo from '@/components/common/BrandLogo';
 const AgeGate = ({ children }) => {
   const [verified, setVerified] = useState(false);
   const [loading, setLoading] = useState(true);
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
 
   useEffect(() => {
     const isVerified = sessionStorage.getItem('age-verified');
