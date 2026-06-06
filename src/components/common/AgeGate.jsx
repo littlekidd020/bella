@@ -64,20 +64,14 @@ const AgeGate = ({ children }) => {
                   </div>
                                   {/* Welcome Message Box */}
                  <div className="w-full max-w-md mx-auto px-4 mt-4">
-                    <div className="p-6 pb-5 md:p-8 md:pb-6 rounded-[2rem] bg-[#FFF0F4]/60 backdrop-blur-sm border border-[#F05C88]/15 relative overflow-hidden shadow-sm">
-                       {/* Centered decorated title with decorative wings */}
-                       <div className="flex items-center justify-center gap-3 mb-2">
-                          {/* Left Wing SVG */}
-                          <svg className="w-6 h-6 text-[#F05C88]/70" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M11.75 6.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5c2.9 0 5.25 2.35 5.25 5.25v.5h-.5c-.83 0-1.5-.67-1.5-1.5 0-1.24-1.01-2.25-2.25-2.25zm5.55 3.5c0-3.87-3.13-7-7-7H10v.3c0 2.21 1.79 4 4 4h.3c1.21 0 2.22.81 2.54 1.93-.41-.15-.86-.23-1.34-.23h-.5c-.83 0-1.5-.67-1.5-1.5 0-1.24-1.01-2.25-2.25-2.25s-2.25 1.01-2.25 2.25c0 .83-.67 1.5-1.5 1.5h-.5c-.48 0-.93.08-1.34.23.32-1.12 1.33-1.93 2.54-1.93h.3c2.21 0 4-1.79 4-4v-.3h-.3c-3.87 0-7 3.13-7 7v.3c0 1.21.81 2.22 1.93 2.54-.15-.41-.23-.86-.23-1.34v-.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v.5c0 1.24 1.01 2.25 2.25 2.25s2.25-1.01 2.25-2.25v-.5c0-.48.08-.93.23-1.34 1.12.32 1.93 1.33 1.93 2.54v.3z" />
-                          </svg>
+                    <div className="p-6 pb-6 md:p-8 md:pb-8 rounded-[2rem] bg-[#FFF0F4]/60 backdrop-blur-sm border border-[#F05C88]/15 relative overflow-hidden shadow-sm">
+                       {/* Centered decorated title with logo icon */}
+                       <div className="flex items-center justify-center gap-3.5 mb-2">
+                          <img src="/images/logo-icon.svg" className="w-6 h-6 object-contain opacity-70" alt="" />
                           <h1 className="text-2xl md:text-3xl font-serif italic font-bold text-[#F05C88] tracking-widest">
                             {lang === "cn" ? "欢迎光临" : "WELCOME"}
                           </h1>
-                          {/* Right Wing SVG */}
-                          <svg className="w-6 h-6 text-[#F05C88]/70 scale-x-[-1]" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M11.75 6.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5c2.9 0 5.25 2.35 5.25 5.25v.5h-.5c-.83 0-1.5-.67-1.5-1.5 0-1.24-1.01-2.25-2.25-2.25zm5.55 3.5c0-3.87-3.13-7-7-7H10v.3c0 2.21 1.79 4 4 4h.3c1.21 0 2.22.81 2.54 1.93-.41-.15-.86-.23-1.34-.23h-.5c-.83 0-1.5-.67-1.5-1.5 0-1.24-1.01-2.25-2.25-2.25s-2.25 1.01-2.25 2.25c0 .83-.67 1.5-1.5 1.5h-.5c-.48 0-.93.08-1.34.23.32-1.12 1.33-1.93 2.54-1.93h.3c2.21 0 4-1.79 4-4v-.3h-.3c-3.87 0-7 3.13-7 7v.3c0 1.21.81 2.22 1.93 2.54-.15-.41-.23-.86-.23-1.34v-.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v.5c0 1.24 1.01 2.25 2.25 2.25s2.25-1.01 2.25-2.25v-.5c0-.48.08-.93.23-1.34 1.12.32 1.93 1.33 1.93 2.54v.3z" />
-                          </svg>
+                          <img src="/images/logo-icon.svg" className="w-6 h-6 object-contain opacity-70" alt="" />
                        </div>
                        
                        {/* Small heart decoration below title */}
@@ -86,7 +80,7 @@ const AgeGate = ({ children }) => {
                        </div>
                        
                        {/* Split text paragraph */}
-                       <div className="space-y-1 text-[#593A48] text-[13px] md:text-sm font-sans tracking-wide leading-relaxed">
+                       <div className="space-y-1 text-[#593A48] text-[13px] md:text-sm font-sans tracking-wide leading-relaxed mb-6">
                           {t.ageGate.message.split('\n').map((line, idx) => (
                              <p 
                                key={idx}
@@ -95,34 +89,34 @@ const AgeGate = ({ children }) => {
                              />
                           ))}
                        </div>
+
+                       {/* Verification Buttons Container - Redesigned to match Image 2 */}
+                       <div className="flex flex-col items-center justify-center gap-3 w-full">
+                          {/* Top English Button (Rose Pink Capsule Gradient/Glossy shape) */}
+                          <button
+                            onClick={handleVerify}
+                            className="w-[90%] h-12 bg-gradient-to-r from-[#FF88A5] via-[#F05C88] to-[#E24E79] hover:opacity-95 active:scale-[0.99] border border-[#F05C88]/20 rounded-full flex items-center justify-between px-10 shadow-[0_4px_14px_rgba(240,92,136,0.25)] transition-all duration-300 group"
+                          >
+                             <span className="text-white text-xs opacity-75 group-hover:scale-110 transition-transform">♥</span>
+                             <span className="text-white font-sans text-[13px] font-extrabold tracking-[0.2em] uppercase">
+                                {t.ageGate.buttonEn}
+                             </span>
+                             <span className="text-white text-xs opacity-75 group-hover:scale-110 transition-transform">♥</span>
+                          </button>
+       
+                          {/* Bottom Chinese Button (White Capsule Outline) */}
+                          <button
+                            onClick={handleVerify}
+                            className="w-[90%] h-12 bg-white hover:bg-[#FFF5F8] active:scale-[0.99] border border-[#F05C88]/25 rounded-full flex items-center justify-between px-10 shadow-[0_2px_10px_rgba(240,92,136,0.06)] transition-all duration-300 group"
+                          >
+                             <span className="text-[#F05C88] text-xs opacity-70 group-hover:scale-110 transition-transform">♥</span>
+                             <span className="text-[#F05C88] font-sans font-bold text-[13px] tracking-[0.25em]">
+                                {t.ageGate.buttonCn}
+                             </span>
+                             <span className="text-[#F05C88] text-xs opacity-70 group-hover:scale-110 transition-transform">♥</span>
+                          </button>
+                       </div>
                     </div>
-                 </div>
- 
-                 {/* Verification Buttons Container - Redesigned to match Image 2 */}
-                 <div className="flex flex-col items-center justify-center gap-3.5 w-full max-w-md mx-auto px-4 mt-8">
-                    {/* Top English Button (Rose Pink Capsule Gradient/Glossy shape) */}
-                    <button
-                      onClick={handleVerify}
-                      className="w-[90%] h-12 bg-gradient-to-r from-[#FF88A5] via-[#F05C88] to-[#E24E79] hover:opacity-95 active:scale-[0.99] border border-[#F05C88]/20 rounded-full flex items-center justify-between px-10 shadow-[0_4px_14px_rgba(240,92,136,0.25)] transition-all duration-300 group"
-                    >
-                       <span className="text-white text-xs opacity-75 group-hover:scale-110 transition-transform">♥</span>
-                       <span className="text-white font-sans text-[13px] font-extrabold tracking-[0.2em] uppercase">
-                          {lang === "cn" ? "I'M OVER 18" : "I'M OVER 18"}
-                       </span>
-                       <span className="text-white text-xs opacity-75 group-hover:scale-110 transition-transform">♥</span>
-                    </button>
- 
-                    {/* Bottom Chinese Button (White Capsule Outline) */}
-                    <button
-                      onClick={handleVerify}
-                      className="w-[90%] h-12 bg-white hover:bg-[#FFF5F8] active:scale-[0.99] border border-[#F05C88]/25 rounded-full flex items-center justify-between px-10 shadow-[0_2px_10px_rgba(240,92,136,0.06)] transition-all duration-300 group"
-                    >
-                       <span className="text-[#F05C88] text-xs opacity-70 group-hover:scale-110 transition-transform">♥</span>
-                       <span className="text-[#F05C88] font-sans font-bold text-[13px] tracking-[0.25em]">
-                          {lang === "cn" ? "我年满 18 周岁" : "I AM 18+"}
-                       </span>
-                       <span className="text-[#F05C88] text-xs opacity-70 group-hover:scale-110 transition-transform">♥</span>
-                    </button>
                  </div>
  
                  {/* Disclaimer / Additional verification text if needed */}
