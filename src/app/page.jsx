@@ -91,7 +91,7 @@ export default function Home() {
         </div>
 
         {/* Bento Gradient Card */}
-        <div className="relative z-10 w-full -mt-6 bg-gradient-to-br from-[#FF497E] via-[#E51B5C] to-[#C00D41] rounded-[2rem] p-4 sm:p-5 shadow-[0_12px_28px_rgba(229,27,92,0.22)] border border-white/20 flex items-center gap-3 sm:gap-4 overflow-hidden">
+        <div className="relative z-10 w-full mt-4 bg-gradient-to-br from-[#FF497E] via-[#E51B5C] to-[#C00D41] rounded-[2rem] p-4 sm:p-5 shadow-[0_12px_28px_rgba(229,27,92,0.22)] border border-white/20 flex items-center gap-3 sm:gap-4 overflow-hidden">
           {/* Left Column: White Circle with Fairy Logo */}
           <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white flex items-center justify-center flex-shrink-0 shadow-[0_0_12px_rgba(255,255,255,0.4)] border border-white/30">
             <img 
