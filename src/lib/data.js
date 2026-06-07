@@ -650,7 +650,7 @@ export const girls = [
     ],},
   {id: 44,
     name: { en: "Rourou", cn: "肉肉" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "CBD",
     stats: {
