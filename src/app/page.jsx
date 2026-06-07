@@ -70,7 +70,7 @@ export default function Home() {
       </header>
 
       {/* Mobile Hero Section - Replicating Mockup */}
-      <header className="lg:hidden relative w-full flex flex-col pt-0 pb-6 bg-gradient-to-b from-[#FFEAF1] to-[#FFE3EC] px-4 sm:px-5 overflow-hidden z-10">
+      <header className="lg:hidden relative w-full flex flex-col pt-0 pb-0 bg-gradient-to-b from-[#FFEAF1] to-[#FFE3EC] px-4 sm:px-5 overflow-hidden z-10">
         {/* Soft Background Petals & Cloud Effect */}
         <div className="absolute inset-0 pointer-events-none select-none opacity-50 z-0">
           <div className="absolute top-10 left-[10%] w-3 h-3 bg-[#F05C88]/20 rounded-full blur-[1px]" />
@@ -91,33 +91,35 @@ export default function Home() {
         </div>
 
         {/* Bento Gradient Card */}
-        <div className="relative z-10 w-full mt-4 bg-gradient-to-br from-[#FF497E] via-[#E51B5C] to-[#C00D41] rounded-[2rem] p-4 sm:p-5 shadow-[0_12px_28px_rgba(229,27,92,0.22)] border border-white/20 flex items-center gap-3 sm:gap-4 overflow-hidden">
+        <div className="relative z-10 w-full mt-4 bg-gradient-to-br from-[#FF497E] via-[#E51B5C] to-[#C00D41] rounded-[2rem] p-3 sm:p-4 shadow-[0_12px_28px_rgba(229,27,92,0.22)] border border-white/20 flex items-center gap-3 sm:gap-4 overflow-hidden">
           {/* Left Column: White Circle with Fairy Logo */}
-          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white flex items-center justify-center flex-shrink-0 shadow-[0_0_12px_rgba(255,255,255,0.4)] border border-white/30">
+          <div className="min-w-12 min-h-12 w-16 h-16 sm:w-16 sm:h-16 rounded-full bg-white flex items-center justify-center flex-shrink-0 shadow-[0_0_12px_rgba(255,255,255,0.4)] border border-white/30">
             <img 
               src="/images/logo-icon.svg" 
               alt="Angel Icon" 
-              className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
+              className="w-14 h-14 sm:w-14 sm:h-14 object-contain"
             />
           </div>
 
           {/* Right Column: Text & Contacts */}
-          <div className="flex-1 flex flex-col text-left text-white overflow-hidden">
-            <h3 className="text-[15px] sm:text-[16px] font-bold tracking-wide leading-tight">
-              专业接线 纽澳独家精品资源
-            </h3>
-            <p className="text-[11px] sm:text-[12px] text-white/90 tracking-widest mt-1 font-sans">
-              尊贵 • 隐秘 • 奢界
-            </p>
+          <div className="flex-1 flex flex-col text-center text-white overflow-hidden">
+            <div className="w-fit text-center">
+              <h3 className="text-[15px] sm:text-[16px] font-bold tracking-wide leading-tight">
+                专业接线 纽澳独家精品资源
+              </h3>
+              <p className="text-[11px] sm:text-[12px] text-white/90 tracking-wide mt-1 font-sans">
+                尊贵 • 隐秘 • 奢界
+              </p>
+            </div>
 
             {/* Dashed Separator Line */}
             <div className="w-full border-t border-dashed border-white/30 my-2" />
 
             {/* Contact Details */}
-            <div className="flex flex-col gap-1.5 font-sans text-[11px] sm:text-xs">
+            <div className="flex flex-col gap-1.5 font-sans text-xs sm:text-sm">
               {/* Phone Row */}
               <div className="flex items-center gap-2">
-                <Phone size={12} className="text-white/80 flex-shrink-0" />
+                <Phone size={16} className="text-white/80 flex-shrink-0" />
                 <span>电话: </span>
                 <a href="tel:0225391339" className="font-extrabold tracking-wider hover:underline">
                   022-5391339
@@ -126,7 +128,7 @@ export default function Home() {
 
               {/* WeChat Row */}
               <div className="flex items-center gap-2 overflow-hidden">
-                <MessageCircle size={12} className="text-white/80 flex-shrink-0" />
+                <MessageCircle size={16} className="text-white/80 flex-shrink-0" />
                 <span>微信: </span>
                 <span className="font-extrabold tracking-wide select-all truncate whitespace-nowrap">
                   Angelya3312 / Angel91339
@@ -137,10 +139,10 @@ export default function Home() {
         </div>
 
         {/* View Collection Action Button */}
-        <div className="relative z-10 w-full flex justify-center mt-6">
+        <div className="relative z-10 w-full flex justify-center mt-4">
           <Link 
             href="/collection" 
-            className="group relative flex items-center justify-center gap-3 w-full py-3.5 bg-white hover:bg-[#FFE3EC] text-[#F05C88] rounded-full font-sans text-[13px] font-extrabold tracking-[0.2em] transition-all duration-300 shadow-[0_6px_18px_rgba(240,92,136,0.12)] active:scale-95 border border-[#F05C88]/10"
+            className="group relative flex items-center justify-center gap-3 w-full py-3.5 bg-white hover:bg-[#FFE3EC] text-[#F05C88] rounded-full font-sans text-base font-extrabold tracking-[0.4em] transition-all duration-300 shadow-[0_6px_18px_rgba(240,92,136,0.12)] active:scale-95 border border-[#F05C88]/10"
           >
             <span className="text-xs">ʚ</span>
             <span>查看所有女生</span>
@@ -182,12 +184,12 @@ export default function Home() {
       </section>
       
       {/* Model Grid Section */}
-      <div className="pt-10 pb-0 md:pt-24 md:pb-6">
+      <div className="pt-4 pb-0 md:pt-24 md:pb-6">
         <div className="text-center mb-8 md:mb-16 px-6">
           <h2 className="text-3xl md:text-4xl font-serif italic text-[#593A48] font-bold tracking-widest">
             {t.grid.newCollection}
           </h2>
-          <div className="flex items-center justify-center gap-2 mt-4 text-[#F05C88]">
+          <div className="hidden md:flex items-center justify-center gap-2 mt-4 text-[#F05C88]">
             <span className="hidden md:block w-16 h-[1px] bg-[#F05C88]/60" />
             <span className="text-xs">♥</span>
             <span className="hidden md:block w-16 h-[1px] bg-[#F05C88]/60" />

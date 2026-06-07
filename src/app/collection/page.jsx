@@ -54,7 +54,7 @@ function CollectionContent() {
       
       {/* Search/Filter Bar */}
       <section className="w-full mt-8 md:mt-0 mb-8 md:mb-16 max-w-7xl mx-auto px-8">
-        <div className="flex flex-nowrap md:flex-wrap items-center justify-start md:justify-center gap-3 md:gap-8 overflow-x-auto pb-2 md:pb-0 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden snap-x">
+        <div className="flex flex-wrap items-center justify-center gap-3 md:gap-8 pb-2 md:pb-0">
           {locations.map((loc) => {
             const label = loc === "All" 
               ? (lang === "cn" ? "全部" : "All")
@@ -64,7 +64,7 @@ function CollectionContent() {
               <button
                 key={loc}
                 onClick={() => setActiveFilter(loc)}
-                className={`whitespace-nowrap shrink-0 snap-start px-6 py-2.5 rounded-full text-[10px] md:text-xs uppercase tracking-widest transition-all duration-500 font-bold border ${
+                className={`whitespace-nowrap shrink-0 px-6 py-2.5 rounded-full text-[10px] md:text-xs uppercase tracking-widest transition-all duration-500 font-bold border ${
                   activeFilter === loc 
                     ? "bg-[#F05C88] text-white border-[#F05C88] shadow-[0_4px_12px_rgba(240,92,136,0.3)]" 
                     : "bg-[#FFE3EC]/30 backdrop-blur-sm text-[#593A48]/70 border-[#F05C88]/20 hover:border-[#F05C88]/40 hover:text-[#593A48] hover:bg-[#FFE3EC]/60 shadow-[0_2px_8px_rgba(89,58,72,0.04)]"
