@@ -18,7 +18,7 @@ export default function Home() {
         {/* Background Image - Girl on the right */}
         <div className="absolute top-0 right-0 w-full lg:w-[75%] h-full z-0 overflow-hidden">
           <img 
-            src="/images/header-bg-custom.png" 
+            src="/images/header-bg-custom.webp" 
             alt="Hero Angel" 
             className="w-full h-full object-cover object-[80%_0%] lg:object-[80%_0%] opacity-100"
           />
@@ -82,7 +82,7 @@ export default function Home() {
         {/* Top branding layout: Flat image of the cartoon banner with blurred bounding box */}
         <div className="relative z-10 w-full mt-0 flex justify-center overflow-hidden">
           <img 
-            src="/images/mobile-hero-banner.png" 
+            src="/images/mobile-hero-banner.webp" 
             alt="天使小可爱 - Little Angel Cutie" 
             className="w-full h-auto object-contain"
           />
@@ -164,11 +164,11 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-6">
           {[
-            { label: "全部", en: "ALL AREAS", img: "/images/area-all.png", filter: "All" },
-            { label: "市区", en: "DOWNTOWN", img: "/images/area-downtown.png", filter: "CBD" },
-            { label: "中区", en: "CENTRAL", img: "/images/area-central.png", filter: "Central" },
-            { label: "北岸", en: "NORTH SHORE", img: "/images/area-north-shore.png", filter: "North" },
-            { label: "东区", en: "EAST AREA", img: "/images/area-east.png", filter: "East" }
+            { label: "全部", en: "ALL AREAS", img: "/images/area-all.webp", filter: "All" },
+            { label: "市区", en: "DOWNTOWN", img: "/images/area-downtown.webp", filter: "CBD" },
+            { label: "中区", en: "CENTRAL", img: "/images/area-central.webp", filter: "Central" },
+            { label: "北岸", en: "NORTH SHORE", img: "/images/area-north-shore.webp", filter: "North" },
+            { label: "东区", en: "EAST AREA", img: "/images/area-east.webp", filter: "East" }
           ].map((area, idx) => (
             <Link key={idx} href={`/collection${area.filter !== "All" ? `?area=${area.filter}` : ""}`} className="relative rounded-2xl overflow-hidden aspect-square flex flex-col items-center justify-center text-center cursor-pointer group hover:-translate-y-1 transition-all duration-500 shadow-[0_8px_20px_rgba(240,92,136,0.15)]">
               <img src={area.img} className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt={area.label} />

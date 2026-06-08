@@ -42,7 +42,7 @@ function CollectionContent() {
             }}
           >
             <img 
-              src="/images/collection-hero-banner.png" 
+              src="/images/collection-hero-banner.webp" 
               alt="心动女生" 
               className="w-full h-auto object-contain"
             />

@@ -54,7 +54,7 @@ const AgeGate = ({ children }) => {
                         className="w-[90%] md:w-[60%] h-auto flex items-center justify-center relative group overflow-hidden -mb-10"
                       >
                          <img 
-                           src="/images/age-gate-logo.png" 
+                           src="/images/age-gate-logo.webp" 
                            alt="天使小可爱 - Little Angel Cutie" 
                            className="w-full h-auto object-contain"
                          />
