@@ -750,7 +750,7 @@ export const girls = [
     name: { en: "Qinger", cn: "情儿" },
     status: "available",
     verified: true,
-    location: "Central",
+    location: "CBD",
     stats: {
       age: 24,
       height: "160cm",
@@ -760,8 +760,8 @@ export const girls = [
     },
     image: "/images/girls/qinger/1.webp",
     description: {
-      en: "Charming and attentive, Qinger brings a soft and sensual energy to her sessions in Central Auckland. Standing at 160cm with a delicate build, she specializes in therapeutic and sensual massage, focusing on relaxation and high-quality interaction. Her gentle nature and careful service make her a favorite for those seeking a more personal and soothing experience. Available for both standard sessions and extended premium interactions with additional oral and sensory options.",
-      cn: "温柔体贴，服务至上，让您在繁忙的城市中找到那份宁静与欢愉。情儿现已来到中区，为您提供最专业的身心呵护。主要提供按摩和感官互动服务。额外的标准互动均可配合。",
+      en: "Charming and attentive, Qinger brings a soft and sensual energy to her sessions in CBD Auckland. Standing at 160cm with a delicate build, she specializes in therapeutic and sensual massage, focusing on relaxation and high-quality interaction. Her gentle nature and careful service make her a favorite for those seeking a more personal and soothing experience. Available for both standard sessions and extended premium interactions with additional oral and sensory options.",
+      cn: "温柔体贴，服务至上，让您在繁忙的城市中找到那份宁静与欢愉。情儿现已来到市区CBD，为您提供最专业的身心呵护。主要提供按摩和感官互动服务。额外的标准互动均可配合。",
     },
     price: "$160 / 1h",
     services: {
