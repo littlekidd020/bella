@@ -2595,6 +2595,51 @@ export const girls = [
       "/images/girls/ribemei/5.webp",
     ],
   },
+  {id: 55,
+    name: { en: "Gucci", cn: "Gucci" },
+    status: "available",
+    verified: true,
+    location: "East",
+    stats: {
+      age: 25,
+      height: "165cm",
+      weight: "47kg",
+      cup: "C",
+      nationality: "Chinese",
+    },
+    image: "/images/girls/gucci/1.webp",
+    description: {
+      en: "Gentle and highly professional, Gucci is a stunning 25-year-old beauty with a slender 165cm, 47kg frame and natural C-cup curves now serving East Auckland. Known for her sweet personality and exceptionally caring service, she offers standard sessions featuring deep kissing, sensory massage, and 69. Her premium VIP package includes a double round of pleasure, shower play, direct natural BJ, breast/butt roaming, and come-in-mouth finish for the ultimate relaxation.",
+      cn: "温柔体贴、服务至上！25岁的 Gucci 拥有 165cm、47kg 的修长苗条身材，天然 C 罩杯性感曲线。她性格温柔甜美，服务极其贴心到位。提供包含深度接吻、感官精油理疗、69互动、戴套口吹和 1 次云雨的标准体验。升级的 $320 VIP 套餐更包含双人洗浴、胸推漫游、深度无套口、口爆及多次数圆满，在东区温馨舒适的私密空间中为您带来前所未有的深度舒压享受。",
+    },
+    price: "$320 / 1h (VIP) · $240 / 1h · $200 / 30min",
+    services: {
+      en: [
+        "French kiss",
+        "Sensory massage",
+        "69",
+        "BJ (condom)",
+        "1 shot",
+        "VIP: French kiss · Shower together · Body slide · Sensory massage · Natural BJ · 69 · Come in mouth · Multi shots",
+      ],
+      cn: [
+        "接吻",
+        "感官按摩",
+        "69",
+        "带套口",
+        "爱爱一次",
+        "VIP套餐：舌吻 · 双人洗浴 · 胸推漫游 · 感官按摩 · 无套口 · 69 · 口爆 · 多次数",
+      ],
+    },
+    gallery: [
+      "/images/girls/gucci/1.webp",
+      "/images/girls/gucci/2.webp",
+      "/images/girls/gucci/3.webp",
+      "/images/girls/gucci/4.webp",
+      "/images/girls/gucci/5.webp",
+      "/images/girls/gucci/data1.webp",
+      "/images/girls/gucci/data2.webp",
+    ],},
 ];
 
 export default girls;
