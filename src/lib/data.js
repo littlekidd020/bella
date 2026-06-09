@@ -13,8 +13,8 @@ export const girls = [
     },
     image: "/images/girls/nao/2.webp",
     description: {
-      en: "Petite, adorable, and irresistibly cute, the 19-year-old Japanese student Nao is now available part-time in CBD Auckland. Standing at just 155cm with a dainty 43kg frame and natural C-cup curves, she has big, beautiful eyes and a captivating loli-like charm. Her standard session includes deep French kissing, bareback BJ, 2 shots, oral on her (DATY), mutual oral, nipple licking, pussy slider, shower together, and CIM. An ultra-rare find — this petite student only works part-time on a short-term basis, so don't miss out!",
-      cn: "🆕日本🇯🇵在读学生妹兼职！超小巧玲珑的19岁日籍萝莉奈绪，大眼睛超漂亮，甜美可爱到爆。拥有155cm、43kg的极致娇小身材，天然C罩杯饱满诱人。标准服务包含深吻、无套口、做2次、69互动、舔乳、指划、双人洗浴及口爆。超小只学生妹偶尔兼职，短期开哦，绝对不容错过的极品体验！",
+      en: "Petite, adorable, and irresistibly cute, the 19-year-old Japanese student Nao is now available part-time in CBD Auckland. Standing at just 155cm with a dainty 43kg frame and natural C-cup curves, she has big, beautiful eyes and a captivating loli-like charm. Her standard session includes deep French kissing, bareback BJ, 2 shots, oral on her (DATY), mutual oral, nipple licking, pussy slider, and shower together. An ultra-rare find — this petite student only works part-time on a short-term basis, so don't miss out!",
+      cn: "🆕日本🇯🇵在读学生妹兼职！超小巧玲珑的19岁日籍萝莉奈绪，大眼睛超漂亮，甜美可爱到爆。拥有155cm、43kg的极致娇小身材，天然C罩杯饱满诱人。标准服务包含深吻、无套口、做2次、69互动、舔乳、指划及双人洗浴。超小只学生妹偶尔兼职，短期开哦，绝对不容错过的极品体验！",
     },
     price: "$400 / 1h · $350 / 45min · $300 / 30min",
     services: {
@@ -159,7 +159,7 @@ export const girls = [
     ],},
   {id: 48,
     name: { en: "Baicha", cn: "小白茶" },
-    status: "available",
+    status: "unavailable",
     verified: true,
     location: "CBD",
     stats: {
