@@ -1,7 +1,7 @@
 export const girls = [
   {id: 57,
     name: { en: "Nao", cn: "奈绪" },
-    status: "available",
+    status: "unavailable",
     verified: true,
     location: "CBD",
     stats: {
@@ -385,7 +385,7 @@ export const girls = [
     ],},
   {id: 49,
     name: { en: "Luna", cn: "露娜" },
-    status: "leave",
+    status: "available",
     verified: true,
     location: "East",
     stats: {
@@ -1686,7 +1686,7 @@ export const girls = [
     ],},
   {id: 10,
     name: { en: "Kaka", cn: "卡卡" },
-    status: "leave",
+    status: "available",
     verified: true,
     location: "CBD",
     stats: {
@@ -1722,7 +1722,7 @@ export const girls = [
     ],},
   {id: 11,
     name: { en: "Puffy", cn: "泡芙" },
-    status: "leave",
+    status: "available",
     verified: true,
     location: "CBD",
     stats: {
@@ -2701,7 +2701,7 @@ export const girls = [
   },
   {id: 55,
     name: { en: "Gucci", cn: "Gucci" },
-    status: "available",
+    status: "unavailable",
     verified: true,
     location: "East",
     stats: {
