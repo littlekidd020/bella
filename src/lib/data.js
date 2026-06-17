@@ -211,7 +211,7 @@ export const girls = [
     ],},
   {id: 42,
     name: { en: "Doudou", cn: "兜兜" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "CBD",
     stats: {
