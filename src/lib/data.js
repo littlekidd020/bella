@@ -1856,7 +1856,7 @@ export const girls = [
     name: { en: "Yuxi", cn: "羽西" },
     status: "available",
     verified: true,
-    location: "Central",
+    location: "CBD",
     stats: {
       age: 28,
       height: "170cm",
