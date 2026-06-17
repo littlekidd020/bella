@@ -2212,7 +2212,7 @@ export const girls = [
     ],},
   {id: 22,
     name: { en: "Aimi", cn: "爱米" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "Central",
     stats: {
