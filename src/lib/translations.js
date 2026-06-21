@@ -92,6 +92,7 @@ export const translations = {
       perHour: "/ 小时",
       units: {
         "1h": "小时",
+        "2h": "2小时",
         "30min": "30分钟",
         "45min": "45分钟",
         "90min": "90分钟",
@@ -225,6 +226,7 @@ export const translations = {
       perHour: "/ hour",
       units: {
         "1h": "1 hour",
+        "2h": "2 hours",
         "30min": "30 mins",
         "45min": "45 mins",
         "90min": "90 mins",
