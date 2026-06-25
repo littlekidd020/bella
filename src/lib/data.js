@@ -1783,7 +1783,7 @@ export const girls = [
     ],},
   {id: 10,
     name: { en: "Kaka", cn: "卡卡" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "CBD",
     stats: {
@@ -1819,7 +1819,7 @@ export const girls = [
     ],},
   {id: 11,
     name: { en: "Puffy", cn: "泡芙" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "CBD",
     stats: {
