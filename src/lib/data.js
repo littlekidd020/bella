@@ -160,7 +160,7 @@ export const girls = [
     ],},
   {id: 59,
     name: { en: "Yuki", cn: "Yuki" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "CBD",
     stats: {
