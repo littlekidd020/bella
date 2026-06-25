@@ -1731,7 +1731,7 @@ export const girls = [
     ],},
   {id: 9,
     name: { en: "Anan", cn: "安安" },
-    status: "leave",
+    status: "available",
     verified: true,
     location: "CBD",
     stats: {
