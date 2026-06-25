@@ -664,7 +664,7 @@ export const girls = [
     ],},
   {id: 53,
     name: { en: "Blind Box 2", cn: "盲盒2" },
-    status: "leave",
+    status: "available",
     verified: true,
     location: "CBD",
     stats: {
@@ -949,7 +949,7 @@ export const girls = [
     ],},
   {id: 28,
     name: { en: "Qinger", cn: "情儿" },
-    status: "leave",
+    status: "available",
     verified: true,
     location: "CBD",
     stats: {
