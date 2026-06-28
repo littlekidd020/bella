@@ -206,7 +206,7 @@ export const girls = [
     ],},
   {id: 56,
     name: { en: "Atomi", cn: "Atomi" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "Central",
     stats: {
