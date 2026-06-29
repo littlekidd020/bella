@@ -107,6 +107,7 @@ export const girls = [
       "/images/girls/mina/8.webp",
       "/images/girls/mina/9.webp",
       "/images/girls/mina/10.webp",
+      "/images/girls/mina/11.webp",
       "/images/girls/mina/data1.webp",
       "/images/girls/mina/data2.webp",
     ],},
