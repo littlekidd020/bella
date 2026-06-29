@@ -11,7 +11,7 @@ export const girls = [
       cup: "D+ (Natural)",
       nationality: "Chinese",
     },
-    image: "/images/girls/guoguo/1.webp",
+    image: "/images/girls/guoguo/cover.webp",
     description: {
       en: "Beautiful, voluptuous, and incredibly sweet, Guoguo is a recently landed 2000-born companion serving CBD Auckland. Standing at 168cm and weighing a slender 45kg, she features an enviable hourglass figure with natural D+ cup breasts and fair, smooth skin. Back in Auckland for another limited short-term stay, she is known for her high cooperation, excellent service attitude, and passionate interactions. Her package includes shower play, sweet kissing, stockings, and direct natural BJ.",
       cn: "刚落地高颜美少女！00后女生果果现已回到奥克兰市区 CBD，本次依然是限时短期逗留，千万不要错过！她身高 168cm，体重 45kg，身材绝佳，拥有傲人的纯天然 D+ 罩杯。果果不仅前凸后翘、皮肤雪白，更是童颜巨乳，配合度极高，服务意识强。服务项目包含鸳鸯浴、缠绵深吻、无套口、69互动及性感黑丝，加 $50 可升级为双倍云雨体验，为您带来极其难忘的温存与完美放松。",
@@ -42,6 +42,7 @@ export const girls = [
       ],
     },
     gallery: [
+      "/images/girls/guoguo/cover.webp",
       "/images/girls/guoguo/1.webp",
       "/images/girls/guoguo/2.webp",
       "/images/girls/guoguo/3.webp",
