@@ -66,7 +66,7 @@ export const girls = [
       cup: "B (Natural)",
       nationality: "Chinese",
     },
-    image: "/images/girls/mina/1.webp",
+    image: "/images/girls/mina/cover.webp",
     description: {
       en: "Graceful and exceptionally tall, Mina is a recently arrived beauty from China who graduated from an Australian university. Standing at an impressive 173cm with a slender 49kg figure, she features fair, flawless skin, mesmerizing big eyes, and a gentle voice. Available for a very limited 2-week stay in Auckland CBD, she provides high-quality companionship, professional massage, and romantic interactions including sweet kisses and double rounds.",
       cn: "最新国内空降！毕业于澳洲的高颜值美少女 Mina，拥有 173cm 的高挑模特身材，体重 49kg，皮肤白皙，眼睛明亮动人，声音极其温柔。在市区 CBD 短期逗留仅限 2 周！Mina 提供高品质的暖心相伴与专业按摩服务，包含双人洗浴、无套口、69、丝袜诱惑及两次云雨陪伴，为您打造极致放松的尊享解压时光。",
@@ -95,6 +95,7 @@ export const girls = [
       ],
     },
     gallery: [
+      "/images/girls/mina/cover.webp",
       "/images/girls/mina/1.webp",
       "/images/girls/mina/2.webp",
       "/images/girls/mina/3.webp",
