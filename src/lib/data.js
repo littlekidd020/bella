@@ -2859,7 +2859,7 @@ export const girls = [
     ],},
   {id: 27,
     name: { en: "Shanshan", cn: "珊珊" },
-    status: "leave",
+    status: "available",
     verified: true,
     location: "East",
     stats: {
