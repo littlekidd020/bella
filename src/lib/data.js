@@ -52,6 +52,8 @@ export const girls = [
       "/images/girls/guoguo/7.webp",
       "/images/girls/guoguo/8.webp",
       "/images/girls/guoguo/9.webp",
+      "/images/girls/guoguo/10.webp",
+      "/images/girls/guoguo/11.webp",
       "/images/girls/guoguo/data1.webp",
       "/images/girls/guoguo/data2.webp",
     ],},
