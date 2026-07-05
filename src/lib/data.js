@@ -59,7 +59,7 @@ export const girls = [
     ],},
   {id: 58,
     name: { en: "Mina", cn: "Mina" },
-    status: "leave",
+    status: "available",
     verified: true,
     location: "CBD",
     stats: {
