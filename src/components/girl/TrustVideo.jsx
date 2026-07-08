@@ -106,46 +106,48 @@ const TrustVideo = ({ src, poster }) => {
             className="fixed inset-0 z-[100] flex items-center justify-center bg-black/95 backdrop-blur-2xl p-4 md:p-8"
             onClick={closeModal}
           >
-            <motion.button
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              className="absolute top-6 right-6 z-[110] p-3 bg-white/10 hover:bg-white/20 rounded-full text-white transition-colors"
-              onClick={closeModal}
-            >
-              <X size={24} />
-            </motion.button>
-
             <motion.div
               initial={{ scale: 0.9, y: 20 }}
               animate={{ scale: 1, y: 0 }}
               exit={{ scale: 0.9, y: 20 }}
-              className="relative w-full max-w-[500px] aspect-[9/16] bg-black shadow-[0_0_50px_rgba(240,92,136,0.2)] rounded-lg overflow-hidden"
+              className="w-full max-w-[500px] flex flex-col gap-3"
               onClick={(e) => e.stopPropagation()}
             >
-              <video
-                ref={modalVideoRef}
-                src={src}
-                loop
-                muted={isMuted}
-                controls
-                playsInline
-                className="w-full h-full object-contain"
-                onLoadedData={(e) => {
-                  const playPromise = e.target.play();
-                  if (playPromise !== undefined) {
-                    playPromise.catch(() => {
-                      // Browser blocked unmuted autoplay, fallback to muted
-                      e.target.muted = true;
-                      setIsMuted(true);
-                      e.target.play();
-                    });
-                  }
-                }}
-              />
-              
-              {/* Modal Badge */}
-              <div className="absolute top-4 left-4 z-10 px-4 py-2 bg-[#F05C88] text-white text-[10px] uppercase tracking-widest font-bold rounded-full shadow-lg">
-                {t.girl.uneditedPreview}
+              {/* Label + Close above the video */}
+              <div className="flex justify-between items-center">
+                <div className="px-4 py-2 bg-[#F05C88] text-white text-[10px] uppercase tracking-widest font-bold rounded-full shadow-lg">
+                  {t.girl.uneditedPreview}
+                </div>
+                <button
+                  onClick={closeModal}
+                  className="p-3 bg-white/10 hover:bg-white/20 rounded-full text-white transition-colors"
+                >
+                  <X size={24} />
+                </button>
+              </div>
+
+              {/* Video */}
+              <div className="relative aspect-[9/16] bg-black shadow-[0_0_50px_rgba(240,92,136,0.2)] rounded-lg overflow-hidden">
+                <video
+                  ref={modalVideoRef}
+                  src={src}
+                  loop
+                  muted={isMuted}
+                  controls
+                  playsInline
+                  className="w-full h-full object-contain"
+                  onLoadedData={(e) => {
+                    const playPromise = e.target.play();
+                    if (playPromise !== undefined) {
+                      playPromise.catch(() => {
+                        // Browser blocked unmuted autoplay, fallback to muted
+                        e.target.muted = true;
+                        setIsMuted(true);
+                        e.target.play();
+                      });
+                    }
+                  }}
+                />
               </div>
             </motion.div>
           </motion.div>
