@@ -42,8 +42,6 @@ export const girls = [
     },
     gallery: [
       "/images/girls/youzicha/cover.webp",
-      "/images/girls/youzicha/1.webp",
-      "/images/girls/youzicha/2.webp",
       "/images/girls/youzicha/data1.webp",
       "/images/girls/youzicha/data2.webp",
     ],},
