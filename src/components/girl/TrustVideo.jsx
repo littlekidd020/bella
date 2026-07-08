@@ -69,15 +69,30 @@ const TrustVideo = ({ src, poster }) => {
                 {t.girl.uneditedPreview}
               </span>
             </div>
-            <button 
-              onClick={(e) => {
-                e.stopPropagation();
-                setIsMuted(!isMuted);
-              }}
-              className="p-2 bg-black/60 backdrop-blur-md rounded-full text-white/80 hover:text-[#F05C88] transition-colors"
-            >
-              {isMuted ? <VolumeX size={16} /> : <Volume2 size={16} />}
-            </button>
+            <div className="flex gap-2 items-start">
+              <button 
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setIsMuted(!isMuted);
+                }}
+                className="p-2 bg-black/60 backdrop-blur-md rounded-full text-white/80 hover:text-[#F05C88] transition-colors"
+              >
+                {isMuted ? <VolumeX size={16} /> : <Volume2 size={16} />}
+              </button>
+              <button 
+                onClick={(e) => {
+                  e.stopPropagation();
+                  if (videoRef.current) {
+                    videoRef.current.pause();
+                    videoRef.current.currentTime = 0;
+                  }
+                  setIsPlaying(false);
+                }}
+                className="p-2 bg-black/60 backdrop-blur-md rounded-full text-white/80 hover:text-[#F05C88] transition-colors"
+              >
+                <X size={16} />
+              </button>
+            </div>
           </div>
           
           <div className="flex items-center justify-center">
