@@ -60,28 +60,7 @@ const TrustVideo = ({ src, poster }) => {
           playsInline
           className="w-full h-full object-cover opacity-90 transition-transform duration-700 group-hover/video:scale-110"
         />
-        
-        {/* Always-visible label + close button */}
-        <div className="absolute top-3 left-3 right-3 z-10 flex justify-between items-start">
-          <div className="px-3 py-1 bg-[#F05C88]/80 backdrop-blur-md rounded-full">
-            <span className="text-[10px] uppercase tracking-widest text-white font-bold">
-              {t.girl.uneditedPreview}
-            </span>
-          </div>
-          <button 
-            onClick={(e) => {
-              e.stopPropagation();
-              if (videoRef.current) {
-                videoRef.current.pause();
-                videoRef.current.currentTime = 0;
-              }
-              setIsPlaying(false);
-            }}
-            className="p-2 bg-black/60 backdrop-blur-md rounded-full text-white/80 hover:text-[#F05C88] transition-colors"
-          >
-            <X size={16} />
-          </button>
-        </div>
+
 
         {/* Hover-only overlay controls */}
         <div className="absolute inset-0 flex flex-col justify-between p-4 pt-14 opacity-0 group-hover/video:opacity-100 transition-opacity duration-300 bg-gradient-to-t from-black/60 via-transparent to-black/20">
