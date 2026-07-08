@@ -103,31 +103,31 @@ const TrustVideo = ({ src, poster }) => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[100] flex items-center justify-center bg-black/95 backdrop-blur-2xl p-4 md:p-8"
+            className="fixed inset-0 z-[100] flex flex-col items-center justify-start bg-black/95 backdrop-blur-2xl pt-28 pb-6 px-4 md:pt-32 md:pb-8 overflow-y-auto"
             onClick={closeModal}
           >
             <motion.div
               initial={{ scale: 0.9, y: 20 }}
               animate={{ scale: 1, y: 0 }}
               exit={{ scale: 0.9, y: 20 }}
-              className="w-full max-w-[500px] flex flex-col gap-3"
+              className="w-full max-w-[500px] flex flex-col gap-3 my-auto"
               onClick={(e) => e.stopPropagation()}
             >
-              {/* Label + Close above the video */}
-              <div className="flex justify-between items-center">
+              {/* Label + Close above the video, positioned below top navbar */}
+              <div className="flex justify-between items-center shrink-0">
                 <div className="px-4 py-2 bg-[#F05C88] text-white text-[10px] uppercase tracking-widest font-bold rounded-full shadow-lg">
                   {t.girl.uneditedPreview}
                 </div>
                 <button
                   onClick={closeModal}
-                  className="p-3 bg-white/10 hover:bg-white/20 rounded-full text-white transition-colors"
+                  className="p-3 bg-white/10 hover:bg-white/20 rounded-full text-white transition-colors shrink-0"
                 >
                   <X size={24} />
                 </button>
               </div>
 
               {/* Video */}
-              <div className="relative aspect-[9/16] bg-black shadow-[0_0_50px_rgba(240,92,136,0.2)] rounded-lg overflow-hidden">
+              <div className="relative aspect-[9/16] max-h-[calc(100vh-210px)] max-w-full mx-auto bg-black shadow-[0_0_50px_rgba(240,92,136,0.2)] rounded-lg overflow-hidden flex items-center justify-center">
                 <video
                   ref={modalVideoRef}
                   src={src}
