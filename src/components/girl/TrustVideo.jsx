@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const TrustVideo = ({ src, poster }) => {
   const { t } = useLanguage();
   const [isPlaying, setIsPlaying] = useState(false);
-  const [isMuted, setIsMuted] = useState(true);
+  const [isMuted, setIsMuted] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const videoRef = useRef(null);
   const modalVideoRef = useRef(null);
@@ -129,12 +129,22 @@ const TrustVideo = ({ src, poster }) => {
               <video
                 ref={modalVideoRef}
                 src={src}
-                autoPlay
                 loop
                 muted={isMuted}
                 controls
                 playsInline
                 className="w-full h-full object-contain"
+                onLoadedData={(e) => {
+                  const playPromise = e.target.play();
+                  if (playPromise !== undefined) {
+                    playPromise.catch(() => {
+                      // Browser blocked unmuted autoplay, fallback to muted
+                      e.target.muted = true;
+                      setIsMuted(true);
+                      e.target.play();
+                    });
+                  }
+                }}
               />
               
               {/* Modal Badge */}
