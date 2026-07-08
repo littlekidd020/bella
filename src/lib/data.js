@@ -14,10 +14,10 @@ export const girls = [
     image: "/images/girls/youzicha/cover.webp",
     video: "/images/girls/youzicha/video.mp4",
     description: {
-      en: "Playful, gorgeous, and incredibly stunning, Youzicha is a 19-year-old local top university student serving CBD Auckland. Standing at 166cm and weighing 44kg with natural D-cup curves, she boasts an iconic babyface and a perfect anime-like figure. Highly responsive and sweet, she provides a wonderful part-time companion experience. Her standard package includes double shower play, French kissing, stockings, uniform roleplay, body slide, 69, condom BJ, and 2 rounds of pure pleasure directly included in her 1-hour package.",
-      cn: "本地名校在读 00 后兼职美少女！19 岁的新晋佳丽柚子茶现已在奥克兰市区 CBD 为您服务。她身高 166cm，体重 44kg，身形苗条紧致，拥有傲人的天然 D 罩杯。柚子茶不仅长相清纯甜美（童颜巨乳），更拥有完美的动漫漫画身材，配合度极高，服务元气满满.1 小时套餐不仅提供鸳鸯洗浴、法式舌吻、69互动、丝袜和制服诱惑、胸推滑漫、带套口吹，更直接包含做 2 次的超值体验，是您绝对不容错过的极品选择。",
+      en: "Playful, gorgeous, and incredibly stunning, Youzicha is a 19-year-old local top university student serving CBD Auckland. Standing at 166cm and weighing 44kg with natural D-cup curves, she boasts an iconic babyface and a perfect anime-like figure. Highly responsive and sweet, she provides a wonderful part-time companion experience. Her standard package includes double shower play, French kissing, stockings, uniform roleplay, body slide, 69, condom BJ, and 1 round (extra second round +$100).",
+      cn: "本地名校在读 00 后兼职美少女！19 岁的新晋佳丽柚子茶现已在奥克兰市区 CBD 为您服务。她身高 166cm，体重 44kg，身形苗条紧致，拥有傲人的天然 D 罩杯。柚子茶不仅长相清纯甜美（童颜巨乳），更拥有完美的动漫漫画身材，配合度极高，服务元气满满。1 小时套餐提供鸳鸯洗浴、法式舌吻、69互动、丝袜和制服诱惑、胸推滑漫、带套口吹，做 1 次，加 $100 可升级做 2 次，是您绝对不容错过的极品选择。",
     },
-    price: "$500 / 1h · $450 / 45min · $400 / 30min",
+    price: "$500 / 1h (做2次+$100) · $450 / 45min · $400 / 30min",
     services: {
       en: [
         "Shower together",
@@ -26,7 +26,8 @@ export const girls = [
         "Mutual oral (69)",
         "Breast massage",
         "Stockings / Uniform roleplay",
-        "2 rounds",
+        "1 round",
+        "Extra: Second round (+$100)",
         "Part-time hours: Mon-Fri: 5.30pm-11pm · Weekend: All day",
       ],
       cn: [
@@ -36,7 +37,8 @@ export const girls = [
         "69互动",
         "胸推漫游",
         "丝袜/制服诱惑",
-        "做2次",
+        "做1次",
+        "额外：第二次 (+$100)",
         "兼职时间：周一至五 5:30pm-11pm · 周末全天",
       ],
     },
