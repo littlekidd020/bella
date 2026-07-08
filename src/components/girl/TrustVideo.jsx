@@ -131,6 +131,7 @@ const TrustVideo = ({ src, poster }) => {
                 src={src}
                 autoPlay
                 loop
+                muted={isMuted}
                 controls
                 playsInline
                 className="w-full h-full object-contain"
