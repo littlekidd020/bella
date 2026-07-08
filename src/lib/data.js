@@ -261,7 +261,7 @@ export const girls = [
       en: "Exotic, high-spirited, and exceptionally gorgeous, Ayiguli is a recently arrived 24-year-old mixed-race companion now serving Central Auckland. Standing at an impressive 172cm with a slender 49kg model figure, she features natural C-cup breasts and a striking, athletic build. Full of energy, stylish, and highly charming, she provides a top-tier companion experience. Her standard package includes double shower play, French kissing, stockings, uniform roleplay, body slide, 69, natural BJ, and 2 rounds of pure pleasure. She also offers a dedicated 1-hour sensory massage package at a special rate of $160 (no sex included, featuring her outstanding professional massage techniques).",
       cn: "刚落地高颜混血车模！24 岁的阿依古丽拥有 172cm 的高挑超模身材，体重 49kg，身形线条感十足，拥有天然 C 罩杯。她长相惊艳、元气满满，具有独特的异域风情与飒爽魅力。服务态度极其端正，配合度极高。1 小时套餐不仅提供鸳鸯双人洗浴、甜蜜接吻、69互动、丝袜和制服诱惑、胸推漫游、无套口吹，更直接包含做 2 次的超值体验。此外，她还特别提供 1 小时纯感官按摩（不含啪/性爱项目，仅需 $160，手法极佳），为您在忙碌中打造极致放松的完美解压时光。",
     },
-    price: "$340 / 1h · $280 / 30min · $160 / 1h (Sensory Massage Only)",
+    price: "$340 / 1h · $280 / 30min · $160 / 1h (Sensory Massage)",
     services: {
       en: [
         "Shower together",
