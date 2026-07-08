@@ -11,7 +11,7 @@ export const girls = [
       cup: "D (Natural)",
       nationality: "Chinese",
     },
-    image: "/images/girls/youzicha/1.webp",
+    image: "/images/girls/youzicha/cover.webp",
     video: "/images/girls/youzicha/video.mp4",
     description: {
       en: "Playful, gorgeous, and incredibly stunning, Youzicha is a 19-year-old local top university student serving CBD Auckland. Standing at 166cm and weighing 44kg with natural D-cup curves, she boasts an iconic babyface and a perfect anime-like figure. Highly responsive and sweet, she provides a wonderful part-time companion experience. Her standard package includes double shower play, French kissing, stockings, uniform roleplay, body slide, 69, condom BJ, and 2 rounds of pure pleasure directly included in her 1-hour package.",
@@ -41,6 +41,7 @@ export const girls = [
       ],
     },
     gallery: [
+      "/images/girls/youzicha/cover.webp",
       "/images/girls/youzicha/1.webp",
       "/images/girls/youzicha/2.webp",
       "/images/girls/youzicha/data1.webp",
