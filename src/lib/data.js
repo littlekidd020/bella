@@ -294,7 +294,7 @@ export const girls = [
     ],},
   {id: 69,
     name: { en: "Ayiguli", cn: "阿依古丽" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "Central",
     stats: {
