@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { Check, Star, MapPin } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
