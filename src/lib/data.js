@@ -52,7 +52,7 @@ export const girls = [
     name: { en: "Hoshino", cn: "星野子" },
     status: "available",
     verified: true,
-    location: "Central",
+    location: "CBD",
     stats: {
       age: 24,
       height: "160cm",
@@ -62,8 +62,8 @@ export const girls = [
     },
     image: "/images/girls/hoshino/cover.webp",
     description: {
-      en: "Sweet, gentle, and utterly gorgeous, Hoshino is a newly arrived 24-year-old Japanese companion serving Central Auckland. Standing at 160cm and weighing 44kg with beautiful natural C+ cup curves, she radiates a warm, attentive charm. Highly cooperative and passionate about providing top-tier service, her 1-hour package includes double shower play, deep French kissing, stockings, uniform roleplay, body slide, mutual oral (69), bareback BJ (BBBJ), and 2 rounds of intense pleasure. Premium upgrades like CIM, no-condom/creampie options, and video recording (no face) are also available. Cash only.",
-      cn: "全新空降日籍高颜值甜美佳丽！24 岁的星野子（Hoshino）现已来到奥克兰中区为您服务。她身高 160cm，体重 44kg，身材前凸后翘，拥有迷人诱人的天然 C+ 罩杯。星野子温柔可爱、极具亲和力，配合度拉满且服务意识拉满。1 小时套餐包含双人洗浴、深吻、69互动、丝袜与制服诱惑、胸推漫游、无套口交，且直接提供做 2 次的超值体验。此外，她还提供口爆、无套性爱、内射以及录像拍照（不露脸）等顶级升级项目，让您尊享最完美的温存时光。仅收现金。",
+      en: "Sweet, gentle, and utterly gorgeous, Hoshino is a newly arrived 24-year-old Japanese companion serving Auckland CBD. Standing at 160cm and weighing 44kg with beautiful natural C+ cup curves, she radiates a warm, attentive charm. Highly cooperative and passionate about providing top-tier service, her 1-hour package includes double shower play, deep French kissing, stockings, uniform roleplay, body slide, mutual oral (69), bareback BJ (BBBJ), and 2 rounds of intense pleasure. Premium upgrades like CIM, no-condom/creampie options, and video recording (no face) are also available. Cash only.",
+      cn: "全新空降日籍高颜值甜美佳丽！24 岁的星野子（Hoshino）现已来到市区 CBD 为您服务。她身高 160cm，体重 44kg，身材前凸后翘，拥有迷人诱人的天然 C+ 罩杯。星野子温柔可爱、极具亲和力，配合度拉满且服务意识拉满。1 小时套餐包含双人洗浴、深吻、69互动、丝袜与制服诱惑、胸推漫游、无套口交，且直接提供做 2 次的超值体验。此外，她还提供口爆、无套性爱、内射以及录像拍照（不露脸）等顶级升级项目，让您尊享最完美的温存时光。仅收现金。",
     },
     price: "$360 / 1h · $320 / 45min · $280 / 30min",
     services: {
@@ -163,7 +163,7 @@ export const girls = [
     name: { en: "Fini", cn: "菲妮" },
     status: "available",
     verified: true,
-    location: "Central",
+    location: "CBD",
     stats: {
       age: 23,
       height: "160cm",
@@ -174,8 +174,8 @@ export const girls = [
     image: "/images/girls/feini/cover.webp",
     video: "/images/girls/feini/video.mov",
     description: {
-      en: "Petite, cute, and absolutely adorable, Fini is a newly arrived 23-year-old Japanese companion serving Central Auckland. Standing at 160cm and weighing a very slender 40kg with lovely C-cup curves, she brings the authentic charm and sweet, gentle nature of a Tokyo sweetheart. Extremely cooperative and attentive, her 1-hour package includes double shower play, deep French kissing (DFK), breast massage, stockings, uniform roleplay, mutual oral (69), bareback BJ (BBBJ), and 2 rounds of pure pleasure. She also offers premium optional extras including CIM, no-condom/creampie upgrades (+ $200 / + $250), and photo/video recording (without showing face). Only cash accepted.",
-      cn: "全新空降日籍超可爱美少女！23 岁的日籍佳丽菲妮（Fini）现已来到奥克兰中区为您服务。她身高 160cm，体重 40kg，身材极其纤细匀称，拥有饱满诱人的 C 罩杯。菲妮甜美可爱、性格温柔，服务态度极佳，配合度拉满。1 小时套餐不仅提供双人鸳鸯浴、深吻、69互动、胸推滑漫、丝袜与制服诱惑、无套口交，更直接包含做 2 次的超值体验。此外，她还提供口爆、无套性爱、内射以及录像拍照（不露脸）等顶级升级项目，为您打造极致放松的奢华解压时光。仅收现金。",
+      en: "Petite, cute, and absolutely adorable, Fini is a newly arrived 23-year-old Japanese companion serving Auckland CBD. Standing at 160cm and weighing a very slender 40kg with lovely C-cup curves, she brings the authentic charm and sweet, gentle nature of a Tokyo sweetheart. Extremely cooperative and attentive, her 1-hour package includes double shower play, deep French kissing (DFK), breast massage, stockings, uniform roleplay, mutual oral (69), bareback BJ (BBBJ), and 2 rounds of pure pleasure. She also offers premium optional extras including CIM, no-condom/creampie upgrades (+ $200 / + $250), and photo/video recording (without showing face). Only cash accepted.",
+      cn: "全新空降日籍超可爱美少女！23 岁的日籍佳丽菲妮（Fini）现已来到市区 CBD 为您服务。她身高 160cm，体重 40kg，身材极其纤细匀称，拥有饱满诱人的 C 罩杯。菲妮甜美可爱、性格温柔，服务态度极佳，配合度拉满。1 小时套餐不仅提供双人鸳鸯浴、深吻、69互动、胸推滑漫、丝袜与制服诱惑、无套口交，更直接包含做 2 次的超值体验。此外，她还提供口爆、无套性爱、内射以及录像拍照（不露脸）等顶级升级项目，为您打造极致放松的奢华解压时光。仅收现金。",
     },
     price: "$360 / 1h · $320 / 45min · $280 / 30min",
     services: {
