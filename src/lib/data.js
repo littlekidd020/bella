@@ -651,7 +651,7 @@ export const girls = [
     ],},
   {id: 61,
     name: { en: "Alice", cn: "爱丽丝" },
-    status: "leave",
+    status: "available",
     verified: true,
     location: "North",
     stats: {
