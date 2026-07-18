@@ -172,7 +172,7 @@ export const girls = [
     ],},
   {id: 72,
     name: { en: "Xuanxuan", cn: "轩轩" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "CBD",
     stats: {
