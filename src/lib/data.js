@@ -3315,7 +3315,7 @@ export const girls = [
     ],},
   {id: 23,
     name: { en: "Blind Box", cn: "开盲盒" },
-    status: "unavailable",
+    status: "available",
     verified: true,
     location: "CBD",
     stats: {
@@ -3347,8 +3347,7 @@ export const girls = [
       "/images/girls/blindbox/2.webp",
       "/images/girls/blindbox/3.webp",
       "/images/girls/blindbox/4.webp",
-      "/images/girls/blindbox/5.webp",
-      "/images/girls/blindbox/6.webp",
+      "/images/girls/blindbox/data1.webp",
     ],},
   {id: 24,
     name: { en: "Yumo", cn: "语沫" },
