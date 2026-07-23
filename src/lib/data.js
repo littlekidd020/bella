@@ -3349,10 +3349,9 @@ export const girls = [
       "/images/girls/aimi/6.webp",
       "/images/girls/aimi/7.webp",
     ],},
-
   {id: 24,
     name: { en: "Yumo", cn: "语沫" },
-    status: "unavailable",
+    status: "available",
     verified: true,
     location: "CBD",
     stats: {
@@ -3362,7 +3361,7 @@ export const girls = [
       cup: "B+",
       nationality: "Chinese",
     },
-    image: "/images/girls/yumo/3.webp",
+    image: "/images/girls/yumo/cover.webp",
     description: {
       en: "Radiant and naturally stunning, Yumo is a 2002-born university undergraduate in CBD Auckland. A 'Girl Next Door' with hidden talents in piano, calligraphy, and dance, she offers a rare blend of elegance and athletic flexibility. 100% natural and freshly available, she is known for her exceptional cooperation and sweet personality. Don't miss this limited-time opportunity to meet her.",
       cn: "优点：颜值在线，甜妹，大学本科生在读🎓。钢琴🎹、书法、舞蹈💃、一字马，全身天然无科技。初下💦不久，绝对配合度极高，系邻家妹妹🤤。短期还在等什么🫶",
@@ -3397,11 +3396,12 @@ export const girls = [
       ],
     },
     gallery: [
-      "/images/girls/yumo/3.webp",
-      "/images/girls/yumo/2.webp",
+      "/images/girls/yumo/cover.webp",
       "/images/girls/yumo/1.webp",
-      "/images/girls/yumo/4.webp",
-      "/images/girls/yumo/5.webp",
+      "/images/girls/yumo/2.webp",
+      "/images/girls/yumo/3.webp",
+      "/images/girls/yumo/data1.webp",
+      "/images/girls/yumo/data2.webp",
     ],},
   {id: 25,
     name: { en: "May", cn: "May" },
