@@ -62,7 +62,7 @@ export const girls = [
     ],},
   {id: 73,
     name: { en: "Hoshino", cn: "星野子" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "CBD",
     stats: {
