@@ -44,7 +44,7 @@ export const girls = [
     ],},
   {id: 82,
     name: { en: "Wenye", cn: "温野" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "CBD",
     stats: {
