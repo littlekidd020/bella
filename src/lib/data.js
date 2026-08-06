@@ -110,8 +110,8 @@ export const girls = [
     },
     image: "/images/girls/yumo/cover.webp",
     description: {
-      en: "Radiant and naturally stunning, Yumo is a 2002-born university undergraduate in CBD Auckland. A 'Girl Next Door' with hidden talents in piano, calligraphy, and dance, she offers a rare blend of elegance and athletic flexibility. 100% natural and freshly available, she is known for her exceptional cooperation and sweet personality. Don't miss this limited-time opportunity to meet her.",
-      cn: "优点：颜值在线，甜妹，大学本科生在读🎓。钢琴🎹、书法、舞蹈💃、一字马，全身天然无科技。初下💦不久，绝对配合度极高，系邻家妹妹🤤。短期还在等什么🫶",
+      en: "Radiant and naturally stunning, Yumo is a 2002-born university undergraduate in CBD Auckland. Dressed in a gorgeous flight attendant uniform theme, she offers a rare blend of elegance and athletic flexibility. 100% natural and freshly available, she is known for her exceptional cooperation and sweet personality. Don't miss this limited-time opportunity to meet her.",
+      cn: "优点：新版空降空姐制服诱惑✈️，颜值在线，甜妹，大学本科生在读🎓。钢琴🎹、书法、舞蹈💃、一字马，全身天然无科技。初下💦不久，绝对配合度极高，系邻家妹妹🤤。短期还在等什么🫶",
     },
     price: "$400 / 1h · $300 / 30min",
     services: {
