@@ -692,7 +692,7 @@ export const girls = [
     ],},
   {id: 74,
     name: { en: "Lottie", cn: "Lottie" },
-    status: "leave",
+    status: "available",
     verified: true,
     location: "North",
     stats: {
