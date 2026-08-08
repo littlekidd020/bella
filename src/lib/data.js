@@ -1002,7 +1002,7 @@ export const girls = [
     ],},
   {id: 84,
     name: { en: "Premium Blind Box", cn: "高端盲盒" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "CBD",
     stats: {
