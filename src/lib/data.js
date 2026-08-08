@@ -200,7 +200,7 @@ export const girls = [
     ],},
   {id: 86,
     name: { en: "Rela", cn: "热辣" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "CBD",
     stats: {
