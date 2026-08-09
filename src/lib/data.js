@@ -59,7 +59,7 @@ export const girls = [
       en: "Sweet, gorgeous, and incredibly tall, Jianyi is a 21-year-old local undergraduate companion now serving CBD Auckland. Boasting top-tier looks resembling celebrity Yang Mi, a flawless fair complexion, and an impressive 171cm stature with natural D+ cup curves, she is an absolute dream companion. Her standard package ($600/1h) includes double shower play, water BJ, deep French kissing, stocks, breast massage, mutual oral (69), stockings, natural BJ, and 1 round. Upgrade to a second round for an extra $100. Cash only.",
       cn: "🆕高颜值高挑本地在读学生妹兼职空降！21岁的简一现已来到奥克兰市区 CBD 为您服务。她身高 171cm，体重 47kg，身材高挑完美，拥有令人惊叹的纯天然 D+ 罩杯。她长相酷似杨幂，肤白貌美无死角。1 小时套餐提供双人鸳鸯洗浴、水中吹箫、法式舌吻、胸推漫游、69 互动、无套口交及性感黑丝诱惑。提供 1 次激情温存，加收 $100 可升级做 2 次。仅收现金。",
     },
-    price: "$600 / 1h",
+    price: "$600 / 1h · $550 / 45min · $500 / 30min",
     services: {
       en: [
         "Shower together",
@@ -90,6 +90,7 @@ export const girls = [
       "/images/girls/jianyi/cover.webp",
       "/images/girls/jianyi/1.webp",
       "/images/girls/jianyi/2.webp",
+      "/images/girls/jianyi/3.webp",
       "/images/girls/jianyi/data1.webp",
       "/images/girls/jianyi/data2.webp",
     ],},
