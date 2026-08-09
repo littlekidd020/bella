@@ -57,8 +57,8 @@ export const girls = [
     image: "/images/girls/miaomiao/cover.webp",
     video: "/images/girls/miaomiao/video.mp4",
     description: {
-      en: "Sweet, charming, and freshly 18, Miaomiao is a popular Chinese dress-up influencer and student now serving CBD Auckland. Standing at 161cm with a petite 42kg frame and natural C-cup curves, she boasts a massive following of 100k+ on social media. Her standard package ($700/1h) includes double shower play, water BJ, deep French kissing, stocks, breast massage, mutual oral (69), stockings, natural BJ, and 1 round. Upgrade to a second round for an extra $100. Cash only.",
-      cn: "🆕超人气在读小网红空降！刚刚度过 18 岁生日的小缪缪现已来到奥克兰市区 CBD 为您服务。她身高 161cm，体重 42kg，身材曼妙玲珑，拥有一对天然饱满的 C 罩杯。小缪缪是某穿搭分享平台的十万粉丝穿搭博主，肤白貌美，充满青春气息。1 小时套餐提供双人鸳鸯洗浴、水中吹箫、法式舌吻、胸推漫游、69 互动、无套口交及性感黑丝诱惑。提供 1 次激情温存，加收 $100 可升级做 2 次。仅收现金。",
+      en: "Sweet, charming, and freshly 18, Miaomiao is a popular Chinese dress-up influencer and student now serving CBD Auckland. Standing at 161cm with a petite 42kg frame and natural C-cup curves, she boasts a massive following of 100k+ on social media. Her standard package ($700/1h) includes double shower play, water BJ, deep French kissing, stocks, breast massage, mutual oral (69), stockings, natural BJ, and 1 round. Upgrade to a second round for an extra $100.",
+      cn: "🆕超人气在读小网红空降！刚刚度过 18 岁生日的小缪缪现已来到奥克兰市区 CBD 为您服务。她身高 161cm，体重 42kg，身材曼妙玲珑，拥有一对天然饱满的 C 罩杯。小缪缪是某穿搭分享平台的十万粉丝穿搭博主，肤白貌美，充满青春气息。1 小时套餐提供双人鸳鸯洗浴、水中吹箫、法式舌吻、胸推漫游、69 互动、无套口交及性感黑丝诱惑。提供 1 次激情温存，加收 $100 可升级做 2 次。",
     },
     price: "$700 / 1h",
     services: {
@@ -72,7 +72,6 @@ export const girls = [
         "Stockings",
         "1 round",
         "Extra: Second round (+$100)",
-        "Payment: Cash only",
       ],
       cn: [
         "双人洗浴",
@@ -84,7 +83,6 @@ export const girls = [
         "丝袜诱惑",
         "做1次",
         "额外：第二次 (+$100)",
-        "付款方式：仅收现金",
       ],
     },
     gallery: [
