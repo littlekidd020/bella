@@ -70,7 +70,7 @@ export const girls = [
       en: "A newly arrived 170cm model Neva, direct from China. Extremely slender but blessed with a natural C-cup bust, she has a flawless, fair, and delicate skin. Blessed with an absolute model frame, Neva is ready to deliver an exceptional, passionate encounter.",
       cn: "国内空降✈️在职170模特Neva。南方姑娘，初次下水。高颜值，拥有纯天然C杯罩杯，体格偏瘦但胸部有肉，皮肤白嫩细腻。完美绝佳炮架身材，带给您极尽温柔和激情的奢华体验。",
     },
-    price: "$550 / 1h · $3000 / Night · $4800 / Day",
+    price: "$550 / 1h · $500 / 45min · $450 / 30min",
     services: {
       en: [
         "Shower together",
