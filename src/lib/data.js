@@ -50,7 +50,7 @@ export const girls = [
     ],},
   {id: 87,
     name: { en: "Jianyi", cn: "简一" },
-    status: "leave",
+    status: "available",
     verified: true,
     location: "CBD",
     stats: {
