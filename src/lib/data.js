@@ -462,7 +462,7 @@ export const girls = [
     ],},
   {id: 57,
     name: { en: "Nao", cn: "奈绪" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "CBD",
     stats: {
@@ -2287,7 +2287,7 @@ export const girls = [
     ],},
   {id: 53,
     name: { en: "Blind Box 2", cn: "盲盒2" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "CBD",
     stats: {
