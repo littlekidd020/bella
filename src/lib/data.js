@@ -154,7 +154,7 @@ export const girls = [
     ],},
   {id: 91,
     name: { en: "Ruiya", cn: "瑞雅" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "CBD",
     stats: {
