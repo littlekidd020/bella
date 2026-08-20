@@ -210,7 +210,7 @@ export const girls = [
     ],},
   {id: 89,
     name: { en: "Neva", cn: "Neva" },
-    status: "leave",
+    status: "available",
     verified: true,
     location: "CBD",
     stats: {
@@ -516,7 +516,7 @@ export const girls = [
     ],},
   {id: 28,
     name: { en: "Qinger", cn: "情儿" },
-    status: "leave",
+    status: "available",
     verified: true,
     location: "CBD",
     stats: {
