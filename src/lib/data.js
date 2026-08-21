@@ -111,6 +111,7 @@ export const girls = [
       "/images/girls/wanzi/6.webp",
       "/images/girls/wanzi/7.webp",
       "/images/girls/wanzi/8.webp",
+      "/images/girls/wanzi/9.webp",
       "/images/girls/wanzi/data1.webp",
       "/images/girls/wanzi/data2.webp",
     ],},
