@@ -3328,7 +3328,7 @@ export const girls = [
     ],},
   {id: 7,
     name: { en: "Laila", cn: "莱拉" },
-    status: "leave",
+    status: "available",
     verified: true,
     isOnHomepage: false,
     location: "CBD",
