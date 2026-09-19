@@ -99,6 +99,14 @@ export default function GirlDetailsPage() {
   if (!model) return <div className="min-h-screen bg-[#FFE3EC]" />;
 
   const isAvailable = model.status === "available";
+  const isWorking = model.status === "working";
+  const statusText = isAvailable
+    ? t.girl.available
+    : isWorking
+    ? (t.girl.working || "工作中")
+    : t.girl.unavailable;
+  const dotColor = (isAvailable || isWorking) ? "bg-[#F05C88]" : "bg-[#593A48]/30";
+  const badgeClasses = (isAvailable || isWorking) ? "border-[#F05C88]/20 text-[#F05C88]" : "border-[#593A48]/10 text-[#593A48]/40";
   const uniqueGallery = model ? (model.gallery || []).filter((img) => img !== model.image) : [];
   const allImages = model ? [model.image, ...uniqueGallery] : [];
   const displayGallery = model.video ? allImages : uniqueGallery;
@@ -160,9 +168,9 @@ export default function GirlDetailsPage() {
               </h1>
               
               <div className="flex items-center gap-4 mt-6">
-                <span className={`inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-[10px] font-bold font-sans tracking-[0.15em] bg-white border ${isAvailable ? "border-[#F05C88]/20 text-[#F05C88]" : "border-[#593A48]/10 text-[#593A48]/40"}`}>
-                  <span className={`w-1.5 h-1.5 rounded-full ${isAvailable ? "bg-[#F05C88]" : "bg-[#593A48]/30"}`} />
-                  {isAvailable ? t.girl.available : t.girl.unavailable}
+                <span className={`inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-[10px] font-bold font-sans tracking-[0.15em] bg-white border ${badgeClasses}`}>
+                  <span className={`w-1.5 h-1.5 rounded-full ${dotColor}`} />
+                  {statusText}
                 </span>
                 <p className="text-[10px] uppercase tracking-[0.3em] text-[#F05C88] font-bold font-sans">
                   {t.girl.nationalities[model.stats.nationality] || model.stats.nationality}

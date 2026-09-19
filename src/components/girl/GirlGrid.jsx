@@ -11,11 +11,11 @@ const GirlGrid = ({ limit, showCTA = false, girls = defaultGirls, showIntro = fa
 
   const filteredGirls = girls.filter(model => model.status !== "hidden" && model.status !== "deleted");
   
-  // Sort: available girls first, resting/unavailable (leave/unavailable) girls last
+  // Sort: active (available/working) girls first, resting/unavailable (leave/unavailable) girls last
   const sortedGirls = sortRestingLast
     ? [...filteredGirls].sort((a, b) => {
-        const aAvail = a.status === "available" ? 1 : 0;
-        const bAvail = b.status === "available" ? 1 : 0;
+        const aAvail = (a.status === "available" || a.status === "working") ? 1 : 0;
+        const bAvail = (b.status === "available" || b.status === "working") ? 1 : 0;
         return bAvail - aAvail;
       })
     : filteredGirls;

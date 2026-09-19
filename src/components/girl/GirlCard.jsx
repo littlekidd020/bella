@@ -7,7 +7,16 @@ import { useLanguage } from "@/context/LanguageContext";
 
 const GirlCard = ({ model, isLarge = false }) => {
   const isAvailable = model.status === "available";
+  const isWorking = model.status === "working";
   const { t, lang } = useLanguage();
+
+  const statusText = isAvailable
+    ? t.girl.available
+    : isWorking
+    ? (t.girl.working || "工作中")
+    : t.girl.unavailable;
+
+  const statusColor = (isAvailable || isWorking) ? "text-[#F05C88]" : "text-[#593A48]/50";
 
   return (
     <>
@@ -47,8 +56,8 @@ const GirlCard = ({ model, isLarge = false }) => {
             <h3 className={`${isLarge ? 'text-xl md:text-2xl' : 'text-lg'} font-serif text-[#593A48] tracking-wide italic font-bold leading-none`}>
               {model.name[lang] || model.name.en}
             </h3>
-            <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-[8px] font-bold font-sans tracking-[0.15em] bg-white/60 border border-[#F05C88]/15 backdrop-blur-sm ${isAvailable ? 'text-[#F05C88]' : 'text-[#593A48]/50'}`}>
-              {isAvailable ? t.girl.available : t.girl.unavailable}
+            <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-[8px] font-bold font-sans tracking-[0.15em] bg-white/60 border border-[#F05C88]/15 backdrop-blur-sm ${statusColor}`}>
+              {statusText}
             </span>
           </div>
           
