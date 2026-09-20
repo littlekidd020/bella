@@ -253,7 +253,7 @@ export const girls = [
     ],},
   {id: 96,
     name: { en: "Nuonuo", cn: "阮糯糯" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "CBD",
     stats: {
