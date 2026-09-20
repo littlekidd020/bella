@@ -102,7 +102,6 @@ export const girls = [
     gallery: [
       "/images/girls/leilei/cover.webp",
       "/images/girls/leilei/1.webp",
-      "/images/girls/leilei/2.webp",
       "/images/girls/leilei/3.webp",
       "/images/girls/leilei/4.webp",
       "/images/girls/leilei/5.webp",
