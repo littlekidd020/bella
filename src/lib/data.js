@@ -11,7 +11,7 @@ export const girls = [
       cup: "D (Natural)",
       nationality: "Chinese",
     },
-    image: "/images/girls/susu2/cover.webp",
+    image: "/images/girls/susu2/2.webp",
     description: {
       en: "Sweet, fresh, and captivating, Susu is a 24-year-old companion direct from China for a short-term 10-day stay in CBD Auckland. Standing at 170cm with a graceful 49kg frame and impressive natural D-cup curves, she boasts 100% natural facial beauty with zero cosmetic enhancements, porcelain white skin, and a tender, obedient voice. As a fresh new face, she is exceptionally cooperative and eager to provide genuine, attentive care. Her standard package ($500/1h) includes double shower play, water BJ, deep French kissing, breast massage, mutual oral (69), stockings, natural BJ, and 1 round. Upgrade to a second round for an extra $50.",
       cn: "🆕国内空降✈️170大长腿素素！初下水邻家妹妹，现已就位奥克兰市区 CBD 为您服务。她身高 170cm，体重 49kg，身材苗条修长，拥有傲人的纯天然 D 罩杯。纯天然五官全身 0 科技，皮肤雪白，性格温柔体贴，声音甜糯。真实初下水，配合度 100%！（短期限定 10 天）。1 小时套餐提供双人鸳鸯洗浴、水中吹箫、法式舌吻、胸推漫游、69 互动、无套口交及性感黑丝诱惑。提供 1 次激情温存，加收 $50 可升级做 2 次。此外还支持包夜（$2800-$3000）与包天（$4200）尊享相伴。仅收现金。",
@@ -46,9 +46,9 @@ export const girls = [
       ],
     },
     gallery: [
+      "/images/girls/susu2/2.webp",
       "/images/girls/susu2/cover.webp",
       "/images/girls/susu2/1.webp",
-      "/images/girls/susu2/2.webp",
       "/images/girls/susu2/3.webp",
       "/images/girls/susu2/data1.webp",
       "/images/girls/susu2/data2.webp",
