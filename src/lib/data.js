@@ -302,7 +302,7 @@ export const girls = [
     ],},
   {id: 28,
     name: { en: "Qinger", cn: "情儿" },
-    status: "leave",
+    status: "working",
     verified: true,
     location: "CBD",
     stats: {
