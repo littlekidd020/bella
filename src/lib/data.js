@@ -161,7 +161,7 @@ export const girls = [
   {
     id: 101,
     name: { en: "Simiao", cn: "思淼" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "Central",
     stats: {
