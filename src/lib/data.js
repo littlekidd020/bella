@@ -55,7 +55,7 @@ export const girls = [
     ],},
   {id: 97,
     name: { en: "Rae", cn: "蕾蕾" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "CBD",
     stats: {
