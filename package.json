@@ -11,7 +11,8 @@
     "build": "next build",
     "start": "npx serve out",
     "deploy": "next build && npx wrangler pages deploy out --project-name=angel888",
-    "deploy:preview": "next build && npx wrangler pages deploy out --project-name=angel888 --branch=preview"
+    "deploy:preview": "next build && npx wrangler pages deploy out --project-name=angel888 --branch=preview",
+    "push": "git add -A && git commit -m 'chore: update changes'"
   },
   "keywords": [],
   "author": "",
