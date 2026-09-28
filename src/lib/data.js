@@ -1983,7 +1983,7 @@ export const girls = [
     ],},
   {id: 61,
     name: { en: "Alice", cn: "爱丽丝" },
-    status: "leave",
+    status: "working",
     verified: true,
     location: "North",
     stats: {
