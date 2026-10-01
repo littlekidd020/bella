@@ -407,7 +407,7 @@ export const girls = [
   {
     id: 100,
     name: { en: "Xiaolou", cn: "高小楼" },
-    status: "leave",
+    status: "working",
     verified: true,
     location: "CBD",
     stats: {
