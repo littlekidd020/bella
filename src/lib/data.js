@@ -2620,7 +2620,7 @@ export const girls = [
     ],},
   {id: 54,
     name: { en: "Yuwei", cn: "雨薇" },
-    status: "leave",
+    status: "available",
     verified: true,
     location: "CBD",
     stats: {
