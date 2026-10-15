@@ -80,10 +80,10 @@ export const girls = [
     },
     image: "/images/girls/yuanyuan/cover.webp",
     description: {
-      en: "Sweet, graceful, and remarkably tall, Yuanyuan is a 20-year-old undergraduate student from the University of Auckland now providing part-time companionship in CBD Auckland during her holiday break. Standing at an impressive 171cm and 48kg with all-natural D+ curves, she boasts completely natural facial features with zero cosmetic work, fair and tender skin, and a soft, sweet voice. Cooperative, gentle, and lovely, her standard package ($500/1h · $450/45min · $400/30min) includes double shower play, water BJ, deep French kissing, breast massage, mutual oral (69), natural BJ, stockings, and 1 passionate round. Upgrade to a second round for an extra $100. Overnight ($3000-$3200) and all-day ($4500) bookings available.",
-      cn: "🆕奥大在读高挑女大学生兼职！20岁的小元元现已就位奥克兰市区 CBD 为您服务。假期短期兼职，她身高 171cm，体重 48kg，身材修长绝美，拥有纯天然诱人 D+ 罩杯。五官纯天然全身 0 科技，皮肤雪白粉嫩，声音柔糯甜美，服务配合度极高。1 小时套餐（$500/1h · $450/45min · $400/30min）提供双人洗浴、水中吹箫、法式舌吻、胸推漫游、69 互动、无套口吹、黑丝诱惑及 1 次温存互动。加收 $100 可升级做 2 次。另提供包夜（$3000-$3200）与包天（$4500）尊享相伴。",
+      en: "Sweet, graceful, and remarkably tall, Yuanyuan is a 20-year-old undergraduate student from the University of Auckland now providing part-time companionship in CBD Auckland during her holiday break. Standing at an impressive 171cm and 48kg with all-natural D+ curves, she boasts completely natural facial features with zero cosmetic work, fair and tender skin, and a soft, sweet voice. Cooperative, gentle, and lovely, her standard package ($400/1h · $350/45min · $300/30min) includes double shower play, water BJ, deep French kissing, breast massage, mutual oral (69), natural BJ, stockings, and 1 passionate round. Upgrade to a second round for an extra $100. Overnight ($2800-$3000) and all-day ($4200) bookings available.",
+      cn: "🆕奥大在读高挑女大学生兼职！20岁的小元元现已就位奥克兰市区 CBD 为您服务。假期短期兼职，她身高 171cm，体重 48kg，身材修长绝美，拥有纯天然诱人 D+ 罩杯。五官纯天然全身 0 科技，皮肤雪白粉嫩，声音柔糯甜美，服务配合度极高。1 小时套餐（$400/1h · $350/45min · $300/30min）提供双人洗浴、水中吹箫、法式舌吻、胸推漫游、69 互动、无套口吹、黑丝诱惑及 1 次温存互动。加收 $100 可升级做 2 次。另提供包夜（$2800-$3000）与包天（$4200）尊享相伴。",
     },
-    price: "$500 / 1h · $450 / 45min · $400 / 30min",
+    price: "$400 / 1h · $350 / 45min · $300 / 30min",
     services: {
       en: [
         "Shower together",
@@ -95,8 +95,8 @@ export const girls = [
         "Stockings",
         "1 round",
         "Extra: Second round (+$100)",
-        "Overnight stay: $3000 - $3200",
-        "All day: $4500",
+        "Overnight stay: $2800 - $3000",
+        "All day: $4200",
       ],
       cn: [
         "双人洗浴",
@@ -108,8 +108,8 @@ export const girls = [
         "丝袜诱惑",
         "做1次",
         "额外：第二次 (+$100)",
-        "包夜：$3000 - $3200",
-        "包天：$4500",
+        "包夜：$2800 - $3000",
+        "包天：$4200",
       ],
     },
     gallery: [
