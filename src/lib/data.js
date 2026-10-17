@@ -66,7 +66,7 @@ export const girls = [
   {
     id: 105,
     name: { en: "Yuanyuan", cn: "小元元" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "CBD",
     stats: {
