@@ -285,7 +285,7 @@ name: { en: "Yuwei", cn: "雨薇" },
   {
     id: 102,
     name: { en: "KC", cn: "KC" },
-    status: "leave",
+    status: "hidden",
     verified: true,
     location: "CBD",
     stats: {
