@@ -4528,7 +4528,7 @@ name: { en: "Barbara", cn: "芭芭拉" },
     ],},
   {id: 13,
     name: { en: "Faye", cn: "语橙" },
-    status: "leave",
+    status: "available",
     verified: true,
     location: "CBD",
     stats: {
