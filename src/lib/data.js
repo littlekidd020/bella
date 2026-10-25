@@ -170,7 +170,7 @@ name: { en: "Yuwei", cn: "雨薇" },
   {
     id: 106,
     name: { en: "Cici", cn: "Cici" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "Central",
     stats: {
@@ -511,7 +511,7 @@ name: { en: "Barbara", cn: "芭芭拉" },
   {
     id: 107,
     name: { en: "Xiaoxun", cn: "小寻" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "Central",
     stats: {
