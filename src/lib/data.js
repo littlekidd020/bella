@@ -4530,7 +4530,7 @@ name: { en: "Barbara", cn: "芭芭拉" },
     name: { en: "Faye", cn: "语橙" },
     status: "leave",
     verified: true,
-    location: "Central",
+    location: "CBD",
     stats: {
       age: 19,
       height: "170cm",
