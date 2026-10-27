@@ -46,11 +46,11 @@ const GirlCard = ({ model, isLarge = false }) => {
               </span>
             </div>
           )}
-          <div className="flex items-center bg-white/80 backdrop-blur-md border border-[#F05C88]/20 px-2.5 py-1 rounded-full shadow-sm">
-            <span className={`text-[8px] uppercase tracking-[0.2em] font-sans font-bold ${statusColor}`}>
-              {statusText}
-            </span>
-          </div>
+        </div>
+        <div className="absolute top-4 right-4 flex items-center bg-white/80 backdrop-blur-md border border-[#F05C88]/20 px-2.5 py-1 rounded-full shadow-sm">
+          <span className={`text-[8px] uppercase tracking-[0.2em] font-sans font-bold ${statusColor}`}>
+            {statusText}
+          </span>
         </div>
       </div>
 
