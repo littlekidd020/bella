@@ -61,9 +61,6 @@ const GirlCard = ({ model, isLarge = false }) => {
             <h3 className={`${isLarge ? 'text-xl md:text-2xl' : 'text-lg'} font-serif text-[#593A48] tracking-wide italic font-bold leading-none`}>
               {model.name[lang] || model.name.en}
             </h3>
-            <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-[8px] font-bold font-sans tracking-[0.15em] bg-white/60 border border-[#F05C88]/15 backdrop-blur-sm ${statusColor}`}>
-              {statusText}
-            </span>
           </div>
           
           <div className="flex items-baseline gap-0.5 shrink-0">
