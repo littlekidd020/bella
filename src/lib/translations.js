@@ -58,7 +58,7 @@ export const translations = {
       weight: "体重",
       breast: "胸围",
       nationality: "来自",
-      available: "在线中",
+      available: "工作中",
       working: "工作中",
       unavailable: "休息中",
       availableToBook: "当前可预约",
