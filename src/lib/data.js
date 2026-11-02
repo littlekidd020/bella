@@ -2684,7 +2684,7 @@ name: { en: "Yuwei", cn: "雨薇" },
     ],},
   {id: 61,
     name: { en: "Alice", cn: "爱丽丝" },
-    status: "working",
+    status: "leave",
     verified: true,
     location: "North",
     stats: {
