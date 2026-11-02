@@ -76,10 +76,10 @@ export const girls = [
     image: "/images/girls/xiaoxigua/cover.webp",
     video: "/images/girls/xiaoxigua/video.mp4",
     description: {
-      en: "Newly arrived from China! Xiaoxigua is a stunning 24-year-old companion featuring model-grade long legs and captivating Northern charm, now available for an exclusive limited short-term stay in Auckland CBD. Standing tall at 167cm and 45kg with a fit, gym-toned silhouette, hourglass curves, and natural C-cup breasts, she boasts snow-white fair skin and sweet, lovely features with a gentle, attentive personality. Highly cooperative and passionate, her standard package ($500/1h · $450/45min · $400/30min) includes shower play together, water BJ, deep French kissing, breast massage, mutual oral (69), natural BJ, stockings, and 1 passionate round. Second round available for +$50. Overnight ($3000) and all-day ($4200) bookings available.",
-      cn: "🆕最新国内空降大长腿甜妹！24岁的小西瓜现已初次抵达奥克兰，在市区 CBD 为您提供短期尊享陪伴。她身高 167cm，体重 45kg，拥有北方姑娘高挑修长的大长腿与健身系前凸后翘的魔鬼身材，纯天然真实 C 罩杯。皮肤雪白粉嫩，五官清秀高级，性格温柔体贴，反差甜美。服务细致、配合度极高。1 小时套餐（$500/1h · $450/45min · $400/30min）包含双人洗浴、水中吹箫、法式深吻、胸推漫游、69互动、无套口吹、黑丝诱惑及 1 次温存互动。加收 $50 可加选第二次温存。另提供包夜（$3000）与包天（$4200）尊享相伴。",
+      en: "Newly arrived from China! Xiaoxigua is a stunning 24-year-old companion featuring model-grade long legs and captivating Northern charm, now available for an exclusive limited short-term stay in Auckland CBD. Standing tall at 167cm and 45kg with a fit, gym-toned silhouette, hourglass curves, and natural C-cup breasts, she boasts snow-white fair skin and sweet, lovely features with a gentle, attentive personality. Highly cooperative and passionate, her standard package ($550/1h · $500/45min · $450/30min) includes shower play together, water BJ, deep French kissing, breast massage, mutual oral (69), natural BJ, stockings, and 1 passionate round. Second round available for +$100. Overnight ($3500) and all-day ($4200) bookings available.",
+      cn: "🆕最新国内空降大长腿甜妹！24岁的小西瓜现已初次抵达奥克兰，在市区 CBD 为您提供短期尊享陪伴。她身高 167cm，体重 45kg，拥有北方姑娘高挑修长的大长腿与健身系前凸后翘的魔鬼身材，纯天然真实 C 罩杯。皮肤雪白粉嫩，五官清秀高级，性格温柔体贴，反差甜美。服务细致、配合度极高。1 小时套餐（$550/1h · $500/45min · $450/30min）包含双人洗浴、水中吹箫、法式深吻、胸推漫游、69互动、无套口吹、黑丝诱惑及 1 次温存互动。加收 $100 可加选第二次温存。另提供包夜（$3500）与包天（$4200）尊享相伴。",
     },
-    price: "$500 / 1h · $450 / 45min · $400 / 30min",
+    price: "$550 / 1h · $500 / 45min · $450 / 30min",
     services: {
       en: [
         "Shower together",
@@ -90,8 +90,8 @@ export const girls = [
         "Mutual oral (69)",
         "Stockings",
         "1 round",
-        "Extra: Second round (+$50)",
-        "Overnight stay: $3000",
+        "Extra: Second round (+$100)",
+        "Overnight stay: $3500",
         "All day: $4200",
       ],
       cn: [
@@ -103,8 +103,8 @@ export const girls = [
         "69互动",
         "性感黑丝",
         "做1次",
-        "额外：第二次 (+$50)",
-        "包夜：$3000",
+        "额外：第二次 (+$100)",
+        "包夜：$3500",
         "包天：$4200",
       ],
     },
