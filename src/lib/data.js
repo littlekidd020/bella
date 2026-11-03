@@ -134,10 +134,10 @@ export const girls = [
     },
     image: "/images/girls/daeun/cover.webp",
     description: {
-      en: "Fresh arrival from South Korea! Daeun is a stunning 22-year-old Korean college student companion now available in Auckland CBD for an exclusive limited-time visit. Standing at 166cm and 45kg with all-natural C-cup curves and flawless fair porcelain skin, she radiates authentic K-beauty idol charm paired with a slim, voluptuous silhouette. Soft-spoken, sweet, and remarkably attentive, she previously studied in China, speaks basic Mandarin, and is fully fluent in English. Her standard package ($650/1h · $600/45min · $550/30min) includes shower play together, French kissing, natural BJ, breast massage, mutual oral (69), uniform roleplay, stockings, and 1 passionate round. Optional extras: CIM (+$50), rimming (+$50), second round (+$50). Overnight ($3500-$3800) and all-day ($5000) bookings available.",
-      cn: "🆕韩国高颜值首尔美少女初次空降奥克兰！04年出生的多恩（Daeun）现已就位市区 CBD 为您提供短期尊享陪伴。她身高 166cm，体重 45kg，身材曼妙纤细且前凸后翘，拥有纯天然性感 C 罩杯。五官精致甜美，洋溢着地道的韩系爱豆气质，皮肤白嫩细腻，声线甜美温柔。身为在读学生，曾游学中国，会日常中文，英文流利无障碍沟通。服务配合度极高，贴心入微。套餐（$650/1h · $600/45min · $550/30min）包含双人共浴、法式舌吻、无套口吹、胸推漫游、69互动、性感制服诱惑、黑丝及 1 次温存互动。可额外加选口爆 (+$50)、毒龙 (+$50)、第二次 (+$50)。另提供包夜（$3500-$3800）与包天（$5000）尊享相伴。",
+      en: "Fresh arrival from South Korea! Daeun is a stunning 22-year-old Korean college student companion now available in Auckland CBD for an exclusive limited-time visit. Standing at 166cm and 45kg with all-natural C-cup curves and flawless fair porcelain skin, she radiates authentic K-beauty idol charm paired with a slim, voluptuous silhouette. Soft-spoken, sweet, and remarkably attentive, she previously studied in China, speaks basic Mandarin, and is fully fluent in English. Her standard package ($600/1h · $550/45min · $500/30min) includes shower play together, French kissing, natural BJ, breast massage, mutual oral (69), uniform roleplay, stockings, and 1 passionate round. Optional extras: CIM (+$50), rimming (+$50), second round (+$50). Overnight ($3500-$3800) and all-day ($5000) bookings available.",
+      cn: "🆕韩国高颜值首尔美少女初次空降奥克兰！04年出生的多恩（Daeun）现已就位市区 CBD 为您提供短期尊享陪伴。她身高 166cm，体重 45kg，身材曼妙纤细且前凸后翘，拥有纯天然性感 C 罩杯。五官精致甜美，洋溢着地道的韩系爱豆气质，皮肤白嫩细腻，声线甜美温柔。身为在读学生，曾游学中国，会日常中文，英文流利无障碍沟通。服务配合度极高，贴心入微。套餐（$600/1h · $550/45min · $500/30min）包含双人共浴、法式舌吻、无套口吹、胸推漫游、69互动、性感制服诱惑、黑丝及 1 次温存互动。可额外加选口爆 (+$50)、毒龙 (+$50)、第二次 (+$50)。另提供包夜（$3500-$3800）与包天（$5000）尊享相伴。",
     },
-    price: "$650 / 1h · $600 / 45min · $550 / 30min",
+    price: "$600 / 1h · $550 / 45min · $500 / 30min",
     services: {
       en: [
         "Shower together",
