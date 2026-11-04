@@ -15,10 +15,10 @@ export const girls = [
     image: "/images/girls/zhixin/cover.webp",
     video: "/images/girls/zhixin/video.mp4",
     description: {
-      en: "Born in 2002, the stunning 24-year-old Korean beauty Zhixin is now serving Auckland CBD. Standing at 165cm and 45kg with a slender, delicate figure, graceful curves, and alluring B~C cup breasts, she boasts porcelain fair skin, exquisite pure facial features, and captivating K-girl elegance with sweet and alluring charm. Fluent in Mandarin Chinese for effortless communication, she is gentle, sweet, and highly attentive. Her standard package ($350/1h · $280/30min) includes uniform roleplay, shower together, kissing, stockings, and 1 passionate round. Optional extras: natural BJ (+$40), mutual oral 69 (+$40), second round (+$60), or upgrade to the $120 VIP package for all premium inclusions. Overnight ($2500) and all-day ($3500) bookings available.",
-      cn: "🆕韩国高颜值清纯气质美女！02年出生的智欣（Zhixin）现已在市区 CBD 为您提供尊享陪伴。她身高 165cm，体重 45kg，身材白幼纤细，曲线柔美迷人，拥有迷人的 B~C 罩杯。五官清纯精致，肌肤白皙细腻，清新甜美中透着一丝性感妩媚，举手投足间尽显韩女魅力。会中文沟通交流无障碍，服务细致贴心、极具女友感。套餐包含制服诱惑、双人陪浴、深情亲吻、性感黑丝及 1 次温存互动。可加选无套口吹 (+$40)、69互动 (+$40)、第二次 (+$60)，或升级 $120 VIP 畅享全套尊贵体验。另提供包夜（$2500）与包天（$3500）尊享相伴。",
+      en: "Born in 2002, the stunning 24-year-old Korean beauty Zhixin is now serving Auckland CBD. Standing at 165cm and 45kg with a slender, delicate figure, graceful curves, and alluring B~C cup breasts, she boasts porcelain fair skin, exquisite pure facial features, and captivating K-girl elegance with sweet and alluring charm. Fluent in Mandarin Chinese for effortless communication, she is gentle, sweet, and highly attentive. Her standard package ($350/1h · $280/30min) includes uniform roleplay, shower together, kissing, stockings, and 1 passionate round. Optional extras: natural BJ (+$40), mutual oral 69 (+$40), second round (+$60), or upgrade to the $100 VIP package for all premium inclusions. Overnight ($2500) and all-day ($3500) bookings available.",
+      cn: "🆕韩国高颜值清纯气质美女！02年出生的智欣（Zhixin）现已在市区 CBD 为您提供尊享陪伴。她身高 165cm，体重 45kg，身材白幼纤细，曲线柔美迷人，拥有迷人的 B~C 罩杯。五官清纯精致，肌肤白皙细腻，清新甜美中透着一丝性感妩媚，举手投足间尽显韩女魅力。会中文沟通交流无障碍，服务细致贴心、极具女友感。套餐包含制服诱惑、双人陪浴、深情亲吻、性感黑丝及 1 次温存互动。可加选无套口吹 (+$40)、69互动 (+$40)、第二次 (+$60)，或升级 $100 VIP 畅享全套尊贵体验。另提供包夜（$2500）与包天（$3500）尊享相伴。",
     },
-    price: "$350 / 1h · $280 / 30min (VIP +$120)",
+    price: "$350 / 1h · $280 / 30min (VIP +$100)",
     services: {
       en: [
         "Uniform roleplay",
@@ -29,7 +29,7 @@ export const girls = [
         "Extra: Natural BJ (+$40)",
         "Extra: Mutual oral (69) (+$40)",
         "Extra: Second round (+$60)",
-        "VIP Package (+$120): Includes natural BJ, 69, and second round",
+        "VIP Package (+$100): Includes natural BJ, 69, and second round",
         "Overnight stay: $2500",
         "All day: $3500",
       ],
@@ -42,7 +42,7 @@ export const girls = [
         "额外：无套口吹 (+$40)",
         "额外：69互动 (+$40)",
         "额外：第二次 (+$60)",
-        "VIP尊享升级 (+$120)：包含无套口吹、69互动及第二次",
+        "VIP尊享升级 (+$100)：包含无套口吹、69互动及第二次",
         "包夜：$2500",
         "包天：$3500",
       ],
