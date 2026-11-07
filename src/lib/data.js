@@ -76,10 +76,10 @@ export const girls = [
     image: "/images/girls/xiaoxigua/cover.webp",
     video: "/images/girls/xiaoxigua/video.mp4",
     description: {
-      en: "Newly arrived from China for an exclusive short-term stay! Xiaoxigua is a stunning 24-year-old companion boasting gorgeous model-grade long legs and irresistible Northern charm, now available in Auckland CBD. Standing tall at 167cm and 45kg with a gym-toned, hourglass silhouette and all-natural C-cup curves, she features fair, porcelain skin paired with a sweet, gentle, and highly compliant personality. Known for her 100% attentive service attitude and high cooperation, her standard package ($550/1h · $500/45min · $450/30min) includes shower play together, water BJ, French kissing, breast massage, mutual oral (69), natural BJ, stockings, and 1 passionate round. Optional extra: second round (+$100). Overnight ($3500) and all-day ($4200) bookings available.",
-      cn: "🆕最新国内空降北方高颜值大长腿甜妹！小西瓜（24+）初次抵达奥克兰，在市区 CBD 为您开启尊享短期陪伴。她身高 167cm，体重 45kg，拥有北方女孩高挑修长的大长腿，兼具健身系前凸后翘的极致魔鬼身材与纯天然 C 罩杯。皮肤白白嫩嫩，五官清秀高级，性格温柔体贴，反差感拉满。服务配合度 100 分，贴心听话。套餐（$550/1h · $500/45min · $450/30min）包含双人共浴、水中箫、法式舌吻、胸推漫游、69互动、无套口吹、性感黑丝及 1 次温存互动。加收 $100 可加选第二次温存。短期空降，另提供包夜（$3500）与包天（$4200）尊贵相伴。",
+      en: "Newly arrived from China for an exclusive short-term stay! Xiaoxigua is a stunning 24-year-old companion boasting gorgeous model-grade long legs and irresistible Northern charm, now available in Auckland CBD. Standing tall at 167cm and 45kg with a gym-toned, hourglass silhouette and all-natural C-cup curves, she features fair, porcelain skin paired with a sweet, gentle, and highly compliant personality. Known for her 100% attentive service attitude and high cooperation, her standard package ($500/1h · $450/45min · $400/30min) includes shower play together, water BJ, French kissing, breast massage, mutual oral (69), natural BJ, stockings, and 1 passionate round. Optional extra: second round (+$50). Overnight ($3000) and all-day ($4200) bookings available.",
+      cn: "🆕最新国内空降北方高颜值大长腿甜妹！小西瓜（24+）初次抵达奥克兰，在市区 CBD 为您开启尊享短期陪伴。她身高 167cm，体重 45kg，拥有北方女孩高挑修长的大长腿，兼具健身系前凸后翘的极致魔鬼身材与纯天然 C 罩杯。皮肤白白嫩嫩，五官清秀高级，性格温柔体贴，反差感拉满。服务配合度 100 分，贴心听话。套餐（$500/1h · $450/45min · $400/30min）包含双人共浴、水中箫、法式舌吻、胸推漫游、69互动、无套口吹、性感黑丝及 1 次温存互动。加收 $50 可加选第二次温存。短期空降，另提供包夜（$3000）与包天（$4200）尊贵相伴。",
     },
-    price: "$550 / 1h · $500 / 45min · $450 / 30min",
+    price: "$500 / 1h · $450 / 45min · $400 / 30min",
     services: {
       en: [
         "Shower together",
@@ -90,8 +90,8 @@ export const girls = [
         "Mutual oral (69)",
         "Stockings",
         "1 round",
-        "Extra: Second round (+$100)",
-        "Overnight stay: $3500",
+        "Extra: Second round (+$50)",
+        "Overnight stay: $3000",
         "All day: $4200",
       ],
       cn: [
@@ -103,8 +103,8 @@ export const girls = [
         "69互动",
         "性感黑丝",
         "做1次",
-        "额外：第二次 (+$100)",
-        "包夜：$3500",
+        "额外：第二次 (+$50)",
+        "包夜：$3000",
         "包天：$4200",
       ],
     },
