@@ -178,7 +178,7 @@ export const girls = [
   {
     id: 108,
     name: { en: "Daeun", cn: "多恩" },
-    status: "available",
+    status: "leave",
     verified: true,
     location: "CBD",
     stats: {
