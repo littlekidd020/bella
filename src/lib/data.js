@@ -690,7 +690,7 @@ name: { en: "Yuwei", cn: "雨薇" },
   {
     id: 87,
     name: { en: "Jianyi", cn: "简一" },
-    status: "leave",
+    status: "working",
     verified: true,
     location: "CBD",
     stats: {
