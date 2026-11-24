@@ -1,5 +1,51 @@
 export const girls = [
   {
+    id: 115,
+    name: { en: "Wangyue", cn: "王悦" },
+    status: "available",
+    verified: true,
+    location: "CBD",
+    stats: {
+      age: "28+",
+      height: "163cm",
+      weight: "47kg",
+      cup: "C",
+      nationality: "Chinese",
+    },
+    image: "/images/girls/wangyue/cover.webp",
+    video: "/images/girls/wangyue/video.mp4",
+    description: {
+      en: "Attentive and highly experienced companion offering authentic Guan-style relaxation! Wangyue is now available in Auckland CBD. Standing at 163cm and 47kg with charming C cup curves, she is celebrated for her gentle maturity, warm hospitality, and exceptionally high cooperation. Offering half service massage ($150/1h), standard full companion service ($240/1h), and deluxe VIP package ($320/1h). Overnight ($1500~$1800) and all-day ($2800) reservations available.",
+      cn: "🆕高性价比正宗莞式服务姐姐！王悦（Wangyue）现已在市区 CBD 提供陪伴。身高 163cm，体重 47kg，身材匀称饱满，拥有丰满迷人的 C 罩杯。成熟温婉，服务配合度极高、耐心细致。特别提供半套/感官按摩（$150/1h）、标准全套（$240/1h）以及 VIP 尊享莞式全方位深度放松（$320/1h），另提供包夜（$1500~$1800）与包天（$2800）尊享相伴。",
+    },
+    price: "$240 / 1h · $150 / 1h (Half) · $320 / 1h (VIP)",
+    services: {
+      en: [
+        "Sensual massage / Half service ($150/1h): Shower, kiss, massage, protected oral; natural oral (+$30), oral finish (+$30), package upgrade (+$50)",
+        "Standard Full Service ($240/1h): Shower together, kiss, natural oral, stockings, 69 interaction, 1 round, soothing massage",
+        "VIP Deluxe Upgrade ($320/1h): Shower, stockings, kiss, natural oral, 69, oral finish, rimming, 2 rounds, Guan-style full body massage",
+        "Overnight stay: $1500 ~ $1800",
+        "All day: $2800",
+      ],
+      cn: [
+        "半套/感官按摩 ($150/1h)：双人陪浴、温情亲吻、手法按摩、带套口吹；无套口吹 (+$30)、口爆 (+$30)、套餐组合升级 (+$50)",
+        "标准全套 ($240/1h)：双人陪浴、温情亲吻、无套口吹、性感丝袜、69互动、做1次、舒缓按摩",
+        "VIP尊享升级 ($320/1h)：双人陪浴、性感丝袜、温情亲吻、无套口吹、69互动、口爆、毒龙、做2次、正宗莞式全身漫游",
+        "包夜：$1500 ~ $1800",
+        "包天：$2800",
+      ],
+    },
+    gallery: [
+      "/images/girls/wangyue/cover.webp",
+      "/images/girls/wangyue/1.webp",
+      "/images/girls/wangyue/2.webp",
+      "/images/girls/wangyue/3.webp",
+      "/images/girls/wangyue/4.webp",
+      "/images/girls/wangyue/data1.webp",
+      "/images/girls/wangyue/data2.webp",
+    ],
+  },
+  {
     id: 114,
     name: { en: "Taotao", cn: "小桃桃" },
     status: "leave",
@@ -14,10 +60,10 @@ export const girls = [
     },
     image: "/images/girls/taotao/cover.webp",
     description: {
-      en: "Fresh arrival from Australia! Taotao is in Auckland CBD for a limited 7-day visit. Blessed with natural D+ cup curves, exquisite facial features, and a fit yoga-toned silhouette with captivating curves. Gentle, sweet, and attentive with warm hospitality. Standard package from /30min, /45min, up to /1h. Overnight () and all-day () reservations available.",
-      cn: "🆕澳洲初次抵达！小桃桃（Taotao）短期7天，现已在市区 CBD 提供陪伴。拥有纯天然 D+ 丰满美胸，五官清纯甜美。肌肤细腻白皙透着微麦健康光泽，健身瑜伽系身材，腰细臀翘、线条迷人。声音柔美糯糯，性格温顺热情，配合度极高。提供贴心周到的陪伴与服务，另提供包夜（）与包天（）尊享选择。",
+      en: "Fresh arrival from Australia! Taotao is in Auckland CBD for a limited 7-day visit. Blessed with natural D+ cup curves, exquisite facial features, and a fit yoga-toned silhouette with captivating curves. Gentle, sweet, and attentive with warm hospitality. Standard package from $500/30min, $600/45min, up to $700/1h. Overnight ($3500) and all-day ($4500) reservations available.",
+      cn: "🆕澳洲初次抵达！小桃桃（Taotao）短期7天，现已在市区 CBD 提供陪伴。拥有纯天然 D+ 丰满美胸，五官清纯甜美。肌肤细腻白皙透着微麦健康光泽，健身瑜伽系身材，腰细臀翘、线条迷人。声音柔美糯糯，性格温顺热情，配合度极高。提供贴心周到的陪伴与服务，另提供包夜（$3500）与包天（$4500）尊享选择。",
     },
-    price: " / 1h ·  / 45min ·  / 30min",
+    price: "$700 / 1h · $600 / 45min · $500 / 30min",
     services: {
       en: [
         "Shower together",
@@ -28,8 +74,8 @@ export const girls = [
         "Mutual oral (69)",
         "Stockings",
         "2 rounds",
-        "Overnight stay: ",
-        "All day: ",
+        "Overnight stay: $3500",
+        "All day: $4500",
       ],
       cn: [
         "双人陪浴",
@@ -40,8 +86,8 @@ export const girls = [
         "69互动",
         "性感黑丝",
         "做2次",
-        "包夜：",
-        "包天：",
+        "包夜：$3500",
+        "包天：$4500",
       ],
     },
     gallery: [
