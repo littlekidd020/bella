@@ -1186,7 +1186,7 @@ name: { en: "Yuwei", cn: "雨薇" },
   {
     id: 100,
     name: { en: "Xiaolou", cn: "高小楼" },
-    status: "working",
+    status: "hidden",
     verified: true,
     location: "CBD",
     stats: {
@@ -1232,7 +1232,7 @@ name: { en: "Yuwei", cn: "雨薇" },
     ],},
   {id: 99,
     name: { en: "Weiwei", cn: "贝微微" },
-    status: "available",
+    status: "hidden",
     verified: true,
     location: "CBD",
     stats: {
