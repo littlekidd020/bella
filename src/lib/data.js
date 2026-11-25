@@ -113,7 +113,7 @@ export const girls = [
     verified: true,
     location: "CBD",
     stats: {
-      age: 32,
+      age: "28+",
       height: "163cm",
       weight: "47kg",
       cup: "C",
@@ -122,20 +122,24 @@ export const girls = [
     image: "/images/girls/wangyue/cover.webp",
     video: "/images/girls/wangyue/video.mp4",
     description: {
-      en: "Attentive and highly experienced companion offering authentic Guan-style relaxation! Wangyue is now available in Auckland CBD. Standing at 163cm and 47kg with charming C cup curves, she is celebrated for her gentle maturity, warm hospitality, and exceptionally high cooperation. Offering half service massage ($150/1h), standard full companion service ($230/1h), and deluxe VIP package ($300/1h).",
-      cn: "高性价比正宗莞式服务姐姐！王悦（Wangyue）现已在市区 CBD 提供陪伴。身高 163cm，体重 47kg，身材匀称饱满，拥有丰满迷人的 C 罩杯。成熟温婉，服务配合度极高、耐心细致。特别提供半套/感官按摩（$150/1h）、标准全套（$230/1h）以及 VIP 尊享莞式全方位深度放松（$300/1h）。",
+      en: "Attentive and highly experienced companion offering authentic Guan-style relaxation! Wangyue is now available in Auckland CBD. Standing at 163cm and 47kg with charming C cup curves, she is celebrated for her gentle maturity, warm hospitality, and exceptionally high cooperation. Offering half service massage ($150/1h), standard full companion service ($240/1h), and deluxe VIP package ($320/1h). Overnight ($1500~$1800) and all-day ($2800) reservations available.",
+      cn: "高性价比正宗莞式服务姐姐！王悦（Wangyue）现已在市区 CBD 提供陪伴。身高 163cm，体重 47kg，身材匀称饱满，拥有丰满迷人的 C 罩杯。成熟温婉，服务配合度极高、耐心细致。特别提供半套/感官按摩（$150/1h）、标准全套（$240/1h）以及 VIP 尊享莞式全方位深度放松（$320/1h），另提供包夜（$1500~$1800）与包天（$2800）尊享相伴。",
     },
-    price: "$230 / 1h · $150 / 1h (Half) · $300 / 1h (VIP)",
+    price: "$240 / 1h · $150 / 1h (Half) · $320 / 1h (VIP)",
     services: {
       en: [
-        "Sensual massage / Half service ($150/1h): Shower together, nuru massage, natural BJ, hand BJ; rimming (+$30), oral finish (+$30), combo upgrade (+$50)",
-        "Standard Full Service ($230/1h): Shower together, kiss, natural BJ, stockings, 69 interaction, 1 round, soothing massage",
-        "VIP Deluxe Upgrade ($300/1h): Shower, stockings, kiss, natural BJ, 69, oral finish, rimming, 2 rounds, Guan-style full body massage",
+        "Sensual massage / Half service ($150/1h): Shower, kiss, massage, protected oral; natural oral (+$30), oral finish (+$30), package upgrade (+$50)",
+        "Standard Full Service ($240/1h): Shower together, kiss, natural oral, stockings, 69 interaction, 1 round, soothing massage",
+        "VIP Deluxe Upgrade ($320/1h): Shower, stockings, kiss, natural oral, 69, oral finish, rimming, 2 rounds, Guan-style full body massage",
+        "Overnight stay: $1500 ~ $1800",
+        "All day: $2800",
       ],
       cn: [
-        "半套/感官按摩 ($150/1h)：双人陪浴、手法按摩、无套口吹、飞机；毒龙 (+$30)、口爆 (+$30)、套餐组合升级 (+$50)",
-        "标准全套 ($230/1h)：双人陪浴、温情亲吻、无套口吹、性感丝袜、69互动、做1次、舒缓按摩",
-        "VIP尊享升级 ($300/1h)：双人陪浴、性感丝袜、温情亲吻、无套口吹、69互动、口爆、毒龙、做2次、正宗莞式全身漫游",
+        "半套/感官按摩 ($150/1h)：双人陪浴、温情亲吻、手法按摩、带套口吹；无套口吹 (+$30)、口爆 (+$30)、套餐组合升级 (+$50)",
+        "标准全套 ($240/1h)：双人陪浴、温情亲吻、无套口吹、性感丝袜、69互动、做1次、舒缓按摩",
+        "VIP尊享升级 ($320/1h)：双人陪浴、性感丝袜、温情亲吻、无套口吹、69互动、口爆、毒龙、做2次、正宗莞式全身漫游",
+        "包夜：$1500 ~ $1800",
+        "包天：$2800",
       ],
     },
     gallery: [
