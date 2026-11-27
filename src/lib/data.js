@@ -1,5 +1,49 @@
 export const girls = [
   {
+    id: 118,
+    name: { en: "Mengmeng", cn: "梦梦" },
+    status: "available",
+    verified: true,
+    location: "CBD",
+    stats: {
+      age: 25,
+      height: "160cm",
+      weight: "45kg",
+      cup: "B~C (Natural)",
+      nationality: "Chinese",
+    },
+    image: "/images/girls/meng/cover.webp",
+    description: {
+      en: "Fresh arrival for a limited short-term stay! Charming, petite, and alluring with a playful Fox-like charm, Mengmeng is now serving Auckland CBD. Standing at 160cm and 45kg with natural B~C cup curves and a healthy sun-kissed complexion, she blends sweet tenderness with seductive elegance. Highly cooperative and enthusiastic. Offering relaxing sensual massage ($160/1h) and full companion service ($320/1h including shower together, kissing, natural BJ, stockings, 69 interaction, and 2 rounds).",
+      cn: "🆕甜美中带点妩媚！梦梦（Mengmeng / 小狐狸）现已在奥克兰市区 CBD 开启超短期陪伴。她身高 160cm，体重 45kg，身材小巧玲珑，拥有纯天然 B~C 罩杯，健康小麦色肌肤。精致脸蛋藏着几分妩媚，气质甜而不腻，温柔迷人，极具配合度与互动亲和力。特别提供半套/感官按摩（$160/1h）与标准全套（$320/1h，含双人陪浴、温情亲吻、无套口吹、性感丝袜、69互动及做2次）。超短期限定！",
+    },
+    price: "$320 / 1h · $160 / 1h (Half)",
+    services: {
+      en: [
+        "Sensual massage / Half service ($160/1h): Shower together, nuru massage, hand BJ; natural BJ (+ $30), oral finish (+ $50)",
+        "Standard Full Service ($320/1h): Shower together, kissing, natural BJ, stockings, mutual oral (69), 2 rounds",
+        "Extra: Oral finish (+ $50), Rimming (+ $50)",
+      ],
+      cn: [
+        "半套/感官按摩 ($160/1h)：双人陪浴、手法按摩、带套口吹、飞机；无套口吹 (+ $30)、口爆 (+ $50)",
+        "标准全套 ($320/1h)：双人陪浴、温情亲吻、无套口吹、性感丝袜、69互动、做2次",
+        "额外加选：口爆 (+ $50)、毒龙 (+ $50)",
+      ],
+    },
+    gallery: [
+      "/images/girls/meng/cover.webp",
+      "/images/girls/meng/1.webp",
+      "/images/girls/meng/2.webp",
+      "/images/girls/meng/3.webp",
+      "/images/girls/meng/4.webp",
+      "/images/girls/meng/5.webp",
+      "/images/girls/meng/6.webp",
+      "/images/girls/meng/7.webp",
+      "/images/girls/meng/data1.webp",
+      "/images/girls/meng/data2.webp",
+    ],
+  },
+  {
     id: 117,
     name: { en: "Baichun", cn: "小白纯" },
     status: "available",
